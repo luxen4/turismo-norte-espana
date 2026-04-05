@@ -113,7 +113,7 @@ $playa_name = 'Playa de Suances';
 $localidad = 'Playa de Suances';
 $archivo_name = 'suances';
 $presentacion = 'La Playa de Suances, situada en el corazón de Cantabria, es un rincón costero que combina la belleza natural con un ambiente acogedor.<br> Conocida por su arena dorada y sus aguas limpias, esta playa es un destino perfecto para disfrutar de un día en familia o practicar deportes acuáticos. Rodeada de impresionantes paisajes y con un paseo marítimo lleno de vida, Suances ofrece una experiencia costera única, donde la tranquilidad y la diversión se encuentran a partes iguales.';
-include 'localidades/index.php'; */?>
+include 'index.php'; */?>
 
 <?php  /*
 $localidad_minuscula = 'playadesardinero';
@@ -121,7 +121,7 @@ $playa_name = 'Playa del Sardinero, Santander';
 $localidad = 'Playa del Sardinero, Santander';
 $archivo_name = 'playa-de-sardinero';
 $presentacion = 'La Playa de Santander, ubicada en la ciudad del mismo nombre en Cantabria, es una de las playas urbanas más emblemáticas del norte de España. Con su extensa franja de arena dorada y aguas tranquilas, es el lugar ideal para disfrutar de un día de sol y mar. Además de su belleza natural, ofrece un vibrante paseo marítimo con una variedad de restaurantes, bares y tiendas. Perfecta para familias, bañistas y quienes buscan disfrutar del surf, la Playa de Santander combina el encanto de una playa clásica con la comodidad de la proximidad urbana.';
-include 'localidades/index.php'; */?>
+include 'index.php'; */?>
 
 <?php
 /*
@@ -132,7 +132,7 @@ $archivo_name = 'playa-de-castrourdiales';
 $presentacion = 'La realidad histórica es que Castro Urdiales tiene una fundación romana documentada en el año 74 a.C.,
                   cuando fue establecida como "Flaviobriga" por el emperador Vespasiano. Esta ciudad romana se convirtió
                   en un importante puerto y centro comercial debido a su estratégica ubicación costera.'; 
-include 'localidades/index.php';*/?>
+include 'index.php';*/?>
 
 
 

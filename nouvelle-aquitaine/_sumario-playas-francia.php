@@ -1,5 +1,5 @@
 <h2 id="francia">Francia</h2>
-<?php $targeta = 'localidades/index.php' ?>
+<?php $targeta = 'index.php' ?>
 <details>
     <summary>Desplegar</summary>
 

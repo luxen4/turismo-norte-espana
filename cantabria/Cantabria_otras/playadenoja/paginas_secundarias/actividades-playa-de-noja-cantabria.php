@@ -8,7 +8,7 @@
  
 
     <?php // Variables para la página de la Playa de Noja
-    require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2026/localidades/cantabria/playadenoja/fichas/sections/head/variables/web-playa/localizacion-playa.php';
+    require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2026/cantabria/playadenoja/fichas/sections/head/variables/web-playa/localizacion-playa.php';
     require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2026/bloques/estructura/variables_comunes/defines.php'; ?>
 
     <?php /*<!--🧭 Canonical URL (evita contenido duplicado en SEO)-->*/ ?>
@@ -19,7 +19,7 @@
 
     <?php
     // Descripción general y URL
-    $url = "https://playas2024.kesug.com/Blog_Playas2026/localidades/{$region_minuscula}/{$localidad_minuscula}/fichas/{$rutas}.php";
+    $url = "https://playas2024.kesug.com/Blog_Playas2026/{$region_minuscula}/{$localidad_minuscula}/fichas/{$rutas}.php";
     ?>
 
     <?php 

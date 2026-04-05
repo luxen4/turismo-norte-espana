@@ -360,7 +360,7 @@ $imagenes = [
         'src' => './../img/atardecer-playa-Gorliz-bizkaia.jpg',
         'alt' => 'Atardecer en la Playa de Gorliz en bizkaia, País Vasco.',
         'figcaption' => 'Atardecer en la Playa de Gorliz.',
-        'href' => 'https://turismo.euskadi.eus/es/localidades/gorliz/aa30-12375/es/',
+        'href' => 'https://turismo.euskadi.eus/es/gorliz/aa30-12375/es/',
         'titulo_href' => 'turismo.euskadi.eus'
     ],
     [

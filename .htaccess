@@ -3,7 +3,7 @@
     #RewriteBase /Blog_Playas2026/
     
     # Ajo
-    #RewriteRule ^ajo-cantabria$                 localidades/cantabria/ajo/index.php [L]
+    #RewriteRule ^ajo-cantabria$                 cantabria/ajo/index.php [L]
     #RewriteRule ^ajo-cantabria$                 cantabria/ajo/index.php [L]
     
     
@@ -12,70 +12,70 @@
 
 
     
-    RewriteRule ^lugares-interes/faro-de-cabo-de-ajo-ajo$           localidades/cantabria/ajo/lugares-interes/faro-de-cabo-de-ajo/index.php [L]
-    RewriteRule ^lugares-interes/playa-de-cuberris-ajo$             localidades/cantabria/ajo/lugares-interes/playa-de-cuberris/index.php [L]
-    RewriteRule ^lugares-interes/playa-de-antuerta-ajo$             localidades/cantabria/ajo/lugares-interes/playa-de-antuerta/index.php [L]
-    RewriteRule ^lugares-interes/ruta-de-la-costa-oriental-ajo$     localidades/cantabria/ajo/lugares-interes/ruta-de-la-costa-oriental/index.php [L]
-    RewriteRule ^lugares-interes/acantilados-de-cabo-de-ajo-ajo$    localidades/cantabria/ajo/lugares-interes/acantilados-de-cabo-de-ajo/index.php [L]
+    RewriteRule ^lugares-interes/faro-de-cabo-de-ajo-ajo$           cantabria/ajo/lugares-interes/faro-de-cabo-de-ajo/index.php [L]
+    RewriteRule ^lugares-interes/playa-de-cuberris-ajo$             cantabria/ajo/lugares-interes/playa-de-cuberris/index.php [L]
+    RewriteRule ^lugares-interes/playa-de-antuerta-ajo$             cantabria/ajo/lugares-interes/playa-de-antuerta/index.php [L]
+    RewriteRule ^lugares-interes/ruta-de-la-costa-oriental-ajo$     cantabria/ajo/lugares-interes/ruta-de-la-costa-oriental/index.php [L]
+    RewriteRule ^lugares-interes/acantilados-de-cabo-de-ajo-ajo$    cantabria/ajo/lugares-interes/acantilados-de-cabo-de-ajo/index.php [L]
    
-    RewriteRule ^mirador-del-cabo-ajo$ localidades/cantabria/ajo/lugares-interes/mirador-del-cabo/index.php [L]
+    RewriteRule ^mirador-del-cabo-ajo$ cantabria/ajo/lugares-interes/mirador-del-cabo/index.php [L]
     
 
     # Castro-Urdales
-    RewriteRule ^lugares-interes/playa-de-ostende-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/playa-de-ostende/index.php [L]
-    RewriteRule ^lugares-interes/playa-de-brazomar-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/playa-de-brazomar/index.php [L]
-    RewriteRule ^lugares-interes/playa-de-el-pedregal-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/playa-de-el-pedregal/index.php [L]
+    RewriteRule ^lugares-interes/playa-de-ostende-castro-urdiales$ cantabria/castro-urdiales/lugares-interes/playa-de-ostende/index.php [L]
+    RewriteRule ^lugares-interes/playa-de-brazomar-castro-urdiales$ cantabria/castro-urdiales/lugares-interes/playa-de-brazomar/index.php [L]
+    RewriteRule ^lugares-interes/playa-de-el-pedregal-castro-urdiales$ cantabria/castro-urdiales/lugares-interes/playa-de-el-pedregal/index.php [L]
 
-    RewriteRule ^ruta-costera-ostende$         localidades/cantabria/playa-de-ostende/paginas-secundarias/senderos-costeros-senalizados/index.php [L]
+    RewriteRule ^ruta-costera-ostende$         cantabria/playa-de-ostende/paginas-secundarias/senderos-costeros-senalizados/index.php [L]
     
-    RewriteRule ^lugares-interes/mirador-de-cotolino-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/mirador-de-cotolino/index.php [L]
+    RewriteRule ^lugares-interes/mirador-de-cotolino-castro-urdiales$ cantabria/castro-urdiales/lugares-interes/mirador-de-cotolino/index.php [L]
     
 
 
-    RewriteRule ^lugares-interes/asador-la-perla-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/asador-la-perla/index.php [L]
-    RewriteRule ^lugares-interes/castillo-de-santa-ana-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/castillo-de-santa-ana/index.php [L]    
-    RewriteRule ^lugares-interes/club-nautico-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/club-nautico/index.php [L]    
-    RewriteRule ^lugares-interes/playa-el-pedregal-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/playa-el-pedregal/index.php [L]    
-    RewriteRule ^lugares.interes/iglesia-santa-maria-de-la-asuncion-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/iglesia-santa-maria-de-la-asuncion/index.php [L]    
-    RewriteRule ^lugares-interes/palacio-de-ocharan-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/palacio-de-ocharan/index.php [L]    
-    RewriteRule ^lugares-interes/parque-amestoy-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/parque-amestoy/index.php [L]  
-    RewriteRule ^lugares-interes/paseo-maritimo-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/paseo-maritimo/index.php [L]
-    RewriteRule ^lugares-interes/plaza-del-ayuntamiento-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/plaza-del-ayuntamiento/index.php [L]
-    RewriteRule ^lugares-interes/puente-medieval-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/puente-medieval/index.php [L]
-    RewriteRule ^lugares-interes/puerto-pesquero-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/puerto-pesquero/index.php [L]
+    RewriteRule ^lugares-interes/asador-la-perla-castro-urdiales$ cantabria/castro-urdiales/lugares-interes/asador-la-perla/index.php [L]
+    RewriteRule ^lugares-interes/castillo-de-santa-ana-castro-urdiales$ cantabria/castro-urdiales/lugares-interes/castillo-de-santa-ana/index.php [L]    
+    RewriteRule ^lugares-interes/club-nautico-castro-urdiales$ cantabria/castro-urdiales/lugares-interes/club-nautico/index.php [L]    
+    RewriteRule ^lugares-interes/playa-el-pedregal-castro-urdiales$ cantabria/castro-urdiales/lugares-interes/playa-el-pedregal/index.php [L]    
+    RewriteRule ^lugares.interes/iglesia-santa-maria-de-la-asuncion-castro-urdiales$ cantabria/castro-urdiales/lugares-interes/iglesia-santa-maria-de-la-asuncion/index.php [L]    
+    RewriteRule ^lugares-interes/palacio-de-ocharan-castro-urdiales$ cantabria/castro-urdiales/lugares-interes/palacio-de-ocharan/index.php [L]    
+    RewriteRule ^lugares-interes/parque-amestoy-castro-urdiales$ cantabria/castro-urdiales/lugares-interes/parque-amestoy/index.php [L]  
+    RewriteRule ^lugares-interes/paseo-maritimo-castro-urdiales$ cantabria/castro-urdiales/lugares-interes/paseo-maritimo/index.php [L]
+    RewriteRule ^lugares-interes/plaza-del-ayuntamiento-castro-urdiales$ cantabria/castro-urdiales/lugares-interes/plaza-del-ayuntamiento/index.php [L]
+    RewriteRule ^lugares-interes/puente-medieval-castro-urdiales$ cantabria/castro-urdiales/lugares-interes/puente-medieval/index.php [L]
+    RewriteRule ^lugares-interes/puerto-pesquero-castro-urdiales$ cantabria/castro-urdiales/lugares-interes/puerto-pesquero/index.php [L]
     
     # Sonabia
-    RewriteRule ^sonabia-cantabria$             localidades/cantabria/sonabia/index.php [L]
+    RewriteRule ^sonabia-cantabria$             cantabria/sonabia/index.php [L]
 
-    RewriteRule ^lugares-interes/playa-de-valdearenas-sonabia$  localidades/cantabria/sonabia/lugares-interes/playa-de-valdearenas/index.php [L]
-    RewriteRule ^lugares-interes/pena-candina-sonabia$          localidades/cantabria/sonabia/lugares-interes/pena-candina/index.php [L]
-    RewriteRule ^lugares-interes/monte-candina-sonabia$         localidades/cantabria/sonabia/lugares-interes/monte-candina/index.php [L]
-    RewriteRule ^lugares-interes/ojo-del-diablo-sonabia$        localidades/cantabria/sonabia/lugares-interes/ojo-del-diablo/index.php [L]
+    RewriteRule ^lugares-interes/playa-de-valdearenas-sonabia$  cantabria/sonabia/lugares-interes/playa-de-valdearenas/index.php [L]
+    RewriteRule ^lugares-interes/pena-candina-sonabia$          cantabria/sonabia/lugares-interes/pena-candina/index.php [L]
+    RewriteRule ^lugares-interes/monte-candina-sonabia$         cantabria/sonabia/lugares-interes/monte-candina/index.php [L]
+    RewriteRule ^lugares-interes/ojo-del-diablo-sonabia$        cantabria/sonabia/lugares-interes/ojo-del-diablo/index.php [L]
     
 
 
     # Santoña
-    RewriteRule ^santona-cantabria$             localidades/cantabria/santona/index.php [L]
+    RewriteRule ^santona-cantabria$             cantabria/santona/index.php [L]
 
-    RewriteRule ^lugares-interes/santona-cantabria$ localidades/cantabria/santona/index.php [L]
+    RewriteRule ^lugares-interes/santona-cantabria$ cantabria/santona/index.php [L]
 
 
-    RewriteRule ^lugares-interes/playa-de-berria-santona$ localidades/cantabria/santona/lugares-interes/playa-de-berria/index.php [L]
+    RewriteRule ^lugares-interes/playa-de-berria-santona$ cantabria/santona/lugares-interes/playa-de-berria/index.php [L]
 
-    RewriteRule ^lugares-interes/monte-buciero-santona$     localidades/cantabria/santona/lugares-interes/monte-buciero/index.php [L]
-    RewriteRule ^lugares-interes/faro-del-caballo-santona$  localidades/cantabria/santona/lugares-interes/faro-del-caballo/index.php [L]
-    RewriteRule ^lugares-interes/puerto-de-santona-santona$         localidades/cantabria/santona/lugares-interes/puerto-de-santona/index.php [L]
+    RewriteRule ^lugares-interes/monte-buciero-santona$     cantabria/santona/lugares-interes/monte-buciero/index.php [L]
+    RewriteRule ^lugares-interes/faro-del-caballo-santona$  cantabria/santona/lugares-interes/faro-del-caballo/index.php [L]
+    RewriteRule ^lugares-interes/puerto-de-santona-santona$         cantabria/santona/lugares-interes/puerto-de-santona/index.php [L]
 
 
 
 
     # Berria
-    #RewriteRule ^playa-de-berria-santona-cantabria$ localidades/cantabria/playadeberria/fichas/playa-de-berria-santona-cantabria.php [L]
-    RewriteRule ^actividades-playa-de-berria-santona-cantabria$ localidades/cantabria/playadeberria/paginas_secundarias/actividades-playa-de-berria-santona-cantabria.php [L]
-    RewriteRule ^como-llegar-playa-de-berria-santona-cantabria$ localidades/cantabria/playadeberria/paginas_secundarias/como-llegar-playa-de-berria-santona-cantabria.php [L]
-    RewriteRule ^servicios-playa-de-berria-santona-cantabria$ localidades/cantabria/playadeberria/paginas_secundarias/servicios-playa-de-berria-santona-cantabria.php [L]
-    RewriteRule ^eventos-festividades-playa-de-berria-santona-cantabria$ localidades/cantabria/playadeberria/paginas_secundarias/eventos-festividades-playa-de-berria-santona-cantabria.php [L]
-    RewriteRule ^preguntas-frecuentes-playa-de-berria-santona-cantabria$ localidades/cantabria/playadeberria/paginas_secundarias/preguntas-frecuentes-playa-de-berria-santona-cantabria.php [L]
+    #RewriteRule ^playa-de-berria-santona-cantabria$ cantabria/playadeberria/fichas/playa-de-berria-santona-cantabria.php [L]
+    RewriteRule ^actividades-playa-de-berria-santona-cantabria$ cantabria/playadeberria/paginas_secundarias/actividades-playa-de-berria-santona-cantabria.php [L]
+    RewriteRule ^como-llegar-playa-de-berria-santona-cantabria$ cantabria/playadeberria/paginas_secundarias/como-llegar-playa-de-berria-santona-cantabria.php [L]
+    RewriteRule ^servicios-playa-de-berria-santona-cantabria$ cantabria/playadeberria/paginas_secundarias/servicios-playa-de-berria-santona-cantabria.php [L]
+    RewriteRule ^eventos-festividades-playa-de-berria-santona-cantabria$ cantabria/playadeberria/paginas_secundarias/eventos-festividades-playa-de-berria-santona-cantabria.php [L]
+    RewriteRule ^preguntas-frecuentes-playa-de-berria-santona-cantabria$ cantabria/playadeberria/paginas_secundarias/preguntas-frecuentes-playa-de-berria-santona-cantabria.php [L]
 
 
 
@@ -92,24 +92,24 @@
     RewriteRule ^lugares-interes/surf-en-la-playa-de-bakio-bakio$ /bizkaia/bakio/lugares-interes/surf-en-la-playa-de-bakio/index.php [L]
   
 
-    #RewriteRule ^playa-de-bakio-vizcaya$ localidades/vizcaya/playadebakio/fichas/playa-de-bakio-vizcaya.php [L]
-    RewriteRule ^actividades-playa-de-bakio-vizcaya$ localidades/bakio/playadebakio/fichas/actividades-playa-de-bakio-vizcaya.php [L]
-    RewriteRule ^como-llegar-playa-de-bakio-vizcaya$ localidades/vizcaya/playadebakio/fichas/como-llegar-playa-de-bakio-vizcaya.php [L]
-    RewriteRule ^servicios-playa-de-bakio-vizcaya$ localidades/vizcaya/playadebakio/fichas/servicios-playa-de-bakio-vizcaya.php [L]
-    RewriteRule ^eventos-festividades-playa-de-bakio-vizcaya$ localidades/vizcaya/playadebakio/fichas/eventos-festividades-playa-de-bakio-vizcaya.php [L]
-    RewriteRule ^preguntas-frecuentes-playa-de-bakio-vizcaya$ localidades/vizcaya/playadebakio/fichas/preguntas-frecuentes-playa-de-bakio-vizcaya.php [L]
+    #RewriteRule ^playa-de-bakio-vizcaya$ vizcaya/playadebakio/fichas/playa-de-bakio-vizcaya.php [L]
+    RewriteRule ^actividades-playa-de-bakio-vizcaya$ bakio/playadebakio/fichas/actividades-playa-de-bakio-vizcaya.php [L]
+    RewriteRule ^como-llegar-playa-de-bakio-vizcaya$ vizcaya/playadebakio/fichas/como-llegar-playa-de-bakio-vizcaya.php [L]
+    RewriteRule ^servicios-playa-de-bakio-vizcaya$ vizcaya/playadebakio/fichas/servicios-playa-de-bakio-vizcaya.php [L]
+    RewriteRule ^eventos-festividades-playa-de-bakio-vizcaya$ vizcaya/playadebakio/fichas/eventos-festividades-playa-de-bakio-vizcaya.php [L]
+    RewriteRule ^preguntas-frecuentes-playa-de-bakio-vizcaya$ vizcaya/playadebakio/fichas/preguntas-frecuentes-playa-de-bakio-vizcaya.php [L]
 
 
     # Gorliz
     RewriteRule ^gorliz-bizkaia$ /bizkaia/gorliz/index.php [L]
 
     # Playa de Gorliz
-    RewriteRule ^playa-de-gorliz-vizcaya$ localidades/vizcaya/playadegorliz/fichas/playa-de-gorliz-vizcaya.php [L]
-    RewriteRule ^actividades-playa-de-gorliz-vizcaya$ localidades/vizcaya/playadegorliz/fichas/actividades-playa-de-gorliz-vizcaya.php [L]
-    RewriteRule ^como-llegar-playa-de-gorliz-vizcaya$ localidades/vizcaya/playadegorliz/fichas/como-llegar-playa-de-gorliz-vizcaya.php [L]
-    RewriteRule ^servicios-playa-de-gorliz-vizcaya$ localidades/vizcaya/playadegorliz/fichas/servicios-playa-de-gorliz-vizcaya.php [L]
-    RewriteRule ^eventos-festividades-playa-de-gorliz-vizcaya$ localidades/vizcaya/playadegorliz/fichas/eventos-festividades-playa-de-gorliz-vizcaya.php [L]
-    RewriteRule ^preguntas-frecuentes-playa-de-gorliz-vizcaya$ localidades/vizcaya/playadegorliz/fichas/preguntas-frecuentes-playa-de-gorliz-vizcaya.php [L]
+    RewriteRule ^playa-de-gorliz-vizcaya$ vizcaya/playadegorliz/fichas/playa-de-gorliz-vizcaya.php [L]
+    RewriteRule ^actividades-playa-de-gorliz-vizcaya$ vizcaya/playadegorliz/fichas/actividades-playa-de-gorliz-vizcaya.php [L]
+    RewriteRule ^como-llegar-playa-de-gorliz-vizcaya$ vizcaya/playadegorliz/fichas/como-llegar-playa-de-gorliz-vizcaya.php [L]
+    RewriteRule ^servicios-playa-de-gorliz-vizcaya$ vizcaya/playadegorliz/fichas/servicios-playa-de-gorliz-vizcaya.php [L]
+    RewriteRule ^eventos-festividades-playa-de-gorliz-vizcaya$ vizcaya/playadegorliz/fichas/eventos-festividades-playa-de-gorliz-vizcaya.php [L]
+    RewriteRule ^preguntas-frecuentes-playa-de-gorliz-vizcaya$ vizcaya/playadegorliz/fichas/preguntas-frecuentes-playa-de-gorliz-vizcaya.php [L]
 
 
 
@@ -148,12 +148,12 @@
     RewriteRule ^playa-de-astondo$ /bizkaia/gorliz/lugares-interes/playas/playa-de-astondo/index.php [L]
 
 
-    RewriteRule ^playa-de-laga-vizcaya$ localidades/vizcaya/playadelaga/fichas/playa-de-laga-vizcaya.php [L]
-    RewriteRule ^actividades-playa-de-laga-vizcaya$ localidades/laga/playadelaga/fichas/actividades-playa-de-laga-vizcaya.php [L]
-    RewriteRule ^como-llegar-playa-de-laga-vizcaya$ localidades/vizcaya/playadelaga/fichas/como-llegar-playa-de-laga-vizcaya.php [L]
-    RewriteRule ^servicios-playa-de-laga-vizcaya$ localidades/vizcaya/playadelaga/fichas/servicios-playa-de-laga-vizcaya.php [L]
-    RewriteRule ^eventos-festividades-playa-de-laga-vizcaya$ localidades/vizcaya/playadelaga/fichas/eventos-festividades-playa-de-laga-vizcaya.php [L]
-    RewriteRule ^preguntas-frecuentes-playa-de-laga-vizcaya$ localidades/vizcaya/playadelaga/fichas/preguntas-frecuentes-playa-de-laga-vizcaya.php [L]
+    RewriteRule ^playa-de-laga-vizcaya$ vizcaya/playadelaga/fichas/playa-de-laga-vizcaya.php [L]
+    RewriteRule ^actividades-playa-de-laga-vizcaya$ laga/playadelaga/fichas/actividades-playa-de-laga-vizcaya.php [L]
+    RewriteRule ^como-llegar-playa-de-laga-vizcaya$ vizcaya/playadelaga/fichas/como-llegar-playa-de-laga-vizcaya.php [L]
+    RewriteRule ^servicios-playa-de-laga-vizcaya$ vizcaya/playadelaga/fichas/servicios-playa-de-laga-vizcaya.php [L]
+    RewriteRule ^eventos-festividades-playa-de-laga-vizcaya$ vizcaya/playadelaga/fichas/eventos-festividades-playa-de-laga-vizcaya.php [L]
+    RewriteRule ^preguntas-frecuentes-playa-de-laga-vizcaya$ vizcaya/playadelaga/fichas/preguntas-frecuentes-playa-de-laga-vizcaya.php [L]
 
 
 
@@ -185,12 +185,12 @@
 
 
     # Plentzia
-    RewriteRule ^playa-de-plentzia-vizcaya$ localidades/vizcaya/playadeplentzia/fichas/playa-de-plentzia-vizcaya.php [L]
-    RewriteRule ^actividades-playa-de-plentzia-vizcaya$ localidades/plentzia/playadeplentzia/fichas/actividades-playa-de-plentzia-vizcaya.php [L]
-    RewriteRule ^como-llegar-playa-de-plentzia-vizcaya$ localidades/vizcaya/playadeplentzia/fichas/como-llegar-playa-de-plentzia-vizcaya.php [L]
-    RewriteRule ^servicios-playa-de-plentzia-vizcaya$ localidades/vizcaya/playadeplentzia/fichas/servicios-playa-de-plentzia-vizcaya.php [L]
-    RewriteRule ^eventos-festividades-playa-de-plentzia-vizcaya$ localidades/vizcaya/playadeplentzia/fichas/eventos-festividades-playa-de-plentzia-vizcaya.php [L]
-    RewriteRule ^preguntas-frecuentes-playa-de-plentzia-vizcaya$ localidades/vizcaya/playadeplentzia/fichas/preguntas-frecuentes-playa-de-plentzia-vizcaya.php [L]
+    RewriteRule ^playa-de-plentzia-vizcaya$ vizcaya/playadeplentzia/fichas/playa-de-plentzia-vizcaya.php [L]
+    RewriteRule ^actividades-playa-de-plentzia-vizcaya$ plentzia/playadeplentzia/fichas/actividades-playa-de-plentzia-vizcaya.php [L]
+    RewriteRule ^como-llegar-playa-de-plentzia-vizcaya$ vizcaya/playadeplentzia/fichas/como-llegar-playa-de-plentzia-vizcaya.php [L]
+    RewriteRule ^servicios-playa-de-plentzia-vizcaya$ vizcaya/playadeplentzia/fichas/servicios-playa-de-plentzia-vizcaya.php [L]
+    RewriteRule ^eventos-festividades-playa-de-plentzia-vizcaya$ vizcaya/playadeplentzia/fichas/eventos-festividades-playa-de-plentzia-vizcaya.php [L]
+    RewriteRule ^preguntas-frecuentes-playa-de-plentzia-vizcaya$ vizcaya/playadeplentzia/fichas/preguntas-frecuentes-playa-de-plentzia-vizcaya.php [L]
 
 
 
@@ -208,121 +208,121 @@
 
     ### Guipuzkoa ###
     # Deba
-    RewriteRule ^deba-gipuzkoa$                         localidades/gipuzkoa/deba/index.php [L]
-    RewriteRule ^lugares-interes/playa-de-santiago$     localidades/gipuzkoa/deba/lugares-interes/playa-de-santiago-deba/index.php [L]
-    RewriteRule ^lugares-interes/mirador-de-sorginetxe-deba$ localidades/gipuzkoa/deba/lugares-interes/mirador-de-sorginetxe-deba/index.php [L]
-    RewriteRule ^lugares-interes/ruta-senderista-deba-zumaia-deba$ localidades/gipuzkoa/deba/lugares-interes/ruta-senderista-deba-zumaia-deba/index.php [L]
+    RewriteRule ^deba-gipuzkoa$                         gipuzkoa/deba/index.php [L]
+    RewriteRule ^lugares-interes/playa-de-santiago$     gipuzkoa/deba/lugares-interes/playa-de-santiago-deba/index.php [L]
+    RewriteRule ^lugares-interes/mirador-de-sorginetxe-deba$ gipuzkoa/deba/lugares-interes/mirador-de-sorginetxe-deba/index.php [L]
+    RewriteRule ^lugares-interes/ruta-senderista-deba-zumaia-deba$ gipuzkoa/deba/lugares-interes/ruta-senderista-deba-zumaia-deba/index.php [L]
     
 
 
 
 
 
-    RewriteRule ^playa-de-santiago$ localidades/gipuzkoa/deba/lugares-interes/playas/playa-de-santiago/index.php [L]
+    RewriteRule ^playa-de-santiago$ gipuzkoa/deba/lugares-interes/playas/playa-de-santiago/index.php [L]
 
-    RewriteRule ^playa-de-deba-gipuzkoa$ localidades/gipuzkoa/playadedeba/fichas/playa-de-deba-gipuzkoa.php [L]
-    RewriteRule ^actividades-playa-de-deba-gipuzkoa$ localidades/deba/playadedeba/fichas/actividades-playa-de-deba-gipuzkoa.php [L]
-    RewriteRule ^como-llegar-playa-de-deba-gipuzkoa$ localidades/gipuzkoa/playadedeba/fichas/como-llegar-playa-de-deba-gipuzkoa.php [L]
-    RewriteRule ^servicios-playa-de-deba-gipuzkoa$ localidades/gipuzkoa/playadedeba/fichas/servicios-playa-de-deba-gipuzkoa.php [L]
-    RewriteRule ^eventos-festividades-playa-de-deba-gipuzkoa$ localidades/gipuzkoa/playadedeba/fichas/eventos-festividades-playa-de-deba-gipuzkoa.php [L]
-    RewriteRule ^preguntas-frecuentes-playa-de-deba-gipuzkoa$ localidades/gipuzkoa/playadedeba/fichas/preguntas-frecuentes-playa-de-deba-gipuzkoa.php [L]
+    RewriteRule ^playa-de-deba-gipuzkoa$ gipuzkoa/playadedeba/fichas/playa-de-deba-gipuzkoa.php [L]
+    RewriteRule ^actividades-playa-de-deba-gipuzkoa$ deba/playadedeba/fichas/actividades-playa-de-deba-gipuzkoa.php [L]
+    RewriteRule ^como-llegar-playa-de-deba-gipuzkoa$ gipuzkoa/playadedeba/fichas/como-llegar-playa-de-deba-gipuzkoa.php [L]
+    RewriteRule ^servicios-playa-de-deba-gipuzkoa$ gipuzkoa/playadedeba/fichas/servicios-playa-de-deba-gipuzkoa.php [L]
+    RewriteRule ^eventos-festividades-playa-de-deba-gipuzkoa$ gipuzkoa/playadedeba/fichas/eventos-festividades-playa-de-deba-gipuzkoa.php [L]
+    RewriteRule ^preguntas-frecuentes-playa-de-deba-gipuzkoa$ gipuzkoa/playadedeba/fichas/preguntas-frecuentes-playa-de-deba-gipuzkoa.php [L]
 
 
 
     ### Nouvelle Aquitaine ###
 
     # Saint Jean de Luz
-    RewriteRule ^saint-jean-de-luz-nouvelle-aquitaine$ localidades/nouvelle-aquitaine/saint-jean-de-luz/index.php [L]
-    RewriteRule ^lugares-interes/la-grande-plage-saint-jean-de-luz$ localidades/nouvelle-aquitaine/saint-jean-de-luz/lugares-interes/la-grande-plage-saint-jean-de-luz/index.php [L]
-    RewriteRule ^lugares-interes/puerto-pesquero-saint-jean-de-luz$ localidades/nouvelle-aquitaine/saint-jean-de-luz/lugares-interes/puerto-pesquero-saint-jean-de-luz/index.php [L]
-    RewriteRule ^lugares-interes/iglesia-san-juan-bautista-saint-jean-de-luz$ localidades/nouvelle-aquitaine/saint-jean-de-luz/lugares-interes/iglesia-san-juan-bautista-saint-jean-de-luz/index.php [L]
-    RewriteRule ^lugares-interes/fuerte-de-socoa-saint-jean-de-luz$ localidades/nouvelle-aquitaine/saint-jean-de-luz/lugares-interes/fuerte-de-socoa-saint-jean-de-luz/index.php [L]
+    RewriteRule ^saint-jean-de-luz-nouvelle-aquitaine$ nouvelle-aquitaine/saint-jean-de-luz/index.php [L]
+    RewriteRule ^lugares-interes/la-grande-plage-saint-jean-de-luz$ nouvelle-aquitaine/saint-jean-de-luz/lugares-interes/la-grande-plage-saint-jean-de-luz/index.php [L]
+    RewriteRule ^lugares-interes/puerto-pesquero-saint-jean-de-luz$ nouvelle-aquitaine/saint-jean-de-luz/lugares-interes/puerto-pesquero-saint-jean-de-luz/index.php [L]
+    RewriteRule ^lugares-interes/iglesia-san-juan-bautista-saint-jean-de-luz$ nouvelle-aquitaine/saint-jean-de-luz/lugares-interes/iglesia-san-juan-bautista-saint-jean-de-luz/index.php [L]
+    RewriteRule ^lugares-interes/fuerte-de-socoa-saint-jean-de-luz$ nouvelle-aquitaine/saint-jean-de-luz/lugares-interes/fuerte-de-socoa-saint-jean-de-luz/index.php [L]
 
-    RewriteRule ^playa-de-saint-jean-de-luz-francia$ localidades/francia/playadesanjuandeluz/fichas/playa-de-saint-jean-de-luz-francia.php [L]
-    RewriteRule ^actividades-playa-de-saint-jean-de-luz-francia$ localidades/francia/playadesanjuandeluz/fichas/actividades-playa-de-saint-jean-de-luz-francia.php [L]
-    RewriteRule ^como-llegar-playa-de-saint-jean-de-luz-francia$ localidades/francia/playadesanjuandeluz/fichas/como-llegar-playa-de-saint-jean-de-luz-francia.php [L]
-    RewriteRule ^servicios-playa-de-saint-jean-de-luz-francia$ localidades/francia/playadesanjuandeluz/fichas/servicios-playa-de-saint-jean-de-luz-francia.php [L]
-    RewriteRule ^eventos-festividades-playa-de-saint-jean-de-luz-francia$ localidades/francia/playadesanjuandeluz/fichas/eventos-festividades-playa-de-saint-jean-de-luz-francia.php [L]
-    RewriteRule ^preguntas-frecuentes-playa-de-saint-jean-de-luz-francia$ localidades/francia/playadesanjuandeluz/fichas/preguntas-frecuentes-playa-de-saint-jean-de-luz-francia.php [L]
+    RewriteRule ^playa-de-saint-jean-de-luz-francia$ francia/playadesanjuandeluz/fichas/playa-de-saint-jean-de-luz-francia.php [L]
+    RewriteRule ^actividades-playa-de-saint-jean-de-luz-francia$ francia/playadesanjuandeluz/fichas/actividades-playa-de-saint-jean-de-luz-francia.php [L]
+    RewriteRule ^como-llegar-playa-de-saint-jean-de-luz-francia$ francia/playadesanjuandeluz/fichas/como-llegar-playa-de-saint-jean-de-luz-francia.php [L]
+    RewriteRule ^servicios-playa-de-saint-jean-de-luz-francia$ francia/playadesanjuandeluz/fichas/servicios-playa-de-saint-jean-de-luz-francia.php [L]
+    RewriteRule ^eventos-festividades-playa-de-saint-jean-de-luz-francia$ francia/playadesanjuandeluz/fichas/eventos-festividades-playa-de-saint-jean-de-luz-francia.php [L]
+    RewriteRule ^preguntas-frecuentes-playa-de-saint-jean-de-luz-francia$ francia/playadesanjuandeluz/fichas/preguntas-frecuentes-playa-de-saint-jean-de-luz-francia.php [L]
 
 
     # Biarritz
-    RewriteRule ^biarritz-nouvelle-aquitaine$ localidades/nouvelle-aquitaine/biarritz/index.php [L]
-    RewriteRule ^playa-de-la-grande-plage-biarritz$ localidades/nouvelle-aquitaine/biarritz/lugares-interes/playas/playa-de-la-grande-plage-biarritz/index.php [L]
+    RewriteRule ^biarritz-nouvelle-aquitaine$ nouvelle-aquitaine/biarritz/index.php [L]
+    RewriteRule ^playa-de-la-grande-plage-biarritz$ nouvelle-aquitaine/biarritz/lugares-interes/playas/playa-de-la-grande-plage-biarritz/index.php [L]
     
 
-    RewriteRule ^lugares-interes/rocher-de-la-vierge$ localidades/nouvelle-aquitaine/biarritz/lugares-interes/rocher-de-la-vierge/index.php [L]
-    RewriteRule ^lugares-interes/grande-plage-biarritz$ localidades/nouvelle-aquitaine/biarritz/lugares-interes/grande-plage-biarritz/index.php [L]
-    RewriteRule ^lugares-interes/faro-de-biarritz$ localidades/nouvelle-aquitaine/biarritz/lugares-interes/faro-de-biarritz/index.php [L]
-    RewriteRule ^lugares-interes/museo-del-mar-aquarium-biarritz$ localidades/nouvelle-aquitaine/biarritz/lugares-interes/museo-del-mar-aquarium-biarritz/index.php [L]
-    RewriteRule ^lugares-interes/cote-des-basques-biarritz$ localidades/nouvelle-aquitaine/biarritz/lugares-interes/cote-des-basques-biarritz/index.php [L]
-    RewriteRule ^lugares-interes/plage-marbella-biarritz$ localidades/nouvelle-aquitaine/biarritz/lugares-interes/plage-marbella-biarritz-biarritz/index.php [L]
-    RewriteRule ^lugares-interes/plage-port-vieux-biarritz$ localidades/nouvelle-aquitaine/biarritz/lugares-interes/plage-port-vieux-biarritz-biarritz/index.php [L]
-    RewriteRule ^lugares-interes/playa-de-milady-biarritz$ localidades/nouvelle-aquitaine/biarritz/lugares-interes/playa-de-milady-biarritz/index.php [L]
-    RewriteRule ^lugares-interes/playa-de-miramar-biarritz$ localidades/nouvelle-aquitaine/biarritz/lugares-interes/playa-de-miramar-biarritz/index.php [L]
+    RewriteRule ^lugares-interes/rocher-de-la-vierge$ nouvelle-aquitaine/biarritz/lugares-interes/rocher-de-la-vierge/index.php [L]
+    RewriteRule ^lugares-interes/grande-plage-biarritz$ nouvelle-aquitaine/biarritz/lugares-interes/grande-plage-biarritz/index.php [L]
+    RewriteRule ^lugares-interes/faro-de-biarritz$ nouvelle-aquitaine/biarritz/lugares-interes/faro-de-biarritz/index.php [L]
+    RewriteRule ^lugares-interes/museo-del-mar-aquarium-biarritz$ nouvelle-aquitaine/biarritz/lugares-interes/museo-del-mar-aquarium-biarritz/index.php [L]
+    RewriteRule ^lugares-interes/cote-des-basques-biarritz$ nouvelle-aquitaine/biarritz/lugares-interes/cote-des-basques-biarritz/index.php [L]
+    RewriteRule ^lugares-interes/plage-marbella-biarritz$ nouvelle-aquitaine/biarritz/lugares-interes/plage-marbella-biarritz-biarritz/index.php [L]
+    RewriteRule ^lugares-interes/plage-port-vieux-biarritz$ nouvelle-aquitaine/biarritz/lugares-interes/plage-port-vieux-biarritz-biarritz/index.php [L]
+    RewriteRule ^lugares-interes/playa-de-milady-biarritz$ nouvelle-aquitaine/biarritz/lugares-interes/playa-de-milady-biarritz/index.php [L]
+    RewriteRule ^lugares-interes/playa-de-miramar-biarritz$ nouvelle-aquitaine/biarritz/lugares-interes/playa-de-miramar-biarritz/index.php [L]
 
 
-    RewriteRule ^playa-de-biarritz-francia$ localidades/francia/playadebiarritz/fichas/playa-de-biarritz-francia.php [L]
-    RewriteRule ^actividades-playa-de-biarritz-francia$ localidades/francia/playadebiarritz/fichas/actividades-playa-de-biarritz-francia.php [L]
-    RewriteRule ^como-llegar-playa-de-biarritz-francia$ localidades/francia/playadebiarritz/fichas/como-llegar-playa-de-biarritz-francia.php [L]
-    RewriteRule ^servicios-playa-de-biarritz-francia$ localidades/francia/playadebiarritz/fichas/servicios-playa-de-biarritz-francia.php [L]
-    RewriteRule ^eventos-festividades-playa-de-biarritz-francia$ localidades/francia/playadebiarritz/fichas/eventos-festividades-playa-de-biarritz-francia.php [L]
-    RewriteRule ^preguntas-frecuentes-playa-de-biarritz-francia$ localidades/francia/playadebiarritz/fichas/preguntas-frecuentes-playa-de-biarritz-francia.php [L]
+    RewriteRule ^playa-de-biarritz-francia$ francia/playadebiarritz/fichas/playa-de-biarritz-francia.php [L]
+    RewriteRule ^actividades-playa-de-biarritz-francia$ francia/playadebiarritz/fichas/actividades-playa-de-biarritz-francia.php [L]
+    RewriteRule ^como-llegar-playa-de-biarritz-francia$ francia/playadebiarritz/fichas/como-llegar-playa-de-biarritz-francia.php [L]
+    RewriteRule ^servicios-playa-de-biarritz-francia$ francia/playadebiarritz/fichas/servicios-playa-de-biarritz-francia.php [L]
+    RewriteRule ^eventos-festividades-playa-de-biarritz-francia$ francia/playadebiarritz/fichas/eventos-festividades-playa-de-biarritz-francia.php [L]
+    RewriteRule ^preguntas-frecuentes-playa-de-biarritz-francia$ francia/playadebiarritz/fichas/preguntas-frecuentes-playa-de-biarritz-francia.php [L]
 
     # Capbreton
-    RewriteRule ^capbreton-nouvelle-aquitaine$     localidades/nouvelle-aquitaine/capbreton/index.php [L]
+    RewriteRule ^capbreton-nouvelle-aquitaine$     nouvelle-aquitaine/capbreton/index.php [L]
     
-    RewriteRule ^lugares-interes/plage-centrale-capbreton-capbreton$          localidades/nouvelle-aquitaine/capbreton/lugares-interes/plage-centrale-capbreton-capbreton/index.php [L]
-    RewriteRule ^lugares-interes/puerto-pesquero-capbreton$      localidades/nouvelle-aquitaine/capbreton/lugares-interes/puerto-pesquero-capbreton/index.php [L]
-    RewriteRule ^lugares-interes/piste-cyclable-velodyssee-capbreton$      localidades/nouvelle-aquitaine/capbreton/lugares-interes/piste-cyclable-velodyssee-capbreton/index.php [L]
-    RewriteRule ^lugares-interes/foret-domaniale-de-capbreton-capbreton$      localidades/nouvelle-aquitaine/capbreton/lugares-interes/foret-domaniale-de-capbreton-capbreton/index.php [L]
+    RewriteRule ^lugares-interes/plage-centrale-capbreton-capbreton$          nouvelle-aquitaine/capbreton/lugares-interes/plage-centrale-capbreton-capbreton/index.php [L]
+    RewriteRule ^lugares-interes/puerto-pesquero-capbreton$      nouvelle-aquitaine/capbreton/lugares-interes/puerto-pesquero-capbreton/index.php [L]
+    RewriteRule ^lugares-interes/piste-cyclable-velodyssee-capbreton$      nouvelle-aquitaine/capbreton/lugares-interes/piste-cyclable-velodyssee-capbreton/index.php [L]
+    RewriteRule ^lugares-interes/foret-domaniale-de-capbreton-capbreton$      nouvelle-aquitaine/capbreton/lugares-interes/foret-domaniale-de-capbreton-capbreton/index.php [L]
 
 
     # Hendaia
-    RewriteRule ^hendaia-nouvelle-aquitaine$ localidades/nouvelle-aquitaine/hendaia/index.php [L]
-    RewriteRule ^lugares-interes/playa-de-ondarraitz$ localidades/nouvelle-aquitaine/hendaia/lugares-interes/playa-de-ondarraitz/index.php [L]
-    RewriteRule ^lugares-interes/castillo-abbadia$ localidades/nouvelle-aquitaine/hendaia/lugares-interes/castillo-abbadia/index.php [L]
+    RewriteRule ^hendaia-nouvelle-aquitaine$ nouvelle-aquitaine/hendaia/index.php [L]
+    RewriteRule ^lugares-interes/playa-de-ondarraitz$ nouvelle-aquitaine/hendaia/lugares-interes/playa-de-ondarraitz/index.php [L]
+    RewriteRule ^lugares-interes/castillo-abbadia$ nouvelle-aquitaine/hendaia/lugares-interes/castillo-abbadia/index.php [L]
 
-    RewriteRule ^lugares-interes/puerto-deportivo$      localidades/nouvelle-aquitaine/hendaia/lugares-interes/puerto-deportivo/index.php [L]
-    RewriteRule ^lugares-interes/corniche-basque$      localidades/nouvelle-aquitaine/hendaia/lugares-interes/corniche-basque/index.php [L]
+    RewriteRule ^lugares-interes/puerto-deportivo$      nouvelle-aquitaine/hendaia/lugares-interes/puerto-deportivo/index.php [L]
+    RewriteRule ^lugares-interes/corniche-basque$      nouvelle-aquitaine/hendaia/lugares-interes/corniche-basque/index.php [L]
 
 
 
 
 
     # Barra navegación superior
-    RewriteRule ^restaurantes-castro-urdiales$ localidades/cantabria/castro-urdiales/ocio/pages/restaurantes-castro-urdiales.php [L]
-    RewriteRule ^alojamientos-castro-urdiales$ localidades/cantabria/castro-urdiales/ocio/pages/alojamientos-castro-urdiales.php [L]
-    RewriteRule ^rutas-costeras-castro-urdiales$ localidades/cantabria/castro-urdiales/ocio/pages/rutas-costeras-castro-urdiales.php [L]
-    RewriteRule ^eventos-castro-urdiales$ localidades/cantabria/castro-urdiales/ocio/pages/eventos-castro-urdiales.php [L]
-    RewriteRule ^blog-castro-urdiales$ localidades/cantabria/castro-urdiales/ocio/pages/blog-castro-urdiales.php [L]
+    RewriteRule ^restaurantes-castro-urdiales$ cantabria/castro-urdiales/ocio/pages/restaurantes-castro-urdiales.php [L]
+    RewriteRule ^alojamientos-castro-urdiales$ cantabria/castro-urdiales/ocio/pages/alojamientos-castro-urdiales.php [L]
+    RewriteRule ^rutas-costeras-castro-urdiales$ cantabria/castro-urdiales/ocio/pages/rutas-costeras-castro-urdiales.php [L]
+    RewriteRule ^eventos-castro-urdiales$ cantabria/castro-urdiales/ocio/pages/eventos-castro-urdiales.php [L]
+    RewriteRule ^blog-castro-urdiales$ cantabria/castro-urdiales/ocio/pages/blog-castro-urdiales.php [L]
 
-    RewriteRule ^playa-de-ostende-castro-urdiales-cantabria$ localidades/cantabria/playadeostende/fichas/playa-de-ostende-castro-urdiales-cantabria.php [L]
-    RewriteRule ^actividades-playa-de-ostende-castro-urdiales-cantabria$ localidades/cantabria/playadeostende/paginas_secundarias/actividades-playa-de-ostende-castro-urdiales-cantabria.php [L]
-    RewriteRule ^como-llegar-playa-de-ostende-castro-urdiales-cantabria$ localidades/cantabria/playadeostende/paginas_secundarias/como-llegar-playa-de-ostende-castro-urdiales-cantabria.php [L]
-    RewriteRule ^servicios-playa-de-ostende-castro-urdiales-cantabria$ localidades/cantabria/playadeostende/paginas_secundarias/servicios-playa-de-ostende-castro-urdiales-cantabria.php [L]
-    RewriteRule ^eventos-festividades-playa-de-ostende-castro-urdiales-cantabria$ localidades/cantabria/playadeostende/paginas_secundarias/eventos-festividades-playa-de-ostende-castro-urdiales-cantabria.php [L]
-    RewriteRule ^preguntas-frecuentes-playa-de-ostende-castro-urdiales-cantabria$ localidades/cantabria/playadeostende/paginas_secundarias/preguntas-frecuentes-playa-de-ostende-castro-urdiales-cantabria.php [L]
+    RewriteRule ^playa-de-ostende-castro-urdiales-cantabria$ cantabria/playadeostende/fichas/playa-de-ostende-castro-urdiales-cantabria.php [L]
+    RewriteRule ^actividades-playa-de-ostende-castro-urdiales-cantabria$ cantabria/playadeostende/paginas_secundarias/actividades-playa-de-ostende-castro-urdiales-cantabria.php [L]
+    RewriteRule ^como-llegar-playa-de-ostende-castro-urdiales-cantabria$ cantabria/playadeostende/paginas_secundarias/como-llegar-playa-de-ostende-castro-urdiales-cantabria.php [L]
+    RewriteRule ^servicios-playa-de-ostende-castro-urdiales-cantabria$ cantabria/playadeostende/paginas_secundarias/servicios-playa-de-ostende-castro-urdiales-cantabria.php [L]
+    RewriteRule ^eventos-festividades-playa-de-ostende-castro-urdiales-cantabria$ cantabria/playadeostende/paginas_secundarias/eventos-festividades-playa-de-ostende-castro-urdiales-cantabria.php [L]
+    RewriteRule ^preguntas-frecuentes-playa-de-ostende-castro-urdiales-cantabria$ cantabria/playadeostende/paginas_secundarias/preguntas-frecuentes-playa-de-ostende-castro-urdiales-cantabria.php [L]
 
 
 
     # Página de Castro-Urdiales (Rutas Amigables)
-        RewriteRule ^asador-la-perla-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/asador-la-perla/index.php [L]
-        RewriteRule ^castillo-santa-ana-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/castillo-santa-ana/index.php [L]
-        RewriteRule ^club-nautico-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/club-nautico/index.php [L]
-        RewriteRule ^el-pedregal-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/playas/el-pedregal/index.php [L]
-        RewriteRule ^iglesia-santa-maria-de-la-asuncion-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/iglesia-santa-maria-de-la-asuncion/index.php [L]
-        RewriteRule ^palacio-de-ocharan-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/palacio-de-ocharan/index.php [L]
-        RewriteRule ^parque-amestoy-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/parque-amestoy/index.php [L]
-        RewriteRule ^paseo-maritimo-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/paseo-maritimo/index.php [L]
-        RewriteRule ^playa-de-ostende-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/playas/playa-de-ostende/index.php [L]
-        RewriteRule ^plaza-del-ayuntamiento-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/plaza-del-ayuntamiento/index.php [L]
-        RewriteRule ^puente-medieval-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/puente-medieval/index.php [L]
-        RewriteRule ^puerto-pesquero-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/puerto-pesquero/index.php [L]
+        RewriteRule ^asador-la-perla-castro-urdiales$ cantabria/castro-urdiales/lugares-interes/asador-la-perla/index.php [L]
+        RewriteRule ^castillo-santa-ana-castro-urdiales$ cantabria/castro-urdiales/lugares-interes/castillo-santa-ana/index.php [L]
+        RewriteRule ^club-nautico-castro-urdiales$ cantabria/castro-urdiales/lugares-interes/club-nautico/index.php [L]
+        RewriteRule ^el-pedregal-castro-urdiales$ cantabria/castro-urdiales/lugares-interes/playas/el-pedregal/index.php [L]
+        RewriteRule ^iglesia-santa-maria-de-la-asuncion-castro-urdiales$ cantabria/castro-urdiales/lugares-interes/iglesia-santa-maria-de-la-asuncion/index.php [L]
+        RewriteRule ^palacio-de-ocharan-castro-urdiales$ cantabria/castro-urdiales/lugares-interes/palacio-de-ocharan/index.php [L]
+        RewriteRule ^parque-amestoy-castro-urdiales$ cantabria/castro-urdiales/lugares-interes/parque-amestoy/index.php [L]
+        RewriteRule ^paseo-maritimo-castro-urdiales$ cantabria/castro-urdiales/lugares-interes/paseo-maritimo/index.php [L]
+        RewriteRule ^playa-de-ostende-castro-urdiales$ cantabria/castro-urdiales/lugares-interes/playas/playa-de-ostende/index.php [L]
+        RewriteRule ^plaza-del-ayuntamiento-castro-urdiales$ cantabria/castro-urdiales/lugares-interes/plaza-del-ayuntamiento/index.php [L]
+        RewriteRule ^puente-medieval-castro-urdiales$ cantabria/castro-urdiales/lugares-interes/puente-medieval/index.php [L]
+        RewriteRule ^puerto-pesquero-castro-urdiales$ cantabria/castro-urdiales/lugares-interes/puerto-pesquero/index.php [L]
 
-        RewriteRule ^playa-de-ostende-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/playas/playa-de-ostende/index.php [L]
-        RewriteRule ^playa-de-brazomar-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/playas/playa-de-brazomar/index.php [L]
-        RewriteRule ^playa-de-el-pedregal-castro-urdiales$ localidades/cantabria/castro-urdiales/lugares-interes/playas/playa-de-el-pedregal/index.php [L]
+        RewriteRule ^playa-de-ostende-castro-urdiales$ cantabria/castro-urdiales/lugares-interes/playas/playa-de-ostende/index.php [L]
+        RewriteRule ^playa-de-brazomar-castro-urdiales$ cantabria/castro-urdiales/lugares-interes/playas/playa-de-brazomar/index.php [L]
+        RewriteRule ^playa-de-el-pedregal-castro-urdiales$ cantabria/castro-urdiales/lugares-interes/playas/playa-de-el-pedregal/index.php [L]
         
 
 
@@ -331,59 +331,59 @@
 
 
     # Somo
-    RewriteRule ^playa-de-somo-loredo-somo-cantabria$ localidades/cantabria/playadesomoloredo/fichas/playa-de-somo-loredo-somo-cantabria.php [L]
-    RewriteRule ^actividades-playa-de-somo-loredo-somo-cantabria$ localidades/cantabria/playadesomoloredo/fichas/actividades-playa-de-somo-loredo-somo-cantabria.php [L]
-    RewriteRule ^como-llegar-playa-de-somo-loredo-somo-cantabria$ localidades/cantabria/playadesomoloredo/fichas/como-llegar-playa-de-somo-loredo-somo-cantabria.php [L]
-    RewriteRule ^servicios-playa-de-somo-loredo-somo-cantabria$ localidades/cantabria/playadesomoloredo/fichas/servicios-playa-de-somo-loredo-somo-cantabria.php [L]
-    RewriteRule ^eventos-festividades-playa-de-somo-loredo-somo-cantabria$ localidades/cantabria/playadesomoloredo/fichas/eventos-festividades-playa-de-somo-loredo-somo-cantabria.php [L]
-    RewriteRule ^preguntas-frecuentes-playa-de-somo-loredo-somo-cantabria$ localidades/cantabria/playadesomoloredo/fichas/preguntas-frecuentes-playa-de-somo-loredo-somo-cantabria.php [L]
+    RewriteRule ^playa-de-somo-loredo-somo-cantabria$ cantabria/playadesomoloredo/fichas/playa-de-somo-loredo-somo-cantabria.php [L]
+    RewriteRule ^actividades-playa-de-somo-loredo-somo-cantabria$ cantabria/playadesomoloredo/fichas/actividades-playa-de-somo-loredo-somo-cantabria.php [L]
+    RewriteRule ^como-llegar-playa-de-somo-loredo-somo-cantabria$ cantabria/playadesomoloredo/fichas/como-llegar-playa-de-somo-loredo-somo-cantabria.php [L]
+    RewriteRule ^servicios-playa-de-somo-loredo-somo-cantabria$ cantabria/playadesomoloredo/fichas/servicios-playa-de-somo-loredo-somo-cantabria.php [L]
+    RewriteRule ^eventos-festividades-playa-de-somo-loredo-somo-cantabria$ cantabria/playadesomoloredo/fichas/eventos-festividades-playa-de-somo-loredo-somo-cantabria.php [L]
+    RewriteRule ^preguntas-frecuentes-playa-de-somo-loredo-somo-cantabria$ cantabria/playadesomoloredo/fichas/preguntas-frecuentes-playa-de-somo-loredo-somo-cantabria.php [L]
 
     # Noja
-    RewriteRule ^playa-de-noja-cantabria$ localidades/cantabria/playadenoja/fichas/playa-de-noja-cantabria.php [L]
-    RewriteRule ^actividades-playa-de-noja-cantabria$ localidades/cantabria/playadenoja/fichas/actividades-playa-de-noja-cantabria.php [L]
-    RewriteRule ^como-llegar-playa-de-noja-cantabria$ localidades/cantabria/playadenoja/fichas/como-llegar-playa-de-noja-cantabria.php [L]
-    RewriteRule ^servicios-playa-de-noja-cantabria$ localidades/cantabria/playadenoja/fichas/servicios-playa-de-noja-cantabria.php [L]
-    RewriteRule ^eventos-festividades-playa-de-noja-cantabria$ localidades/cantabria/playadenoja/fichas/eventos-festividades-playa-de-noja-cantabria.php [L]
-    RewriteRule ^preguntas-frecuentes-playa-de-noja-cantabria$ localidades/cantabria/playadenoja/fichas/preguntas-frecuentes-playa-de-noja-cantabria.php [L]
+    RewriteRule ^playa-de-noja-cantabria$ cantabria/playadenoja/fichas/playa-de-noja-cantabria.php [L]
+    RewriteRule ^actividades-playa-de-noja-cantabria$ cantabria/playadenoja/fichas/actividades-playa-de-noja-cantabria.php [L]
+    RewriteRule ^como-llegar-playa-de-noja-cantabria$ cantabria/playadenoja/fichas/como-llegar-playa-de-noja-cantabria.php [L]
+    RewriteRule ^servicios-playa-de-noja-cantabria$ cantabria/playadenoja/fichas/servicios-playa-de-noja-cantabria.php [L]
+    RewriteRule ^eventos-festividades-playa-de-noja-cantabria$ cantabria/playadenoja/fichas/eventos-festividades-playa-de-noja-cantabria.php [L]
+    RewriteRule ^preguntas-frecuentes-playa-de-noja-cantabria$ cantabria/playadenoja/fichas/preguntas-frecuentes-playa-de-noja-cantabria.php [L]
 
     
     # Laredo
-    RewriteRule ^playa-de-laredo-cantabria$ localidades/cantabria/playadelaredo/fichas/playa-de-laredo-cantabria.php [L]
-    RewriteRule ^actividades-playa-de-laredo-cantabria$ localidades/cantabria/playadelaredo/fichas/actividades-playa-de-laredo-cantabria.php [L]
-    RewriteRule ^como-llegar-playa-de-laredo-cantabria$ localidades/cantabria/playadelaredo/fichas/como-llegar-playa-de-laredo-cantabria.php [L]
-    RewriteRule ^servicios-playa-de-laredo-cantabria$ localidades/cantabria/playadelaredo/fichas/servicios-playa-de-laredo-cantabria.php [L]
-    RewriteRule ^eventos-festividades-playa-de-laredo-cantabria$ localidades/cantabria/playadelaredo/fichas/eventos-festividades-playa-de-laredo-cantabria.php [L]
-    RewriteRule ^preguntas-frecuentes-playa-de-laredo-cantabria$ localidades/cantabria/playadelaredo/fichas/preguntas-frecuentes-playa-de-laredo-cantabria.php [L]
+    RewriteRule ^playa-de-laredo-cantabria$ cantabria/playadelaredo/fichas/playa-de-laredo-cantabria.php [L]
+    RewriteRule ^actividades-playa-de-laredo-cantabria$ cantabria/playadelaredo/fichas/actividades-playa-de-laredo-cantabria.php [L]
+    RewriteRule ^como-llegar-playa-de-laredo-cantabria$ cantabria/playadelaredo/fichas/como-llegar-playa-de-laredo-cantabria.php [L]
+    RewriteRule ^servicios-playa-de-laredo-cantabria$ cantabria/playadelaredo/fichas/servicios-playa-de-laredo-cantabria.php [L]
+    RewriteRule ^eventos-festividades-playa-de-laredo-cantabria$ cantabria/playadelaredo/fichas/eventos-festividades-playa-de-laredo-cantabria.php [L]
+    RewriteRule ^preguntas-frecuentes-playa-de-laredo-cantabria$ cantabria/playadelaredo/fichas/preguntas-frecuentes-playa-de-laredo-cantabria.php [L]
 
 
     # Isla
-    RewriteRule ^playa-de-isla-cantabria$ localidades/cantabria/playadeisla/fichas/playa-de-isla-cantabria.php [L]
-    RewriteRule ^actividades-playa-de-isla-cantabria$ localidades/cantabria/playadeisla/fichas/actividades-playa-de-isla-cantabria.php [L]
-    RewriteRule ^como-llegar-playa-de-isla-cantabria$ localidades/cantabria/playadeisla/fichas/como-llegar-playa-de-isla-cantabria.php [L]
-    RewriteRule ^servicios-playa-de-isla-cantabria$ localidades/cantabria/playadelaredo/fichas/servicios-playa-de-isla-cantabria.php [L]
-    RewriteRule ^eventos-festividades-playa-de-isla-cantabria$ localidades/cantabria/playadeisla/fichas/eventos-festividades-playa-de-isla-cantabria.php [L]
-    RewriteRule ^preguntas-frecuentes-playa-de-isla-cantabria$ localidades/cantabria/playadeisla/fichas/preguntas-frecuentes-playa-de-isla-cantabria.php [L]
+    RewriteRule ^playa-de-isla-cantabria$ cantabria/playadeisla/fichas/playa-de-isla-cantabria.php [L]
+    RewriteRule ^actividades-playa-de-isla-cantabria$ cantabria/playadeisla/fichas/actividades-playa-de-isla-cantabria.php [L]
+    RewriteRule ^como-llegar-playa-de-isla-cantabria$ cantabria/playadeisla/fichas/como-llegar-playa-de-isla-cantabria.php [L]
+    RewriteRule ^servicios-playa-de-isla-cantabria$ cantabria/playadelaredo/fichas/servicios-playa-de-isla-cantabria.php [L]
+    RewriteRule ^eventos-festividades-playa-de-isla-cantabria$ cantabria/playadeisla/fichas/eventos-festividades-playa-de-isla-cantabria.php [L]
+    RewriteRule ^preguntas-frecuentes-playa-de-isla-cantabria$ cantabria/playadeisla/fichas/preguntas-frecuentes-playa-de-isla-cantabria.php [L]
 
         
     # Suances
-    RewriteRule ^playa-de-suances-cantabria$ localidades/cantabria/playadesuances/fichas/playa-de-suances-cantabria.php [L]
-    RewriteRule ^actividades-playa-de-suances-cantabria$ localidades/cantabria/playadesuances/fichas/actividades-playa-de-suances-cantabria.php [L]
-    RewriteRule ^como-llegar-playa-de-suances-cantabria$ localidades/cantabria/playadesuances/fichas/como-llegar-playa-de-suances-cantabria.php [L]
-    RewriteRule ^servicios-playa-de-suances-cantabria$ localidades/cantabria/playadesuances/fichas/servicios-playa-de-suances-cantabria.php [L]
-    RewriteRule ^eventos-festividades-playa-de-suances-cantabria$ localidades/cantabria/playadesuances/fichas/eventos-festividades-playa-de-suances-cantabria.php [L]
-    RewriteRule ^preguntas-frecuentes-playa-de-suances-cantabria$ localidades/cantabria/playadesuances/fichas/preguntas-frecuentes-playa-de-suances-cantabria.php [L]
+    RewriteRule ^playa-de-suances-cantabria$ cantabria/playadesuances/fichas/playa-de-suances-cantabria.php [L]
+    RewriteRule ^actividades-playa-de-suances-cantabria$ cantabria/playadesuances/fichas/actividades-playa-de-suances-cantabria.php [L]
+    RewriteRule ^como-llegar-playa-de-suances-cantabria$ cantabria/playadesuances/fichas/como-llegar-playa-de-suances-cantabria.php [L]
+    RewriteRule ^servicios-playa-de-suances-cantabria$ cantabria/playadesuances/fichas/servicios-playa-de-suances-cantabria.php [L]
+    RewriteRule ^eventos-festividades-playa-de-suances-cantabria$ cantabria/playadesuances/fichas/eventos-festividades-playa-de-suances-cantabria.php [L]
+    RewriteRule ^preguntas-frecuentes-playa-de-suances-cantabria$ cantabria/playadesuances/fichas/preguntas-frecuentes-playa-de-suances-cantabria.php [L]
 
 
 #VIZCAYA
 
 
     # Playa de Getxo
-    RewriteRule ^playa-de-getxo-vizcaya$ localidades/vizcaya/playadegetxo/fichas/playa-de-getxo-vizcaya.php [L]
-    RewriteRule ^actividades-playa-de-getxo-vizcaya$ localidades/getxo/playadegetxo/fichas/actividades-playa-de-getxo-vizcaya.php [L]
-    RewriteRule ^como-llegar-playa-de-getxo-vizcaya$ localidades/vizcaya/playadegetxo/fichas/como-llegar-playa-de-getxo-vizcaya.php [L]
-    RewriteRule ^servicios-playa-de-getxo-vizcaya$ localidades/vizcaya/playadegetxo/fichas/servicios-playa-de-gecho-vizcaya.php [L]
-    RewriteRule ^eventos-festividades-playa-de-getxo-vizcaya$ localidades/vizcaya/playadegetxo/fichas/eventos-festividades-playa-de-getxo-vizcaya.php [L]
-    RewriteRule ^preguntas-frecuentes-playa-de-getxo-vizcaya$ localidades/vizcaya/playadegetxo/fichas/preguntas-frecuentes-playa-de-getxo-vizcaya.php [L]
+    RewriteRule ^playa-de-getxo-vizcaya$ vizcaya/playadegetxo/fichas/playa-de-getxo-vizcaya.php [L]
+    RewriteRule ^actividades-playa-de-getxo-vizcaya$ getxo/playadegetxo/fichas/actividades-playa-de-getxo-vizcaya.php [L]
+    RewriteRule ^como-llegar-playa-de-getxo-vizcaya$ vizcaya/playadegetxo/fichas/como-llegar-playa-de-getxo-vizcaya.php [L]
+    RewriteRule ^servicios-playa-de-getxo-vizcaya$ vizcaya/playadegetxo/fichas/servicios-playa-de-gecho-vizcaya.php [L]
+    RewriteRule ^eventos-festividades-playa-de-getxo-vizcaya$ vizcaya/playadegetxo/fichas/eventos-festividades-playa-de-getxo-vizcaya.php [L]
+    RewriteRule ^preguntas-frecuentes-playa-de-getxo-vizcaya$ vizcaya/playadegetxo/fichas/preguntas-frecuentes-playa-de-getxo-vizcaya.php [L]
 
 
 
@@ -391,30 +391,30 @@
 
 
 #Lekeitio
-RewriteRule ^playa-de-lekeitio-vizcaya$ localidades/vizcaya/playadelekeitio/fichas/playa-de-lekeitio-vizcaya.php [L]
-RewriteRule ^actividades-playa-de-lekeitio-vizcaya$ localidades/lekeitio/playadelekeitio/fichas/actividades-playa-de-lekeitio-vizcaya.php [L]
-RewriteRule ^como-llegar-playa-de-lekeitio-vizcaya$ localidades/vizcaya/playadelekeitio/fichas/como-llegar-playa-de-lekeitio-vizcaya.php [L]
-RewriteRule ^servicios-playa-de-lekeitio-vizcaya$ localidades/vizcaya/playadelekeitio/fichas/servicios-playa-de-lekeitio-vizcaya.php [L]
-RewriteRule ^eventos-festividades-playa-de-lekeitio-vizcaya$ localidades/vizcaya/playadelekeitio/fichas/eventos-festividades-playa-de-lekeitio-vizcaya.php [L]
-RewriteRule ^preguntas-frecuentes-playa-de-lekeitio-vizcaya$ localidades/vizcaya/playadelekeitio/fichas/preguntas-frecuentes-playa-de-lekeitio-vizcaya.php [L]
+RewriteRule ^playa-de-lekeitio-vizcaya$ vizcaya/playadelekeitio/fichas/playa-de-lekeitio-vizcaya.php [L]
+RewriteRule ^actividades-playa-de-lekeitio-vizcaya$ lekeitio/playadelekeitio/fichas/actividades-playa-de-lekeitio-vizcaya.php [L]
+RewriteRule ^como-llegar-playa-de-lekeitio-vizcaya$ vizcaya/playadelekeitio/fichas/como-llegar-playa-de-lekeitio-vizcaya.php [L]
+RewriteRule ^servicios-playa-de-lekeitio-vizcaya$ vizcaya/playadelekeitio/fichas/servicios-playa-de-lekeitio-vizcaya.php [L]
+RewriteRule ^eventos-festividades-playa-de-lekeitio-vizcaya$ vizcaya/playadelekeitio/fichas/eventos-festividades-playa-de-lekeitio-vizcaya.php [L]
+RewriteRule ^preguntas-frecuentes-playa-de-lekeitio-vizcaya$ vizcaya/playadelekeitio/fichas/preguntas-frecuentes-playa-de-lekeitio-vizcaya.php [L]
 
 
 #Sopelana
-RewriteRule ^playa-de-sopelana-vizcaya$ localidades/vizcaya/playadesopelana/fichas/playa-de-sopelana-vizcaya.php [L]
-RewriteRule ^actividades-playa-de-sopelana-vizcaya$ localidades/sopelana/playadesopelana/fichas/actividades-playa-de-sopelana-vizcaya.php [L]
-RewriteRule ^como-llegar-playa-de-sopelana-vizcaya$ localidades/vizcaya/playadesopelana/fichas/como-llegar-playa-de-sopelana-vizcaya.php [L]
-RewriteRule ^servicios-playa-de-sopelana-vizcaya$ localidades/vizcaya/playadesopelana/fichas/servicios-playa-de-sopelana-vizcaya.php [L]
-RewriteRule ^eventos-festividades-playa-de-sopelana-vizcaya$ localidades/vizcaya/playadesopelana/fichas/eventos-festividades-playa-de-sopelana-vizcaya.php [L]
-RewriteRule ^preguntas-frecuentes-playa-de-sopelana-vizcaya$ localidades/vizcaya/playadesopelana/fichas/preguntas-frecuentes-playa-de-sopelana-vizcaya.php [L]
+RewriteRule ^playa-de-sopelana-vizcaya$ vizcaya/playadesopelana/fichas/playa-de-sopelana-vizcaya.php [L]
+RewriteRule ^actividades-playa-de-sopelana-vizcaya$ sopelana/playadesopelana/fichas/actividades-playa-de-sopelana-vizcaya.php [L]
+RewriteRule ^como-llegar-playa-de-sopelana-vizcaya$ vizcaya/playadesopelana/fichas/como-llegar-playa-de-sopelana-vizcaya.php [L]
+RewriteRule ^servicios-playa-de-sopelana-vizcaya$ vizcaya/playadesopelana/fichas/servicios-playa-de-sopelana-vizcaya.php [L]
+RewriteRule ^eventos-festividades-playa-de-sopelana-vizcaya$ vizcaya/playadesopelana/fichas/eventos-festividades-playa-de-sopelana-vizcaya.php [L]
+RewriteRule ^preguntas-frecuentes-playa-de-sopelana-vizcaya$ vizcaya/playadesopelana/fichas/preguntas-frecuentes-playa-de-sopelana-vizcaya.php [L]
 
 
 #Muskiz
-RewriteRule ^playa-de-muskiz-vizcaya$ localidades/vizcaya/playademuskiz/fichas/playa-de-muskiz-vizcaya.php [L]
-RewriteRule ^actividades-playa-de-muskiz-vizcaya$ localidades/muskiz/playademuskiz/fichas/actividades-playa-de-muskiz-vizcaya.php [L]
-RewriteRule ^como-llegar-playa-de-muskiz-vizcaya$ localidades/vizcaya/playademuskiz/fichas/como-llegar-playa-de-muskiz-vizcaya.php [L]
-RewriteRule ^servicios-playa-de-muskiz-vizcaya$ localidades/vizcaya/playademuskiz/fichas/servicios-playa-de-muskiz-vizcaya.php [L]
-RewriteRule ^eventos-festividades-playa-de-muskiz-vizcaya$ localidades/vizcaya/playademuskiz/fichas/eventos-festividades-playa-de-muskiz-vizcaya.php [L]
-RewriteRule ^preguntas-frecuentes-playa-de-muskiz-vizcaya$ localidades/vizcaya/playademuskiz/fichas/preguntas-frecuentes-playa-de-muskiz-vizcaya.php [L]
+RewriteRule ^playa-de-muskiz-vizcaya$ vizcaya/playademuskiz/fichas/playa-de-muskiz-vizcaya.php [L]
+RewriteRule ^actividades-playa-de-muskiz-vizcaya$ muskiz/playademuskiz/fichas/actividades-playa-de-muskiz-vizcaya.php [L]
+RewriteRule ^como-llegar-playa-de-muskiz-vizcaya$ vizcaya/playademuskiz/fichas/como-llegar-playa-de-muskiz-vizcaya.php [L]
+RewriteRule ^servicios-playa-de-muskiz-vizcaya$ vizcaya/playademuskiz/fichas/servicios-playa-de-muskiz-vizcaya.php [L]
+RewriteRule ^eventos-festividades-playa-de-muskiz-vizcaya$ vizcaya/playademuskiz/fichas/eventos-festividades-playa-de-muskiz-vizcaya.php [L]
+RewriteRule ^preguntas-frecuentes-playa-de-muskiz-vizcaya$ vizcaya/playademuskiz/fichas/preguntas-frecuentes-playa-de-muskiz-vizcaya.php [L]
 
 RewriteRule ^lugares-interes/playa-de-la-arena-muskiz$ /bizkaia/muskiz/lugares-interes/playa-de-la-arena/index.php [L]
 RewriteRule ^lugares-interes/castillo-de-munatones-muskiz$ /bizkaia/muskiz/lugares-interes/castillo-de-munatones/index.php [L]
@@ -425,12 +425,12 @@ RewriteRule ^lugares-interes/castillo-de-munatones-muskiz$ /bizkaia/muskiz/lugar
 
 
 #Azkorri
-RewriteRule ^playa-de-azkorri-vizcaya$ localidades/vizcaya/playadeazkorri/fichas/playa-de-azkorri-vizcaya.php [L]
-RewriteRule ^actividades-playa-de-azkorri-vizcaya$ localidades/azkorri/playadeazkorri/fichas/actividades-playa-de-azkorri-vizcaya.php [L]
-RewriteRule ^como-llegar-playa-de-azkorri-vizcaya$ localidades/vizcaya/playadeazkorri/fichas/como-llegar-playa-de-azkorri-vizcaya.php [L]
-RewriteRule ^servicios-playa-de-azkorri-vizcaya$ localidades/vizcaya/playadeazkorri/fichas/servicios-playa-de-azkorri-vizcaya.php [L]
-RewriteRule ^eventos-festividades-playa-de-azkorri-vizcaya$ localidades/vizcaya/playadeazkorri/fichas/eventos-festividades-playa-de-azkorri-vizcaya.php [L]
-RewriteRule ^preguntas-frecuentes-playa-de-azkorri-vizcaya$ localidades/vizcaya/playadeazkorri/fichas/preguntas-frecuentes-playa-de-azkorri-vizcaya.php [L]
+RewriteRule ^playa-de-azkorri-vizcaya$ vizcaya/playadeazkorri/fichas/playa-de-azkorri-vizcaya.php [L]
+RewriteRule ^actividades-playa-de-azkorri-vizcaya$ azkorri/playadeazkorri/fichas/actividades-playa-de-azkorri-vizcaya.php [L]
+RewriteRule ^como-llegar-playa-de-azkorri-vizcaya$ vizcaya/playadeazkorri/fichas/como-llegar-playa-de-azkorri-vizcaya.php [L]
+RewriteRule ^servicios-playa-de-azkorri-vizcaya$ vizcaya/playadeazkorri/fichas/servicios-playa-de-azkorri-vizcaya.php [L]
+RewriteRule ^eventos-festividades-playa-de-azkorri-vizcaya$ vizcaya/playadeazkorri/fichas/eventos-festividades-playa-de-azkorri-vizcaya.php [L]
+RewriteRule ^preguntas-frecuentes-playa-de-azkorri-vizcaya$ vizcaya/playadeazkorri/fichas/preguntas-frecuentes-playa-de-azkorri-vizcaya.php [L]
 
 
 
@@ -440,48 +440,48 @@ RewriteRule ^preguntas-frecuentes-playa-de-azkorri-vizcaya$ localidades/vizcaya/
 
 
 #Fuenterrabia
-RewriteRule ^playa-de-fuenterrabia-gipuzkoa$ localidades/gipuzkoa/playadefuenterrabia/fichas/playa-de-fuenterrabia-gipuzkoa.php [L]
-RewriteRule ^actividades-playa-de-fuenterrabia-gipuzkoa$ localidades/fuenterrabia/playadefuenterrabia/fichas/actividades-playa-de-fuenterrabia-gipuzkoa.php [L]
-RewriteRule ^como-llegar-playa-de-fuenterrabia-gipuzkoa$ localidades/gipuzkoa/playadefuenterrabia/fichas/como-llegar-playa-de-fuenterrabia-gipuzkoa.php [L]
-RewriteRule ^servicios-playa-de-fuenterrabia-gipuzkoa$ localidades/gipuzkoa/playadefuenterrabia/fichas/servicios-playa-de-fuenterrabia-gipuzkoa.php [L]
-RewriteRule ^eventos-festividades-playa-de-fuenterrabia-gipuzkoa$ localidades/gipuzkoa/playadefuenterrabia/fichas/eventos-festividades-playa-de-fuenterrabia-gipuzkoa.php [L]
-RewriteRule ^preguntas-frecuentes-playa-de-fuenterrabia-gipuzkoa$ localidades/gipuzkoa/playadefuenterrabia/fichas/preguntas-frecuentes-playa-de-fuenterrabia-gipuzkoa.php [L]
+RewriteRule ^playa-de-fuenterrabia-gipuzkoa$ gipuzkoa/playadefuenterrabia/fichas/playa-de-fuenterrabia-gipuzkoa.php [L]
+RewriteRule ^actividades-playa-de-fuenterrabia-gipuzkoa$ fuenterrabia/playadefuenterrabia/fichas/actividades-playa-de-fuenterrabia-gipuzkoa.php [L]
+RewriteRule ^como-llegar-playa-de-fuenterrabia-gipuzkoa$ gipuzkoa/playadefuenterrabia/fichas/como-llegar-playa-de-fuenterrabia-gipuzkoa.php [L]
+RewriteRule ^servicios-playa-de-fuenterrabia-gipuzkoa$ gipuzkoa/playadefuenterrabia/fichas/servicios-playa-de-fuenterrabia-gipuzkoa.php [L]
+RewriteRule ^eventos-festividades-playa-de-fuenterrabia-gipuzkoa$ gipuzkoa/playadefuenterrabia/fichas/eventos-festividades-playa-de-fuenterrabia-gipuzkoa.php [L]
+RewriteRule ^preguntas-frecuentes-playa-de-fuenterrabia-gipuzkoa$ gipuzkoa/playadefuenterrabia/fichas/preguntas-frecuentes-playa-de-fuenterrabia-gipuzkoa.php [L]
 
 
 # Getaria
-RewriteRule ^playa-de-getaria-gipuzkoa$ localidades/gipuzkoa/playadegetaria/fichas/playa-de-getaria-gipuzkoa.php [L]
-RewriteRule ^actividades-playa-de-getaria-gipuzkoa$ localidades/getaria/playadegetaria/fichas/actividades-playa-de-getaria-gipuzkoa.php [L]
-RewriteRule ^como-llegar-playa-de-getaria-gipuzkoa$ localidades/gipuzkoa/playadegetaria/fichas/como-llegar-playa-de-getaria-gipuzkoa.php [L]
-RewriteRule ^servicios-playa-de-getaria-gipuzkoa$ localidades/gipuzkoa/playadegetaria/fichas/servicios-playa-de-getaria-gipuzkoa.php [L]
-RewriteRule ^eventos-festividades-playa-de-getaria-gipuzkoa$ localidades/gipuzkoa/playadegetaria/fichas/eventos-festividades-playa-de-getaria-gipuzkoa.php [L]
-RewriteRule ^preguntas-frecuentes-playa-de-getaria-gipuzkoa$ localidades/gipuzkoa/playadegetaria/fichas/preguntas-frecuentes-playa-de-getaria-gipuzkoa.php [L]
+RewriteRule ^playa-de-getaria-gipuzkoa$ gipuzkoa/playadegetaria/fichas/playa-de-getaria-gipuzkoa.php [L]
+RewriteRule ^actividades-playa-de-getaria-gipuzkoa$ getaria/playadegetaria/fichas/actividades-playa-de-getaria-gipuzkoa.php [L]
+RewriteRule ^como-llegar-playa-de-getaria-gipuzkoa$ gipuzkoa/playadegetaria/fichas/como-llegar-playa-de-getaria-gipuzkoa.php [L]
+RewriteRule ^servicios-playa-de-getaria-gipuzkoa$ gipuzkoa/playadegetaria/fichas/servicios-playa-de-getaria-gipuzkoa.php [L]
+RewriteRule ^eventos-festividades-playa-de-getaria-gipuzkoa$ gipuzkoa/playadegetaria/fichas/eventos-festividades-playa-de-getaria-gipuzkoa.php [L]
+RewriteRule ^preguntas-frecuentes-playa-de-getaria-gipuzkoa$ gipuzkoa/playadegetaria/fichas/preguntas-frecuentes-playa-de-getaria-gipuzkoa.php [L]
 
 
 # Orio
-RewriteRule ^playa-de-orio-gipuzkoa$ localidades/gipuzkoa/playadeorio/fichas/playa-de-orio-gipuzkoa.php [L]
-RewriteRule ^actividades-playa-de-orio-gipuzkoa$ localidades/orio/playadeorio/fichas/actividades-playa-de-orio-gipuzkoa.php [L]
-RewriteRule ^como-llegar-playa-de-orio-gipuzkoa$ localidades/gipuzkoa/playadeorio/fichas/como-llegar-playa-de-orio-gipuzkoa.php [L]
-RewriteRule ^servicios-playa-de-orio-gipuzkoa$ localidades/gipuzkoa/playadeorio/fichas/servicios-playa-de-orio-gipuzkoa.php [L]
-RewriteRule ^eventos-festividades-playa-de-orio-gipuzkoa$ localidades/gipuzkoa/playadeorio/fichas/eventos-festividades-playa-de-orio-gipuzkoa.php [L]
-RewriteRule ^preguntas-frecuentes-playa-de-orio-gipuzkoa$ localidades/gipuzkoa/playadeorio/fichas/preguntas-frecuentes-playa-de-orio-gipuzkoa.php [L]
+RewriteRule ^playa-de-orio-gipuzkoa$ gipuzkoa/playadeorio/fichas/playa-de-orio-gipuzkoa.php [L]
+RewriteRule ^actividades-playa-de-orio-gipuzkoa$ orio/playadeorio/fichas/actividades-playa-de-orio-gipuzkoa.php [L]
+RewriteRule ^como-llegar-playa-de-orio-gipuzkoa$ gipuzkoa/playadeorio/fichas/como-llegar-playa-de-orio-gipuzkoa.php [L]
+RewriteRule ^servicios-playa-de-orio-gipuzkoa$ gipuzkoa/playadeorio/fichas/servicios-playa-de-orio-gipuzkoa.php [L]
+RewriteRule ^eventos-festividades-playa-de-orio-gipuzkoa$ gipuzkoa/playadeorio/fichas/eventos-festividades-playa-de-orio-gipuzkoa.php [L]
+RewriteRule ^preguntas-frecuentes-playa-de-orio-gipuzkoa$ gipuzkoa/playadeorio/fichas/preguntas-frecuentes-playa-de-orio-gipuzkoa.php [L]
 
 
 #Zarautz
-RewriteRule ^playa-de-zarautz-gipuzkoa$ localidades/gipuzkoa/playadezarautz/fichas/playa-de-zarautz-gipuzkoa.php [L]
-RewriteRule ^actividades-playa-de-zarautz-gipuzkoa$ localidades/zarautz/playadezarautz/fichas/actividades-playa-de-zarautz-gipuzkoa.php [L]
-RewriteRule ^como-llegar-playa-de-zarautz-gipuzkoa$ localidades/gipuzkoa/playadezarautz/fichas/como-llegar-playa-de-zarautz-gipuzkoa.php [L]
-RewriteRule ^servicios-playa-de-zarautz-gipuzkoa$ localidades/gipuzkoa/playadezarautz/fichas/servicios-playa-de-zarautz-gipuzkoa.php [L]
-RewriteRule ^eventos-festividades-playa-de-zarautz-gipuzkoa$ localidades/gipuzkoa/playadezarautz/fichas/eventos-festividades-playa-de-zarautz-gipuzkoa.php [L]
-RewriteRule ^preguntas-frecuentes-playa-de-zarautz-gipuzkoa$ localidades/gipuzkoa/playadezarautz/fichas/preguntas-frecuentes-playa-de-zarautz-gipuzkoa.php [L]
+RewriteRule ^playa-de-zarautz-gipuzkoa$ gipuzkoa/playadezarautz/fichas/playa-de-zarautz-gipuzkoa.php [L]
+RewriteRule ^actividades-playa-de-zarautz-gipuzkoa$ zarautz/playadezarautz/fichas/actividades-playa-de-zarautz-gipuzkoa.php [L]
+RewriteRule ^como-llegar-playa-de-zarautz-gipuzkoa$ gipuzkoa/playadezarautz/fichas/como-llegar-playa-de-zarautz-gipuzkoa.php [L]
+RewriteRule ^servicios-playa-de-zarautz-gipuzkoa$ gipuzkoa/playadezarautz/fichas/servicios-playa-de-zarautz-gipuzkoa.php [L]
+RewriteRule ^eventos-festividades-playa-de-zarautz-gipuzkoa$ gipuzkoa/playadezarautz/fichas/eventos-festividades-playa-de-zarautz-gipuzkoa.php [L]
+RewriteRule ^preguntas-frecuentes-playa-de-zarautz-gipuzkoa$ gipuzkoa/playadezarautz/fichas/preguntas-frecuentes-playa-de-zarautz-gipuzkoa.php [L]
 
 
 # Zumaia
-RewriteRule ^playa-de-zumaia-gipuzkoa$ localidades/gipuzkoa/playadezumaia/fichas/playa-de-zumaia-gipuzkoa.php [L]
-RewriteRule ^actividades-playa-de-zumaia-gipuzkoa$ localidades/zumaia/playadezumaia/fichas/actividades-playa-de-zumaia-gipuzkoa.php [L]
-RewriteRule ^como-llegar-playa-de-zumaia-gipuzkoa$ localidades/gipuzkoa/playadezumaia/fichas/como-llegar-playa-de-zumaia-gipuzkoa.php [L]
-RewriteRule ^servicios-playa-de-zumaia-gipuzkoa$ localidades/gipuzkoa/playadezumaia/fichas/servicios-playa-de-zumaia-gipuzkoa.php [L]
-RewriteRule ^eventos-festividades-playa-de-zumaia-gipuzkoa$ localidades/gipuzkoa/playadezumaia/fichas/eventos-festividades-playa-de-zumaia-gipuzkoa.php [L]
-RewriteRule ^preguntas-frecuentes-playa-de-zumaia-gipuzkoa$ localidades/gipuzkoa/playadezumaia/fichas/preguntas-frecuentes-playa-de-zumaia-gipuzkoa.php [L]
+RewriteRule ^playa-de-zumaia-gipuzkoa$ gipuzkoa/playadezumaia/fichas/playa-de-zumaia-gipuzkoa.php [L]
+RewriteRule ^actividades-playa-de-zumaia-gipuzkoa$ zumaia/playadezumaia/fichas/actividades-playa-de-zumaia-gipuzkoa.php [L]
+RewriteRule ^como-llegar-playa-de-zumaia-gipuzkoa$ gipuzkoa/playadezumaia/fichas/como-llegar-playa-de-zumaia-gipuzkoa.php [L]
+RewriteRule ^servicios-playa-de-zumaia-gipuzkoa$ gipuzkoa/playadezumaia/fichas/servicios-playa-de-zumaia-gipuzkoa.php [L]
+RewriteRule ^eventos-festividades-playa-de-zumaia-gipuzkoa$ gipuzkoa/playadezumaia/fichas/eventos-festividades-playa-de-zumaia-gipuzkoa.php [L]
+RewriteRule ^preguntas-frecuentes-playa-de-zumaia-gipuzkoa$ gipuzkoa/playadezumaia/fichas/preguntas-frecuentes-playa-de-zumaia-gipuzkoa.php [L]
 
 
 
@@ -491,15 +491,15 @@ RewriteRule ^preguntas-frecuentes-playa-de-zumaia-gipuzkoa$ localidades/gipuzkoa
 
 
 # Hendaya
-RewriteRule ^hendaia-nouvelle-aquitaine$     localidades/nouvelle-aquitaine/hendaia/index.php [L]
+RewriteRule ^hendaia-nouvelle-aquitaine$     nouvelle-aquitaine/hendaia/index.php [L]
     
 
-RewriteRule ^playa-de-hendaya-francia$ localidades/francia/playadehendaya/fichas/playa-de-hendaya-francia.php [L]
-RewriteRule ^actividades-playa-de-hendaya-francia$ localidades/zumaia/playadehendaya/fichas/actividades-playa-de-hendaya-francia.php [L]
-RewriteRule ^como-llegar-playa-de-hendaya-francia$ localidades/gipuzkoa/playadehendaya/fichas/como-llegar-playa-de-hendaya-francia.php [L]
-RewriteRule ^servicios-playa-de-hendaya-francia$ localidades/gipuzkoa/playadehendaya/fichas/servicios-playa-de-hendaya-francia.php [L]
-RewriteRule ^eventos-festividades-playa-de-hendaya-francia$ localidades/gipuzkoa/playadehendaya/fichas/eventos-festividades-playa-de-hendaya-francia.php [L]
-RewriteRule ^preguntas-frecuentes-playa-de-hendaya-francia$ localidades/gipuzkoa/playadehendaya/fichas/preguntas-frecuentes-playa-de-hendaya-francia.php [L]
+RewriteRule ^playa-de-hendaya-francia$ francia/playadehendaya/fichas/playa-de-hendaya-francia.php [L]
+RewriteRule ^actividades-playa-de-hendaya-francia$ zumaia/playadehendaya/fichas/actividades-playa-de-hendaya-francia.php [L]
+RewriteRule ^como-llegar-playa-de-hendaya-francia$ gipuzkoa/playadehendaya/fichas/como-llegar-playa-de-hendaya-francia.php [L]
+RewriteRule ^servicios-playa-de-hendaya-francia$ gipuzkoa/playadehendaya/fichas/servicios-playa-de-hendaya-francia.php [L]
+RewriteRule ^eventos-festividades-playa-de-hendaya-francia$ gipuzkoa/playadehendaya/fichas/eventos-festividades-playa-de-hendaya-francia.php [L]
+RewriteRule ^preguntas-frecuentes-playa-de-hendaya-francia$ gipuzkoa/playadehendaya/fichas/preguntas-frecuentes-playa-de-hendaya-francia.php [L]
 
 
 

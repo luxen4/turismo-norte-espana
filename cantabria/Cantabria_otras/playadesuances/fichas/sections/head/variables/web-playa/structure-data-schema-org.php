@@ -12,6 +12,6 @@ $mainEntity_geo_latitude = 43.4250;
 $mainEntity_geo_longitude = -4.1185;
 
 // Imagen representativa y URL canónica
-$mainEntity_image = PATH_RAIZ . "localidades/{$region_minuscula}/playadesuances/img/{$rutas}.jpg";
+$mainEntity_image = PATH_RAIZ . "{$region_minuscula}/playadesuances/img/{$rutas}.jpg";
 $mainEntity_url = PATH_RAIZ . "{$rutas}";
 ?>

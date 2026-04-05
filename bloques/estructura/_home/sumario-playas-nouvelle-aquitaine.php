@@ -21,7 +21,7 @@
             Su proximidad al centro histórico y su entorno pintoresco ofrecen un equilibrio perfecto entre ambiente costero y encanto vasco-francés para quienes desean disfrutar del litoral en un marco único.';
             ?>
 
-            <?php $pATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS = "/Blog_Playas2026/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playas/{$localidad_minuscula}"; ?>
+            <?php $pATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS = "/Blog_Playas2026/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playas/{$localidad_minuscula}"; ?>
 
             <div class="col-12 col-md-6 mb-4">
             <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/body/card-playa.php'; ?>
@@ -43,7 +43,7 @@
         Rodeada de edificios históricos y con un animado paseo marítimo, ofrece un equilibrio perfecto entre glamour, ocio y naturaleza para quienes desean descubrir la costa vasco-francesa.';
         ?>
 
-        <?php $pATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS = "/Blog_Playas2026/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playas/{$localidad_minuscula}"; ?>
+        <?php $pATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS = "/Blog_Playas2026/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playas/{$localidad_minuscula}"; ?>
 
         <div class="col-12 col-md-6 mb-4">
         <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/body/card-playa.php'; ?>
@@ -68,7 +68,7 @@
         Su ubicación junto al puerto y al centro urbano la convierte en un lugar perfecto para combinar deporte, ocio y relax en la costa de Las Landas.';
         ?>
 
-        <?php $pATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS = "/Blog_Playas2026/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playas/{$localidad_minuscula}"; ?>
+        <?php $pATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS = "/Blog_Playas2026/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playas/{$localidad_minuscula}"; ?>
 
         <div class="col-12 col-md-6 mb-4"><?php echo($localidad_minuscula);?>
         <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/body/card-playa.php'; ?>
@@ -92,7 +92,7 @@
         Cuenta con todos los servicios necesarios, como duchas, vigilancia y zonas de ocio, y su cercanía al casco urbano ofrece un acceso cómodo y un ambiente animado junto a la frontera con España.';
         ?>
 
-        <?php $pATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS = "/Blog_Playas2026/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playas/{$localidad_minuscula}"; ?>
+        <?php $pATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS = "/Blog_Playas2026/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playas/{$localidad_minuscula}"; ?>
 
         <div class="col-12 col-md-6 mb-4">
         <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/body/card-playa.php'; ?>

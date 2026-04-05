@@ -18,6 +18,6 @@
     $mainEntity_geo_latitude = 43.4897;  // Coordenadas reales aproximadas
     $mainEntity_geo_longitude = -3.5231;
 
-    $mainEntity_image = PATH_RAIZ . "localidades/{$region_minuscula}/{$localidad_minuscula}/{$rutas}.jpg";
+    $mainEntity_image = PATH_RAIZ . "{$region_minuscula}/{$localidad_minuscula}/{$rutas}.jpg";
     $mainEntity_url = $url;
 ?>

@@ -9,4 +9,4 @@
     COLOR_PAGE = 'green'; // Puedes cambiarlo si usas otro esquema de color
     lugar_minuscula_footer = '- Alojamientos en Castro Urdiales -'; 
 ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/carga-variables.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/carga-variables.php"; ?>

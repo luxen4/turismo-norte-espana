@@ -13,7 +13,7 @@
         </div>
 
 
-  <?php define('PATH_HREF_FICHAS', "/Blog_Playas2026/localidades/{$region}/{$localidad_minuscula}"); ?>
+  <?php define('PATH_HREF_FICHAS', "/Blog_Playas2026/{$region}/{$localidad_minuscula}"); ?>
   <?php $archivo_playa = 'index.php'; ?>
 
         <!-- Ítems de navegación -->

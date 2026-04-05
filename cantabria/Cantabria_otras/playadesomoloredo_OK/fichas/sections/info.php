@@ -294,7 +294,7 @@ $li_services3 = '
 <?php
 $nombre_Playa = 'Playa de Somo';
 $nombre_Playa_region = 'Playa de Somo, Cantabria';
-$ruta_imagenes = '/Blog_Playas2026/localidades/cantabria/playadesomoloredo/img/';
+$ruta_imagenes = '/Blog_Playas2026/cantabria/playadesomoloredo/img/';
 $final_archivo = 'playa-somo-loredo-somo-cantabria.jpg';
 
 

@@ -14,7 +14,7 @@
 <meta property="og:description" content="Descubre qué hacer en la Playa de Somo y Loredo: surf, senderismo, naturaleza y más planes en la costa cántabra." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://playas2024.kesug.com/Blog_Playas2026/actividades-playa-de-somo-loredo-cantabria" />
-<meta property="og:image" content="https://playas2024.kesug.com/Blog_Playas2026/localidades/cantabria/somoloredo/img/actividades-playa-de-somo-loredo-cantabria.jpg" />
+<meta property="og:image" content="https://playas2024.kesug.com/Blog_Playas2026/cantabria/somoloredo/img/actividades-playa-de-somo-loredo-cantabria.jpg" />
 <meta property="og:image:alt" content="Vista aérea de la Playa de Somo-Loredo, famosa por el surf y sus paisajes naturales" />
 <meta property="article:published_time" content="<?= $hoy ?>T08:00:00+01:00" />
 <meta property="article:modified_time" content="<?= $hoy ?>T08:00:00+01:00" />
@@ -27,6 +27,6 @@
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Actividades en la Playa de Somo-Loredo – Cantabria" />
 <meta name="twitter:description" content="Descubre qué hacer en la Playa de Somo y Loredo: surf, paseos, naturaleza y actividades al aire libre." />
-<meta name="twitter:image" content="https://playas2024.kesug.com/Blog_Playas2026/localidades/cantabria/somoloredo/img/actividades-playa-de-somo-loredo-cantabria.jpg" />
+<meta name="twitter:image" content="https://playas2024.kesug.com/Blog_Playas2026/cantabria/somoloredo/img/actividades-playa-de-somo-loredo-cantabria.jpg" />
 <meta name="twitter:image:alt" content="Surfistas en la Playa de Somo-Loredo con olas perfectas" />
 <meta name="twitter:site" content="@TuCuentaTwitter" />

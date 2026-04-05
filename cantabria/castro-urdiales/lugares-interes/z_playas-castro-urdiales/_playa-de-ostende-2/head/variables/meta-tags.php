@@ -11,8 +11,8 @@ $keywords_content    = "playa de ostende, castro urdiales, playas cantabria, tur
 
 $graph_Meta_Tags_property_title       = "Playa de Ostende – Castro Urdiales | Guía y Servicios";
 $graph_Meta_Tags_property_description = "Descubre la Playa de Ostende en Castro Urdiales: arena dorada, fuerte oleaje, ideal para paseos costeros y con todos los servicios que necesitas en la costa cantábrica.";
-$graph_Meta_Tags_property_image       = PATH_HREF_RAIZ . "/localidades/{$region_minuscula}/{$localidad_minuscula}/img/playa-ostende.jpg";
-$graph_Meta_Tags_property_url         = PATH_HREF_RAIZ . "/localidades/{$region_minuscula}/{$localidad_minuscula}/fichas/{$rutas}.php";
+$graph_Meta_Tags_property_image       = PATH_HREF_RAIZ . "/{$region_minuscula}/{$localidad_minuscula}/img/playa-ostende.jpg";
+$graph_Meta_Tags_property_url         = PATH_HREF_RAIZ . "/{$region_minuscula}/{$localidad_minuscula}/fichas/{$rutas}.php";
 $graph_Meta_Tags_property_type        = "article";
 
 $graph_Meta_Tags_property_site_name   = "Turismo y Playas 2026 – Guía Costera de España";

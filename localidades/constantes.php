@@ -1,7 +1,7 @@
 
 <?php define('SITE_VERIFICATION_CONTENT', "6fdc72f26c4563f937e32ff3def5f9d5"); ?>
 <?php define('HOY', date('Y-m-d')); ?>
-<?php define('PATH_HREF_CARPETA_LUGARES_INTERES', "/Blog_Playas2026/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes");?>
+<?php define('PATH_HREF_CARPETA_LUGARES_INTERES', "/Blog_Playas2026/{$region_minuscula}/{$localidad_minuscula}/lugares-interes");?>
 
 <?php define('PATH_HREF_RAIZ', "/Blog_Playas2026"); ?>
 <?php define('PATH_HREF_RAIZ_REGION_LOCALIDAD', PATH_HREF_RAIZ.'/'.$region_minuscula.'/'.$localidad_minuscula); ?>

@@ -1,6 +1,6 @@
 <?php
 if (!defined('PATH_HREF_RAIZ_LOCALIDAD')) {
-    define('PATH_HREF_RAIZ_LOCALIDAD', "/Blog_Playas2026/localidades/{$region_minuscula}/{$localidad_minuscula}");
+    define('PATH_HREF_RAIZ_LOCALIDAD', "/Blog_Playas2026/{$region_minuscula}/{$localidad_minuscula}");
 }
 ?>
 

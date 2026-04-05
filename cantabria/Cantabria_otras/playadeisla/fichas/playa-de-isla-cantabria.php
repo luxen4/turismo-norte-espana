@@ -5,7 +5,7 @@
 
 <?php
 // Variables para la página de la Playa de Isla
-require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2026/localidades/cantabria/playadeisla/fichas/sections/head/variables/web-playa/localizacion-playa.php';
+require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2026/cantabria/playadeisla/fichas/sections/head/variables/web-playa/localizacion-playa.php';
 require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2026/bloques/estructura/variables_comunes/defines.php';
 
 $site_verification_content = 'e148bdbc89c019bd06122ab7bd08a8be'; // Actualiza si tienes un código específico para Isla

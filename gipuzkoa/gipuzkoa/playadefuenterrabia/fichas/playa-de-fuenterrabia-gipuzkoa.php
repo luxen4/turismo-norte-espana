@@ -10,21 +10,21 @@ $keywords_content = 'Playa de Fuenterrabía, deportes acuáticos, naturaleza, Co
 
 $graph_Meta_Tags_property_title = 'Playa de Fuenterrabía - Información y Turismo';
 $graph_Meta_Tags_property_description = 'Descubre la Playa de Fuenterrabía, una hermosa playa en el País Vasco, ideal para disfrutar de un entorno natural único, practicar deportes acuáticos y explorar la histórica localidad de Fuenterrabía.';
-$graph_Meta_Tags_property_image = 'http://playas2024.kesug.com/localidades/guipuzkoa/playadefuenterrabia/playa-de-fuenterrabia.jpg';
-$graph_Meta_Tags_property_url = 'http://playas2024.kesug.com/localidades/guipuzkoa/playadefuenterrabia/fichas/playa-de-fuenterrabia.php';
+$graph_Meta_Tags_property_image = '<?= PATH_DOMINIO_RAIZ; ?>/guipuzkoa/playadefuenterrabia/playa-de-fuenterrabia.jpg';
+$graph_Meta_Tags_property_url = '<?= PATH_DOMINIO_RAIZ; ?>/guipuzkoa/playadefuenterrabia/fichas/playa-de-fuenterrabia.php';
 $graph_Meta_Tags_property_type = 'website';
 
 $twiterCards_card = 'summary_large_image';
 $twiterCards_site = '@laya_garcia';
 $twiterCards_title = 'Playa de Fuenterrabía - Información y Turismo';
 $twiterCards_descripcion = 'Descubre la Playa de Fuenterrabía, una hermosa playa en el País Vasco, ideal para disfrutar de un entorno natural único, practicar deportes acuáticos y explorar la histórica localidad de Fuenterrabía.';
-$twiterCards_image = 'http://playas2024.kesug.com/localidades/guipuzkoa/playadefuenterrabia/playa-de-fuenterrabia.jpg';
-$twiterCards_url = 'http://playas2024.kesug.com/localidades/guipuzkoa/playadefuenterrabia/fichas/playa-de-fuenterrabia.php?i=1';
+$twiterCards_image = '<?= PATH_DOMINIO_RAIZ; ?>/guipuzkoa/playadefuenterrabia/playa-de-fuenterrabia.jpg';
+$twiterCards_url = '<?= PATH_DOMINIO_RAIZ; ?>/guipuzkoa/playadefuenterrabia/fichas/playa-de-fuenterrabia.php?i=1';
 
 $pinterest_property_card_card_content = 'summary_large_image';
 $pinterest_property_card_title_content = 'Playa de Fuenterrabía - Información y Turismo';
 $pinterest_property_card_description_content = 'Descubre la Playa de Fuenterrabía, una hermosa playa en el País Vasco, ideal para disfrutar de un entorno natural único, practicar deportes acuáticos y explorar la histórica localidad de Fuenterrabía.';
-$pinterest_property_card_image_content = 'http://playas2024.kesug.com/localidades/guipuzkoa/playadefuenterrabia/playa-de-fuenterrabia.jpg';
+$pinterest_property_card_image_content = '<?= PATH_DOMINIO_RAIZ; ?>/guipuzkoa/playadefuenterrabia/playa-de-fuenterrabia.jpg';
 
 $href_styles = './../fichas/css/styles.css';
 
@@ -35,7 +35,7 @@ $localidad = 'Fuenterrabía';
 $localidad_minuscula = 'fuenterrabia';
 
 $descripcion = 'Descubre la Playa de Fuenterrabía, un destino ideal para disfrutar de un entorno natural único, practicar deportes acuáticos y explorar la histórica localidad de Fuenterrabía.';
-$url = 'http://playas2024.kesug.com/localidades/guipuzkoa/playadefuenterrabia/fichas/playa-de-fuenterrabia.php';
+$url = '<?= PATH_DOMINIO_RAIZ; ?>/guipuzkoa/playadefuenterrabia/fichas/playa-de-fuenterrabia.php';
 
 $mainEntity_description = 'La Playa de Fuenterrabía es un lugar privilegiado en el País Vasco, conocido por su belleza natural, arena dorada, y su cercanía a la histórica localidad de Fuenterrabía.';
 $mainEntity_addressLocality = 'Fuenterrabía';
@@ -46,7 +46,7 @@ $mainEntity_geo_latitude = 43.3667;
 $mainEntity_geo_longitude = -1.7903;
 
 $mainEntity_image = 'https://example.com/path/to/fuenterrabia-image.jpg';
-$mainEntity_url = 'http://playas2024.kesug.com/localidades/guipuzkoa/playade' . $localidad_minuscula . '/fichas/playa-de-' . $localidad_minuscula . '.php';
+$mainEntity_url = '<?= PATH_DOMINIO_RAIZ; ?>/guipuzkoa/playade' . $localidad_minuscula . '/fichas/playa-de-' . $localidad_minuscula . '.php';
 ////////
 
 require "./../../../../bloques/estructura/head.php"; ?>

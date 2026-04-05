@@ -10,21 +10,21 @@ $keywords_content = 'Playa de San Juan de Luz, surf, naturaleza, paseo marítimo
 
 $graph_Meta_Tags_property_title = 'Playa de San Juan de Luz - Información y Turismo';
 $graph_Meta_Tags_property_description = 'Explora la Playa de San Juan de Luz, un hermoso arenal en la costa vasca francesa, ideal para disfrutar del surf, paseos marítimos y la rica gastronomía local.';
-$graph_Meta_Tags_property_image = 'http://playas2024.kesug.com/localidades/francia/playa-de-saint-jean-de-luz/playa-de-saint-jean-de-luz.jpg';
-$graph_Meta_Tags_property_url = 'http://playas2024.kesug.com/localidades/francia/playadesanjuandeluz/fichas/playa-de-saint-jean-de-luz.php';
+$graph_Meta_Tags_property_image = '<?= PATH_DOMINIO_RAIZ; ?>/francia/playa-de-saint-jean-de-luz/playa-de-saint-jean-de-luz.jpg';
+$graph_Meta_Tags_property_url = '<?= PATH_DOMINIO_RAIZ; ?>/francia/playadesanjuandeluz/fichas/playa-de-saint-jean-de-luz.php';
 $graph_Meta_Tags_property_type = 'website';
 
 $twiterCards_card = 'summary_large_image';
 $twiterCards_site = '@laya_garcia'; // Actualiza si es necesario
 $twiterCards_title = 'Playa de San Juan de Luz - Información y Turismo';
 $twiterCards_descripcion = 'Explora la Playa de San Juan de Luz, un hermoso arenal en la costa vasca francesa, ideal para disfrutar del surf, paseos marítimos y la rica gastronomía local.';
-$twiterCards_image = 'http://playas2024.kesug.com/localidades/francia/playa-de-saint-jean-de-luz/playa-de-saint-jean-de-luz.jpg';
-$twiterCards_url = 'http://playas2024.kesug.com/localidades/francia/playadesanjuandeluz/fichas/playa-de-saint-jean-de-luz.php?i=1';
+$twiterCards_image = '<?= PATH_DOMINIO_RAIZ; ?>/francia/playa-de-saint-jean-de-luz/playa-de-saint-jean-de-luz.jpg';
+$twiterCards_url = '<?= PATH_DOMINIO_RAIZ; ?>/francia/playadesanjuandeluz/fichas/playa-de-saint-jean-de-luz.php?i=1';
 
 $pinterest_property_card_card_content = 'summary_large_image';
 $pinterest_property_card_title_content = 'Playa de San Juan de Luz - Información y Turismo';
 $pinterest_property_card_description_content = 'Explora la Playa de San Juan de Luz, un hermoso arenal en la costa vasca francesa, ideal para disfrutar del surf, paseos marítimos y la rica gastronomía local.';
-$pinterest_property_card_image_content = 'http://playas2024.kesug.com/localidades/francia/playa-de-saint-jean-de-luz/playa-de-saint-jean-de-luz.jpg';
+$pinterest_property_card_image_content = '<?= PATH_DOMINIO_RAIZ; ?>/francia/playa-de-saint-jean-de-luz/playa-de-saint-jean-de-luz.jpg';
 
 $href_styles = './../fichas/css/styles.css';
 
@@ -35,7 +35,7 @@ $localidad = 'San Juan de Luz';
 $localidad_minuscula = 'saint-jean-de-luz';
 
 $descripcion = 'Explora la Playa de San Juan de Luz, un destino famoso por su hermoso arenal, excelente para practicar surf y disfrutar de un vibrante paseo marítimo lleno de vida.';
-$url = 'http://playas2024.kesug.com/localidades/francia/playadesanjuandeluz/fichas/playa-de-saint-jean-de-luz.php';
+$url = '<?= PATH_DOMINIO_RAIZ; ?>/francia/playadesanjuandeluz/fichas/playa-de-saint-jean-de-luz.php';
 
 $mainEntity_description = 'La Playa de San Juan de Luz es una de las playas más emblemáticas de la costa vasca francesa, conocida por su hermoso arenal, mar tranquilo y excelente oferta gastronómica.';
 $mainEntity_addressLocality = 'San Juan de Luz';
@@ -46,7 +46,7 @@ $mainEntity_geo_latitude = 43.3833;
 $mainEntity_geo_longitude = -1.6667;
 
 $mainEntity_image = 'https://example.com/path/to/saint-jean-de-luz-image.jpg'; // Reemplaza con la imagen correcta
-$mainEntity_url = 'http://playas2024.kesug.com/localidades/francia/playadesanjuandeluz/fichas/playa-de-saint-jean-de-luz.php';
+$mainEntity_url = '<?= PATH_DOMINIO_RAIZ; ?>/francia/playadesanjuandeluz/fichas/playa-de-saint-jean-de-luz.php';
 ////////
 
 require "./../../../../bloques/estructura/head.php"; ?>

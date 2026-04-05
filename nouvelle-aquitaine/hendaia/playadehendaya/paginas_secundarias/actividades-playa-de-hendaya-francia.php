@@ -8,7 +8,7 @@
 
   <?php 
   // Variables para la página de Hendaya
-  require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2026/localidades/francia/playadehendaya/fichas/sections/head/variables/web-playa/localizacion-playa.php';
+  require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2026/francia/playadehendaya/fichas/sections/head/variables/web-playa/localizacion-playa.php';
   require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2026/bloques/estructura/variables_comunes/defines.php';?>
 
 
@@ -37,7 +37,7 @@
   <link rel="icon" href='./../Blog_Playas2026/img/icono-sombrilla.ico' type="image/x-icon">
 
   <!-- Open Graph -->
-  <meta property="og:image" content="https://playas2024.kesug.com/Blog_Playas2026/localidades/francia/hendaya/img/playa-de-hendaya-paisvascofrances.jpg" />
+  <meta property="og:image" content="https://playas2024.kesug.com/Blog_Playas2026/francia/hendaya/img/playa-de-hendaya-paisvascofrances.jpg" />
   <meta property="og:title" content="Actividades en la Playa de Hendaya – País Vasco Francés" />
   <meta property="og:description" content="Descubre qué hacer en la Playa de Hendaya: surf, senderismo, paseos en barco y más experiencias en la costa vasca de Francia." />
   <meta property="og:type" content="article" />
@@ -67,7 +67,7 @@
 
   // Descripción general y URL
   $descripcion = 'Explora la Playa de Hendaya, un extenso arenal en el litoral atlántico francés, ideal para el surf, paseos naturales y disfrutar de los Pirineos Atlánticos.';
-  $url = 'http://playas2024.kesug.com/Blog_Playas2026/localidades/francia/hendaya/fichas/playa-de-hendaya.php';
+  $url = '<?= PATH_DOMINIO_RAIZ; ?>/Blog_Playas2026/francia/hendaya/fichas/playa-de-hendaya.php';
 
   // Datos estructurados Schema.org (mainEntity)
   $mainEntity_description = 'La Playa de Hendaya es famosa por su longitud, su oleaje moderado perfecto para aprender a surfear, y sus vistas hacia las rocas gemelas y la bahía.';
@@ -80,7 +80,7 @@
   $mainEntity_geo_longitude = -1.7736;
 
   // Imagen representativa y URL canónica
-  $mainEntity_image = 'https://playas2024.kesug.com/Blog_Playas2026/localidades/francia/hendaya/img/playa-de-hendaya-paisvascofrances.jpg';
+  $mainEntity_image = 'https://playas2024.kesug.com/Blog_Playas2026/francia/hendaya/img/playa-de-hendaya-paisvascofrances.jpg';
   $mainEntity_url = 'https://playas2024.kesug.com/Blog_Playas2026/playa-de-hendaya-paisvascofrances';
   ?>
 
@@ -91,9 +91,9 @@
 
 <script>
   const imagenes = [
-    'https://playas2024.kesug.com/Blog_Playas2026/localidades/francia/hendaya/img/playa-hendaya-1.jpg',
-    'https://playas2024.kesug.com/Blog_Playas2026/localidades/francia/hendaya/img/playa-hendaya-2.jpg',
-    'https://playas2024.kesug.com/Blog_Playas2026/localidades/francia/hendaya/img/playa-hendaya-3.jpg',
+    'https://playas2024.kesug.com/Blog_Playas2026/francia/hendaya/img/playa-hendaya-1.jpg',
+    'https://playas2024.kesug.com/Blog_Playas2026/francia/hendaya/img/playa-hendaya-2.jpg',
+    'https://playas2024.kesug.com/Blog_Playas2026/francia/hendaya/img/playa-hendaya-3.jpg',
   ];
 
   let indice = 0;
@@ -138,7 +138,7 @@
 
 <?php require "./../../../../bloques/estructura/header.php"; ?>
 
-<?php require "./../../../../localidades/francia/playadehendaya/fichas/sections/variables/actividades-recomendadas.php"; ?> 
+<?php require "./../../../../francia/playadehendaya/fichas/sections/variables/actividades-recomendadas.php"; ?> 
 <?php require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_vaqueros_hombre.php'; ?>
 <?php require "./../../../../bloques/estructura/footer.php"; ?>
 

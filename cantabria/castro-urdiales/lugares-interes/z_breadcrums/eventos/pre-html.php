@@ -11,4 +11,4 @@
     COLOR_PAGE = 'success'; // Color verde para sección cultural
     lugar_minuscula_footer = '- Fiestas y Eventos en Castro Urdiales -'; 
 ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/carga-variables.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/carga-variables.php"; ?>

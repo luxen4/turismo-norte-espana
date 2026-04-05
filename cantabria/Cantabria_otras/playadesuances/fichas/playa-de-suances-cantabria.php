@@ -5,7 +5,7 @@
 
 <?php
 // Variables para la página de la Playa de Suances
-require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2026/localidades/cantabria/playadesuances/fichas/sections/head/variables/web-playa/localizacion-playa.php';
+require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2026/cantabria/playadesuances/fichas/sections/head/variables/web-playa/localizacion-playa.php';
 require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2026/bloques/estructura/variables_comunes/defines.php';
 
 $site_verification_content = 'e148bdbc89c019bd06122ab7bd08a8be'; // Verifica que este código es correcto para Suances si se usa para verificación

@@ -16,7 +16,7 @@
 <meta property="og:description" content="Rutas panorámicas y accesibles desde la Playa de Ostende, perfectas para hacer senderismo junto al mar en Castro-Urdiales." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://Playas2026.kesug.com/Blog_Playas2026/senderos-costeros-<?= $rutas; ?>" />
-<meta property="og:image" content="https://Playas2026.kesug.com/Blog_Playas2026/localidades/cantabria/<?= $localidad_minuscula; ?>/img/<?= $rutas; ?>.jpg" />
+<meta property="og:image" content="https://Playas2026.kesug.com/Blog_Playas2026/cantabria/<?= $localidad_minuscula; ?>/img/<?= $rutas; ?>.jpg" />
 <meta property="og:image:alt" content="Senderos costeros señalizados junto a la Playa de Ostende con vistas al mar" />
 <meta property="article:published_time" content="<?= $hoy ?>T08:00:00+01:00" />
 <meta property="article:modified_time" content="<?= $hoy ?>T08:00:00+01:00" />
@@ -29,6 +29,6 @@
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Senderos Costeros Señalizados desde la Playa de Ostende" />
 <meta name="twitter:description" content="Camina junto al mar por rutas señalizadas: naturaleza, vistas al Cantábrico y senderismo accesible en Castro-Urdiales." />
-<meta name="twitter:image" content="https://Playas2026.kesug.com/Blog_Playas2026/localidades/cantabria/<?= $localidad_minuscula; ?>/img/<?= $rutas; ?>.jpg" />
+<meta name="twitter:image" content="https://Playas2026.kesug.com/Blog_Playas2026/cantabria/<?= $localidad_minuscula; ?>/img/<?= $rutas; ?>.jpg" />
 <meta name="twitter:image:alt" content="Vista aérea de un sendero costero señalizado en la Playa de Ostende" />
 <meta name="twitter:site" content="@TuCuentaTwitter" />

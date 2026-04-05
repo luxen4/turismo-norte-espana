@@ -11,6 +11,6 @@ $mainEntity_geo_latitude = 43.3666;
 $mainEntity_geo_longitude = -1.7956;
 
 // Imagen representativa y URL canónica
-$mainEntity_image = PATH_RAIZ . "localidades/francia/playadehendaya/img/playa-de-hendaya.jpg";
+$mainEntity_image = PATH_RAIZ . "francia/playadehendaya/img/playa-de-hendaya.jpg";
 $mainEntity_url = PATH_RAIZ . "playadehendaya/playa-de-hendaya.php";
 ?>

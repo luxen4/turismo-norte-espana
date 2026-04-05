@@ -10,21 +10,21 @@ $keywords_content = 'Playa de Plentzia, deportes acuáticos, naturaleza, paseo m
 
 $graph_Meta_Tags_property_title = 'Playa de Plentzia - Información y Turismo';
 $graph_Meta_Tags_property_description = 'Descubre la Playa de Plentzia, un hermoso arenal en la costa de bizkaia, ideal para disfrutar de un día en familia, practicar deportes acuáticos y explorar la encantadora villa de Plentzia.';
-$graph_Meta_Tags_property_image = 'http://playas2024.kesug.com/bizkaia/playadeplentzia/playa-de-plentzia.jpg';
-$graph_Meta_Tags_property_url = 'http://playas2024.kesug.com/bizkaia/playadeplentzia/fichas/playa-de-plentzia.php';
+$graph_Meta_Tags_property_image = '<?= PATH_DOMINIO_RAIZ; ?>/bizkaia/playadeplentzia/playa-de-plentzia.jpg';
+$graph_Meta_Tags_property_url = '<?= PATH_DOMINIO_RAIZ; ?>/bizkaia/playadeplentzia/fichas/playa-de-plentzia.php';
 $graph_Meta_Tags_property_type = 'website';
 
 $twiterCards_card = 'summary_large_image';
 $twiterCards_site = '@laya_garcia';
 $twiterCards_title = 'Playa de Plentzia - Información y Turismo';
 $twiterCards_descripcion = 'Descubre la Playa de Plentzia, un hermoso arenal en la costa de bizkaia, ideal para disfrutar de un día en familia, practicar deportes acuáticos y explorar la encantadora villa de Plentzia.';
-$twiterCards_image = 'http://playas2024.kesug.com/bizkaia/playadeplentzia/playa-de-plentzia.jpg';
-$twiterCards_url = 'http://playas2024.kesug.com/bizkaia/playadeplentzia/fichas/playa-de-plentzia.php?i=1';
+$twiterCards_image = '<?= PATH_DOMINIO_RAIZ; ?>/bizkaia/playadeplentzia/playa-de-plentzia.jpg';
+$twiterCards_url = '<?= PATH_DOMINIO_RAIZ; ?>/bizkaia/playadeplentzia/fichas/playa-de-plentzia.php?i=1';
 
 $pinterest_property_card_card_content = 'summary_large_image';
 $pinterest_property_card_title_content = 'Playa de Plentzia - Información y Turismo';
 $pinterest_property_card_description_content = 'Descubre la Playa de Plentzia, un hermoso arenal en la costa de bizkaia, ideal para disfrutar de un día en familia, practicar deportes acuáticos y explorar la encantadora villa de Plentzia.';
-$pinterest_property_card_image_content = 'http://playas2024.kesug.com/bizkaia/playadeplentzia/playa-de-plentzia.jpg';
+$pinterest_property_card_image_content = '<?= PATH_DOMINIO_RAIZ; ?>/bizkaia/playadeplentzia/playa-de-plentzia.jpg';
 
 //$href_styles = './../fichas/css/styles.css';
 
@@ -35,7 +35,7 @@ $localidad = 'Plentzia';
 $localidad_minuscula = 'plentzia';
 
 $descripcion = 'Descubre la Playa de Plentzia, un destino ideal en la costa de bizkaia, conocido por su arena dorada y un ambiente familiar, perfecto para disfrutar de deportes acuáticos y paseos relajados.';
-$url = 'http://playas2024.kesug.com/bizkaia/playadeplentzia/fichas/playa-de-plentzia.php';
+$url = '<?= PATH_DOMINIO_RAIZ; ?>/bizkaia/playadeplentzia/fichas/playa-de-plentzia.php';
 
 $mainEntity_description = 'La Playa de Plentzia es una joya en la costa de bizkaia, conocida por su ambiente tranquilo, arena dorada y excelentes opciones para practicar deportes acuáticos.';
 $mainEntity_addressLocality = 'Plentzia';
@@ -46,7 +46,7 @@ $mainEntity_geo_latitude = 43.4107;
 $mainEntity_geo_longitude = -2.9483;
 
 $mainEntity_image = 'https://example.com/path/to/plentzia-image.jpg';
-$mainEntity_url = 'http://playas2024.kesug.com/bizkaia/playade' . $localidad_minuscula . '/fichas/playa-de-' . $localidad_minuscula . '.php';
+$mainEntity_url = '<?= PATH_DOMINIO_RAIZ; ?>/bizkaia/playade' . $localidad_minuscula . '/fichas/playa-de-' . $localidad_minuscula . '.php';
 ////////
 
 require "./../../../../bloques/estructura/head.php"; ?>

@@ -1,16 +1,16 @@
 <!-- Sitemap Link -->
-<link rel="sitemap" type="application/xml" title="Sitemap" href="http://playas2024.kesug.com/sitemap.php">
+<link rel="sitemap" type="application/xml" title="Sitemap" href="<?= PATH_DOMINIO_RAIZ; ?>/sitemap.php">
 
 <!-- Favicon -->
-<link rel="icon" href="<?= PATH_RAIZ . "/img/icono-sombrilla.ico" ?>" type="image/x-icon">
+<link rel="icon" href="<?= PATH_DOMINIO_RAIZ; ?>/assets/icono-sombrilla.ico" type="image/x-icon">
 
 <!-- Favicon -->
-<link rel="icon" href="<?php echo PATH_HREF_RAIZ ?>/icono-sombrilla.ico" type="image/x-icon">
+<link rel="icon" href="<?= PATH_DOMINIO_RAIZ; ?>/assets/icono-sombrilla.ico" type="image/x-icon">
 
 
 
 <!-- Favicons básicos -->
-<link rel="icon" href="<?php echo PATH_HREF_RAIZ ?>/icono-sombrilla.ico" sizes="any">
+<link rel="icon" href="<?= PATH_DOMINIO_RAIZ; ?>/assets/icono-sombrilla.ico" sizes="any">
 <?php /*<link rel="icon" type="image/png" sizes="16x16" href="<?php echo PATH_HREF_RAIZ ?>/icono-sombrilla.ico">
 <link rel="icon" type="image/png" sizes="32x32" href="<?php echo PATH_HREF_RAIZ ?>/icono-sombrilla.ico"> */?>
 
@@ -37,8 +37,8 @@
 <?php /*<link rel="canonical" href="https://playas2024.kesug.com/Blog_Playas2026/<?= $url_amigable;?>" />*/?>
 
 <!-- Alternate Languages -->
-<link rel="alternate" href="https://www.ejemplo.com/es/" hreflang="es">
-<link rel="alternate" href="https://www.ejemplo.com/en/" hreflang="en">
+<link rel="alternate" href="<?= PATH_DOMINIO_RAIZ ?>/es/" hreflang="es">
+<link rel="alternate" href="<?= PATH_DOMINIO_RAIZ ?>/en/" hreflang="en">
 
  <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">

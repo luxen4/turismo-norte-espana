@@ -26,7 +26,7 @@
 <meta property="og:description" content="Descubre qué hacer en la Playa de Hendaya: surf, caminatas, naturaleza y más planes en el País Vasco Francés." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://playas2024.kesug.com/Blog_Playas2026/actividades-playa-de-hendaya" />
-<meta property="og:image" content="https://playas2024.kesug.com/Blog_Playas2026/localidades/francia/playadehendaya/img/playa-de-hendaya.jpg" />
+<meta property="og:image" content="https://playas2024.kesug.com/Blog_Playas2026/francia/playadehendaya/img/playa-de-hendaya.jpg" />
 <meta property="og:image:alt" content="Vista de la Playa de Hendaya, ideal para deportes acuáticos y paseos en la costa del País Vasco Francés" />
 <meta property="og:locale" content="fr_FR" />
 <meta property="article:published_time" content="<?= $hoy ?>T08:00:00+02:00" />
@@ -39,6 +39,6 @@
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Actividades en la Playa de Hendaya – País Vasco Francés" />
 <meta name="twitter:description" content="Descubre qué hacer en la Playa de Hendaya: surf, caminatas, naturaleza y más planes en el País Vasco Francés." />
-<meta name="twitter:image" content="https://playas2024.kesug.com/Blog_Playas2026/localidades/francia/playadehendaya/img/playa-de-hendaya.jpg" />
+<meta name="twitter:image" content="https://playas2024.kesug.com/Blog_Playas2026/francia/playadehendaya/img/playa-de-hendaya.jpg" />
 <meta name="twitter:image:alt" content="Vista de la Playa de Hendaya desde la arena con actividades deportivas" />
 <meta name="twitter:site" content="@TuCuentaTwitter" />

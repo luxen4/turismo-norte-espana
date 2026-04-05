@@ -33,7 +33,7 @@
 <body>
   <?php require "./../../../../bloques/estructura/header.php"; ?>
 
-  <?php require "./../../../../localidades/cantabria/playadenoja/fichas/sections/variables/actividades-recomendadas.php"; ?> 
+  <?php require "./../../../../cantabria/playadenoja/fichas/sections/variables/actividades-recomendadas.php"; ?> 
 
  
 

@@ -20,6 +20,6 @@
     $mainEntity_geo_latitude = 43.4162;  // Latitud aproximada de Laredo
     $mainEntity_geo_longitude = -3.4439; // Longitud aproximada de Laredo
 
-    $mainEntity_image = PATH_RAIZ . "localidades/{$region_minuscula}/{$localidad_minuscula}/{$rutas}.jpg"; // Ruta a imagen representativa
+    $mainEntity_image = PATH_RAIZ . "{$region_minuscula}/{$localidad_minuscula}/{$rutas}.jpg"; // Ruta a imagen representativa
     $mainEntity_url =  PATH_RAIZ . "{$region_minuscula}/{$localidad_minuscula}/{$rutas}.php";
 ?>

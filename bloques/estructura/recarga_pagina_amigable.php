@@ -2,7 +2,7 @@
 
 <script>
   const urlAmigable = '/playa-de-ostende-castro-urdiales-cantabria';
-  const urlReal = '/Blog_Playas2026/localidades/cantabria/playadeostende/fichas/playa-de-ostende-castro-urdiales-cantabria.php'; // usa ruta relativa, no localhost
+  const urlReal = '/Blog_Playas2026/cantabria/playadeostende/fichas/playa-de-ostende-castro-urdiales-cantabria.php'; // usa ruta relativa, no localhost
 
   // Mostrar la URL actual cargada
   console.log("URL actual cargada:", window.location.href);

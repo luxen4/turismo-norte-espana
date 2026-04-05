@@ -11,6 +11,6 @@
     $mainEntity_geo_latitude = 43.4345; // Actualiza si tienes coordenadas más precisas
     $mainEntity_geo_longitude = -3.4110; // Actualiza si tienes coordenadas más precisas
 
-    $mainEntity_image = PATH_RAIZ . "localidades/{$region_minuscula}/{$localidad_minuscula}/{$rutas}.jpg"; // Revisa la ruta y corrige la llave extra
+    $mainEntity_image = PATH_RAIZ . "{$region_minuscula}/{$localidad_minuscula}/{$rutas}.jpg"; // Revisa la ruta y corrige la llave extra
     $mainEntity_url =  PATH_RAIZ . "{$rutas}";
 ?>

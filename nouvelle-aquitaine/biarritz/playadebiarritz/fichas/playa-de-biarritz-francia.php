@@ -5,7 +5,7 @@
 
 <?php
 // Variables para la página de la Playa de Biarritz
-require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2026/localidades/francia/playadebiarritz/fichas/sections/head/variables/web-playa/localizacion-playa.php';
+require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2026/francia/playadebiarritz/fichas/sections/head/variables/web-playa/localizacion-playa.php';
 require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2026/bloques/estructura/variables_comunes/defines.php';
 
 $site_verification_content = 'CAMBIAR_ESTO_SI_ES_NECESARIO'; // Cambiar si se necesita una verificación específica para Biarritz

@@ -14,7 +14,7 @@
 <meta property="og:description" content="Conoce las mejores formas de llegar a la Playa de Ostende: indicaciones para llegar en coche, transporte público y rutas a pie." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://Playas2026.kesug.com/Blog_Playas2026/como-llegar-<?= $rutas; ?>" />
-<meta property="og:image" content="https://Playas2026.kesug.com/Blog_Playas2026/localidades/cantabria/<?= $localidad_minuscula; ?>/img/<?= $rutas; ?>.jpg" />
+<meta property="og:image" content="https://Playas2026.kesug.com/Blog_Playas2026/cantabria/<?= $localidad_minuscula; ?>/img/<?= $rutas; ?>.jpg" />
 <meta property="og:image:alt" content="Mapa y vista del acceso a la Playa de Ostende en Castro-Urdiales" />
 <meta property="article:published_time" content="<?= $hoy ?>T08:00:00+01:00" />
 <meta property="article:modified_time" content="<?= $hoy ?>T08:00:00+01:00" />
@@ -27,6 +27,6 @@
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Cómo llegar a la Playa de Ostende – Castro-Urdiales" />
 <meta name="twitter:description" content="Conoce cómo llegar fácilmente a la Playa de Ostende: rutas en coche, transporte público, bicicleta o caminando." />
-<meta name="twitter:image" content="https://Playas2026.kesug.com/Blog_Playas2026/localidades/cantabria/<?= $localidad_minuscula; ?>/img/<?= $rutas; ?>.jpg" />
+<meta name="twitter:image" content="https://Playas2026.kesug.com/Blog_Playas2026/cantabria/<?= $localidad_minuscula; ?>/img/<?= $rutas; ?>.jpg" />
 <meta name="twitter:image:alt" content="Accesos y transporte a la Playa de Ostende desde el centro de Castro-Urdiales" />
 <meta name="twitter:site" content="@TuCuentaTwitter" />

@@ -11,6 +11,6 @@ $mainEntity_geo_latitude = 43.4832;
 $mainEntity_geo_longitude = -1.5586;
 
 // Imagen representativa y URL canónica
-$mainEntity_image = PATH_RAIZ . "localidades/nouvelle-aquitaine/playadebiarritz/img/playa-de-biarritz-francia.jpg";
+$mainEntity_image = PATH_RAIZ . "nouvelle-aquitaine/playadebiarritz/img/playa-de-biarritz-francia.jpg";
 $mainEntity_url = PATH_RAIZ . "playadebiarritz/playa-de-biarritz-francia.php";
 ?>

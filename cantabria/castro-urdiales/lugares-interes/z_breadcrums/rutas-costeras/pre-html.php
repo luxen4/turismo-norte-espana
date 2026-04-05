@@ -9,4 +9,4 @@
     COLOR_PAGE = 'green'; // Puedes cambiar a otro color si deseas distinguirlo visualmente
     lugar_minuscula_footer = '- Rutas Costeras en Castro Urdiales -'; 
 ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/carga-variables.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/carga-variables.php"; ?>

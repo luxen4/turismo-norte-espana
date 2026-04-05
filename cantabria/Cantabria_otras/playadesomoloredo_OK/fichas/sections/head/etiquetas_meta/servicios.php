@@ -8,11 +8,11 @@
 <meta property="og:title" content="Servicios en la Playa de Somo - Loredo – Ribamontán al Mar" />
 <meta property="og:description" content="Descubre chiringuitos, alquiler de equipos, duchas y aparcamiento en la Playa de Somo - Loredo." />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://playas2024.kesug.com/Blog_Playas2026/localidades/cantabria/<?= $localidad_minuscula ?>/servicios" />
-<meta property="og:image" content="https://playas2024.kesug.com/Blog_Playas2026/localidades/cantabria/<?= $localidad_minuscula ?>/img/<?= $rutas ?>-servicios.jpg" />
+<meta property="og:url" content="https://playas2024.kesug.com/Blog_Playas2026/cantabria/<?= $localidad_minuscula ?>/servicios" />
+<meta property="og:image" content="https://playas2024.kesug.com/Blog_Playas2026/cantabria/<?= $localidad_minuscula ?>/img/<?= $rutas ?>-servicios.jpg" />
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Servicios en la Playa de Somo - Loredo – Ribamontán al Mar" />
 <meta name="twitter:description" content="Todo lo que necesitas saber sobre los servicios turísticos en la Playa de Somo - Loredo." />
-<meta name="twitter:image" content="https://playas2024.kesug.com/Blog_Playas2026/localidades/cantabria/<?= $localidad_minuscula ?>/img/<?= $rutas ?>-servicios.jpg" />
+<meta name="twitter:image" content="https://playas2024.kesug.com/Blog_Playas2026/cantabria/<?= $localidad_minuscula ?>/img/<?= $rutas ?>-servicios.jpg" />

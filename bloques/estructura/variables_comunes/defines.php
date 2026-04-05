@@ -1,3 +1,5 @@
+<?php define('DOMINIO', "https://alayag82.kesug.com"); ?>
+
 
 <?php define('NAME_BLOG', "Turismo y Playas 2026 – Guía Costera por el Cantábrico"); ?>
 <?php define('AUTHOR', "Adrián Laya García"); ?>
@@ -12,17 +14,17 @@
 <?php define('SITE_VERIFICATION_CONTENT', "6fdc72f26c4563f937e32ff3def5f9d5"); ?>
 
 
-<?php define('NOMBRE_PROYECTO', '/Blog_Playas2026'); ?>
+<?php define('NOMBRE_PROYECTO', 'Blog_Playas2026'); ?>
 <?php define('SUMARY_LARGE_IMAGE', 'sumary_large_image'); ?>
 <?php define('CARD_SITE', '@laya_garcia'); ?>
 
-<?php define('PATH_DOMINIO_RAIZ', 'https://playas2024.kesug.com/Blog_Playas2026/'); ?>
-<?php define('PATH_DOMINIO_RAIZ_LOCALIDADES', 'https://playas2024.kesug.com/Blog_Playas2026/localidades/'); ?>
+<?php define('PATH_DOMINIO_RAIZ', DOMINIO . '/'.NOMBRE_PROYECTO); ?>
+<?php define('PATH_DOMINIO_RAIZ_LOCALIDADES', PATH_DOMINIO_RAIZ . '/'); ?>
 
 <?php //define('PATH_DOMINIO_LUGAR_IMAGEN_1', PATH_DOMINIO_RAIZ_LOCALIDADES . "$region_minuscula/$localidad_minuscula/lugares-interes/" . $lugar_minuscula . "/img/" . $lugar_minuscula . "-{$localidad_minuscula}-{$region_minuscula}-1.jpg"); ?>
 <?php define('PATH_DOMINIO_LUGAR_IMAGEN_1', PATH_DOMINIO_RAIZ_LOCALIDADES . "$region_minuscula/$localidad_minuscula/lugares-interes/" . $lugar_minuscula . "/img/" . $lugar_minuscula . "-{$region_minuscula}-1.jpg"); ?>
 
-<?php define('PATH_DOMINIO_LUGAR_INTERES_INDEX', PATH_DOMINIO_RAIZ_LOCALIDADES . "$region_minuscula/$localidad_minuscula/lugares-interes/" . $lugar_minuscula . "-" . $localidad_minuscula . "/index.php"); ?>
+<?php define('PATH_DOMINIO_LUGAR_INTERES_INDEX', PATH_DOMINIO_RAIZ . "/$region_minuscula/$localidad_minuscula/lugares-interes/" . $lugar_minuscula ."/"); ?>
 
 <?php define('PATH_DOMINIO_LUGAR_INTERES', PATH_DOMINIO_RAIZ_LOCALIDADES . "$region_minuscula/$localidad_minuscula/lugares-interes/"); ?>
 
@@ -30,7 +32,8 @@
 
 
 
-<?php define('PATH_DOMINIO_URL', PATH_DOMINIO_RAIZ_LOCALIDADES . "$region_minuscula/$localidad_minuscula/lugares-interes/" . $lugar_minuscula . "/index.php"); ?>
+<?php define('PATH_DOMINIO_URL', PATH_DOMINIO_RAIZ_LOCALIDADES . "$region_minuscula/$localidad_minuscula/lugares-interes/" . $lugar_minuscula . "/"); ?>
+<?php define('PATH_DOMINIO_URL_REGION', PATH_DOMINIO_RAIZ . "/$region_minuscula"); ?>
 
 
 <?php define('PATH_DOMINIO_RAIZ_LOCALIDADES_REGION_LOCALIDAD', PATH_DOMINIO_RAIZ_LOCALIDADES .$region_minuscula.'/'.$localidad_minuscula); ?>
@@ -141,7 +144,7 @@
 <?php define('PATH_HREF_RAIZ_BLOQUES', "/Blog_Playas2026/bloques"); ?>
 
 
-<?php define('PATH_HREF_RAIZ_LOCALIDAD', "/Blog_Playas2026/localidades/{$region_minuscula}/{$localidad_minuscula}"); ?>
+<?php define('PATH_HREF_RAIZ_LOCALIDAD', "/Blog_Playas2026/{$region_minuscula}/{$localidad_minuscula}"); ?>
 <?php define('PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES',        PATH_HREF_RAIZ_LOCALIDAD. "/lugares-interes"); ?>
 
 

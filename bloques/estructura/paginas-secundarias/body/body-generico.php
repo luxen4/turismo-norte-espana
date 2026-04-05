@@ -45,7 +45,7 @@
 <!-- Enlace a la ficha de la playa -->
 <div class="text-center mb-3">
     <a class="nav-link text-success fw-bold" 
-       href="/Blog_Playas2026/localidades/<?= $region_minuscula ?>/<?= $localidad_minuscula; ?>/index.php" 
+       href="/Blog_Playas2026/<?= $region_minuscula ?>/<?= $localidad_minuscula; ?>/index.php" 
        target="_blank"
        onclick="window.open(this.href, '_blank'); window.close(); return false;">
         Playa de <?= $nombre_playa; ?>

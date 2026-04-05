@@ -10,6 +10,6 @@
     $mainEntity_geo_latitude = 43.4479; // Latitud aproximada de Playa de Suances
     $mainEntity_geo_longitude = -4.1107; // Longitud aproximada de Playa de Suances
 
-    $mainEntity_image = PATH_RAIZ . "localidades/{$region_minuscula}/{$localidad_minuscula}/{$rutas}.jpg"; // Asegúrate que la imagen exista
+    $mainEntity_image = PATH_RAIZ . "{$region_minuscula}/{$localidad_minuscula}/{$rutas}.jpg"; // Asegúrate que la imagen exista
     $mainEntity_url =  PATH_RAIZ . "{$rutas}";
 ?>

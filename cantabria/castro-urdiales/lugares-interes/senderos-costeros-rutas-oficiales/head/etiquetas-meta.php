@@ -10,7 +10,7 @@
     <meta name="language" content="<?= $languaje_content; ?>">
 
     <?php /*<link rel="canonical" href="https://Playas2026.kesug.com/Blog_Playas2026/<?= $url_amigable;?>" />*/?>
-    <link rel="canonical" href="https://Playas2026.kesug.com/Blog_Playas2026/localidades/<?= $region_minuscula; ?>/<?= $localidad_minuscula;?>/index.php" />
+    <link rel="canonical" href="https://Playas2026.kesug.com/Blog_Playas2026/<?= $region_minuscula; ?>/<?= $localidad_minuscula;?>/index.php" />
 
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content=<?= $graph_Meta_Tags_property_title; ?>>

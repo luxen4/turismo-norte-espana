@@ -7,12 +7,12 @@
 <!-- Open Graph (SEO Avanzado) -->
 <meta property="og:title" content="Cómo llegar a la Playa de Somo - Loredo – Ribamontán al Mar" />
 <meta property="og:description" content="Descubre cómo llegar fácilmente a la Playa de Somo - Loredo: en coche, autobús o a pie. Incluye mapa interactivo actualizado." />
-<meta property="og:url" content="https://playas2024.kesug.com/Blog_Playas2026/localidades/cantabria/<?= $localidad_minuscula ?>/como-llegar.php" />
+<meta property="og:url" content="https://playas2024.kesug.com/Blog_Playas2026/cantabria/<?= $localidad_minuscula ?>/como-llegar.php" />
 <meta property="og:type" content="website" />
-<meta property="og:image" content="https://playas2024.kesug.com/Blog_Playas2026/localidades/cantabria/<?= $localidad_minuscula ?>/img/como-llegar-<?= $rutas ?>.jpg" />
+<meta property="og:image" content="https://playas2024.kesug.com/Blog_Playas2026/cantabria/<?= $localidad_minuscula ?>/img/como-llegar-<?= $rutas ?>.jpg" />
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Cómo llegar a la Playa de Somo - Loredo – Ribamontán al Mar" />
 <meta name="twitter:description" content="Guía con mapa para llegar a la Playa de Somo - Loredo: coche, autobús, a pie o en bici. Planifica tu visita a Ribamontán al Mar." />
-<meta name="twitter:image" content="https://playas2024.kesug.com/Blog_Playas2026/localidades/cantabria/<?= $localidad_minuscula ?>/img/como-llegar-<?= $rutas ?>.jpg" />
+<meta name="twitter:image" content="https://playas2024.kesug.com/Blog_Playas2026/cantabria/<?= $localidad_minuscula ?>/img/como-llegar-<?= $rutas ?>.jpg" />

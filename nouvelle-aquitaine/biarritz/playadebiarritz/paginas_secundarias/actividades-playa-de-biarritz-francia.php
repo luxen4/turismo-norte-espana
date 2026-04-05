@@ -53,7 +53,7 @@
 
   // Descripción general y URL
   $descripcion = 'Explora la Playa de Biarritz, un icono del surf y el turismo costero en el País Vasco francés, con impresionantes paisajes y una vibrante vida cultural.';
-  $url = 'http://playas2024.kesug.com/Blog_Playas2026/localidades/francia/playadebiarritz/fichas/playa-de-biarritz.php';
+  $url = '<?= PATH_DOMINIO_RAIZ; ?>/Blog_Playas2026/francia/playadebiarritz/fichas/playa-de-biarritz.php';
 
   // Datos estructurados Schema.org (mainEntity)
   $mainEntity_description = 'La Playa de Biarritz es famosa mundialmente por sus olas perfectas para el surf y su ambiente cosmopolita en la costa vasca.';
@@ -66,8 +66,8 @@
   $mainEntity_geo_longitude = -1.5586;
 
   // Imagen representativa y URL canónica
-  $mainEntity_image = 'http://playas2024.kesug.com/Blog_Playas2026/localidades/francia/playadebiarritz/img/playa-de-biarritz.jpg';
-  $mainEntity_url = 'http://playas2024.kesug.com/Blog_Playas2026/playa-de-biarritz-francia';
+  $mainEntity_image = '<?= PATH_DOMINIO_RAIZ; ?>/Blog_Playas2026/francia/playadebiarritz/img/playa-de-biarritz.jpg';
+  $mainEntity_url = '<?= PATH_DOMINIO_RAIZ; ?>/Blog_Playas2026/playa-de-biarritz-francia';
   ?>
 
   <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2026/bloques/estructura/structured_data_generico.php'; ?>
@@ -79,9 +79,9 @@
 <script>
   // Array con URLs de las imágenes que quieres mostrar
   const imagenes = [
-    'http://localhost/Blog_Playas2026/localidades/cantabria/playadeberria/img/playa-de-berria-santona.jpg',
-    'https://playas2024.kesug.com/localidades/cantabria/playadeberria/img/imagen2.jpg',
-    'https://playas2024.kesug.com/localidades/cantabria/playadeberria/img/imagen3.jpg',
+    'http://localhost/Blog_Playas2026/cantabria/playadeberria/img/playa-de-berria-santona.jpg',
+    'https://playas2024.kesug.com/cantabria/playadeberria/img/imagen2.jpg',
+    'https://playas2024.kesug.com/cantabria/playadeberria/img/imagen3.jpg',
   ];
 
   let indice = 0;
@@ -133,7 +133,7 @@
 
   <?php require "./../../../../bloques/estructura/header.php"; ?>
   <a class="nav-link text-red" href="/Blog_Playas2026/<?= $rutas; ?>">Playa de Berria</a>
-  <?php require "./../../../../localidades/francia/playadebiarritz/fichas/sections/variables/actividades-recomendadas.php"; ?> 
+  <?php require "./../../../../francia/playadebiarritz/fichas/sections/variables/actividades-recomendadas.php"; ?> 
   <?php require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_vaqueros_hombre.php'; ?>
   <?php require "./../../../../bloques/estructura/footer.php"; ?>
 

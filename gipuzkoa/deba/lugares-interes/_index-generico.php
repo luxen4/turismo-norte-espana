@@ -2,12 +2,12 @@
   $region = 'Guipuzkoa'; $region_minuscula = 'gipuzkoa';
   $localidad = 'Deba'; $localidad_minuscula = strtolower($localidad); ?>
 
-<?php // require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playas/".LUGAR_MINUSCULA."/pre-html.php"; ?>
+<?php // require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playas/".LUGAR_MINUSCULA."/pre-html.php"; ?>
 
 
 <?php
-$pathConPlayas = $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playas/".LUGAR_MINUSCULA."/pre-html.php";
-$pathSinPlayas = $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/".LUGAR_MINUSCULA."/pre-html.php";
+$pathConPlayas = $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playas/".LUGAR_MINUSCULA."/pre-html.php";
+$pathSinPlayas = $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/".LUGAR_MINUSCULA."/pre-html.php";
 
 
 try {

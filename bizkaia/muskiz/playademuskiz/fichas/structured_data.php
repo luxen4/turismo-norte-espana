@@ -5,7 +5,7 @@
     "@type": "WebPage",
     "name": "Playa de Muskiz - Información y Turismo",
     "description": "Descubre la Playa de Muskiz, una playa encantadora en la costa de Vizcaya, perfecta para disfrutar del mar, la naturaleza y actividades al aire libre en un entorno tranquilo.",
-    "url": "http://playas2024.kesug.com/localidades/playademuskiz/fichas/fichaplayademuskiz.php",
+    "url": "<?= PATH_DOMINIO_RAIZ; ?>/playademuskiz/fichas/fichaplayademuskiz.php",
     "mainEntity": {
         "@type": "Place",
         "name": "Playa de Muskiz",
@@ -22,7 +22,7 @@
             "longitude": -3.1333
         },
         "image": "https://example.com/path/to/muskiz-image.jpg",
-        "url": "http://playas2024.kesug.com/localidades/playademuskiz/fichas/fichaplayademuskiz.php"
+        "url": "<?= PATH_DOMINIO_RAIZ; ?>/playademuskiz/fichas/fichaplayademuskiz.php"
     }
 }
 </script>

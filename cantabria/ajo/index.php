@@ -5,7 +5,7 @@ $country = 'España';    $country_minuscula = strtolower(str_replace(' ', '-', $
 
 <?php define('DESCRIPTION', "Descubre Ajo en Cantabria: playas vírgenes, miradores, rutas y el famoso Cabo de Ajo."); ?>
 <?php define('KEYWORDS_CONTENT', 'Playa de Antuerta, Ajo, playas Cantabria, surf Cantabria, naturaleza, costa de Cantabria, turismo natural, playa salvaje, Ajo, Cantabria, turismo, playas, naturaleza, rutas, Cabo de Ajo, faro') ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/localidades/constantes-localidad-generico.php";?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/constantes-localidad-generico.php";?>
 
 <!DOCTYPE html>
 <html lang="es">

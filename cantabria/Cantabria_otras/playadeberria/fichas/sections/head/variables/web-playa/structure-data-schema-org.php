@@ -11,6 +11,6 @@ $mainEntity_geo_latitude = 43.4418;
 $mainEntity_geo_longitude = -3.5162;
 
 // Imagen representativa y URL canónica
-$mainEntity_image = PATH_RAIZ . "localidades/cantabria/playadeberria/img/playa-de-berria.jpg";
+$mainEntity_image = PATH_RAIZ . "cantabria/playadeberria/img/playa-de-berria.jpg";
 $mainEntity_url = PATH_RAIZ . "playadeberria/playa-de-berria.php";
 ?>

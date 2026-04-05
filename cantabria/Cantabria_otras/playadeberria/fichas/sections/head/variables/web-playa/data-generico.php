@@ -18,6 +18,6 @@
     $mainEntity_geo_latitude = 43.4197;  // Coordenadas aproximadas reales de Playa de Berria
     $mainEntity_geo_longitude = -3.4781;
 
-    $mainEntity_image = PATH_RAIZ . "localidades/{$region_minuscula}/{$localidad_minuscula}/{$rutas}.jpg";
+    $mainEntity_image = PATH_RAIZ . "{$region_minuscula}/{$localidad_minuscula}/{$rutas}.jpg";
     $mainEntity_url = $url;
 ?>

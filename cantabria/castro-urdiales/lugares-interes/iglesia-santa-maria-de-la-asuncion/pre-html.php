@@ -9,4 +9,4 @@
     COLOR_PAGE = 'purple'; // Puedes cambiar el color si quieres diferenciarla visualmente
     lugar_minuscula_footer = '- Iglesia de Santa María de la Asunción -'; 
 ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/localidades/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/carga-variables.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/carga-variables.php"; ?>

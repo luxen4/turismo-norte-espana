@@ -17,7 +17,7 @@ $region_minuscula = strtolower(
     )
 );
 
-require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2026/localidades/{$region_minuscula}/variables-generales-region.php";
+require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2026/{$region_minuscula}/variables-generales-region.php";
 
 // Paths
 define('PATH_RAIZ', rtrim($_SERVER['DOCUMENT_ROOT'], '/') . '/Blog_Playas2026');
@@ -29,7 +29,7 @@ define('PATH_RAIZ_BLOQUES_ESTRUCTURA', PATH_RAIZ_BLOQUES. '/estructura');
 define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN', PATH_RAIZ_BLOQUES_ESTRUCTURA. '/paginas-playa/body/main');
 define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO', PATH_RAIZ_BLOQUES. '/estructura/paginas-generico');
 
-define('PATH_RAIZ_LOCALIDADES_CARPETA', rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2026/localidades/{$region_minuscula}/{$localidad_minuscula}");
+define('PATH_RAIZ_LOCALIDADES_CARPETA', rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2026/{$region_minuscula}/{$localidad_minuscula}");
 define('PATH_RAIZ_LOCALIDAD_LUGARES_INTERES', PATH_RAIZ_LOCALIDADES_CARPETA. "/lugares-interes");
 
 define('PATH_HREF_RAIZ_BLOQUES', "/Blog_Playas2026/bloques");
@@ -44,7 +44,7 @@ define('IDIOMA_LOCAL', 'fr_FR');
 define('PATH_HREF_RAIZ_LOCALIDADES', "https://playas2024.kesug.com/Blog_Playas2026/localidades");
 
 define('PATH_RAIZ_HOME_HEAD_VARIABLES', PATH_RAIZ. '/home/head/variables');
-define('PATH_DOMINIO_RAIZ_LOCALIDADES', 'https://playas2024.kesug.com/Blog_Playas2026/localidades/');
+define('PATH_DOMINIO_RAIZ_LOCALIDADES', 'https://playas2024.kesug.com/Blog_Playas2026/');
 define('PATH_DOMINIO_RAIZ', 'https://playas2024.kesug.com/Blog_Playas2026/');
 
 define('PATH_RAIZ_LOCALIDADES', PATH_RAIZ. '/localidades'); 

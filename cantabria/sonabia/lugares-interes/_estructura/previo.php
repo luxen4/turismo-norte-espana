@@ -1,6 +1,6 @@
 <?php
 define('PATH_RAIZ', rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2026"); 
-define('PATH_RAIZ_LOCALIDADES_CARPETA', PATH_RAIZ. "/localidades/{$region_minuscula}/{$localidad_minuscula}"); 
+define('PATH_RAIZ_LOCALIDADES_CARPETA', PATH_RAIZ. "/{$region_minuscula}/{$localidad_minuscula}"); 
 define('PATH_RAIZ_CARPETA_LOCALIDADES_LUGARES_INTERES', PATH_RAIZ_LOCALIDADES_CARPETA. "/{$nombre_sub_carpeta}"); 
 define('PATH_RAIZ_CARPETA_LUGARES_CARPETA_LUGAR', PATH_RAIZ_CARPETA_LOCALIDADES_LUGARES_INTERES. "/{$localidad_minuscula_lugar}"); 
 define('PATH_RAIZ_CARPETA_LUGARES_CARPETA_LUGAR_BODY', PATH_RAIZ_CARPETA_LUGARES_CARPETA_LUGAR. "/body"); 
@@ -9,7 +9,7 @@ define('PATH_RAIZ_CARPETA_LUGARES_SCHEMAS', PATH_RAIZ_CARPETA_LUGARES_CARPETA_LU
 define('PATH_RAIZ_LOCALIDADES_CARPETA_HEAD', PATH_RAIZ_CARPETA_LUGARES_CARPETA_LUGAR. "/head"); 
 define('PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES', PATH_RAIZ_CARPETA_LUGARES_CARPETA_LUGAR. "/head/variables"); 
 
-define('PATH_HREF_CARPETA', "/Blog_Playas2026/localidades/{$region_minuscula}/{$localidad_minuscula}");
+define('PATH_HREF_CARPETA', "/Blog_Playas2026/{$region_minuscula}/{$localidad_minuscula}");
 define('PATH_HREF_CARPETA_LUGARES_INTERES', PATH_HREF_CARPETA. "/lugares-interes");
 define('PATH_HREF_CARPETA_IMAGENES', PATH_HREF_CARPETA_LUGARES_INTERES. "/{$localidad_minuscula_lugar}/imagenes");
 ?>

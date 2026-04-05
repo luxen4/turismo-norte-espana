@@ -4,7 +4,7 @@
   "@type": "TouristDestination",
   "name": "Playa de Somo - Loredo",
   "description": "Cómo llegar a la Playa de Somo y Loredo en Ribamontán al Mar, Cantabria. Información sobre transporte, accesibilidad, aparcamiento y rutas recomendadas.",
-  "url": "https://<?= $_SERVER['SERVER_NAME'] ?>/Blog_Playas2026/localidades/cantabria/somo-loredo/fichas/como-llegar-playa-de-somo-loredo-cantabria.php",
+  "url": "https://<?= $_SERVER['SERVER_NAME'] ?>/Blog_Playas2026/cantabria/somo-loredo/fichas/como-llegar-playa-de-somo-loredo-cantabria.php",
   "geo": {
     "@type": "GeoCoordinates",
     "latitude": 43.4150,

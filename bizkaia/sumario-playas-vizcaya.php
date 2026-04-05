@@ -1,6 +1,6 @@
 <h2 id="vizcaya">Vizcaya</h2>
 <?php $region = 'Vizcaya'; 
-$targeta = './localidades/index.php';
+$targeta = './index.php';
 ?>
 
 <details>

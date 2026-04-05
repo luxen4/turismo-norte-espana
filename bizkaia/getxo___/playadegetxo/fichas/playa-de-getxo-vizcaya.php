@@ -10,21 +10,21 @@ $keywords_content = 'Playa de Getxo, playa, costa de bizkaia, turismo en Getxo, 
 
 $graph_Meta_Tags_property_title = 'Playa de Getxo - Información y Turismo';
 $graph_Meta_Tags_property_description = 'Explora la Playa de Getxo, un hermoso arenal en la costa de bizkaia, ideal para disfrutar de la playa, paseos marítimos y una rica oferta gastronómica.';
-$graph_Meta_Tags_property_image = 'http://playas2024.kesug.com/bizkaia/playadegetxo/playa-de-getxo.jpg';
-$graph_Meta_Tags_property_url = 'http://playas2024.kesug.com/bizkaia/playadegetxo/fichas/playa-de-getxo.php';
+$graph_Meta_Tags_property_image = '<?= PATH_DOMINIO_RAIZ; ?>/bizkaia/playadegetxo/playa-de-getxo.jpg';
+$graph_Meta_Tags_property_url = '<?= PATH_DOMINIO_RAIZ; ?>/bizkaia/playadegetxo/fichas/playa-de-getxo.php';
 $graph_Meta_Tags_property_type = 'website';
 
 $twiterCards_card = 'summary_large_image';
 $twiterCards_site = '@laya_garcia';
 $twiterCards_title = 'Playa de Getxo - Información y Turismo';
 $twiterCards_descripcion = 'Explora la Playa de Getxo, un hermoso arenal en la costa de bizkaia, ideal para disfrutar de la playa, paseos marítimos y una rica oferta gastronómica.';
-$twiterCards_image = 'http://playas2024.kesug.com/bizkaia/playadegetxo/playa-de-getxo.jpg';
-$twiterCards_url = 'http://playas2024.kesug.com/bizkaia/playadegetxo/fichas/playa-de-getxo.php?i=1';
+$twiterCards_image = '<?= PATH_DOMINIO_RAIZ; ?>/bizkaia/playadegetxo/playa-de-getxo.jpg';
+$twiterCards_url = '<?= PATH_DOMINIO_RAIZ; ?>/bizkaia/playadegetxo/fichas/playa-de-getxo.php?i=1';
 
 $pinterest_property_card_card_content = 'summary_large_image';
 $pinterest_property_card_title_content = 'Playa de Getxo - Información y Turismo';
 $pinterest_property_card_description_content = 'Explora la Playa de Getxo, un hermoso arenal en la costa de bizkaia, ideal para disfrutar de la playa, paseos marítimos y una rica oferta gastronómica.';
-$pinterest_property_card_image_content = 'http://playas2024.kesug.com/bizkaia/playadegetxo/playa-de-getxo.jpg';
+$pinterest_property_card_image_content = '<?= PATH_DOMINIO_RAIZ; ?>/bizkaia/playadegetxo/playa-de-getxo.jpg';
 
 $href_styles = './../fichas/css/styles.css';
 
@@ -35,7 +35,7 @@ $localidad = 'Getxo';
 $localidad_minuscula = 'getxo';
 
 $descripcion = 'Explora la Playa de Getxo, un destino encantador en la costa de bizkaia, ideal para disfrutar de la playa, paseos marítimos y una vibrante vida local.';
-$url = 'http://playas2024.kesug.com/bizkaia/playadegetxo/fichas/playa-de-getxo.php';
+$url = '<?= PATH_DOMINIO_RAIZ; ?>/bizkaia/playadegetxo/fichas/playa-de-getxo.php';
 
 $mainEntity_description = 'La Playa de Getxo es un lugar destacado en la costa de bizkaia, conocida por su arena dorada, sus impresionantes vistas al mar y su animado paseo marítimo.';
 $mainEntity_addressLocality = 'Getxo';
@@ -46,7 +46,7 @@ $mainEntity_geo_latitude = 43.3231;
 $mainEntity_geo_longitude = -3.0027;
 
 $mainEntity_image = 'https://example.com/path/to/getxo-image.jpg';
-$mainEntity_url = 'http://playas2024.kesug.com/bizkaia/playade' . $localidad_minuscula . '/fichas/playa-de-' . $localidad_minuscula . '.php';
+$mainEntity_url = '<?= PATH_DOMINIO_RAIZ; ?>/bizkaia/playade' . $localidad_minuscula . '/fichas/playa-de-' . $localidad_minuscula . '.php';
 ////////
 
 require "./../../../../bloques/estructura/head.php"; ?>

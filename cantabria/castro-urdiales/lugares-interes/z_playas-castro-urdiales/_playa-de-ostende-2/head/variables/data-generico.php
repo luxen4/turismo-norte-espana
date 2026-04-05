@@ -44,7 +44,7 @@ $twiterCards_url = PATH_RAIZ_LOCALIDADES_CARPETA.'/fichas/playa-de-ostende.php?i
     $mainEntity_geo_latitude = 43.4693; // Actualiza según la ubicación correcta
     $mainEntity_geo_longitude = -3.5002; // Actualiza según la ubicación correcta
 
-    $mainEntity_image = PATH_RAIZ . "localidades/{$region}}/{$localidad_minuscula}/{$rutas}.jpg"; // Reemplaza con la imagen correcta
+    $mainEntity_image = PATH_RAIZ . "{$region}}/{$localidad_minuscula}/{$rutas}.jpg"; // Reemplaza con la imagen correcta
     $mainEntity_url =  PATH_RAIZ . "{$rutas}";
 ?>
 

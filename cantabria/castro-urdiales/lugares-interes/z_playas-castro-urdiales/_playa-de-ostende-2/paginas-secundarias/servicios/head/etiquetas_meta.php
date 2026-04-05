@@ -14,7 +14,7 @@
 <meta property="og:description" content="Información práctica sobre todos los servicios disponibles en la Playa de Ostende: accesos adaptados, vigilancia, aseos, duchas, ocio y más." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://Playas2026.kesug.com/Blog_Playas2026/servicios-<?= $rutas; ?>" />
-<meta property="og:image" content="https://Playas2026.kesug.com/Blog_Playas2026/localidades/cantabria/<?= $localidad_minuscula; ?>/img/servicios-ostende.jpg" />
+<meta property="og:image" content="https://Playas2026.kesug.com/Blog_Playas2026/cantabria/<?= $localidad_minuscula; ?>/img/servicios-ostende.jpg" />
 <meta property="og:image:alt" content="Zona de servicios en la Playa de Ostende con duchas y pasarela de acceso" />
 <meta property="article:published_time" content="<?= $hoy ?>T08:00:00+01:00" />
 <meta property="article:modified_time" content="<?= $hoy ?>T08:00:00+01:00" />
@@ -27,6 +27,6 @@
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Servicios de la Playa de Ostende – Castro-Urdiales" />
 <meta name="twitter:description" content="Descubre los servicios disponibles en la Playa de Ostende: seguridad, baños, chiringuitos y deportes acuáticos para una experiencia completa." />
-<meta name="twitter:image" content="https://Playas2026.kesug.com/Blog_Playas2026/localidades/cantabria/<?= $localidad_minuscula; ?>/img/servicios-ostende.jpg" />
+<meta name="twitter:image" content="https://Playas2026.kesug.com/Blog_Playas2026/cantabria/<?= $localidad_minuscula; ?>/img/servicios-ostende.jpg" />
 <meta name="twitter:image:alt" content="Vista aérea de la Playa de Ostende con instalaciones y zonas de ocio" />
 <meta name="twitter:site" content="@TuCuentaTwitter" />
