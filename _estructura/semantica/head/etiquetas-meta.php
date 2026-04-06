@@ -1,6 +1,7 @@
-<?php //$url_amigable = isset($rutas) ? $rutas : null; ?>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <!-- Verificación Google Search Console -->
 <meta name="google-site-verification" content="O4CyyseatW1WkLbzw9poeIPyF27Eik_tDlqrO0ank4o" />
 <meta name="description" content="<?= DESCRIPTION; ?>">
@@ -9,12 +10,15 @@
 <meta name="author" content="<?= AUTHOR; ?>">
 <meta name="language" content="es">
 
+<!-- Verificación Seobility -->
+<meta name="seobility" content="<?= SITE_VERIFICATION_CONTENT ?>" /> 
+
+<!-- Color de la barra en móviles -->
+<meta name="theme-color" content="#0a5f8a">
+
 <!-- Canonical a la página -->
 <link rel="canonical" href="<?= PATH_DOMINIO_LUGAR_INTERES_INDEX; ?>" />
   
-
-<!-- Verificación Seobility -->
-<meta name="seobility" content="<?= SITE_VERIFICATION_CONTENT ?>" /> 
 
 <!-- Open Graph Meta Tags -->
 <meta property="og:title" content="<?= TITLE; ?>">
@@ -65,4 +69,3 @@
 <meta name="pinterest:tag" content="<?= $graph_Meta_Tags_property_tag; ?>">
 <meta name="pinterest:tag" content="<?= $graph_Meta_Tags_property_tag2; ?>">
 <meta name="pinterest:tag" content="<?= $graph_Meta_Tags_property_tag3; ?>">
-<!-- Favicon -->

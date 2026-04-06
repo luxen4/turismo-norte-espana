@@ -30,69 +30,61 @@
 <html lang="es">
 
 <head>
-
-
-
-    <!-- Favicons básicos -->
-    <link rel="icon" href="<?php echo PATH_HREF_RAIZ ?>/icono-sombrilla.ico" sizes="any">
-    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo PATH_HREF_RAIZ ?>/icono-sombrilla.ico">
-    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo PATH_HREF_RAIZ ?>/icono-sombrilla.ico">
-
-
-
-    <?php /*
-<!-- Fallback clásico -->
-<link rel="icon" href="/favicon.ico" sizes="any">
-
-<!-- PNGs modernos -->
-<link rel="icon" type="image/png" sizes="16x16" href="<?php echo PATH_HREF_RAIZ ?>/icono-sombrilla-16.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo PATH_HREF_RAIZ ?>/icono-sombrilla-32.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="<?php echo PATH_HREF_RAIZ ?>/icono-sombrilla-192.png">
-    <link rel="icon" type="image/png" sizes="512x512" href="<?php echo PATH_HREF_RAIZ ?>/icono-sombrilla-512.png">
-
-    */
-    ?>
-
-
-
-
-    <link rel="icon" href="<?php echo PATH_HREF_RAIZ ?>/icono-sombrilla.ico" type="image/x-icon">
-
-
-
-    <!-- Apple iOS -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-
-    <!-- Android/Chrome -->
-    <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png">
-    <link rel="icon" type="image/png" sizes="512x512" href="/favicon-512x512.png">
-
-    <!-- Manifest PWA -->
-    <link rel="manifest" href="/site.webmanifest">
-
-    <!-- Color de la barra en móviles -->
-    <meta name="theme-color" content="#0a5f8a">
-
-
-
-
-
-
-
-
-
-
-
-
-    <?php require PATH_RAIZ . "/_estructura/semantica/head/etiquetas-meta.php"; ?>
-    <?php require PATH_RAIZ . "/_estructura/semantica/head/links-generico.php"; ?>
-    <title><?= $title; ?></title>
-    <?php require PATH_RAIZ_BLOQUES_CONTROL . "/google-analytics.php"; ?>
-
-    <script id="aclib" type="text/javascript" src="//acscdn.com/script/aclib.js"></script>
+  <?php require PATH_RAIZ . "/_estructura/semantica/head/head-generico.php"; ?>
 </head>
 
 <body>
+
+<!-- NAVBAR -->
+<nav class="bg-blue-800 text-white">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="flex justify-between items-center h-16">
+
+      <!-- Logo -->
+      <div class="text-xl font-bold">
+        turismo-norte-espana
+      </div>
+
+      <!-- Menú escritorio -->
+      <div class="hidden md:flex space-x-6">
+        <a href="#" class="hover:text-yellow-300">Inicio</a>
+        <a href="#" class="hover:text-yellow-300">Destinos</a>
+        <a href="#" class="hover:text-yellow-300">Rutas</a>
+        <a href="#" class="hover:text-yellow-300">Gastronomía</a>
+        <a href="#" class="hover:text-yellow-300">Contacto</a>
+      </div>
+
+      <!-- Botón hamburguesa -->
+      <div class="md:hidden">
+        <button id="menu-btn" class="focus:outline-none">
+          ☰
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Menú móvil -->
+  <div id="menu" class="hidden md:hidden px-4 pb-4">
+    <a href="#" class="block py-2 border-b">Inicio</a>
+    <a href="#" class="block py-2 border-b">Destinos</a>
+    <a href="#" class="block py-2 border-b">Rutas</a>
+    <a href="#" class="block py-2 border-b">Gastronomía</a>
+    <a href="#" class="block py-2">Contacto</a>
+  </div>
+</nav>
+
+<!-- JS -->
+<script>
+  const btn = document.getElementById('menu-btn');
+  const menu = document.getElementById('menu');
+
+  btn.addEventListener('click', () => {
+    menu.classList.toggle('hidden');
+  });
+</script>
+
+
     <!-- Código de AdCash (runAutoTag) -->
     <script id="aclib" type="text/javascript" src="//acscdn.com/script/aclib.js"></script>
     <script type="text/javascript">

@@ -1,0 +1,4 @@
+<?php define('TITLE', "Acantilados del Cabo de Ajo – Senderismo y Paisajes de Cantabria 2025"); ?>
+<?php define('DESCRIPTION', "Los Acantilados del Cabo de Ajo ofrecen vistas espectaculares del mar Cantábrico, senderos panorámicos y oportunidades únicas para fotografía y observación de aves. Ideal para caminatas y disfrutar de la naturaleza en Bareyo, Cantabria."); ?>
+<?php define('LUGAR', "Acantilados del Cabo de Ajo"); ?>
+<?php define('KEYWORDS_CONTENT', 'Acantilados Cabo de Ajo, Cantabria, senderismo, acantilados, miradores, turismo Cantabria, naturaleza, costa cantábrica, Bareyo, mar Cantábrico') ?>
