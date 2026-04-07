@@ -4,7 +4,7 @@
   "@type": "TouristDestination",
   "name": "Playa de Ostende",
   "description": "Cómo llegar a la Playa de Ostende en Castro Urdiales, Cantabria. Información sobre transporte, accesibilidad, aparcamiento y rutas recomendadas.",
-  "url": "https://<?= $_SERVER['SERVER_NAME'] ?>/Blog_Playas2026/cantabria/playadeostende/fichas/como-llegar-playa-de-ostende-cantabria.php",
+  "url": "https://<?= $_SERVER['SERVER_NAME'] ?>/turismo-norte-espana/cantabria/playadeostende/fichas/como-llegar-playa-de-ostende-cantabria.php",
   "geo": {
     "@type": "GeoCoordinates",
     "latitude": 43.459388,

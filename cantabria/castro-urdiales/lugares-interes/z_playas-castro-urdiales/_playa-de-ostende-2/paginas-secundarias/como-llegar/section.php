@@ -6,8 +6,8 @@
   <meta itemprop="dateModified" content="<?= $hoy; ?>" />
   <meta itemprop="inLanguage" content="es-ES" />
   <meta itemprop="headline" content="Senderos costeros señalizados en Playa de Ostende" />
-  <meta itemprop="mainEntityOfPage" content="https://Playas2026.kesug.com/Blog_Playas2026/senderos-costeros-ostende/" />
-  <meta itemprop="image" content="https://Playas2026.kesug.com/Blog_Playas2026/cantabria/castrourdiales/img/senderismo-naturaleza-Castro-Urdiales-Cantabria.jpg" />
+  <meta itemprop="mainEntityOfPage" content="https://Playas2026.kesug.com/turismo-norte-espana/senderos-costeros-ostende/" />
+  <meta itemprop="image" content="https://Playas2026.kesug.com/turismo-norte-espana/cantabria/castrourdiales/img/senderismo-naturaleza-Castro-Urdiales-Cantabria.jpg" />
 
   <div itemprop="articleBody" class="w-full bg-white px-4 md:px-10 py-8 mx-auto max-w-screen-xl">
 
@@ -37,7 +37,7 @@
           </li>
 
           <li class="flex items-start gap-3">
-            <i class="fas fa-bus text-orange-500 text-xl mt-1"></i>
+            <i class="fas fa-bus text500 text-xl mt-1"></i>
             <div>
               <strong class="text-base">En autobús:</strong><br>
               Conexiones regulares con 

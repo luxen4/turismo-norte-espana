@@ -22,8 +22,8 @@
 <meta property="og:title" content="Actividades en la Playa de Somo - Loredo – Ribamontán al Mar" />
 <meta property="og:description" content="Descubre qué hacer en la Playa de Somo y Loredo: surf, senderismo, naturaleza, y más en Ribamontán al Mar." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://playas2024.kesug.com/Blog_Playas2026/actividades-<?= $rutas; ?>" />
-<meta property="og:image" content="https://playas2024.kesug.com/Blog_Playas2026/cantabria/<?= $localidad_minuscula; ?>/img/<?= $rutas; ?>.jpg" />
+<meta property="og:url" content="https://playas2024.kesug.com/turismo-norte-espana/actividades-<?= $rutas; ?>" />
+<meta property="og:image" content="https://playas2024.kesug.com/turismo-norte-espana/cantabria/<?= $localidad_minuscula; ?>/img/<?= $rutas; ?>.jpg" />
 <meta property="og:image:alt" content="Vista de la Playa de Somo y Loredo, perfecta para surf y turismo activo en Cantabria" />
 <meta property="article:published_time" content="<?= $hoy ?>T08:00:00+01:00" />
 <meta property="article:modified_time" content="<?= $hoy ?>T08:00:00+01:00" />
@@ -35,6 +35,6 @@
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Actividades en la Playa de Somo - Loredo – Ribamontán al Mar" />
 <meta name="twitter:description" content="Descubre qué hacer en la Playa de Somo y Loredo: surf, senderismo, naturaleza, y más en Ribamontán al Mar." />
-<meta name="twitter:image" content="https://playas2024.kesug.com/Blog_Playas2026/cantabria/<?= $localidad_minuscula; ?>/img/<?= $rutas; ?>.jpg" />
+<meta name="twitter:image" content="https://playas2024.kesug.com/turismo-norte-espana/cantabria/<?= $localidad_minuscula; ?>/img/<?= $rutas; ?>.jpg" />
 <meta name="twitter:image:alt" content="Vista panorámica de la Playa de Somo - Loredo ideal para surfistas y amantes de la naturaleza" />
 <meta name="twitter:site" content="@TuCuentaTwitter" />

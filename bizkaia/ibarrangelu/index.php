@@ -1,5 +1,5 @@
 <?php $localidad = 'Ibarrangelu'; $lugar_minuscula = 'ibarrangelu'; ?>
-<?php require_once $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/bizkaia/variables-generales-region.php";?>
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/bizkaia/variables-generales-region.php";?>
 
 <?php define('TITLE', "Ibarrangelu – Turismo y Naturaleza en Bizkaia 2025"); ?>
 <?php define('DESCRIPTION', "Descubre Ibarrangelu, un pintoresco municipio de Bizkaia con impresionantes paisajes naturales, playas vírgenes y rica cultura vasca."); ?>
@@ -8,20 +8,20 @@
 <?php define('LUGAR_MINUSCULA', 'ibarrangelu') ?>
 <?php define('KEYWORDS_CONTENT', 'Ibarrangelu, Bizkaia, turismo Bizkaia, playas Bizkaia, naturaleza Euskadi, cultura vasca') ?>
 
-<?php require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2026/".$region_minuscula."/".$lugar_minuscula."/variables-localidad.php"; ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/bloques/estructura/variables_comunes/defines.php"; ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/".$region_minuscula."/".$lugar_minuscula."/head/variables/meta_tags.php"; ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/".$region_minuscula."/".$lugar_minuscula."/head/variables/data-generico.php";  ?>
+<?php require rtrim($_SERVER['DOCUMENT_ROOT']) . "/turismo-norte-espana/".$region_minuscula."/".$lugar_minuscula."/variables-localidad.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/bloques/estructura/variables_comunes/defines.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/".$region_minuscula."/".$lugar_minuscula."/head/variables/meta_tags.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/".$region_minuscula."/".$lugar_minuscula."/head/variables/data-generico.php";  ?>
 
 
 
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <?php require PATH_RAIZ . "/_estructura/semantica/head/head-generico.php"; ?>
+        <?php require PATH_RAIZ . "/_html/head/head-generico.php"; ?>
     </head>
 
-<body class="bg-[url('/Blog_Playas2026/anuncios/assets/img/fondos/naturaleza-costa.jpg')] bg-cover bg-center text-gray-800">
+<body class="bg-[url('/turismo-norte-espana/anuncios/assets/img/fondos/naturaleza-costa.jpg')] bg-cover bg-center text-gray-800">
   <div class="container-xxl py-5">
     <div class="row">
 

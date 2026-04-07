@@ -1,4 +1,4 @@
-<?php //define('PATH_HREF_RAIZ', "/Blog_Playas2026"); ?>
+<?php //define('PATH_HREF_RAIZ', "/turismo-norte-espana"); ?>
 <?php define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_SECUNDARIAS_HEAD', PATH_RAIZ_BLOQUES_ESTRUCTURA. '/paginas-secundarias/head'); ?>
 
 

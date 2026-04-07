@@ -1,14 +1,14 @@
 
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/localidades/carga-variables-generico-lugares-interes.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/localidades/carga-variables-generico-lugares-interes.php"; ?>
 
 <!DOCTYPE html>
 <html lang="es">
 
 <head>
-  <?php require PATH_RAIZ . "/_estructura/semantica/head/etiquetas-meta.php"; ?>
+  <?php require PATH_RAIZ . "/_html/head/etiquetas-meta.php"; ?>
   <link rel="canonical" href="<?= PATH_HREF_RAIZ_LOCALIDADES; ?>/<?= $region_minuscula; ?>/<?= $localidad_minuscula; ?>/lugares-interes/<?= $lugar_minuscula; ?>/index.php" />
-  <?php require PATH_RAIZ . "/_estructura/semantica/head/links-generico.php"; ?>
+  <?php require PATH_RAIZ . "/_html/head/links-generico.php"; ?>
   <title>Monte Buciero - Santoña, Cantabria</title>
 
   <?php require PATH_RAIZ_LOCALIDADES . "/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/{$lugar_minuscula}/schemas/schemas-head.php"; ?>

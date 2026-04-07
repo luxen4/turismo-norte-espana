@@ -21,7 +21,7 @@
   $lugar_minuscula_footer    = '- ' . $lugar . ' -'; 
 
   // Incluimos variables genéricas comunes
-  require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/localidades/carga-variables-generico.php";
+  require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/localidades/carga-variables-generico.php";
 
   // Incluimos plantilla principal de la página de playa
   require PATH_RAIZ_LOCALIDADES . "/page-playa-generico.php";

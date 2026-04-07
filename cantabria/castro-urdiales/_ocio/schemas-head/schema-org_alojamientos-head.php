@@ -13,7 +13,7 @@
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Turismo y Playas 2026 – Guía Costera por el Cantábrico",
+    "name": "Guía Costera por el Cantábrico",
     "logo": {
       "@type": "ImageObject",
       "url": "https://tusitio.com/imagenes/logo.png"

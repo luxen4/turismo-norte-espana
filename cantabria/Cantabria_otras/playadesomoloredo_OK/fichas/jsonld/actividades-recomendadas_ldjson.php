@@ -5,7 +5,7 @@
   "name": "Playa de Somo - Loredo",
   "description": "Descubre las mejores actividades turísticas y deportivas en la Playa de Somo y Loredo en Ribamontán al Mar, Cantabria.",
   "image": "https://tu-dominio.com/imagenes/playa-de-somo-loredo-cantabria.jpg",
-  "url": "https://<?= $_SERVER['SERVER_NAME'] ?>/Blog_Playas2026/<?= $region_minuscula ?>/<?= $localidad_minuscula ?>/fichas/playa-de-<?= $nombre_playa_minuscula . "-" . $localidad_minuscula . "-" . $region_minuscula ?>.php",
+  "url": "https://<?= $_SERVER['SERVER_NAME'] ?>/turismo-norte-espana/<?= $region_minuscula ?>/<?= $localidad_minuscula ?>/fichas/playa-de-<?= $nombre_playa_minuscula . "-" . $localidad_minuscula . "-" . $region_minuscula ?>.php",
   "touristType": {
     "@type": "Audience",
     "audienceType": ["Turistas", "Surfistas", "Aventureros", "Familias"]

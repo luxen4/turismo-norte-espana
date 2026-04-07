@@ -13,7 +13,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item active">
-                    <a class="nav-link text-white" href="/Blog_Playas2026/index.php">Home</a>
+                    <a class="nav-link text-white" href="/turismo-norte-espana/index.php">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-white" href="#informacion_general">General</a>

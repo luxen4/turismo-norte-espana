@@ -9,4 +9,4 @@
     COLOR_PAGE = 'teal'; // Cambié el color para diferenciar visualmente, puedes elegir otro
     lugar_minuscula_footer = '- Puerto de Castro Urdiales -'; 
 ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/carga-variables.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/carga-variables.php"; ?>

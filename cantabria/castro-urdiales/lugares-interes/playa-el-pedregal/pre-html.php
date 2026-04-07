@@ -9,7 +9,7 @@
     COLOR_PAGE = 'teal'; // Puedes cambiarlo si quieres otro color representativo
     lugar_minuscula_footer = '- Playa El Pedregal -'; 
 ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/localidades/carga-variables-generico.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/localidades/carga-variables-generico.php"; ?>
 <?php /*
 🎨 Colores principales de Tailwind (para COLOR_PAGE)
 Color	Descripción	Ejemplo visual aproximado
@@ -29,7 +29,7 @@ lime	Verde lima, vibrante
 #84cc16
 yellow	Amarillo soleado	
 #eab308
-orange	Naranja cálido	
+	Naranja cálido	
 #f97316
 red	Rojo clásico	
 #ef4444
@@ -57,5 +57,5 @@ Montañas o naturaleza: green, emerald, lime
 
 Patrimonios históricos: stone, slate, indigo, neutral
 
-Ambientes cálidos o pueblos: orange, yellow, rose
+Ambientes cálidos o pueblos: , yellow, rose
 */?>

@@ -5,16 +5,16 @@ $country = 'España';    $country_minuscula = strtolower(str_replace(' ', '-', $
 
 <?php define('DESCRIPTION', "Descubre Castro-Urdiales en Cantabria: playas urbanas, puerto pesquero, patrimonio histórico y un ambiente marinero único."); ?>
 <?php define('KEYWORDS_CONTENT', 'Castro-Urdiales, Cantabria, Playa de Ostende, puerto pesquero, patrimonio histórico, turismo Cantabria, costa de Cantabria, castillo-faro, iglesia de Santa María, paseo marítimo, gastronomía marinera') ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/constantes-localidad-generico.php";?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/constantes-localidad-generico.php";?>
 
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <?php require PATH_RAIZ . "/_estructura/semantica/head/head-generico.php"; ?>
+        <?php require PATH_RAIZ . "/_html/head/head-generico.php"; ?>
     </head>
 
 
-<body class="bg-[url('/Blog_Playas2026/anuncios/assets/img/fondos/puerto-marinero.jpg')] bg-cover bg-center text-gray-800">
+<body class="bg-[url('/turismo-norte-espana/anuncios/assets/img/fondos/puerto-marinero.jpg')] bg-cover bg-center text-gray-800">
   <div class="container-xxl py-5">
     <div class="row">
 

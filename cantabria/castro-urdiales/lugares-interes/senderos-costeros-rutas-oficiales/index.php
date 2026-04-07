@@ -5,14 +5,14 @@ COLOR_PAGE='green';
 $title_head = 'Senderos Costeros y Rutas Oficiales en Castro-Urdiales';  
 lugar_minuscula_footer='Senderos Costeros y Rutas Oficiales - Castro-Urdiales'; ?>
 
-<?php require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2026/{$region_minuscula}/{$localidad_minuscula}/{$nombre_sub_carpeta}/previo.php"; ?>
+<?php require rtrim($_SERVER['DOCUMENT_ROOT']) . "/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/{$nombre_sub_carpeta}/previo.php"; ?>
 
 
 
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <?php //require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2026/{$region_minuscula}/{$localidad_minuscula}/{$nombre_sub_carpeta}/previo.php"; ?>
+    <?php //require rtrim($_SERVER['DOCUMENT_ROOT']) . "/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/{$nombre_sub_carpeta}/previo.php"; ?>
     <?php require PATH_RAIZ_LOCALIDADES_CARPETA_HEAD. '/head-generico.php'; ?>
 </head>
 <body class="bg-white text-gray-900 font-sans">

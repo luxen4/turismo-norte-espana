@@ -7,7 +7,7 @@
   $localidad_minuscula = 'playadesomoloredo'; 
   lugar_minuscula = 'playa-de-somo-loredo'; 
 ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/bloques/estructura/variables_comunes/defines.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/bloques/estructura/variables_comunes/defines.php"; ?>
 <?php require PATH_RAIZ_LOCALIDADES_CARPETA_WEB_PLAYA . "/localizacion-playa.php"; ?>
 
 <?php

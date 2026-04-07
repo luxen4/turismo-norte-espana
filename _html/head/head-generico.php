@@ -1,27 +1,23 @@
-<?php require PATH_RAIZ . "/_estructura/semantica/head/etiquetas-meta.php"; ?>
+<?php require PATH_RAIZ . "/_html/head/etiquetas-meta.php"; ?>
 
-<?php require PATH_RAIZ . "/_estructura/semantica/head/title-generico.php"; ?>
+<?php require PATH_RAIZ . "/_html/head/title-generico.php"; ?>
 
-<?php require PATH_RAIZ . "/_estructura/semantica/head/links-generico.php"; ?>
+<?php require PATH_RAIZ . "/_html/head/links-generico.php"; ?>
 
-<?php require PATH_RAIZ . "/_estructura/semantica/head/scripts-generico.php"; ?>
+<?php require PATH_RAIZ . "/_html/head/scripts-generico.php"; ?>
 
 <?php //require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/playas/".LUGAR_MINUSCULA."/schemas/schemas-head.php"; ?>
 
 
 
-
-
-
-
-
-
 <?php // OK
-$pathConPlayas = $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/" .$region_minuscula."/".$localidad_minuscula."/lugares-interes/".$lugar_minuscula."/schemas/schemas-head.php";
+$pathConPlayas = $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/" .$region_minuscula."/".$localidad_minuscula."/lugares-interes/".$lugar_minuscula."/schemas/schemas-head.php";
+//var_dump($pathConPlayas);
 //$pathSinPlayas = PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/".$lugar_minuscula."/".$lugar_minuscula."/schemas/schemas-head.php"; 
-$pathSinPlayas = PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/".$lugar_minuscula."/schemas/schemas-head.php"; 
-//var_dump($pathConPlayas, $pathSinPlayas);
 
+$pathSinPlayas = $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/" .$region_minuscula. "/".$localidad_minuscula."/schemas/schemas-head.php"; 
+//var_dump($pathConPlayas, $pathSinPlayas);
+//var_dump($pathSinPlayas);
 
 try {
     if (file_exists($pathConPlayas)) {
@@ -29,8 +25,7 @@ try {
     } elseif (file_exists($pathSinPlayas)) {
         require $pathSinPlayas;
     } else {
-        var_dump($pathConPlayas); ?><br><?php
-        var_dump($pathSinPlayas);
+        // ?><br><?php
         throw new Exception("Archivo pre-htmlS.php no encontrado en ninguna ruta.");
     }
 } catch (Exception $e) {

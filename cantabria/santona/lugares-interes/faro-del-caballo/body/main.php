@@ -3,9 +3,9 @@
 <html lang="es">
 
 <head>
-  <?php require PATH_RAIZ . "/_estructura/semantica/head/etiquetas-meta.php"; ?>
+  <?php require PATH_RAIZ . "/_html/head/etiquetas-meta.php"; ?>
   <link rel="canonical" href="<?= PATH_HREF_RAIZ_LOCALIDADES; ?>/<?= $region_minuscula; ?>/<?= $localidad_minuscula; ?>/lugares-interes/<?= $lugar_minuscula; ?>/index.php" />
-  <?php require PATH_RAIZ . "/_estructura/semantica/head/links-generico.php"; ?>
+  <?php require PATH_RAIZ . "/_html/head/links-generico.php"; ?>
   <title>Faro del Caballo - Santoña, Cantabria</title>
 
   <?php require PATH_RAIZ_LOCALIDADES . "/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/faro-del-caballo-santona/schemas/schemas-head.php"; ?>

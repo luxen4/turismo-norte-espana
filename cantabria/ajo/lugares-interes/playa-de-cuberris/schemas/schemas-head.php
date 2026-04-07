@@ -5,7 +5,7 @@ $longitude = -3.615244330066511;
 // Variables para el schema – Playa de Cuberris
 $schemaTitle       = "Playa de Cuberris - Ajo";
 $schemaDescription = "Descubre la Playa de Cuberris en Ajo, Cantabria: una playa de arena dorada popular para el surf, rodeada de un entorno natural protegido.";
-$schemaUrl         = "https://playas2024.kesug.com/Blog_Playas2026/cantabria/ajo/index.php"; // Cambia por la URL real
+$schemaUrl         = "https://playas2024.kesug.com/turismo-norte-espana/cantabria/ajo/index.php"; // Cambia por la URL real
 $schemaImage       = "https://www.tu-dominio.com/images/playa-de-cuberris-1.jpg";       // Cambia por la URL real de la imagen principal
 $schemaAddress     = [
     "@type"         => "PostalAddress",

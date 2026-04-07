@@ -4,9 +4,9 @@
     <a
         <?php /* Para amigables URLs */
         if ($_SERVER['SERVER_NAME'] == "localhost") { ?>
-            href="/Blog_Playas2026/<?= $region_minuscula; ?>/<?= $localidad_minuscula; ?>/lugares-interes/<?php echo $lugar['slug'] . '/'; ?>" <?php
+            href="/turismo-norte-espana/<?= $region_minuscula; ?>/<?= $localidad_minuscula; ?>/lugares-interes/<?php echo $lugar['slug'] . '/'; ?>" <?php
         } else { ?>
-            href="/Blog_Playas2026/<?= $region_minuscula; ?>/<?= $localidad_minuscula; ?>/lugares-interes/<?php echo $lugar['slug']; ?>/"; <?php
+            href="/turismo-norte-espana/<?= $region_minuscula; ?>/<?= $localidad_minuscula; ?>/lugares-interes/<?php echo $lugar['slug']; ?>/"; <?php
         } ?>
         class="btn btn-success btn-sm px-3 py-2 shadow-sm">Explorar &rarr;
     </a>

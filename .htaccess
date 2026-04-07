@@ -1,6 +1,6 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    #RewriteBase /Blog_Playas2026/
+    #RewriteBase /turismo-norte-espana/
     
     # Ajo
     #RewriteRule ^ajo-cantabria$                 cantabria/ajo/index.php [L]
@@ -11,7 +11,7 @@
 
 
 
-    
+    RewriteRule ^lugares-interes/mirador-del-cabo-ajo$              cantabria/ajo/lugares-interes/mirador-del-cabo/index.php [L]
     RewriteRule ^lugares-interes/faro-de-cabo-de-ajo-ajo$           cantabria/ajo/lugares-interes/faro-de-cabo-de-ajo/index.php [L]
     RewriteRule ^lugares-interes/playa-de-cuberris-ajo$             cantabria/ajo/lugares-interes/playa-de-cuberris/index.php [L]
     RewriteRule ^lugares-interes/playa-de-antuerta-ajo$             cantabria/ajo/lugares-interes/playa-de-antuerta/index.php [L]

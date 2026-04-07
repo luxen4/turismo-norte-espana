@@ -1,5 +1,5 @@
 <?php $localidad = 'Bakio'; $lugar_minuscula = 'bakio'; ?>
-<?php require_once $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/bizkaia/variables-generales-region.php";?>
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/bizkaia/variables-generales-region.php";?>
 
 <?php define('TITLE', "Bakio – Turismo y Naturaleza en Bizkaia 2025"); ?>
 <?php define('DESCRIPTION', "Descubre la Playa de Bakio, en Bizkaia: un arenal amplio ideal para surfistas y familias, rodeado de montañas verdes y cercano a San Juan de Gaztelugatxe."); ?>
@@ -8,20 +8,20 @@
 <?php define('LUGAR_MINUSCULA', 'bakio') ?>
 <?php define('KEYWORDS_CONTENT', 'Playa de Bakio, Bizkaia, surf, turismo Bizkaia, playas del País Vasco, San Juan de Gaztelugatxe, naturaleza Bizkaia') ?>
 
-<?php require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2026/".$region_minuscula."/".$lugar_minuscula."/variables-localidad.php"; ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/bloques/estructura/variables_comunes/defines.php"; ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/".$region_minuscula."/".$lugar_minuscula."/head/variables/meta_tags.php"; ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/".$region_minuscula."/".$lugar_minuscula."/head/variables/data-generico.php";  ?>
+<?php require rtrim($_SERVER['DOCUMENT_ROOT']) . "/turismo-norte-espana/".$region_minuscula."/".$lugar_minuscula."/variables-localidad.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/bloques/estructura/variables_comunes/defines.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/".$region_minuscula."/".$lugar_minuscula."/head/variables/meta_tags.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/".$region_minuscula."/".$lugar_minuscula."/head/variables/data-generico.php";  ?>
 
 
 
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <?php require PATH_RAIZ . "/_estructura/semantica/head/head-generico.php"; ?>
+        <?php require PATH_RAIZ . "/_html/head/head-generico.php"; ?>
     </head>
 
-<body class="bg-[url('/Blog_Playas2026/anuncios/assets/img/fondos/arenaplaya.jpg')] bg-cover bg-center text-gray-800">
+<body class="bg-[url('/turismo-norte-espana/anuncios/assets/img/fondos/arenaplaya.jpg')] bg-cover bg-center text-gray-800">
   <div class="container-xxl py-5">
     <div class="row">
 

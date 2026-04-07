@@ -17,11 +17,11 @@ $region_minuscula = strtolower(
     )
 );
 
-require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2026/{$region_minuscula}/variables-generales-region.php";
+require rtrim($_SERVER['DOCUMENT_ROOT']) . "/turismo-norte-espana/{$region_minuscula}/variables-generales-region.php";
 
 // Paths
-define('PATH_RAIZ', rtrim($_SERVER['DOCUMENT_ROOT'], '/') . '/Blog_Playas2026');
-define('PATH_HREF_RAIZ', "/Blog_Playas2026");
+define('PATH_RAIZ', rtrim($_SERVER['DOCUMENT_ROOT'], '/') . '/turismo-norte-espana');
+define('PATH_HREF_RAIZ', "/turismo-norte-espana");
 
 define('PATH_RAIZ_BLOQUES', PATH_RAIZ. '/bloques'); 
 define('PATH_RAIZ_BLOQUES_CONTROL', PATH_RAIZ_BLOQUES . '/control');
@@ -29,10 +29,10 @@ define('PATH_RAIZ_BLOQUES_ESTRUCTURA', PATH_RAIZ_BLOQUES. '/estructura');
 define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY_MAIN', PATH_RAIZ_BLOQUES_ESTRUCTURA. '/paginas-playa/body/main');
 define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO', PATH_RAIZ_BLOQUES. '/estructura/paginas-generico');
 
-define('PATH_RAIZ_LOCALIDADES_CARPETA', rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2026/{$region_minuscula}/{$localidad_minuscula}");
+define('PATH_RAIZ_LOCALIDADES_CARPETA', rtrim($_SERVER['DOCUMENT_ROOT']) . "/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}");
 define('PATH_RAIZ_LOCALIDAD_LUGARES_INTERES', PATH_RAIZ_LOCALIDADES_CARPETA. "/lugares-interes");
 
-define('PATH_HREF_RAIZ_BLOQUES', "/Blog_Playas2026/bloques");
+define('PATH_HREF_RAIZ_BLOQUES', "/turismo-norte-espana/bloques");
 define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_BODY', PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO. '/body');
 define('PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD', PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO. "/head");
 
@@ -41,11 +41,11 @@ define('WEB_PAGE', "website");
 define('HOY', date('Y-m-d'));
 define('IDIOMA_LOCAL', 'fr_FR');
 
-define('PATH_HREF_RAIZ_LOCALIDADES', "https://playas2024.kesug.com/Blog_Playas2026/localidades");
+define('PATH_HREF_RAIZ_LOCALIDADES', "https://playas2024.kesug.com/turismo-norte-espana/localidades");
 
 define('PATH_RAIZ_HOME_HEAD_VARIABLES', PATH_RAIZ. '/home/head/variables');
-define('PATH_DOMINIO_RAIZ_LOCALIDADES', 'https://playas2024.kesug.com/Blog_Playas2026/');
-define('PATH_DOMINIO_RAIZ', 'https://playas2024.kesug.com/Blog_Playas2026/');
+define('PATH_DOMINIO_RAIZ_LOCALIDADES', 'https://playas2024.kesug.com/turismo-norte-espana/');
+define('PATH_DOMINIO_RAIZ', 'https://playas2024.kesug.com/turismo-norte-espana/');
 
 define('PATH_RAIZ_LOCALIDADES', PATH_RAIZ. '/localidades'); 
 ?>
@@ -61,7 +61,7 @@ $COLOR_PAGE='blue';
 $lugar_minuscula='Baiona'; 
 $lugar_minuscula='Baiona';
 
-define('NAME_BLOG', "Turismo y Playas 2026 – Guía Costera por el Cantábrico");
+define('NAME_BLOG', "Guía Costera por el Cantábrico");
 define('AUTHOR', "Adrián Laya García");
 define('EMAIL_AUTHOR', " ");
 ?>
@@ -69,10 +69,10 @@ define('EMAIL_AUTHOR', " ");
 <!DOCTYPE html>
 <html lang="fr">
     <head>
-        <?php require PATH_RAIZ . "/_estructura/semantica/head/head-generico.php"; ?>
+        <?php require PATH_RAIZ . "/_html/head/head-generico.php"; ?>
     </head>
 
-<body class="bg-[url('/Blog_Playas2026/anuncios/assets/img/fondos/nature-cote.jpg')] bg-cover bg-center text-gray-800">
+<body class="bg-[url('/turismo-norte-espana/anuncios/assets/img/fondos/nature-cote.jpg')] bg-cover bg-center text-gray-800">
   <div class="container-xxl py-5">
     <div class="row">
 

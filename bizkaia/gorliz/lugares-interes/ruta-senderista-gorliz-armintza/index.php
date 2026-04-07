@@ -17,5 +17,5 @@ $country_minuscula = strtolower(str_replace(' ', '-', $country));
 <?php define('LUGAR_MINUSCULA', 'ruta-senderista-gorliz-armintza') ?>
 <?php define('KEYWORDS_CONTENT', 'Ruta Senderista Gorliz-Armintza, senderismo Bizkaia, naturaleza País Vasco, ruta costera, observación de aves, turismo Gorliz') ?>
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/localidades/carga-variables-generico-lugares-interes.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/localidades/carga-variables-generico-lugares-interes.php"; ?>
 <?php require PATH_RAIZ  . "/_estructura/semantica/page-playa-generico.php"; ?>

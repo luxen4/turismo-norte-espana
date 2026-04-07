@@ -1,5 +1,5 @@
 <?php $localidad = 'Hendaia'; $lugar_minuscula = 'hendaia'; ?>
-<?php require_once $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/nouvelle-aquitaine/variables-generales-region.php"; ?>
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/nouvelle-aquitaine/variables-generales-region.php"; ?>
 
 <?php define('TITLE', "Hendaya – Turismo y Playa de Ondarraitz 2025"); ?>
 <?php define('DESCRIPTION', "Descubre la Playa de Ondarraitz en Hendaya, Nueva Aquitania: un arenal de más de 3 km con arena fina, aguas tranquilas y un entorno ideal para familias, deportes acuáticos y paseos frente al mar."); ?>
@@ -8,20 +8,20 @@
 <?php define('LUGAR_MINUSCULA', 'hendaya'); ?>
 <?php define('KEYWORDS_CONTENT', 'Playa de Ondarraitz, Hendaya, turismo Nueva Aquitania, playas del País Vasco francés, costa vasco-francesa, naturaleza en Hendaya, frontera con España'); ?>
 
-<?php require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2026/".$region_minuscula."/".$lugar_minuscula."/variables-localidad.php"; ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/bloques/estructura/variables_comunes/defines.php"; ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/".$region_minuscula."/".$lugar_minuscula."/head/variables/meta_tags.php"; ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/".$region_minuscula."/".$lugar_minuscula."/head/variables/data-generico.php";  ?>
+<?php require rtrim($_SERVER['DOCUMENT_ROOT']) . "/turismo-norte-espana/".$region_minuscula."/".$lugar_minuscula."/variables-localidad.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/bloques/estructura/variables_comunes/defines.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/".$region_minuscula."/".$lugar_minuscula."/head/variables/meta_tags.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/".$region_minuscula."/".$lugar_minuscula."/head/variables/data-generico.php";  ?>
 
-<?php require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2026/{$region_minuscula}/variables-generales-region.php"; ?>
+<?php require rtrim($_SERVER['DOCUMENT_ROOT']) . "/turismo-norte-espana/{$region_minuscula}/variables-generales-region.php"; ?>
 
 <!DOCTYPE html>
 <html lang="fr">
     <head>
-        <?php require PATH_RAIZ . "/_estructura/semantica/head/head-generico.php"; ?>
+        <?php require PATH_RAIZ . "/_html/head/head-generico.php"; ?>
     </head>
 
-<body class="bg-[url('/Blog_Playas2026/anuncios/assets/img/fondos/nature-cote.jpg')] bg-cover bg-center text-gray-800">
+<body class="bg-[url('/turismo-norte-espana/anuncios/assets/img/fondos/nature-cote.jpg')] bg-cover bg-center text-gray-800">
   <div class="container-xxl py-5">
     <div class="row">
 

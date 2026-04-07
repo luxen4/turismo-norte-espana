@@ -5,7 +5,7 @@
 
                 <!-- Logo Amazon más grande y con margen inferior -->
                 <div class="mt-1 ml-1 mb-3 text-left">
-                    <img src="/Blog_Playas2026/assets/logo_amazon1.png" alt="Amazon" class="w-20 h-auto">
+                    <img src="/turismo-norte-espana/assets/logo_amazon1.png" alt="Amazon" class="w-20 h-auto">
                 </div>
                 
                 <!-- Grid de productos -->

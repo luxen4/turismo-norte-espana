@@ -5,7 +5,7 @@
         if ($_SERVER['SERVER_NAME'] == "localhost") { ?>
             href="<?= PATH_HREF_RAIZ.'/'.$region_minuscula.'/'.$localidad_minuscula ?>"<?php
         } else { ?>
-            href= <?= "/Blog_Playas2026/".$region_minuscula."/".$localidad_minuscula."/"; }?>
+            href= <?= "/turismo-norte-espana/".$region_minuscula."/".$localidad_minuscula."/"; }?>
 
 
             class="hover:text-<?= COLOR_PAGE; ?>-600 transition-colors duration-200">

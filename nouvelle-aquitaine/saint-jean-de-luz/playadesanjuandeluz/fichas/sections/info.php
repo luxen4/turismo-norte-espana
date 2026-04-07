@@ -154,7 +154,7 @@
 
 
 <?php LUGAR = 'francia/playadesanjuandeluz'; 
-$ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/Blog_Playas2026/' . LUGAR . '/img';
+$ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/turismo-norte-espana/' . LUGAR . '/img';
 
 
 

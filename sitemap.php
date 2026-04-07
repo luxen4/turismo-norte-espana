@@ -1,6 +1,6 @@
 <?php
 header("Content-Type: application/xml; charset=UTF-8");
-$baseUrl = "http://alayag82.kesug.com/Blog_Playas2026";
+$baseUrl = "http://alayag82.kesug.com/turismo-norte-espana";
 $fechaHoy = date("Y-m-d");
 echo '<?xml version="1.0" encoding="UTF-8"?>';
 ?>
@@ -722,7 +722,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
 <?php /*
 
     <url>
-        <loc><?= PATH_DOMINIO_RAIZ; ?>/Blog_Playas2026/playa-de-somo-loredo-somo-cantabria</loc>
+        <loc><?= PATH_DOMINIO_RAIZ; ?>/turismo-norte-espana/playa-de-somo-loredo-somo-cantabria</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
@@ -736,7 +736,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
 
 
     <url>
-        <loc><?= PATH_DOMINIO_RAIZ; ?>/Blog_Playas2026/playa-de-noja-cantabria</loc>
+        <loc><?= PATH_DOMINIO_RAIZ; ?>/turismo-norte-espana/playa-de-noja-cantabria</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
@@ -746,7 +746,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
 
 
     <url>
-        <loc><?= PATH_DOMINIO_RAIZ; ?>/Blog_Playas2026/actividades-playa-de-noja-cantabria</loc>
+        <loc><?= PATH_DOMINIO_RAIZ; ?>/turismo-norte-espana/actividades-playa-de-noja-cantabria</loc>
         <lastmod>2025-05-16</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
@@ -757,35 +757,35 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
 
 
     <url>
-        <loc><?= PATH_DOMINIO_RAIZ; ?>/Blog_Playas2026/playa-de-berria-cantabria</loc>
+        <loc><?= PATH_DOMINIO_RAIZ; ?>/turismo-norte-espana/playa-de-berria-cantabria</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc><?= PATH_DOMINIO_RAIZ; ?>/Blog_Playas2026/playa-de-sardinero-santander</loc>
+        <loc><?= PATH_DOMINIO_RAIZ; ?>/turismo-norte-espana/playa-de-sardinero-santander</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc><?= PATH_DOMINIO_RAIZ; ?>/Blog_Playas2026/playa-de-laredo-cantabria</loc>
+        <loc><?= PATH_DOMINIO_RAIZ; ?>/turismo-norte-espana/playa-de-laredo-cantabria</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc><?= PATH_DOMINIO_RAIZ; ?>/Blog_Playas2026/playa-de-isla-cantabria</loc>
+        <loc><?= PATH_DOMINIO_RAIZ; ?>/turismo-norte-espana/playa-de-isla-cantabria</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc><?= PATH_DOMINIO_RAIZ; ?>/Blog_Playas2026/playa-de-suances-cantabria</loc>
+        <loc><?= PATH_DOMINIO_RAIZ; ?>/turismo-norte-espana/playa-de-suances-cantabria</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
@@ -798,56 +798,56 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
 
     <!-- Vizcaya -->
     <url>
-        <loc><?= PATH_DOMINIO_RAIZ; ?>/Blog_Playas2026/playa-de-gorliz-vizcaya</loc>
+        <loc><?= PATH_DOMINIO_RAIZ; ?>/turismo-norte-espana/playa-de-gorliz-vizcaya</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc><?= PATH_DOMINIO_RAIZ; ?>/Blog_Playas2026/playa-de-getxo-vizcaya</loc>
+        <loc><?= PATH_DOMINIO_RAIZ; ?>/turismo-norte-espana/playa-de-getxo-vizcaya</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc><?= PATH_DOMINIO_RAIZ; ?>/Blog_Playas2026/playa-de-vizcaya</loc>
+        <loc><?= PATH_DOMINIO_RAIZ; ?>/turismo-norte-espana/playa-de-vizcaya</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc><?= PATH_DOMINIO_RAIZ; ?>/Blog_Playas2026/playa-de-bakio-vizcaya</loc>
+        <loc><?= PATH_DOMINIO_RAIZ; ?>/turismo-norte-espana/playa-de-bakio-vizcaya</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc><?= PATH_DOMINIO_RAIZ; ?>/Blog_Playas2026/playa-de-lekeitio-vizcaya</loc>
+        <loc><?= PATH_DOMINIO_RAIZ; ?>/turismo-norte-espana/playa-de-lekeitio-vizcaya</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc><?= PATH_DOMINIO_RAIZ; ?>/Blog_Playas2026/playa-de-sopelana-vizcaya</loc>
+        <loc><?= PATH_DOMINIO_RAIZ; ?>/turismo-norte-espana/playa-de-sopelana-vizcaya</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc><?= PATH_DOMINIO_RAIZ; ?>/Blog_Playas2026/playa-de-muskiz-vizcaya</loc>
+        <loc><?= PATH_DOMINIO_RAIZ; ?>/turismo-norte-espana/playa-de-muskiz-vizcaya</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc><?= PATH_DOMINIO_RAIZ; ?>/Blog_Playas2026/playa-de-plentzia-vizcaya</loc>
+        <loc><?= PATH_DOMINIO_RAIZ; ?>/turismo-norte-espana/playa-de-plentzia-vizcaya</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
@@ -858,42 +858,42 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
     <!-- Guipuzkoa -->
 
     <url>
-        <loc><?= PATH_DOMINIO_RAIZ; ?>/Blog_Playas2026/playa-de-fuenterrabia-gipuzkoa</loc>
+        <loc><?= PATH_DOMINIO_RAIZ; ?>/turismo-norte-espana/playa-de-fuenterrabia-gipuzkoa</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc><?= PATH_DOMINIO_RAIZ; ?>/Blog_Playas2026/playa-de-zumaia-gipuzkoa</loc>
+        <loc><?= PATH_DOMINIO_RAIZ; ?>/turismo-norte-espana/playa-de-zumaia-gipuzkoa</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc><?= PATH_DOMINIO_RAIZ; ?>/Blog_Playas2026/playa-de-getaria-gipuzkoa</loc>
+        <loc><?= PATH_DOMINIO_RAIZ; ?>/turismo-norte-espana/playa-de-getaria-gipuzkoa</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url> 
 
     <url>
-        <loc><?= PATH_DOMINIO_RAIZ; ?>/Blog_Playas2026/playa-de-deba-gipuzkoa</loc>
+        <loc><?= PATH_DOMINIO_RAIZ; ?>/turismo-norte-espana/playa-de-deba-gipuzkoa</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>  
 
     <url>
-        <loc><?= PATH_DOMINIO_RAIZ; ?>/Blog_Playas2026/playa-de-orio-gipuzkoa</loc>
+        <loc><?= PATH_DOMINIO_RAIZ; ?>/turismo-norte-espana/playa-de-orio-gipuzkoa</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>   
 
     <url>
-        <loc><?= PATH_DOMINIO_RAIZ; ?>/Blog_Playas2026/playa-de-zarautz-gipuzkoa</loc>
+        <loc><?= PATH_DOMINIO_RAIZ; ?>/turismo-norte-espana/playa-de-zarautz-gipuzkoa</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
@@ -903,28 +903,28 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
     <!-- Francia -->
 
     <url>
-        <loc><?= PATH_DOMINIO_RAIZ; ?>/Blog_Playas2026/playa-de-bayona-francia</loc>
+        <loc><?= PATH_DOMINIO_RAIZ; ?>/turismo-norte-espana/playa-de-bayona-francia</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc><?= PATH_DOMINIO_RAIZ; ?>/Blog_Playas2026/playa-de-hendaya-francia</loc>
+        <loc><?= PATH_DOMINIO_RAIZ; ?>/turismo-norte-espana/playa-de-hendaya-francia</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc><?= PATH_DOMINIO_RAIZ; ?>/Blog_Playas2026/playa-de-saint-jean-de-luz-francia</loc>
+        <loc><?= PATH_DOMINIO_RAIZ; ?>/turismo-norte-espana/playa-de-saint-jean-de-luz-francia</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
-        <loc><?= PATH_DOMINIO_RAIZ; ?>/Blog_Playas2026/playa-de-biarritz-francia</loc>
+        <loc><?= PATH_DOMINIO_RAIZ; ?>/turismo-norte-espana/playa-de-biarritz-francia</loc>
         <lastmod>2025-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>

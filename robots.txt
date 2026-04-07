@@ -2,5 +2,5 @@
 User-agent: *
 Disallow: /downloads/
 
-Sitemap: https://alayag82.kesug.com/Blog_Playas2026/sitemap.php
-# sitemap: http://alayag82.kesug.com/Blog_Playas2026/sitemap.php
+Sitemap: https://alayag82.kesug.com/turismo-norte-espana/sitemap.php
+# sitemap: http://alayag82.kesug.com/turismo-norte-espana/sitemap.php

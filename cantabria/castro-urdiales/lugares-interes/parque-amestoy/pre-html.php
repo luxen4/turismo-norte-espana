@@ -9,4 +9,4 @@
     COLOR_PAGE = 'green'; // Puedes usar otro color si quieres diferenciarlo visualmente
     lugar_minuscula_footer = '- Parque Amestoy -'; 
 ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/carga-variables.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/carga-variables.php"; ?>

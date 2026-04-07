@@ -29,7 +29,7 @@
       Además, su proximidad al casco antiguo y al <strong>Puerto de Castro-Urdiales</strong> permite combinar actividades acuáticas con turismo cultural y gastronómico.
     </p>
     <p class="flex items-center gap-2">
-      <i class="fas fa-calendar-alt text-orange-500"></i>
+      <i class="fas fa-calendar-alt text500"></i>
       Durante el verano se celebran conciertos, mercadillos y actividades familiares, convirtiendo a Ostende en un punto clave del ocio costero cántabro.
     </p>
   </div>
@@ -70,7 +70,7 @@
     </li>
 
     <li class="flex flex-col gap-2">
-      <div class="flex items-center text-orange-500 font-semibold">
+      <div class="flex items-center text500 font-semibold">
         <i class="fas fa-volleyball-ball mr-2"></i> Actividades deportivas
       </div>
       <p>

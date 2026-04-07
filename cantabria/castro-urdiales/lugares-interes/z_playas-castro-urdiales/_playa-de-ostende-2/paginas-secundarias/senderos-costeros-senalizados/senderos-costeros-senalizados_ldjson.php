@@ -4,11 +4,11 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://Playas2026.kesug.com/Blog_Playas2026/senderos-costeros-senalizados"
+    "@id": "https://Playas2026.kesug.com/turismo-norte-espana/senderos-costeros-senalizados"
   },
   "headline": "Senderos Costeros Señalizados en la Playa de Ostende – Castro-Urdiales",
   "description": "Descubre las rutas panorámicas y senderos señalizados desde la Playa de Ostende. Caminos accesibles con vistas al Cantábrico, ideales para todos los niveles.",
-  "image": "https://Playas2026.kesug.com/Blog_Playas2026/cantabria/ostende/img/senderos-costeros-senalizados.jpg",
+  "image": "https://Playas2026.kesug.com/turismo-norte-espana/cantabria/ostende/img/senderos-costeros-senalizados.jpg",
   "author": {
     "@type": "Person",
     "name": "Adrián Laya García",
@@ -43,19 +43,19 @@
       "@type": "ListItem",
       "position": 2,
       "name": "Cantabria",
-      "item": "https://Playas2026.kesug.com/Blog_Playas2026/cantabria/"
+      "item": "https://Playas2026.kesug.com/turismo-norte-espana/cantabria/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Castro-Urdiales",
-      "item": "https://Playas2026.kesug.com/Blog_Playas2026/cantabria/castro-urdiales/"
+      "item": "https://Playas2026.kesug.com/turismo-norte-espana/cantabria/castro-urdiales/"
     },
     {
       "@type": "ListItem",
       "position": 4,
       "name": "Senderos Costeros",
-      "item": "https://Playas2026.kesug.com/Blog_Playas2026/senderos-costeros-ostende"
+      "item": "https://Playas2026.kesug.com/turismo-norte-espana/senderos-costeros-ostende"
     }
   ]
 }

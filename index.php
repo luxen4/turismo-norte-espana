@@ -19,70 +19,23 @@
 
   $author_content = 'Adrián Laya García'; 
 ?>
-<?php define('TITLE', "Turismo y Playas 2026 – Guía Costera por el Cantábrico}"); ?>
+<?php define('TITLE', "Guía Costera por el Cantábrico}"); ?>
 <?php define('DESCRIPTION', "Recorre la Ruta de la Costa Oriental en Ajo: senderos naturales, acantilados, faros y vistas panorámicas del Cantábrico en una experiencia inolvidable."); ?>
 
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/bloques/estructura/variables_comunes/defines.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/bloques/estructura/variables_comunes/defines.php"; ?>
 <?php require PATH_RAIZ_HOME_HEAD_VARIABLES . "/meta-tags.php"; ?>
 
 <!DOCTYPE html>
 <html lang="es">
 
 <head>
-  <?php require PATH_RAIZ . "/_estructura/semantica/head/head-generico.php"; ?>
+  <?php require PATH_RAIZ . "/_html/head/head-generico.php"; ?>
 </head>
 
 <body>
-
-<!-- NAVBAR -->
-<nav class="bg-blue-800 text-white">
-  <div class="max-w-7xl mx-auto px-4">
-    <div class="flex justify-between items-center h-16">
-
-      <!-- Logo -->
-      <div class="text-xl font-bold">
-        turismo-norte-espana
-      </div>
-
-      <!-- Menú escritorio -->
-      <div class="hidden md:flex space-x-6">
-        <a href="#" class="hover:text-yellow-300">Inicio</a>
-        <a href="#" class="hover:text-yellow-300">Destinos</a>
-        <a href="#" class="hover:text-yellow-300">Rutas</a>
-        <a href="#" class="hover:text-yellow-300">Gastronomía</a>
-        <a href="#" class="hover:text-yellow-300">Contacto</a>
-      </div>
-
-      <!-- Botón hamburguesa -->
-      <div class="md:hidden">
-        <button id="menu-btn" class="focus:outline-none">
-          ☰
-        </button>
-      </div>
-
-    </div>
-  </div>
-
-  <!-- Menú móvil -->
-  <div id="menu" class="hidden md:hidden px-4 pb-4">
-    <a href="#" class="block py-2 border-b">Inicio</a>
-    <a href="#" class="block py-2 border-b">Destinos</a>
-    <a href="#" class="block py-2 border-b">Rutas</a>
-    <a href="#" class="block py-2 border-b">Gastronomía</a>
-    <a href="#" class="block py-2">Contacto</a>
-  </div>
-</nav>
-
-<!-- JS -->
-<script>
-  const btn = document.getElementById('menu-btn');
-  const menu = document.getElementById('menu');
-
-  btn.addEventListener('click', () => {
-    menu.classList.toggle('hidden');
-  });
-</script>
+  
+  <?php require PATH_RAIZ . "/_html/body/navbar-generico.php"; ?>
 
 
     <!-- Código de AdCash (runAutoTag) -->
@@ -93,11 +46,7 @@
     });
     </script>
 
-    <header class="bg-<?= COLOR_PAGE; ?>-100 text-center py-4 mt-1 text-<?= COLOR_PAGE; ?>-800 shadow-inner">
-        <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight">
-            Turismo y Playas 2026 – Guía Costera por el Cantábrico
-        </h1>
-    </header>
+
 
 <main class="container mx-auto my-6 px-2">
 
@@ -107,23 +56,21 @@
     <aside class="hidden md:block md:col-span-2">
       <div class="sticky top-4 space-y-4">
         
-        <div class="bg-gray-100 p-2 text-center rounded-lg shadow">
+        <?php /*<div class="bg-gray-100 p-2 text-center rounded-lg shadow">
           <p class="text-sm">Publicidad</p>
           <div id="ad-left-1"></div>
-        </div>
+        </div>*/ ?>
 
-
-    <?php require PATH_RAIZ . "/_anuncios/amazon/publicidad-tematizada.php"; ?>
-
-
+        <?php require PATH_RAIZ . "/_anuncios/amazon/publicidad-tematizada.php"; ?>
 
 
         <div class="bg-gray-100 p-2 text-center rounded-lg shadow">
           <div id="ad-left-2"></div>
         </div>
+
         <div class="mt-2">
-    <div data-gyg-href="https://widget.getyourguide.com/default/city.frame" data-gyg-location-id="200" data-gyg-locale-code="en-US" data-gyg-widget="city" data-gyg-partner-id="VW16GKQ"></div>
-</div>
+          <div data-gyg-href="https://widget.getyourguide.com/default/city.frame" data-gyg-location-id="200" data-gyg-locale-code="en-US" data-gyg-widget="city" data-gyg-partner-id="VW16GKQ"></div>
+        </div>
 
       </div>
     </aside>
@@ -131,19 +78,19 @@
     <!-- CONTENIDO CENTRAL (7 columnas) -->
     <div class="col-span-12 md:col-span-7">
       <div class="w-full">
-        <section class="bg-orange-50 p-6 rounded-2xl mb-6">
+        <section class="bg50 p-1 rounded-2xl mb-6">
           
-          <header>
-            <h2 class="text-3xl font-extrabold text-orange-800 mb-3 border-b border-orange-300 pb-2">
-              Playas del Cantábrico
-            </h2>
+          <header class="text-center py-1 mt-1 text-<?= COLOR_PAGE; ?>-800">
+              <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight border-b border300 pb-2">
+                  Guía Costera por el Cantábrico
+              </h1>
           </header>
 
-          <div class="space-y-4 text-orange-800 text-base md:text-lg leading-relaxed md:leading-loose">
+          <div class="space-y-4 text800 text-base md:text-lg leading-relaxed md:leading-loose">
 
             <p>
               Bienvenido a nuestro blog, donde te invitamos a descubrir las 
-              <span class="font-semibold text-orange-500">playas más impresionantes de la costa cantábrica</span>, 
+              <span class="font-semibold text-<?= COLOR_PAGE; ?>-800">playas más impresionantes de la costa cantábrica</span>, 
               uno de los destinos más espectaculares del norte de España. 
               Desde los acantilados salvajes de Cantabria hasta las elegantes playas urbanas del País Vasco 
               y las extensas costas del suroeste de Francia, esta guía te ayudará a encontrar el lugar perfecto para tu próxima escapada.
@@ -151,16 +98,16 @@
 
             <p>
               Aquí encontrarás desde 
-              <span class="font-semibold text-orange-500">calas escondidas y tranquilas</span> 
+              <span class="font-semibold text-<?= COLOR_PAGE; ?>-800">calas escondidas y tranquilas</span> 
               ideales para relajarte, hasta 
-              <span class="font-semibold text-orange-500">playas amplias de arena dorada</span> 
+              <span class="font-semibold text-<?= COLOR_PAGE; ?>-800">playas amplias de arena dorada</span> 
               perfectas para disfrutar en familia o practicar deportes como el surf. 
               El mar Cantábrico ofrece aguas limpias, paisajes verdes únicos y una gran diversidad de entornos naturales.
             </p>
 
             <p>
               Además, cada destino está acompañado de su 
-              <span class="font-semibold text-orange-500">rica gastronomía local</span>, 
+              <span class="font-semibold text-<?= COLOR_PAGE; ?>-800">rica gastronomía local</span>, 
               donde destacan los mariscos frescos, los pintxos y los platos tradicionales que convierten cualquier visita 
               en una experiencia completa.
             </p>
@@ -209,10 +156,10 @@
     <aside class="hidden md:block md:col-span-3">
       <div class="sticky top-4 space-y-4">
 
-        <div class="bg-gray-100 p-2 text-center rounded-lg shadow">
+        <?php /*<div class="bg-gray-100 p-2 text-center rounded-lg shadow">
           <p class="text-sm">Publicidad</p>
           <div id="ad-right-1"></div>
-        </div>
+        </div>*/ ?>
 
         <div class="bg-white p-2 rounded-lg shadow">
           <div data-gyg-widget="auto" data-gyg-partner-id="VW16GKQ"></div>
@@ -255,8 +202,8 @@ if0_38843592
 PASSWORD
 5HJqjWqYLP4k
 
-http://Playas2026.kesug.com/Blog_Playas2026/
-https: //Playas2026.kesug.com/Blog_Playas2026/
+http://Playas2026.kesug.com/turismo-norte-espana/
+https: //Playas2026.kesug.com/turismo-norte-espana/
 
 
 

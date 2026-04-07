@@ -1,5 +1,5 @@
 <?php $region = "Cantabria"; $region_minuscula = 'cantabria'; $localidad_minuscula = 'castro-urdiales';  $localidad_minuscula = "Castro-Urdiales"; ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/{$region_minuscula}/{$localidad_minuscula}/ocio/head/variables/data-generico.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/ocio/head/variables/data-generico.php"; ?>
 <?php $url_tripadvisor = "https://www.tripadvisor.es/Hotels-g776865-Castro_Urdiales_Cantabria-Hotels.html"; ?>
 
 

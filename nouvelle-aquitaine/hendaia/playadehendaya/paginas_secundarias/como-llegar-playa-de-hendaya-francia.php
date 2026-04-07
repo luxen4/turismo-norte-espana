@@ -7,8 +7,8 @@
 
   <?php 
   // Variables para la página de Hendaya
-  require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2026/francia/playadehendaya/fichas/sections/head/variables/web-playa/localizacion-playa.php';
-  require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2026/bloques/estructura/variables_comunes/defines.php';?>
+  require $_SERVER['DOCUMENT_ROOT'] . '/turismo-norte-espana/francia/playadehendaya/fichas/sections/head/variables/web-playa/localizacion-playa.php';
+  require $_SERVER['DOCUMENT_ROOT'] . '/turismo-norte-espana/bloques/estructura/variables_comunes/defines.php';?>
 
 <?php
   // Links y metas comunes

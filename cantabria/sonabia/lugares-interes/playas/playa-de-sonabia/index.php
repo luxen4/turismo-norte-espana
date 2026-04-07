@@ -20,5 +20,5 @@
     $color_page     = 'sky';
     $lugar_minuscula_footer    = '- ' . $lugar . ' -'; 
 ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/localidades/carga-variables-generico.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/localidades/carga-variables-generico.php"; ?>
 <?php require PATH_RAIZ  . "/_estructura/semantica/page-playa-generico.php"; ?>

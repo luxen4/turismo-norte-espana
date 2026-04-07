@@ -15,13 +15,13 @@ $country_minuscula = strtolower(str_replace(' ', '-', $country));
 <?php define('LUGAR_MINUSCULA', strtolower(str_replace(' ', '-', LUGAR))) ?>
 <?php define('KEYWORDS_CONTENT', 'Castillo de Santa Ana Castro Urdiales, turismo histórico Cantabria, castillos en Cantabria, mirador puerto Castro Urdiales') ?>
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/localidades/carga-variables-generico-lugares-interes.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/localidades/carga-variables-generico-lugares-interes.php"; ?>
 <!DOCTYPE html>
 <html lang="es">
 
 <head>
-  <?php require PATH_RAIZ . "/_estructura/semantica/head/etiquetas-meta.php"; ?>
-  <?php require PATH_RAIZ . "/_estructura/semantica/head/links-generico.php"; ?>
+  <?php require PATH_RAIZ . "/_html/head/etiquetas-meta.php"; ?>
+  <?php require PATH_RAIZ . "/_html/head/links-generico.php"; ?>
   <title>Castillo de Santa Ana - Castro-Urdiales, Cantabria</title>
 
   <?php require PATH_RAIZ_LOCALIDADES . "/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/castillo-de-santa-ana-castro-urdiales/schemas/schemas-head.php"; ?>

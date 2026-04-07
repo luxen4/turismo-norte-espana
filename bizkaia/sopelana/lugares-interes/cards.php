@@ -54,7 +54,7 @@
 
           <figure class="mb-0">
             <img 
-              src="/Blog_Playas2026/bizkaia/sopelana/lugares-interes/<?= $lugar['slug']; ?>/img/<?= $lugar['imagen']; ?>" 
+              src="/turismo-norte-espana/bizkaia/sopelana/lugares-interes/<?= $lugar['slug']; ?>/img/<?= $lugar['imagen']; ?>" 
               class="card-img-top h-64 object-cover rounded-top" 
               alt="<?= $lugar['alt']; ?>">
 

@@ -5,8 +5,8 @@
 
 <?php
 // Variables para la página de la Playa de Laredo
-require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2026/cantabria/playadelaredo/fichas/sections/head/variables/web-playa/localizacion-playa.php';
-require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2026/bloques/estructura/variables_comunes/defines.php';
+require $_SERVER['DOCUMENT_ROOT'] . '/turismo-norte-espana/cantabria/playadelaredo/fichas/sections/head/variables/web-playa/localizacion-playa.php';
+require $_SERVER['DOCUMENT_ROOT'] . '/turismo-norte-espana/bloques/estructura/variables_comunes/defines.php';
 
 $site_verification_content = 'e148bdbc89c019bd06122ab7bd08a8be'; // Cambia si tienes un código específico para Laredo
 $description_content = 'Descubre la Playa de Laredo, una de las playas más famosas de Cantabria, ideal para paseos, deportes acuáticos y disfrutar del mar.';

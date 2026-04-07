@@ -17,5 +17,5 @@ $country_minuscula = strtolower(str_replace(' ', '-', $country));
 <?php define('LUGAR_MINUSCULA', 'ruta-senderista-laga-ogono') ?>
 <?php define('KEYWORDS_CONTENT', 'Ruta Laga Ogoño, senderismo Ibarrangelu, Cabo Ogoño, Playa de Laga, Bizkaia, turismo País Vasco, costa vasca, reserva de Urdaibai, naturaleza, rutas de montaña') ?>
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/localidades/carga-variables-generico-lugares-interes.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/localidades/carga-variables-generico-lugares-interes.php"; ?>
 <?php require PATH_RAIZ  . "/_estructura/semantica/page-playa-generico.php"; ?>  

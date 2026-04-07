@@ -4,7 +4,7 @@
   $localidad_minuscula = '';
   lugar_minuscula_footer = 'Playas del Cantábrico';
   lugar_minuscula = lugar_minuscula_footer;
-  COLOR_PAGE = 'orange';
+  COLOR_PAGE = '';
 
   $localidad_minuscula='santona'; $localidad_minuscula='santona'; lugar_minuscula='actividades-playa-deberria'; lugar_minuscula='playa-de berria';
 
@@ -12,7 +12,7 @@
 ?>
 
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/bloques/estructura/variables_comunes/defines.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/bloques/estructura/variables_comunes/defines.php"; ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>

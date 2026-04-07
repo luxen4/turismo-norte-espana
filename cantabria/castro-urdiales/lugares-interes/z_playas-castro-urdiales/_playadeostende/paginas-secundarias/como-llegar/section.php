@@ -6,8 +6,8 @@
   <meta itemprop="dateModified" content="2025-06-02" />
   <meta itemprop="inLanguage" content="es-ES" />
   <meta itemprop="headline" content="Senderos costeros señalizados en Playa de Ostende" />
-  <meta itemprop="mainEntityOfPage" content="https://Playas2026.kesug.com/Blog_Playas2026/senderos-costeros-ostende/" />
-  <meta itemprop="image" content="https://Playas2026.kesug.com/Blog_Playas2026/cantabria/castrourdiales/img/senderismo-naturaleza-Castro-Urdiales-Cantabria.jpg" />
+  <meta itemprop="mainEntityOfPage" content="https://Playas2026.kesug.com/turismo-norte-espana/senderos-costeros-ostende/" />
+  <meta itemprop="image" content="https://Playas2026.kesug.com/turismo-norte-espana/cantabria/castrourdiales/img/senderismo-naturaleza-Castro-Urdiales-Cantabria.jpg" />
 
   <div itemprop="articleBody">
 

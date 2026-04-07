@@ -5,7 +5,7 @@
   "name": "Playa de Ostende",
   "description": "Descubre las mejores actividades turísticas y deportivas en la Playa de Ostende en Castro Urdiales, Cantabria.",
   "image": "https://tu-dominio.com/imagenes/ostende-playa-cantabria.jpg",
-  "url": "https://<?= $_SERVER['SERVER_NAME'] ?>/Blog_Playas2026/<?= $region_minuscula ?>/<?= $localidad_minuscula; ?>/fichas/playa-de-<?= $nombre_playa_minuscula . "-" . $localidad_minuscula . "-" . $region_minuscula ?>.php",
+  "url": "https://<?= $_SERVER['SERVER_NAME'] ?>/turismo-norte-espana/<?= $region_minuscula ?>/<?= $localidad_minuscula; ?>/fichas/playa-de-<?= $nombre_playa_minuscula . "-" . $localidad_minuscula . "-" . $region_minuscula ?>.php",
   "touristType": {
     "@type": "Audience",
     "audienceType": ["Turistas", "Surfistas", "Aventureros", "Familias"]

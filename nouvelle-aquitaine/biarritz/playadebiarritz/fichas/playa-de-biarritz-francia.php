@@ -5,8 +5,8 @@
 
 <?php
 // Variables para la página de la Playa de Biarritz
-require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2026/francia/playadebiarritz/fichas/sections/head/variables/web-playa/localizacion-playa.php';
-require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2026/bloques/estructura/variables_comunes/defines.php';
+require $_SERVER['DOCUMENT_ROOT'] . '/turismo-norte-espana/francia/playadebiarritz/fichas/sections/head/variables/web-playa/localizacion-playa.php';
+require $_SERVER['DOCUMENT_ROOT'] . '/turismo-norte-espana/bloques/estructura/variables_comunes/defines.php';
 
 $site_verification_content = 'CAMBIAR_ESTO_SI_ES_NECESARIO'; // Cambiar si se necesita una verificación específica para Biarritz
 $description_content = 'Découvrez la plage de Biarritz, une destination emblématique de la côte basque, idéale pour le surf, la détente et la beauté naturelle du sud-ouest de la France.';

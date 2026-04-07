@@ -24,8 +24,8 @@
 <meta property="og:title" content="Actividades en la Playa de Biarritz – Francia" />
 <meta property="og:description" content="Descubre qué hacer en la Playa de Biarritz: surf, cultura vasco-francesa, senderos costeros y más planes en Nouvelle-Aquitaine." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://playas2024.kesug.com/Blog_Playas2026/actividades-playa-de-biarritz-francia" />
-<meta property="og:image" content="https://playas2024.kesug.com/Blog_Playas2026/nouvelle-aquitaine/playadebiarritz/img/playa-de-biarritz-francia.jpg" />
+<meta property="og:url" content="https://playas2024.kesug.com/turismo-norte-espana/actividades-playa-de-biarritz-francia" />
+<meta property="og:image" content="https://playas2024.kesug.com/turismo-norte-espana/nouvelle-aquitaine/playadebiarritz/img/playa-de-biarritz-francia.jpg" />
 <meta property="og:image:alt" content="Vista de la Playa de Biarritz, ideal para surf y paseos por la costa atlántica francesa" />
 <meta property="og:locale" content="es_ES" />
 <meta property="article:published_time" content="<?= $hoy ?>T08:00:00+01:00" />
@@ -38,6 +38,6 @@
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Actividades en la Playa de Biarritz – Francia" />
 <meta name="twitter:description" content="Descubre qué hacer en la Playa de Biarritz: surf, cultura, caminatas y más actividades en la costa atlántica de Francia." />
-<meta name="twitter:image" content="https://playas2024.kesug.com/Blog_Playas2026/nouvelle-aquitaine/playadebiarritz/img/playa-de-biarritz-francia.jpg" />
+<meta name="twitter:image" content="https://playas2024.kesug.com/turismo-norte-espana/nouvelle-aquitaine/playadebiarritz/img/playa-de-biarritz-francia.jpg" />
 <meta name="twitter:image:alt" content="Vista de la Playa de Biarritz desde la arena con ambiente surfero y turístico" />
 <meta name="twitter:site" content="@TuCuentaTwitter" />

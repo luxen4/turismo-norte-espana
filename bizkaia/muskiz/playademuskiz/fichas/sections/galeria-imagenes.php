@@ -1,13 +1,13 @@
 <?php // Carrusel de 3 Imágenes //
         LUGAR = 'playademuskiz';
-        $ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/Blog_Playas2026/bloques/' . LUGAR . '/img';
+        $ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/turismo-norte-espana/bloques/' . LUGAR . '/img';
         $imges_name = ['/vista-panoramica-de-la-playa-de-muskiz-con-su-arena-dorada_1.jfif', '/vista-panoramica-de-la-playa-de-muskiz-con-su-arena-dorada_2.jfif', '/vista-panoramica-de-la-playa-de-muskiz-con-su-arena-dorada-3.jfif'];
         $alt = ["Vista panorámica de la Playa de Muskiz con su arena dorada", "Vista panorámica de la Playa de Muskiz con su arena dorada", "Vista panorámica de la Playa de Muskiz con su arena dorada"];
         require './../../../../../bloques/estructura/carruseles/carruselimagenes/carruselgenerico.php'; ?>
 
         <?php // Galeria 3 imagenes //
         LUGAR = 'playademuskiz';
-        $ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/Blog_Playas2026/bloques/' . LUGAR . '/img';
+        $ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/turismo-norte-espana/bloques/' . LUGAR . '/img';
         $imges_name = ['/vista-panoramica-de-la-playa-de-muskiz-con-su-arena-dorada4.jfif', '/fronton-cercano-playa-de-muskiz.jfif', '/bar-cafeteria-en-la-playa-de-muskiz.jfif'];
         $alt = ["Vista panorámica de la Playa de Muskiz con su arena dorada", "Un frontón cercano a la Playa de Muskiz", "Bar-Cafetería en la Playa de Muskiz"];
         require './../../../../../bloques/estructura/galeriasimagenes/galeriagenerica.php'; ?>

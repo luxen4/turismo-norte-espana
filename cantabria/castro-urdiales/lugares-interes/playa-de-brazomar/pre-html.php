@@ -9,4 +9,4 @@
     COLOR_PAGE = 'indigo'; // Puedes ajustar este color a tu sistema visual
     lugar_minuscula_footer = '- Playa de Brazomar -'; 
 ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/localidades/carga-variables-generico.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/localidades/carga-variables-generico.php"; ?>

@@ -95,14 +95,14 @@
 
 <?php // Carrusel de 3 Imágenes //
 LUGAR = 'playadezarautz';
-$ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/Blog_Playas2026/bloques/' . LUGAR . '/img';
+$ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/turismo-norte-espana/bloques/' . LUGAR . '/img';
 $imges_name = ['/atardecerzarautzsurfistas.jpg', '/playadezarautzdiasoleado.jpg', '/paseomaritimozarautz.jpg'];
 $alt = ["Vista panorámica de la Playa de Zarautz al atardecer, con surfistas disfrutando de las olas.", "Playa de Zarautz en un día soleado, con su extenso paseo marítimo y montañas al fondo.", "Paseo marítimo de Zarautz con palmeras y restaurantes, ideal para caminar y disfrutar del mar."];
 require './../../../../../bloques/estructura/carruseles/carruselimagenes/carruselgenerico.php'; ?>
 
 <?php // Galeria 3 imagenes //
 LUGAR = 'playadezarautz';
-$ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/Blog_Playas2026/bloques/' . LUGAR . '/img';
+$ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/turismo-norte-espana/bloques/' . LUGAR . '/img';
 $imges_name = ['/amanecerplayazarautz.jpg', '/surfistasaliendoplayazarautz.png', '/familiasenlaplayadezarautz.jpg'];
 $alt = ["Amanecer en la Playa de Zarautz", "Surfista saliendo del agua en la Playa de Zarautz, con el mar en el fondo.", "Familias disfrutando de un día de playa en Zarautz, con sombrillas y castillos de arena."];
 require './../../../../../bloques/estructura/galeriasimagenes/galeriagenerica.php'; */ ?>

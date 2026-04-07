@@ -17,5 +17,5 @@ $country_minuscula = strtolower(str_replace(' ', '-', $country));
 <?php define('LUGAR_MINUSCULA', 'centro-interpretacion-urdaibai') ?>
 <?php define('KEYWORDS_CONTENT', 'Centro de Interpretación de Urdaibai, Bird Center, Ibarrangelu, Bizkaia, turismo naturaleza, observación de aves, reserva de la biosfera, País Vasco, ecoturismo') ?>
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/localidades/carga-variables-generico-lugares-interes.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/localidades/carga-variables-generico-lugares-interes.php"; ?>
 <?php require PATH_RAIZ  . "/_estructura/semantica/page-playa-generico.php"; ?>

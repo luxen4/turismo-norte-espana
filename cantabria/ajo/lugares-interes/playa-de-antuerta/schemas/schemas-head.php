@@ -6,8 +6,8 @@ $longitude = -3.6201546712108055;
 // Variables para el schema – Playa de Antuerta
 $schemaTitle       = "Playa de Antuerta - Ajo";
 $schemaDescription = "Descubre la Playa de Antuerta en Ajo, Cantabria: una playa salvaje, tranquila y rodeada de naturaleza, ideal para senderismo y desconexión.";
-$schemaUrl         = "https://playas2024.kesug.com/Blog_Playas2026/cantabria/ajo/lugares-interes/playa-de-antuerta/index.php"; // Cambia por la URL real
-$schemaImage       = "https://playas2024.kesug.com/Blog_Playas2026/cantabria/ajo/lugares-interes/playa-de-antuerta/img/playa-de-antuerta-ajo-cantabria-1.jpg";       // Cambia por la URL real de la imagen principal
+$schemaUrl         = "https://playas2024.kesug.com/turismo-norte-espana/cantabria/ajo/lugares-interes/playa-de-antuerta/index.php"; // Cambia por la URL real
+$schemaImage       = "https://playas2024.kesug.com/turismo-norte-espana/cantabria/ajo/lugares-interes/playa-de-antuerta/img/playa-de-antuerta-ajo-cantabria-1.jpg";       // Cambia por la URL real de la imagen principal
 $schemaAddress     = [
     "@type"         => "PostalAddress",
     "streetAddress" => "Playa de Antuerta",
@@ -40,7 +40,7 @@ $schemaAddress     = [
     "longitude": <?= $longitude ?>
   },
   "sameAs": [
-    "https://playas2024.kesug.com/Blog_Playas2026/cantabria/ajo/lugares-interes/playa-de-antuerta/index.php";
+    "https://playas2024.kesug.com/turismo-norte-espana/cantabria/ajo/lugares-interes/playa-de-antuerta/index.php";
   ]
 }
 </script>

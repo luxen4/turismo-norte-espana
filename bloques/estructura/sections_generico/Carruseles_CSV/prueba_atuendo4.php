@@ -14,7 +14,7 @@ $numeroAleatorio = 8; ?>
         <div class="col-xl-12 text-center col-lg-12 col-md-12 col-sm-12 col-12">
             <?php //<h6 class="text-publicidad">Publicidad</h6>?>
             <div class="text-left">
-                <img src="/Blog_Playas2026/logo_amazon.png" alt="ddd" style="width: 80px; height: auto; margin-top: 1em;">
+                <img src="/turismo-norte-espana/logo_amazon.png" alt="ddd" style="width: 80px; height: auto; margin-top: 1em;">
             </div>
             <?php require 'elementos_atuendo_en_linea.php'; ?>
         </div>

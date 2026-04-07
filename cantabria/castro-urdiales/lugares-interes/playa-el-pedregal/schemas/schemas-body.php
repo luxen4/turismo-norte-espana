@@ -29,7 +29,7 @@
     },
     {
       "@type": "WebSite",
-      "name": "Turismo y Playas 2026 – Guía Costera por el Cantábrico",
+      "name": "Guía Costera por el Cantábrico",
       "url": "https://www.blogPlayas2026.com"
     }
   ]

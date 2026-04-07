@@ -9,4 +9,4 @@
     COLOR_PAGE = 'teal'; // Cambia el color si deseas diferenciarlo visualmente
     lugar_minuscula_footer = '- Playa de Ostende -'; 
 ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/localidades/carga-variables-generico.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/localidades/carga-variables-generico.php"; ?>

@@ -5,7 +5,7 @@ lugar_minuscula_footer='Playa de Ostende -Castro-Urdiales-';
 COLOR_PAGE='blue';
 $title = 'Playa de Ostende – Castro-Urdiales';?>
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/bloques/estructura/variables_comunes/defines.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/bloques/estructura/variables_comunes/defines.php"; ?>
 <?php require PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES. "/localizacion-playa.php"; ?>
 
 <?php require PATH_RAIZ_LOCALIDADES_CARPETA_HEAD_VARIABLES. "/meta-tags.php";      // Variables de etiquetas metarequire PATH_RAIZ_BLOQUES_ESTRUCTURA . "/paginas-generico/etiquetas-meta.php"; ?>
@@ -15,7 +15,7 @@ $title = 'Playa de Ostende – Castro-Urdiales';?>
 <html lang="es">
     <head>
         <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_GENERICO_HEAD. "/etiquetas-meta.php";?>
-        <?php require PATH_RAIZ . "/_estructura/semantica/head/links-generico.php"; ?>
+        <?php require PATH_RAIZ . "/_html/head/links-generico.php"; ?>
         <title><?= $title; ?></title>
     </head>
 

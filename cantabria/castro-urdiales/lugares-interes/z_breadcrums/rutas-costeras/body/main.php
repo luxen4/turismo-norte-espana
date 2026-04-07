@@ -1,7 +1,7 @@
 <main class="container mx-auto max-w-7xl px-4 py-12">
   <div class="bg-white rounded-2xl shadow-md p-6 md:p-10">
     <header class="text-center mb-10">
-      <h1 class="text-3xl md:text-4xl font-bold text-orange-600 mb-2">
+      <h1 class="text-3xl md:text-4xl font-bold text600 mb-2">
         <i class="fas fa-route mr-2"></i> Rutas Costeras en <?= $localidad_minuscula; ?>
       </h1>
       <p class="text-gray-600 text-lg">

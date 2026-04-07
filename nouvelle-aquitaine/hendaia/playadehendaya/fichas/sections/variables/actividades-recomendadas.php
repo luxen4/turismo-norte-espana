@@ -1,6 +1,6 @@
 
 <section id="actividades" class="seccion-actividades container">
-  <a class="nav-link text-red" href="/Blog_Playas2026/<?= $rutas; ?>">Playa de Hendaya</a>
+  <a class="nav-link text-red" href="/turismo-norte-espana/<?= $rutas; ?>">Playa de Hendaya</a>
   <header class="text-center mb-4">
     <h2 class="text-primary">🏄‍♂️ Actividades Recomendadas en la Playa de Hendaya</h2>
     <p>Explora las <strong>mejores experiencias turísticas y deportivas</strong> que ofrece la Playa de Hendaya, en el suroeste de Francia, junto a la frontera con España. Ideal para los amantes del <strong>océano Atlántico</strong> y el entorno vasco-francés.</p>

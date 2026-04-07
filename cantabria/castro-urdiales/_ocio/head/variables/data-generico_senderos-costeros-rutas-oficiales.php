@@ -1,4 +1,4 @@
-<?php require_once rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2026/{$region_minuscula}/{$localidad_minuscula}/ocio/defines-ocio.php"; ?>
+<?php require_once rtrim($_SERVER['DOCUMENT_ROOT']) . "/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/ocio/defines-ocio.php"; ?>
 
 <?php
 $charset = 'UTF-8';

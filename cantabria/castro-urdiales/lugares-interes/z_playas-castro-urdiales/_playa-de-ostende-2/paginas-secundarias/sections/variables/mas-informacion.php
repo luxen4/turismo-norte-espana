@@ -34,6 +34,6 @@
   </ul>
 
   <p>
-    También puedes consultar nuestra <a href="#como_llegar" title="Cómo llegar a la Playa de Ostende">guía de acceso a la playa</a> o descubrir <a href="/Blog_Playas2026/index.php" title="Playas recomendadas en Cantabria">otras playas recomendadas de Cantabria</a>.
+    También puedes consultar nuestra <a href="#como_llegar" title="Cómo llegar a la Playa de Ostende">guía de acceso a la playa</a> o descubrir <a href="/turismo-norte-espana/index.php" title="Playas recomendadas en Cantabria">otras playas recomendadas de Cantabria</a>.
   </p>
 </section>

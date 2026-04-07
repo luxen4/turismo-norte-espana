@@ -26,14 +26,14 @@
   <meta name="date" content="2025-05-18" />
 
   <!-- Favicon -->
-  <link rel="icon" href='./../Blog_Playas2026/img/icono-sombrilla.ico' type="image/x-icon">
+  <link rel="icon" href='./../turismo-norte-espana/img/icono-sombrilla.ico' type="image/x-icon">
 
   <!-- Open Graph -->
   <meta property="og:image" content=PATH_RAIZ_LOCALIDADES_CARPETA."/francia/playadebiarritz/img/playa-de-biarritz.jpg" />
   <meta property="og:title" content="Actividades en la Playa de Biarritz – Francia" />
   <meta property="og:description" content="Descubre qué hacer en la Playa de Biarritz: surf, paseos por la costa vasca, cultura y experiencias junto al océano Atlántico." />
   <meta property="og:type" content="article" />
-  <meta property="og:url" content="https://playas2024.kesug.com/Blog_Playas2026/actividades-playa-de-biarritz-francia" />
+  <meta property="og:url" content="https://playas2024.kesug.com/turismo-norte-espana/actividades-playa-de-biarritz-francia" />
   <meta property="og:image:alt" content="Vista de la Playa de Biarritz, destino ideal para surf y turismo costero en Francia" />
   <meta property="og:site_name" content="Turismo y Playas 2026 – Guía Costera de España" />
   <meta property="og:locale" content="es_ES" />
@@ -46,14 +46,14 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <!-- Estilos -->
-  <link rel="stylesheet" href="http://<?= $_SERVER['SERVER_NAME'] ?>/Blog_Playas2026/styles.css">
+  <link rel="stylesheet" href="http://<?= $_SERVER['SERVER_NAME'] ?>/turismo-norte-espana/styles.css">
 
   <?php
 
 
   // Descripción general y URL
   $descripcion = 'Explora la Playa de Biarritz, un icono del surf y el turismo costero en el País Vasco francés, con impresionantes paisajes y una vibrante vida cultural.';
-  $url = '<?= PATH_DOMINIO_RAIZ; ?>/Blog_Playas2026/francia/playadebiarritz/fichas/playa-de-biarritz.php';
+  $url = '<?= PATH_DOMINIO_RAIZ; ?>/turismo-norte-espana/francia/playadebiarritz/fichas/playa-de-biarritz.php';
 
   // Datos estructurados Schema.org (mainEntity)
   $mainEntity_description = 'La Playa de Biarritz es famosa mundialmente por sus olas perfectas para el surf y su ambiente cosmopolita en la costa vasca.';
@@ -66,11 +66,11 @@
   $mainEntity_geo_longitude = -1.5586;
 
   // Imagen representativa y URL canónica
-  $mainEntity_image = '<?= PATH_DOMINIO_RAIZ; ?>/Blog_Playas2026/francia/playadebiarritz/img/playa-de-biarritz.jpg';
-  $mainEntity_url = '<?= PATH_DOMINIO_RAIZ; ?>/Blog_Playas2026/playa-de-biarritz-francia';
+  $mainEntity_image = '<?= PATH_DOMINIO_RAIZ; ?>/turismo-norte-espana/francia/playadebiarritz/img/playa-de-biarritz.jpg';
+  $mainEntity_url = '<?= PATH_DOMINIO_RAIZ; ?>/turismo-norte-espana/playa-de-biarritz-francia';
   ?>
 
-  <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2026/bloques/estructura/structured_data_generico.php'; ?>
+  <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/turismo-norte-espana/bloques/estructura/structured_data_generico.php'; ?>
 </head>
 
 <body>
@@ -79,7 +79,7 @@
 <script>
   // Array con URLs de las imágenes que quieres mostrar
   const imagenes = [
-    'http://localhost/Blog_Playas2026/cantabria/playadeberria/img/playa-de-berria-santona.jpg',
+    'http://localhost/turismo-norte-espana/cantabria/playadeberria/img/playa-de-berria-santona.jpg',
     'https://playas2024.kesug.com/cantabria/playadeberria/img/imagen2.jpg',
     'https://playas2024.kesug.com/cantabria/playadeberria/img/imagen3.jpg',
   ];
@@ -132,7 +132,7 @@
 
 
   <?php require "./../../../../bloques/estructura/header.php"; ?>
-  <a class="nav-link text-red" href="/Blog_Playas2026/<?= $rutas; ?>">Playa de Berria</a>
+  <a class="nav-link text-red" href="/turismo-norte-espana/<?= $rutas; ?>">Playa de Berria</a>
   <?php require "./../../../../francia/playadebiarritz/fichas/sections/variables/actividades-recomendadas.php"; ?> 
   <?php require './../../../../bloques/estructura/sections_generico/Carruseles_CSV/prueba_vaqueros_hombre.php'; ?>
   <?php require "./../../../../bloques/estructura/footer.php"; ?>

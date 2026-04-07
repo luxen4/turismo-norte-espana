@@ -1,7 +1,7 @@
 <?php define('DOMINIO', "https://alayag82.kesug.com"); ?>
 
 
-<?php define('NAME_BLOG', "Turismo y Playas 2026 – Guía Costera por el Cantábrico"); ?>
+<?php define('NAME_BLOG', "Guía Costera por el Cantábrico"); ?>
 <?php define('AUTHOR', "Adrián Laya García"); ?>
 <?php define('TURISMO_PLAYAS', 'Turismo y Playas'); ?>
 <?php define('WEB_PAGE', "website"); ?>
@@ -14,7 +14,7 @@
 <?php define('SITE_VERIFICATION_CONTENT', "6fdc72f26c4563f937e32ff3def5f9d5"); ?>
 
 
-<?php define('NOMBRE_PROYECTO', 'Blog_Playas2026'); ?>
+<?php define('NOMBRE_PROYECTO', 'turismo-norte-espana'); ?>
 <?php define('SUMARY_LARGE_IMAGE', 'sumary_large_image'); ?>
 <?php define('CARD_SITE', '@laya_garcia'); ?>
 
@@ -48,7 +48,7 @@
 
 
 
-<?php define('PATH_RAIZ',                                               rtrim($_SERVER['DOCUMENT_ROOT'], '/') . '/Blog_Playas2026'); ?>
+<?php define('PATH_RAIZ',                                               rtrim($_SERVER['DOCUMENT_ROOT'], '/') . '/turismo-norte-espana'); ?>
 <?php define('PATH_RAIZ_ANUNCIOS',  PATH_RAIZ. '/anuncios'); ?>
 <?php define('PATH_RAIZ_HOME_HEAD_VARIABLES', PATH_RAIZ. '/home/head/variables'); ?>
 
@@ -137,14 +137,14 @@
 <?php define('PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS_HEADER',                    PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS. "/header"); ?>
 
 
-<?php define('PATH_HREF_RAIZ', "/Blog_Playas2026"); ?>
+<?php define('PATH_HREF_RAIZ', "/turismo-norte-espana"); ?>
 <?php define('PATH_HREF_RAIZ_REGION_LOCALIDAD', PATH_HREF_RAIZ.'/'.$region_minuscula.'/'.$localidad_minuscula); ?>
-<?php define('PATH_HREF_RAIZ_LOCALIDADES', "https://playas2024.kesug.com/Blog_Playas2026/localidades"); ?>
+<?php define('PATH_HREF_RAIZ_LOCALIDADES', "https://playas2024.kesug.com/turismo-norte-espana/localidades"); ?>
 <?php define('PATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD', PATH_HREF_RAIZ_LOCALIDADES ."/{$region_minuscula}/{$localidad_minuscula}"); ?>
-<?php define('PATH_HREF_RAIZ_BLOQUES', "/Blog_Playas2026/bloques"); ?>
+<?php define('PATH_HREF_RAIZ_BLOQUES', "/turismo-norte-espana/bloques"); ?>
 
 
-<?php define('PATH_HREF_RAIZ_LOCALIDAD', "/Blog_Playas2026/{$region_minuscula}/{$localidad_minuscula}"); ?>
+<?php define('PATH_HREF_RAIZ_LOCALIDAD', "/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}"); ?>
 <?php define('PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES',        PATH_HREF_RAIZ_LOCALIDAD. "/lugares-interes"); ?>
 
 
@@ -156,7 +156,7 @@
 <?php //define('PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_PLAYAS_IMG',    PATH_HREF_RAIZ_LOCALIDAD. "/lugares-interes/playas/".$lugar_minuscula."/img"); ?>
 
 
-<?php define('PATH_HREF_CARPETA_LUGARES_INTERES', "/Blog_Playas2026/{$region_minuscula}/{$localidad_minuscula}/lugares-interes");?>
+<?php define('PATH_HREF_CARPETA_LUGARES_INTERES', "/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/lugares-interes");?>
 <?php define('PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES', PATH_HREF_CARPETA_LUGARES_INTERES. "/".$lugar_minuscula."/img"); ?>
           
 

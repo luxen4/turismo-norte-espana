@@ -1,7 +1,7 @@
 
 <?php
 $localidad_minuscula_playa='playa-de-ostende';
-define('PATH_HREF_RAIZ_LOCALIDAD_PLAYA', "/Blog_Playas2026/{$region_minuscula}/{$localidad_minuscula_playa}/");
+define('PATH_HREF_RAIZ_LOCALIDAD_PLAYA', "/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula_playa}/");
 function generarNavLink($slug, $texto, $icono = '', $titulo = '', $color = '#2980b9') {
     
   echo(PATH_HREF_RAIZ_LOCALIDAD_PLAYA .'ocio/pages/'. rtrim($slug, '/') . '.php');

@@ -228,7 +228,7 @@ $li_services3 = '
 
 <?php // Carrusel de 3 Imágenes //
 LUGAR = 'playadenoja';
-$ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/Blog_Playas2026/'.$region.'/'.LUGAR.'/img';
+$ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/turismo-norte-espana/'.$region.'/'.LUGAR.'/img';
 
 
 $imagenes = [
@@ -286,7 +286,7 @@ $imagenes = [
 
 <?php // Carrusel de 3 Imágenes //
 LUGAR = 'playadenoja';
-$ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/Blog_Playas2026/'.$region.'/'.LUGAR.'/img';
+$ruta = 'http://' . $_SERVER['SERVER_NAME'] . '/turismo-norte-espana/'.$region.'/'.LUGAR.'/img';
 $imges_name = ['/playa-de-trengandin.jpg', '/vista-aerea-playa-noja.jpg', '/rocas-playa-noja.jpg'];
 $alt = ["Vista de la Playa Trengandin", "Vista aerea de la Playa de Noja", "Rocas en la Playa de Noja"];
 require './../../../../../bloques/estructura/carruseles/carruselimagenes/carruselgenerico.php'; ?>

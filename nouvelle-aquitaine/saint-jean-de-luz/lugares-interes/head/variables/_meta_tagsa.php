@@ -22,7 +22,7 @@ $graph_Meta_Tags_property_image        = PATH_RAIZ_LOCALIDADES_CARPETA . '/saint
 $graph_Meta_Tags_property_url          = PATH_RAIZ_LOCALIDADES_CARPETA . '/saint-jean-de-luz/index.php';
 $graph_Meta_Tags_property_type         = 'website';
 
-$graph_Meta_Tags_property_site_name    = 'Turismo y Playas 2026 – Guía Costera por el Cantábrico';
+$graph_Meta_Tags_property_site_name    = 'Guía Costera por el Cantábrico';
 $graph_Meta_Tags_property_locale       = 'es_ES';
 $graph_Meta_Tags_property_image_alt    = 'Saint-Jean-de-Luz en Nouvelle-Aquitaine';
 $graph_Meta_Tags_property_image_width  = '1200';

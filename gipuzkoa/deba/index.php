@@ -8,19 +8,19 @@ $country = 'España';    $country_minuscula = strtolower(str_replace(' ', '-', $
 <?php define('LUGAR', "Deba"); ?>
 <?php define('LUGAR_MINUSCULA', 'deba'); ?>
 <?php define('KEYWORDS_CONTENT', 'Deba, Gipuzkoa, turismo Gipuzkoa, costa vasca, playas del País Vasco, senderismo Gipuzkoa, naturaleza Cantábrica, Geoparque de la Costa Vasca'); ?>
-<?php require rtrim($_SERVER['DOCUMENT_ROOT']) . "/Blog_Playas2026/".$region_minuscula."/".$lugar_minuscula."/variables-localidad.php"; ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/bloques/estructura/variables_comunes/defines.php"; ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/".$region_minuscula."/".$lugar_minuscula."/head/variables/meta_tags.php"; ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/".$region_minuscula."/".$lugar_minuscula."/head/variables/data-generico.php";  ?>
+<?php require rtrim($_SERVER['DOCUMENT_ROOT']) . "/turismo-norte-espana/".$region_minuscula."/".$lugar_minuscula."/variables-localidad.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/bloques/estructura/variables_comunes/defines.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/".$region_minuscula."/".$lugar_minuscula."/head/variables/meta_tags.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/".$region_minuscula."/".$lugar_minuscula."/head/variables/data-generico.php";  ?>
 
 
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <?php require PATH_RAIZ . "/_estructura/semantica/head/head-generico.php"; ?>
+    <?php require PATH_RAIZ . "/_html/head/head-generico.php"; ?>
   </head>
 
-<body class="bg-[url('/Blog_Playas2026/anuncios/assets/img/fondos/arenaplaya.jpg')] bg-cover bg-center text-gray-800">
+<body class="bg-[url('/turismo-norte-espana/anuncios/assets/img/fondos/arenaplaya.jpg')] bg-cover bg-center text-gray-800">
   <div class="container-xxl py-5">
     <div class="row">
 

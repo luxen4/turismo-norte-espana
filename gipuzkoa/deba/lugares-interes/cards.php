@@ -56,7 +56,7 @@
 
           <figure class="mb-0">
             <img 
-              src="/Blog_Playas2026/<?= $region_minuscula; ?>/<?= $localidad_minuscula; ?>/lugares-interes/<?= $lugar['slug']; ?>/img/<?= $lugar['imagen']; ?>" 
+              src="/turismo-norte-espana/<?= $region_minuscula; ?>/<?= $localidad_minuscula; ?>/lugares-interes/<?= $lugar['slug']; ?>/img/<?= $lugar['imagen']; ?>" 
               class="card-img-top h-64 object-cover rounded-top" 
               alt="<?= $lugar['alt']; ?>">
 
@@ -75,7 +75,7 @@
             <?php 
 // Determinar la URL según entorno
 if ($_SERVER['SERVER_NAME'] == "localhost") {
-    $url_lugar = "/Blog_Playas2026/".$region_minuscula."/".$localidad_minuscula."/lugares-interes/" . $lugar['slug'];
+    $url_lugar = "/turismo-norte-espana/".$region_minuscula."/".$localidad_minuscula."/lugares-interes/" . $lugar['slug'];
 } else {
     $url_lugar = "lugares-interes/". $lugar['slug']. "/index.php";
 }

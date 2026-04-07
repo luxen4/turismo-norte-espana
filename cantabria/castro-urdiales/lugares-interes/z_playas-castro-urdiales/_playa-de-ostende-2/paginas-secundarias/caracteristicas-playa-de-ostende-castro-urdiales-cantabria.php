@@ -6,7 +6,7 @@
   <title>Playa de Ostende en Castro-Urdiales</title>
 
       <?php $region_minuscula = 'cantabria'; $localidad_minuscula = 'playadeostende'; lugar_minuscula='actividades';?>
-  <?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/bloques/estructura/variables_comunes/defines.php"; ?>
+  <?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/bloques/estructura/variables_comunes/defines.php"; ?>
   <?php require PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS. "/head_generico.php";?> 
 
 

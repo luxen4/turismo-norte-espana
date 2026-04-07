@@ -50,5 +50,5 @@ $lugares_interes = [
 ];
 ?>
 <?php 
-$parrafo = "Ajo, en Cantabria, es un destino que combina playas vírgenes, acantilados impresionantes y rutas naturales. Desde el Faro de Cabo de Ajo hasta la Playa de Antuerta, cada lugar ofrece una experiencia única para los amantes de la naturaleza y el surf.";
+$parrafo = "Destino que combina playas vírgenes, acantilados impresionantes y rutas naturales. Desde el Faro de Cabo de Ajo hasta la Playa de Antuerta, cada lugar ofrece una experiencia única para los amantes de la naturaleza y el surf.";
 require PATH_RAIZ . '/_estructura/semantica/pages/paginas-localidad/print-cards-lugares-interes.php'; ?>

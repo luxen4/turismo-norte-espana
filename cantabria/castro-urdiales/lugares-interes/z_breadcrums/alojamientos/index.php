@@ -1,11 +1,11 @@
 <?php lugar_minuscula = 'alojamientos'; ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/cantabria/castro-urdiales/lugares-interes/index-generico.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/cantabria/castro-urdiales/lugares-interes/index-generico.php"; ?>
 
 
 
 
 <?php $region = "Cantabria"; $region_minuscula = strtolower($region); $localidad_minuscula = 'castro-urdiales';  $localidad_minuscula = "Castro-Urdiales"; lugar_minuscula='alojamientos';?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/{$region_minuscula}/{$localidad_minuscula}/ocio/pages/previo.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/ocio/pages/previo.php"; ?>
 
 
 <!DOCTYPE html>

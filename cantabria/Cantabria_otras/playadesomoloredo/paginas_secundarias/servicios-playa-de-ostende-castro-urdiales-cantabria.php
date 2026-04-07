@@ -1,5 +1,5 @@
 <?php $region_minuscula='cantabria'; $localidad_minuscula='playa-de-ostende'; lugar_minuscula='servicios'; $title='Servicios'; ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/bloques/estructura/variables_comunes/defines.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/bloques/estructura/variables_comunes/defines.php"; ?>
 <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_SECUNDARIAS_ACTIVIDADES_RECOMENDADAS. '/html-generico.php'; ?>
 
 <?php /*
@@ -11,7 +11,7 @@
   <title>Servicios en la Playa de Ostende – Castro-Urdiales</title>
 
   <?php $region_minuscula = 'cantabria'; $localidad_minuscula = 'playadeostende'; lugar_minuscula='servicios';?>
-  <?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/bloques/estructura/variables_comunes/defines.php"; ?>
+  <?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/bloques/estructura/variables_comunes/defines.php"; ?>
   <?php require PATH_RAIZ_LOCALIDADES_CARPETA_PAGINAS_SECUNDARIAS. "/head_generico.php";?> 
 
 </head>

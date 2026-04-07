@@ -1,1 +1,1 @@
-<?php require  $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/_estructura/semantica/pages/paginas-lugares-interes/index-generico.php" ?>
+<?php require  $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_estructura/semantica/pages/paginas-lugares-interes/index-generico.php" ?>

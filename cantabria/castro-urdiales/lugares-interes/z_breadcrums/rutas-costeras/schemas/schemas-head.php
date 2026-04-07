@@ -8,12 +8,12 @@
   "inLanguage": "es",
   "isPartOf": {
     "@type": "Website",
-    "name": "Turismo y Playas 2026 – Guía Costera por el Cantábrico",
+    "name": "Guía Costera por el Cantábrico",
     "url": "<?= $dominio_base; ?>"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Turismo y Playas 2026 – Guía Costera por el Cantábrico",
+    "name": "Guía Costera por el Cantábrico",
     "logo": {
       "@type": "ImageObject",
       "url": "<?= $url_logo_footer; ?>"

@@ -1,6 +1,5 @@
 <?php  //require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_BODY_DATA . '/data-informacion.php'; ?>
-<?php  require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/" 
-.$region_minuscula. "/".$localidad_minuscula. '/lugares-interes/'.$lugar_minuscula.'/body/data/data-informacion.php'; ?>
+<?php  require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/" .$region_minuscula. "/".$localidad_minuscula. '/lugares-interes/'.$lugar_minuscula.'/body/data/data-informacion.php'; ?>
 
 <?php // $publicidad = PATH_BLOQUES_SECTIONS_CARRUSELES_CSV . '/prueba_sneakers.php'; ?>
 <main class="bg-emerald-50 min-h-screen p-4 md:p-10">

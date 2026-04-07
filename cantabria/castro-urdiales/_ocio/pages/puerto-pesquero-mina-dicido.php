@@ -1,5 +1,5 @@
 <?php $region = "Cantabria"; $region_minuscula = strtolower($region); $localidad_minuscula = 'castro-urdiales'; ?>
-<?php define('PATH_HREF_CARPETA', "/Blog_Playas2026/{$region_minuscula}/{$localidad_minuscula}");?>
+<?php define('PATH_HREF_CARPETA', "/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}");?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -66,7 +66,7 @@
   </main>
 
   <footer class="bg-teal-100 text-center p-4 mt-12 text-sm text-teal-800">
-    &copy; 2025 Turismo y Playas 2026 – Guía Costera por el Cantábrico - Adrián Laya García
+    &copy; 2025 Guía Costera por el Cantábrico - Adrián Laya García
   </footer>
 </body>
 </html>

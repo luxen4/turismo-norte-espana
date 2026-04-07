@@ -17,5 +17,5 @@ $country_minuscula = strtolower(str_replace(' ', '-', $country));
 <?php define('LUGAR_MINUSCULA', 'ruta-senderista-punta-lucero') ?>
 <?php define('KEYWORDS_CONTENT', 'Ruta Punta Lucero, senderismo Muskiz, acantilados Bizkaia, costa vasca, turismo País Vasco, naturaleza, caminatas, vistas al Cantábrico') ?>
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/localidades/carga-variables-generico-lugares-interes.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/localidades/carga-variables-generico-lugares-interes.php"; ?>
 <?php require PATH_RAIZ  . "/_estructura/semantica/page-playa-generico.php"; ?>

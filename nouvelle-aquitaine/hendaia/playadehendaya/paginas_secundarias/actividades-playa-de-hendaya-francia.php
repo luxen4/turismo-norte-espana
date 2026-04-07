@@ -8,8 +8,8 @@
 
   <?php 
   // Variables para la página de Hendaya
-  require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2026/francia/playadehendaya/fichas/sections/head/variables/web-playa/localizacion-playa.php';
-  require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2026/bloques/estructura/variables_comunes/defines.php';?>
+  require $_SERVER['DOCUMENT_ROOT'] . '/turismo-norte-espana/francia/playadehendaya/fichas/sections/head/variables/web-playa/localizacion-playa.php';
+  require $_SERVER['DOCUMENT_ROOT'] . '/turismo-norte-espana/bloques/estructura/variables_comunes/defines.php';?>
 
 
 
@@ -34,14 +34,14 @@
   <meta name="date" content="2025-05-25" />
 
   <!-- Favicon -->
-  <link rel="icon" href='./../Blog_Playas2026/img/icono-sombrilla.ico' type="image/x-icon">
+  <link rel="icon" href='./../turismo-norte-espana/img/icono-sombrilla.ico' type="image/x-icon">
 
   <!-- Open Graph -->
-  <meta property="og:image" content="https://playas2024.kesug.com/Blog_Playas2026/francia/hendaya/img/playa-de-hendaya-paisvascofrances.jpg" />
+  <meta property="og:image" content="https://playas2024.kesug.com/turismo-norte-espana/francia/hendaya/img/playa-de-hendaya-paisvascofrances.jpg" />
   <meta property="og:title" content="Actividades en la Playa de Hendaya – País Vasco Francés" />
   <meta property="og:description" content="Descubre qué hacer en la Playa de Hendaya: surf, senderismo, paseos en barco y más experiencias en la costa vasca de Francia." />
   <meta property="og:type" content="article" />
-  <meta property="og:url" content="https://playas2024.kesug.com/Blog_Playas2026/actividades-playa-de-hendaya-francia" />
+  <meta property="og:url" content="https://playas2024.kesug.com/turismo-norte-espana/actividades-playa-de-hendaya-francia" />
   <meta property="og:image:alt" content="Vista panorámica de la Playa de Hendaya con surfistas y senderos junto al mar" />
   <meta property="og:site_name" content="Turismo y Playas 2026 – Guía Costera de España" />
   <meta property="og:locale" content="es_ES" />
@@ -54,7 +54,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <!-- Estilos -->
-  <link rel="stylesheet" href="http://<?= $_SERVER['SERVER_NAME'] ?>/Blog_Playas2026/styles.css">
+  <link rel="stylesheet" href="http://<?= $_SERVER['SERVER_NAME'] ?>/turismo-norte-espana/styles.css">
 
   <?php
   // Información básica
@@ -67,7 +67,7 @@
 
   // Descripción general y URL
   $descripcion = 'Explora la Playa de Hendaya, un extenso arenal en el litoral atlántico francés, ideal para el surf, paseos naturales y disfrutar de los Pirineos Atlánticos.';
-  $url = '<?= PATH_DOMINIO_RAIZ; ?>/Blog_Playas2026/francia/hendaya/fichas/playa-de-hendaya.php';
+  $url = '<?= PATH_DOMINIO_RAIZ; ?>/turismo-norte-espana/francia/hendaya/fichas/playa-de-hendaya.php';
 
   // Datos estructurados Schema.org (mainEntity)
   $mainEntity_description = 'La Playa de Hendaya es famosa por su longitud, su oleaje moderado perfecto para aprender a surfear, y sus vistas hacia las rocas gemelas y la bahía.';
@@ -80,20 +80,20 @@
   $mainEntity_geo_longitude = -1.7736;
 
   // Imagen representativa y URL canónica
-  $mainEntity_image = 'https://playas2024.kesug.com/Blog_Playas2026/francia/hendaya/img/playa-de-hendaya-paisvascofrances.jpg';
-  $mainEntity_url = 'https://playas2024.kesug.com/Blog_Playas2026/playa-de-hendaya-paisvascofrances';
+  $mainEntity_image = 'https://playas2024.kesug.com/turismo-norte-espana/francia/hendaya/img/playa-de-hendaya-paisvascofrances.jpg';
+  $mainEntity_url = 'https://playas2024.kesug.com/turismo-norte-espana/playa-de-hendaya-paisvascofrances';
   ?>
 
-  <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2026/bloques/estructura/structured_data_generico.php'; ?>
+  <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/turismo-norte-espana/bloques/estructura/structured_data_generico.php'; ?>
 </head>
 
 <body>
 
 <script>
   const imagenes = [
-    'https://playas2024.kesug.com/Blog_Playas2026/francia/hendaya/img/playa-hendaya-1.jpg',
-    'https://playas2024.kesug.com/Blog_Playas2026/francia/hendaya/img/playa-hendaya-2.jpg',
-    'https://playas2024.kesug.com/Blog_Playas2026/francia/hendaya/img/playa-hendaya-3.jpg',
+    'https://playas2024.kesug.com/turismo-norte-espana/francia/hendaya/img/playa-hendaya-1.jpg',
+    'https://playas2024.kesug.com/turismo-norte-espana/francia/hendaya/img/playa-hendaya-2.jpg',
+    'https://playas2024.kesug.com/turismo-norte-espana/francia/hendaya/img/playa-hendaya-3.jpg',
   ];
 
   let indice = 0;

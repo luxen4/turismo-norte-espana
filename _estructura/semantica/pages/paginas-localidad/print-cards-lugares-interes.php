@@ -10,7 +10,7 @@
                 <div class="card h-100 shadow-sm border-0 rounded-lg overflow-hidden transition hover:shadow-md">
                     <figure class="mb-0">
                         <img
-                            src="/Blog_Playas2026/<?= $region_minuscula; ?>/<?= $localidad_minuscula; ?>/lugares-interes/<?php echo $lugar['slug']; ?>/img/<?php echo $lugar['imagen']; ?>"
+                            src="/turismo-norte-espana/<?= $region_minuscula; ?>/<?= $localidad_minuscula; ?>/lugares-interes/<?php echo $lugar['slug']; ?>/img/<?php echo $lugar['imagen']; ?>"
                             class="card-img-top h-64 object-cover rounded-top"
                             alt="<?php echo $lugar['alt']; ?>">
 

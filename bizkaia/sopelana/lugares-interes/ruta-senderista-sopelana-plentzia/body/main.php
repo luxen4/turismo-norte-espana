@@ -125,7 +125,7 @@
           [43.4060, -2.9500]  // Plentzia
         ];
 
-        L.polyline(ruta, {color: 'orange'}).addTo(map);
+        L.polyline(ruta, {color: ''}).addTo(map);
 
         L.marker([43.3904, -2.9813]).addTo(map)
           .bindPopup('<strong>Inicio: Sopelana</strong>');

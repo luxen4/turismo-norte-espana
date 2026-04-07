@@ -1,9 +1,9 @@
 
 <?php define('SITE_VERIFICATION_CONTENT', "6fdc72f26c4563f937e32ff3def5f9d5"); ?>
 <?php define('HOY', date('Y-m-d')); ?>
-<?php define('PATH_HREF_CARPETA_LUGARES_INTERES', "/Blog_Playas2026/{$region_minuscula}/{$localidad_minuscula}/lugares-interes");?>
+<?php define('PATH_HREF_CARPETA_LUGARES_INTERES', "/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/lugares-interes");?>
 
-<?php define('PATH_HREF_RAIZ', "/Blog_Playas2026"); ?>
+<?php define('PATH_HREF_RAIZ', "/turismo-norte-espana"); ?>
 <?php define('PATH_HREF_RAIZ_REGION_LOCALIDAD', PATH_HREF_RAIZ.'/'.$region_minuscula.'/'.$localidad_minuscula); ?>
 <?php //define('PATH_RAIZ', rtrim($_SERVER['DOCUMENT_ROOT'], '/') .'/'. PATH_HREF_RAIZ); ?>
 
@@ -33,9 +33,9 @@ if (!defined('PATH_RAIZ_BLOQUES_ESTRUCTURA')) {
 <?php define('PATH_BLOQUES_SECTIONS_GENERICO',                          PATH_RAIZ_BLOQUES_ESTRUCTURA. '/sections_generico'); ?>
 <?php define('PATH_BLOQUES_SECTIONS_CARRUSELES_CSV',  PATH_BLOQUES_SECTIONS_GENERICO. '/Carruseles_CSV'); ?>
 
-<?php define('NAME_BLOG', "Turismo y Playas 2026 – Guía Costera por el Cantábrico"); ?>
+<?php define('NAME_BLOG', "Guía Costera por el Cantábrico"); ?>
 <?php define('AUTHOR', "Adrián Laya García"); ?>
 <?php define('EMAIL_AUTHOR', "  ");?>
 
 
-<?php define('PATH_HREF_RAIZ_LOCALIDADES', "https://playas2024.kesug.com/Blog_Playas2026/localidades"); ?>
+<?php define('PATH_HREF_RAIZ_LOCALIDADES', "https://playas2024.kesug.com/turismo-norte-espana/localidades"); ?>

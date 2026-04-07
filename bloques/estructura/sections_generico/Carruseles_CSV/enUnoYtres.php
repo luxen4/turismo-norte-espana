@@ -26,6 +26,6 @@
         ?>
     </div>
     <div class="text-left">
-                    <img src="/Blog_Playas2026/logo_amazon.png" alt="ddd" style="width: 80px; height: auto; margin-top: 1em;">
+                    <img src="/turismo-norte-espana/logo_amazon.png" alt="ddd" style="width: 80px; height: auto; margin-top: 1em;">
                 </div>
 </div>

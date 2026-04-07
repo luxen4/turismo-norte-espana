@@ -5,8 +5,8 @@
 
 <?php
 // Variables para la página de la Playa de Isla
-require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2026/cantabria/playadeisla/fichas/sections/head/variables/web-playa/localizacion-playa.php';
-require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2026/bloques/estructura/variables_comunes/defines.php';
+require $_SERVER['DOCUMENT_ROOT'] . '/turismo-norte-espana/cantabria/playadeisla/fichas/sections/head/variables/web-playa/localizacion-playa.php';
+require $_SERVER['DOCUMENT_ROOT'] . '/turismo-norte-espana/bloques/estructura/variables_comunes/defines.php';
 
 $site_verification_content = 'e148bdbc89c019bd06122ab7bd08a8be'; // Actualiza si tienes un código específico para Isla
 $description_content = 'Descubre la Playa de Isla, una encantadora playa en Cantabria, ideal para disfrutar del mar, el sol y deportes acuáticos en un entorno natural privilegiado.';

@@ -1,4 +1,4 @@
-<?php //define('PATH_HREF_RAIZ_BLOQUES', "/Blog_Playas2026/bloques"); ?>
+<?php //define('PATH_HREF_RAIZ_BLOQUES', "/turismo-norte-espana/bloques"); ?>
 
 <!-- Sidebar con anuncios -->
 <aside class="sticky-top" style="top: 4rem; max-height: calc(100vh - 4rem); overflow-y: auto;">

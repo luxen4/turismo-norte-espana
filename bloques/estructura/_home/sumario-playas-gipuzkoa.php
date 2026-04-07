@@ -39,9 +39,9 @@ foreach ($localidades as $localidad => $playas):
           $playa_name_minuscula = strtolower(str_replace(' ', '-', $playa_name));
           $archivo_name = $playa['archivo_name'];
           $presentacion = $playa['presentacion'];
-          $pATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS = "/Blog_Playas2026/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playas/{$localidad_minuscula}";
+          $pATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD_LUGARES_INTERES_PLAYAS = "/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/playas/{$localidad_minuscula}";
         ?>
-          <div class="col-12 col-md-6 mb-4">
+          <div class="col-12 col-md-12 mb-4">
             <?php require PATH_RAIZ_BLOQUES_ESTRUCTURA_HOME . '/body/card-playa.php'; ?>
           </div>
         <?php endforeach; ?>

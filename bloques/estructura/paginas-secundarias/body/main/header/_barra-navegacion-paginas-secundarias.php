@@ -13,12 +13,12 @@
         </div>
 
 
-  <?php define('PATH_HREF_FICHAS', "/Blog_Playas2026/{$region}/{$localidad_minuscula}"); ?>
+  <?php define('PATH_HREF_FICHAS', "/turismo-norte-espana/{$region}/{$localidad_minuscula}"); ?>
   <?php $archivo_playa = 'index.php'; ?>
 
         <!-- Ítems de navegación -->
         <div class="hidden md:flex space-x-6">
-          <a href="/Blog_Playas2026/index.php" class="text-gray-700 hover:text-sky-700">Inicio</a>
+          <a href="/turismo-norte-espana/index.php" class="text-gray-700 hover:text-sky-700">Inicio</a>
           <a href="<?= PATH_HREF_FICHAS . '/' . $archivo_playa ?>#galeria_imagenes" class="text-gray-700 hover:text-sky-700">Galería</a>
           <a href="<?= PATH_HREF_FICHAS . '/' . $archivo_playa ?>#como_llegar" class="text-gray-700 hover:text-sky-700">Cómo llegar</a>
           <a href="<?= PATH_HREF_FICHAS . '/' . $archivo_playa ?>#servicios" class="text-gray-700 hover:text-sky-700">Servicios</a>
@@ -26,7 +26,7 @@
           <a href="<?= PATH_HREF_FICHAS . '/' . $archivo_playa ?>#eventos_festividades" class="text-gray-700 hover:text-sky-700">Agenda</a>
           <a href="<?= PATH_HREF_FICHAS . '/' . $archivo_playa ?>#faqs_consejos" class="text-gray-700 hover:text-sky-700">FAQ</a>
           <a href="<?= PATH_HREF_FICHAS . '/' . $archivo_playa ?>#faqs_consejos" class="text-gray-700 hover:text-sky-700">Consejos</a>
-          <a href="/Blog_Playas2026/index.php" class="text-gray-700 hover:text-sky-700">Otras playas</a>
+          <a href="/turismo-norte-espana/index.php" class="text-gray-700 hover:text-sky-700">Otras playas</a>
         </div>
 
         <!-- Botón menú hamburguesa -->

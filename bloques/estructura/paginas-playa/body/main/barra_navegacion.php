@@ -4,7 +4,7 @@
     </h5>
     <ul class="navbar-nav mx-auto">
         <li>
-            <a class="nav-link text-black" href='/Blog_Playas2026/index.php'>
+            <a class="nav-link text-black" href='/turismo-norte-espana/index.php'>
                 <i class="fas fa-globe-europe me-1"></i> Todas Playas por Zonas
             </a>
         </li>

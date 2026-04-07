@@ -5,16 +5,16 @@ $country = 'España';    $country_minuscula = strtolower(str_replace(' ', '-', $
 
 <?php define('DESCRIPTION', "Descubre Sonabia en Cantabria: la Playa de Sonabia, la Peña Candina y rutas costeras únicas."); ?>
 <?php define('KEYWORDS_CONTENT', 'Playa de Sonabia, Sonabia, playas Cantabria, Peña Candina, naturaleza, costa de Cantabria, turismo natural, playa salvaje, rutas, Ojo del Diablo, monte Candina') ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/Blog_Playas2026/constantes-localidad-generico.php";?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/constantes-localidad-generico.php";?>
 
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <?php require PATH_RAIZ . "/_estructura/semantica/head/head-generico.php"; ?>
+        <?php require PATH_RAIZ . "/_html/head/head-generico.php"; ?>
     </head>
 
 
-<body class="bg-[url('/Blog_Playas2026/anuncios/assets/img/fondos/arenaplaya.jpg')] bg-cover bg-center text-gray-800">
+<body class="bg-[url('/turismo-norte-espana/anuncios/assets/img/fondos/arenaplaya.jpg')] bg-cover bg-center text-gray-800">
   <div class="container-xxl py-5">
     <div class="row">
 

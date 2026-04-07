@@ -10,8 +10,8 @@
 
     <?php
     // Variables para la página de la Playa de Suances
-    require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2026/cantabria/playadesuances/fichas/sections/head/variables/web-playa/localizacion-playa.php';
-    require $_SERVER['DOCUMENT_ROOT'] . '/Blog_Playas2026/bloques/estructura/variables_comunes/defines.php';
+    require $_SERVER['DOCUMENT_ROOT'] . '/turismo-norte-espana/cantabria/playadesuances/fichas/sections/head/variables/web-playa/localizacion-playa.php';
+    require $_SERVER['DOCUMENT_ROOT'] . '/turismo-norte-espana/bloques/estructura/variables_comunes/defines.php';
     ?>
 
     <?php /*<!--🧭 Canonical URL (evita contenido duplicado en SEO)-->*/?>
@@ -22,7 +22,7 @@
 
     <?php
     // Descripción general y URL
-    $url = "https://playas2024.kesug.com/Blog_Playas2026/{$region_minuscula}/{$localidad_minuscula}/fichas/{$rutas}.php";
+    $url = "https://playas2024.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/fichas/{$rutas}.php";
     ?>
 
     <?php 
