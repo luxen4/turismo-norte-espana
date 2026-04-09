@@ -1,0 +1,1 @@
+<?php $localidad = 'Saint-Jean-de-Luz'; $region = 'Nouvelle-Aquitaine'; ?>
