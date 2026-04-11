@@ -29,7 +29,7 @@ $graph_Meta_Tags_property_type        = 'website';
 ?>
 
 <?php
-$graph_Meta_Tags_property_site_name     = 'Guía Costera por el Cantábrico';
+$graph_Meta_Tags_property_site_name     = 'Turismo Norte de España';
 $graph_Meta_Tags_property_locale        = 'es_ES';
 $graph_Meta_Tags_property_image_alt     = '';
 $graph_Meta_Tags_property_image_width   = '1200'; // estándar para OG

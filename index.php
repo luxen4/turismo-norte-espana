@@ -19,11 +19,11 @@
 
   $author_content = 'Adrián Laya García'; 
 ?>
-<?php define('TITLE', "Guía Costera por el Cantábrico}"); ?>
+<?php define('TITLE', "Turismo Norte de España}"); ?>
 <?php define('DESCRIPTION', "Recorre la Ruta de la Costa Oriental en Ajo: senderos naturales, acantilados, faros y vistas panorámicas del Cantábrico en una experiencia inolvidable."); ?>
 
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/bloques/estructura/variables_comunes/defines.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_utilidades/defines.php"; ?>
 <?php require PATH_RAIZ_HOME_HEAD_VARIABLES . "/meta-tags.php"; ?>
 
 <!DOCTYPE html>
@@ -82,7 +82,7 @@
           
           <header class="text-center py-1 mt-1 text-<?= COLOR_PAGE; ?>-800">
               <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight border-b border300 pb-2">
-                  Guía Costera por el Cantábrico
+                  Turismo Norte de España
               </h1>
           </header>
 
@@ -175,7 +175,7 @@
     <?php // require PATH_RAIZ_BLOQUES_ESTRUCTURA_PAGINAS_PLAYA_BODY. '/footer-generico-playa.php'; ?>
 
 
-    <?php require PATH_RAIZ . "/_estructura/semantica/body/footer/footer-generico.php"; ?>
+    <?php require PATH_RAIZ . "/_html/body/footer/footer-generico.php"; ?>
 
     <?php //require PATH_RAIZ . "/anuncios/pop-up-index.php"; ?>
     <?php $ruta_archivo_visitas = './bloques/control/visitas.csv'; ?>

@@ -1,4 +1,4 @@
-<?php require  $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_estructura/semantica/pages/paginas-lugares-interes/index-generico.php" ?>
+<?php require  $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_html/lugares-interes/index-generico.php" ?>
 
 
 <?php  
@@ -13,4 +13,4 @@ $country_minuscula = strtolower(str_replace(' ', '-', $country));
 
 
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/localidades/carga-variables-generico-lugares-interes.php"; ?>
-<?php require PATH_RAIZ  . "/_estructura/semantica/page-playa-generico.php"; ?>
+<?php require PATH_RAIZ  . "/_html/lugares-interes/index-generico3.php"; ?>

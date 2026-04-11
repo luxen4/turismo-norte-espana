@@ -169,7 +169,7 @@
     <?php require PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN . '/enlace-lugares-interes.php'; ?>
   </main>
 
-  <?php require PATH_RAIZ . "/_estructura/semantica/body/footer/footer-generico.php"; ?>
+  <?php require PATH_RAIZ . "/_html/body/footer/footer-generico.php"; ?>
 
   <script>
     const map = L.map('map').setView([43.3821, -3.2173], 17);

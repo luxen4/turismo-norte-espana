@@ -4,7 +4,7 @@ $region = 'Gipuzkoa';  $region_minuscula = strtolower(str_replace(' ', '-', $reg
 $country = 'España';    $country_minuscula = strtolower(str_replace(' ', '-', $country)); ?>
 <?php define('TITLE', "Deba – Turismo, Naturaleza y Costa en Gipuzkoa 2025"); ?>
 <?php define('DESCRIPTION', "Descubre Deba, en la costa de Gipuzkoa: playas tranquilas, acantilados espectaculares, rutas de senderismo y un encantador casco histórico junto al mar Cantábrico."); ?>
-<?php define('COLOR_PAGE', "emerald"); ?>
+<?php define('COLOR_PAGE', "<?= COLOR_PAGE; ?>"); ?>
 <?php define('LUGAR', "Deba"); ?>
 <?php define('LUGAR_MINUSCULA', 'deba'); ?>
 <?php define('KEYWORDS_CONTENT', 'Deba, Gipuzkoa, turismo Gipuzkoa, costa vasca, playas del País Vasco, senderismo Gipuzkoa, naturaleza Cantábrica, Geoparque de la Costa Vasca'); ?>
@@ -29,7 +29,7 @@ $country = 'España';    $country_minuscula = strtolower(str_replace(' ', '-', $
         <?php require PATH_RAIZ . '/_estructura/semantica/componentes/breadcrums-generico.php'; ?>
 
         <header class="mb-10">
-          <div class="bg-gradient-to-r from-green-600 via-emerald-500 to-teal-400 text-white text-center p-8 rounded-lg shadow-lg">
+          <div class="bg-gradient-to-r from-green-600 via-<?= COLOR_PAGE; ?>-500 to-teal-400 text-white text-center p-8 rounded-lg shadow-lg">
             <h1 class="text-3xl md:text-5xl font-extrabold mb-3 flex justify-center items-center gap-3">
               <i class="fas fa-water"></i> Deba (Gipuzkoa)
             </h1>
@@ -50,7 +50,7 @@ $country = 'España';    $country_minuscula = strtolower(str_replace(' ', '-', $
     </div>
   </div>
 
-  <?php require PATH_RAIZ . "/_estructura/semantica/body/footer/footer-generico.php"; ?>
+  <?php require PATH_RAIZ . "/_html/body/footer/footer-generico.php"; ?>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

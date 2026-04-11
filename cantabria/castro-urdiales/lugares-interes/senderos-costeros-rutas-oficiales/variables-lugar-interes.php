@@ -1,0 +1,4 @@
+<?php define('TITLE', "Senderos Costeros y Rutas Oficiales de Castro-Urdiales – Naturaleza en Cantabria 2025"); ?>
+<?php define('DESCRIPTION', "Descubre los senderos costeros y rutas oficiales de Castro-Urdiales, con recorridos junto al mar Cantábrico, acantilados espectaculares y paisajes naturales únicos. Ideales para senderismo, paseos y disfrutar de la naturaleza en Cantabria."); ?>
+<?php define('LUGAR', "Senderos Costeros y Rutas de Castro-Urdiales"); ?>
+<?php define('KEYWORDS_CONTENT', 'senderos Castro Urdiales, rutas Castro Urdiales, senderismo Cantabria, costa cantábrica, rutas oficiales Cantabria, acantilados Castro Urdiales, turismo naturaleza Cantabria, paseos costeros, rutas senderismo norte España') ?>

@@ -2,9 +2,9 @@
   <a
     <?php
     if ($_SERVER['SERVER_NAME'] == "localhost") {
-        echo 'href="' . PATH_HREF_RAIZ .  '/'.$localidad_minuscula.'-'.$region_minuscula.'"';
+        echo 'href="' . PATH_HREF_RAIZ .  '/'.$region_minuscula.'/'.$localidad_minuscula.'"';
     } else {
-        echo 'href="' . PATH_HREF_RAIZ_LOCALIDADES_REGION_LOCALIDAD . '/index.php"';
+        echo 'href="' . PATH_HREF_RAIZ .  '/'.$localidad_minuscula.'"';
     }
     ?>
     class="inline-flex items-center gap-1 text-<?= COLOR_PAGE; ?>-500 text-sm hover:underline transition-colors duration-200"

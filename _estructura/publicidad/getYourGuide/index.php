@@ -5,7 +5,7 @@
         <p class="text-gray-500 text-xs mt-2 inline-flex items-center justify-center gap-1">
           🤝 <span>Colabora con nuestra web mediante estos enlaces</span>
         </p>
-       <script async src="https://tpscr.com/content?trs=474157&shmarker=684841&place=USA&items=3&locale=en-US&powered_by=true&campaign_id=108&promo_id=4039" charset="utf-8"></script> ?>
+       <script async src="https://tpscr.com/content?trs=474157&shmarker=684841&place=USA&items=3&locale=en-US&powered_by=true&campaign_id=108&promo_id=4039" charset="utf-8"></script> 
     
       </div>
 </aside>

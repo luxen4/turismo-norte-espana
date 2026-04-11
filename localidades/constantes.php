@@ -33,7 +33,7 @@ if (!defined('PATH_RAIZ_BLOQUES_ESTRUCTURA')) {
 <?php define('PATH_BLOQUES_SECTIONS_GENERICO',                          PATH_RAIZ_BLOQUES_ESTRUCTURA. '/sections_generico'); ?>
 <?php define('PATH_BLOQUES_SECTIONS_CARRUSELES_CSV',  PATH_BLOQUES_SECTIONS_GENERICO. '/Carruseles_CSV'); ?>
 
-<?php define('NAME_BLOG', "Guía Costera por el Cantábrico"); ?>
+<?php define('NAME_BLOG', "Turismo Norte de España"); ?>
 <?php define('AUTHOR', "Adrián Laya García"); ?>
 <?php define('EMAIL_AUTHOR', "  ");?>
 

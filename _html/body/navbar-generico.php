@@ -5,7 +5,7 @@
 
       <!-- Logo -->
       <div class="text-lg md:text-xl font-semibold">
-        Turismo Norte
+        Turismo Norte de España
       </div>
 
       <!-- Menú escritorio -->

@@ -9,7 +9,7 @@ $keywords_content = 'rutas costeras Castro-Urdiales, senderismo Cantabria, sende
 $robots_content = 'index, follow';
 $author_content = 'Adrián Laya García';
 $languaje_content = 'es';
-$name_blog = '2025 Guía Costera por el Cantábrico';
+$name_blog = '2025 Turismo Norte de España';
 ?>
 
 <?php // Meta Tags Open Graph ?>

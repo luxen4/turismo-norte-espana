@@ -5,7 +5,7 @@ $country = 'España';    $country_minuscula = strtolower(str_replace(' ', '-', $
 
 <?php define('DESCRIPTION', "Explora Santoña en Cantabria: famosa por sus marismas, el Monte Buciero, la playa de Berria y su rica tradición marinera. Ideal para senderismo, naturaleza y cultura pesquera."); ?>
 <?php define('KEYWORDS_CONTENT', 'Santoña Cantabria, playa de Berria, Monte Buciero, marismas de Santoña, rutas de senderismo, turismo Santoña, naturaleza Cantabria') ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/constantes-localidad-generico.php";?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_utilidades/constantes-localidad-generico.php";?>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -43,7 +43,7 @@ $country = 'España';    $country_minuscula = strtolower(str_replace(' ', '-', $
     </div>
   </div>
 
-  <?php require PATH_RAIZ . "/_estructura/semantica/body/footer/footer-generico.php"; ?>
+  <?php require PATH_RAIZ . "/_html/body/footer/footer-generico.php"; ?>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>

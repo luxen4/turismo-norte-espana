@@ -6,4 +6,4 @@
 <?php define('LUGAR', "Surf en la Playa de Bakio"); ?>
 <?php define('KEYWORDS_CONTENT', 'Surf Bakio, Playa de Bakio surf, surf Bizkaia, olas Bakio, escuelas de surf, surfistas País Vasco, deportes acuáticos Bakio') ?>
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_estructura/semantica/pages/index-generico.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_html/lugares-interes/index-generico.php"; ?>

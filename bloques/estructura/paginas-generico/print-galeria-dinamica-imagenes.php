@@ -1,6 +1,6 @@
 <!-- Galería dinámica imágenes con lightbox -->
 <section aria-labelledby="galeria" class="mb-12">
-  <h2 id="galeria" class="text-2xl font-bold text-emerald-700 mb-4">📸 Galería de Imágenes</h2>
+  <h2 id="galeria" class="text-2xl font-bold text-<?= COLOR_PAGE; ?>-700 mb-4">📸 Galería de Imágenes</h2>
   <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
     <?php foreach($galeria_imagenes as $img): ?>
       <figure class="w-full overflow-hidden rounded-2xl shadow-lg">
@@ -13,7 +13,7 @@
           <?= $img['caption'] ?> <br>
           <span class="text-xs">Fuente: 
             <?php if($img['fuente']): ?>
-              <a href="<?= $img['fuente'] ?>" target="_blank" rel="noopener noreferrer" class="text-emerald-600 hover:underline">
+              <a href="<?= $img['fuente'] ?>" target="_blank" rel="noopener noreferrer" class="text-<?= COLOR_PAGE; ?>-600 hover:underline">
                 <?= $img['fuente_texto'] ?>
               </a>
             <?php else: ?>

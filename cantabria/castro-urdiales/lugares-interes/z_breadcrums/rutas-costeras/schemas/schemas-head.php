@@ -8,12 +8,12 @@
   "inLanguage": "es",
   "isPartOf": {
     "@type": "Website",
-    "name": "Guía Costera por el Cantábrico",
+    "name": "Turismo Norte de España",
     "url": "<?= $dominio_base; ?>"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Guía Costera por el Cantábrico",
+    "name": "Turismo Norte de España",
     "logo": {
       "@type": "ImageObject",
       "url": "<?= $url_logo_footer; ?>"

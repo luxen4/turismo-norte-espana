@@ -6,4 +6,4 @@
 <?php define('LUGAR', "Playa de Astondo en Gorliz"); ?>
 <?php define('KEYWORDS_CONTENT', 'Playa de Astondo, Gorliz, turismo Bizkaia, playas País Vasco, costa vasca, playa familiar, deportes acuáticos, paseo marítimo, naturaleza en Bizkaia') ?>
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_estructura/semantica/pages/index-generico.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_html/lugares-interes/index-generico.php"; ?>

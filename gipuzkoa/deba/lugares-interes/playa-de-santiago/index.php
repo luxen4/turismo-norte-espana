@@ -18,4 +18,4 @@ $country_minuscula = strtolower(str_replace(' ', '-', $country));
 <?php define('KEYWORDS_CONTENT', 'Playa de Santiago, Deba, playas Gipuzkoa, surf Gipuzkoa, naturaleza, costa vasca, turismo natural, playa de arena') ?>
 
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/localidades/carga-variables-generico-lugares-interes.php"; ?>
-<?php require PATH_RAIZ  . "/_estructura/semantica/page-playa-generico.php"; ?>
+<?php require PATH_RAIZ  . "/_html/lugares-interes/index-generico3.php"; ?>

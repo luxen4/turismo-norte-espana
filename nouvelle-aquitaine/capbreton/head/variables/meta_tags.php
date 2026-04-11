@@ -22,7 +22,7 @@ $graph_Meta_Tags_property_image        = PATH_RAIZ_LOCALIDADES_CARPETA . '/nueva
 $graph_Meta_Tags_property_url          = PATH_RAIZ_LOCALIDADES_CARPETA . '/nueva-aquitania/capbreton/index.php';
 $graph_Meta_Tags_property_type         = 'website';
 
-$graph_Meta_Tags_property_site_name    = 'Guía Costera por el Cantábrico';
+$graph_Meta_Tags_property_site_name    = 'Turismo Norte de España';
 $graph_Meta_Tags_property_locale       = 'es_ES';
 $graph_Meta_Tags_property_image_alt    = 'Puerto de Capbreton, Nueva Aquitania';
 $graph_Meta_Tags_property_image_width  = '1200';

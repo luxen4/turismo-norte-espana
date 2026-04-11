@@ -1,0 +1,1 @@
+<?php $localidad = 'Isla'; $region = 'Cantabria'; ?>

@@ -18,4 +18,4 @@ $country_minuscula = strtolower(str_replace(' ', '-', $country));
 <?php define('KEYWORDS_CONTENT', 'ZEC Ordunte KBE, Muskiz, Red Natura 2000 Bizkaia, espacio natural protegido, rutas montaña, biodiversidad Euskadi, turismo sostenible') ?>
 
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/localidades/carga-variables-generico-lugares-interes.php"; ?>
-<?php require PATH_RAIZ  . "/_estructura/semantica/page-playa-generico.php"; ?>
+<?php require PATH_RAIZ  . "/_html/lugares-interes/index-generico3.php"; ?>

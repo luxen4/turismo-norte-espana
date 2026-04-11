@@ -6,4 +6,4 @@
 <?php define('LUGAR', "Puerto de Santoña"); ?>
 <?php define('KEYWORDS_CONTENT', 'Puerto de Santoña, puerto pesquero Cantabria, paseo marítimo Santoña, mar Cantábrico') ?>
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_estructura/semantica/pages/index-generico.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_html/lugares-interes/index-generico.php"; ?>

@@ -6,4 +6,4 @@
 <?php define('LUGAR', "Peña Candina"); ?>
 <?php define('KEYWORDS_CONTENT', 'Peña Candina Sonabia, senderismo Cantabria, acantilados Cantabria, buitre leonado marino') ?>
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_estructura/semantica/pages/index-generico.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_html/lugares-interes/index-generico.php"; ?>

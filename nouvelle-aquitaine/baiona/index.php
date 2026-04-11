@@ -61,7 +61,7 @@ $COLOR_PAGE='blue';
 $lugar_minuscula='Baiona'; 
 $lugar_minuscula='Baiona';
 
-define('NAME_BLOG', "Guía Costera por el Cantábrico");
+define('NAME_BLOG', "Turismo Norte de España");
 define('AUTHOR', "Adrián Laya García");
 define('EMAIL_AUTHOR', " ");
 ?>
@@ -101,7 +101,7 @@ define('EMAIL_AUTHOR', " ");
     </div>
   </div>
 
-  <?php require PATH_RAIZ . "/_estructura/semantica/body/footer/footer-generico.php"; ?>
+  <?php require PATH_RAIZ . "/_html/body/footer/footer-generico.php"; ?>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

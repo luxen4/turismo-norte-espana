@@ -6,4 +6,4 @@
 <?php define('LUGAR', "Playa de Valdearenas de Sonabia"); ?>
 <?php define('KEYWORDS_CONTENT', 'Playa de Valdearenas Sonabia, playas Cantabria, playa natural, acantilados Cantabria, naturaleza Sonabia, surf Cantabria') ?>
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_estructura/semantica/pages/index-generico.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_html/lugares-interes/index-generico.php"; ?>

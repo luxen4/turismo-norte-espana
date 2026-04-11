@@ -49,7 +49,7 @@
   <!-- Actividades -->
   <section class="py-16 bg-white">
     <div class="max-w-6xl mx-auto px-6">
-      <h2 class="text-3xl font-semibold text-emerald-700 mb-10 text-center">🚴 Actividades destacadas</h2>
+      <h2 class="text-3xl font-semibold text-<?= COLOR_PAGE; ?>-700 mb-10 text-center">🚴 Actividades destacadas</h2>
 
       <div class="grid md:grid-cols-3 gap-8">
         <!-- Surf -->

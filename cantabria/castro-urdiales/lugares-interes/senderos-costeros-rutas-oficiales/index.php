@@ -1,9 +1,9 @@
 <?php 
 $region = "Cantabria"; $region_minuscula = strtolower($region); 
 $localidad_minuscula = 'castro-urdiales'; $localidad_minuscula_lugar = 'senderos-costeros-rutas-oficiales'; $nombre_sub_carpeta = 'lugares-interes';
-COLOR_PAGE='green';
+$color_page='green';
 $title_head = 'Senderos Costeros y Rutas Oficiales en Castro-Urdiales';  
-lugar_minuscula_footer='Senderos Costeros y Rutas Oficiales - Castro-Urdiales'; ?>
+$lugar_minuscula_footer='Senderos Costeros y Rutas Oficiales - Castro-Urdiales'; ?>
 
 <?php require rtrim($_SERVER['DOCUMENT_ROOT']) . "/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/{$nombre_sub_carpeta}/previo.php"; ?>
 

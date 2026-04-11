@@ -11,7 +11,7 @@ $country = 'España';       $country_minuscula = strtolower(str_replace(' ', '-'
 <?php define('KEYWORDS_CONTENT', 'Playa de Astondo, Gorliz, playas Bizkaia, turismo País Vasco, costa vasca, naturaleza, playa familiar, arena dorada, turismo natural') ?>
 
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/localidades/carga-variables-generico-lugares-interes.php"; ?>
-<?php require PATH_RAIZ  . "/_estructura/semantica/page-playa-generico.php"; ?>
+<?php require PATH_RAIZ  . "/_html/lugares-interes/index-generico3.php"; ?>
 <?php /* No 🙂
 La Playa de Astondo no está en Getxo.
 

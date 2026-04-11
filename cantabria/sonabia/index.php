@@ -5,7 +5,7 @@ $country = 'España';    $country_minuscula = strtolower(str_replace(' ', '-', $
 
 <?php define('DESCRIPTION', "Descubre Sonabia en Cantabria: la Playa de Sonabia, la Peña Candina y rutas costeras únicas."); ?>
 <?php define('KEYWORDS_CONTENT', 'Playa de Sonabia, Sonabia, playas Cantabria, Peña Candina, naturaleza, costa de Cantabria, turismo natural, playa salvaje, rutas, Ojo del Diablo, monte Candina') ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/constantes-localidad-generico.php";?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_utilidades/constantes-localidad-generico.php";?>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -23,7 +23,7 @@ $country = 'España';    $country_minuscula = strtolower(str_replace(' ', '-', $
         <?php require PATH_RAIZ . '/_estructura/semantica/componentes/breadcrums-generico.php'; ?>
 
         <header class="mb-10">
-          <div class="bg-gradient-to-r from-green-600 via-emerald-500 to-teal-400 text-white text-center p-8 rounded-lg shadow-lg">
+          <div class="bg-gradient-to-r from-green-600 via-<?= COLOR_PAGE; ?>-500 to-teal-400 text-white text-center p-8 rounded-lg shadow-lg">
             <h1 class="text-3xl md:text-5xl font-extrabold mb-3 flex justify-center items-center gap-3">
               <i class="fas fa-map-marked-alt"></i> Sonabia (Cantabria)
             </h1>
@@ -46,7 +46,7 @@ $country = 'España';    $country_minuscula = strtolower(str_replace(' ', '-', $
     </div>
   </div>
 
-  <?php require PATH_RAIZ . "/_estructura/semantica/body/footer/footer-generico.php"; ?>
+  <?php require PATH_RAIZ . "/_html/body/footer/footer-generico.php"; ?>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

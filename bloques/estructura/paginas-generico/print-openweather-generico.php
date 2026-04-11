@@ -1,5 +1,5 @@
 <section class="my-10">
-  <h2 class="text-xl font-semibold text-emerald-700 mb-4">
+  <h2 class="text-xl font-semibold text-<?= COLOR_PAGE; ?>-700 mb-4">
     Tiempo en <?= $localidad; ?> (OpenWeather)
   </h2>
   <iframe 

@@ -23,7 +23,7 @@ teal	Verde azulado suave
 #14b8a6
 green	Verde natural / bosque	
 #22c55e
-emerald	Verde brillante	
+<?= COLOR_PAGE; ?>	Verde brillante	
 #10b981
 lime	Verde lima, vibrante	
 #84cc16
@@ -53,7 +53,7 @@ zinc	Gris neutral claro
 ✅ Recomendaciones según tipo de contenido:
 Playas: blue, sky, cyan, teal
 
-Montañas o naturaleza: green, emerald, lime
+Montañas o naturaleza: green, <?= COLOR_PAGE; ?>, lime
 
 Patrimonios históricos: stone, slate, indigo, neutral
 

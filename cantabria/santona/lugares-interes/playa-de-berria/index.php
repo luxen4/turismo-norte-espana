@@ -6,4 +6,4 @@
 <?php define('LUGAR', "Playa de Berria"); ?>
 <?php define('KEYWORDS_CONTENT', 'Playa de Berria, Santoña, playas Cantabria, surf Cantabria, naturaleza, costa de Cantabria, turismo familiar, playa de arena') ?>
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_estructura/semantica/pages/index-generico.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_html/lugares-interes/index-generico.php"; ?>

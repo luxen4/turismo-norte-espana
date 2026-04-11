@@ -1,1 +1,2 @@
-<?php require  $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_estructura/semantica/pages/paginas-lugares-interes/index-generico.php" ?>
+<?php $lugar_interes = "faro-de-cabo-de-ajo"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_html/lugares-interes/index-generico.php" ?>

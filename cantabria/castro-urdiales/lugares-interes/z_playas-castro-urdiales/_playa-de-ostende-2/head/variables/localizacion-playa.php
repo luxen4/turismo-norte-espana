@@ -12,7 +12,7 @@ $hoy = date('Y-m-d');
 
 $region_minuscula='cantabria'; 
 $localidad_minuscula='playa-de-ostende'; 
-$name_blog = 'Guía Costera por el Cantábrico'; 
+$name_blog = 'Turismo Norte de España'; 
 $author_content = 'Adrián Laya García'; 
 lugar_minuscula_footer = 'Playas del Cantábrico';
 

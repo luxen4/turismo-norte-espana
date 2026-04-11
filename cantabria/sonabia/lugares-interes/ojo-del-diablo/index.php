@@ -6,4 +6,4 @@
 <?php define('LUGAR', "Ojo del Diablo"); ?>
 <?php define('KEYWORDS_CONTENT', 'Ojo del Diablo Sonabia, senderismo Cantabria, formaciones rocosas, miradores Cantabria') ?>
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_estructura/semantica/pages/index-generico.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_html/lugares-interes/index-generico.php"; ?>

@@ -4,7 +4,7 @@
 
 <!-- Mapa -->
 <section class="mb-12">
-  <h2 class="text-2xl font-bold text-emerald-700 mb-4"><?= $mapa['titulo'] ?></h2>
+  <h2 class="text-2xl font-bold text-<?= COLOR_PAGE; ?>-700 mb-4"><?= $mapa['titulo'] ?></h2>
   <div id="<?= $mapa['map_id'] ?>" class="w-full h-80 rounded-xl shadow"></div>
   <script>
     document.addEventListener("DOMContentLoaded", function () {

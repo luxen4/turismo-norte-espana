@@ -12,7 +12,7 @@
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Guía Costera por el Cantábrico",
+    "name": "Turismo Norte de España",
     "logo": {
       "@type": "ImageObject",
       "url": "https://tusitio.com/imagenes/logo.png"

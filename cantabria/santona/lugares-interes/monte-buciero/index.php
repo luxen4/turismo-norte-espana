@@ -6,4 +6,4 @@
 <?php define('LUGAR', "Monte Buciero"); ?>
 <?php define('KEYWORDS_CONTENT', 'Monte Buciero Santoña, rutas senderismo Cantabria, miradores Santoña, acantilados Costa Cantábrica') ?>
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_estructura/semantica/pages/index-generico.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_html/lugares-interes/index-generico.php"; ?>

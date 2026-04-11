@@ -22,7 +22,7 @@ $graph_Meta_Tags_property_image        = PATH_RAIZ_LOCALIDADES_CARPETA . '/bizka
 $graph_Meta_Tags_property_url          = PATH_RAIZ_LOCALIDADES_CARPETA . '/bizkaia/playadeplentzia/index.php';
 $graph_Meta_Tags_property_type         = 'website';
 
-$graph_Meta_Tags_property_site_name    = 'Guía Costera por el Cantábrico';
+$graph_Meta_Tags_property_site_name    = 'Turismo Norte de España';
 $graph_Meta_Tags_property_locale       = 'es_ES';
 $graph_Meta_Tags_property_image_alt    = 'Playa de Plentzia en Bizkaia';
 $graph_Meta_Tags_property_image_width  = '1200';

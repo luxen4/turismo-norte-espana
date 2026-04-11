@@ -66,7 +66,7 @@
   </main>
 
   <footer class="bg-teal-100 text-center p-4 mt-12 text-sm text-teal-800">
-    &copy; 2025 Guía Costera por el Cantábrico - Adrián Laya García
+    &copy; 2025 Turismo Norte de España - Adrián Laya García
   </footer>
 </body>
 </html>

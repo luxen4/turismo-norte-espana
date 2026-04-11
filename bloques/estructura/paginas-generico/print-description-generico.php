@@ -18,7 +18,7 @@
           <?= $img['caption'] ?> <br>
           <span class="text-xs">📷 Fuente: 
             <?php if($img['fuente']): ?>
-              <a href="<?= $img['fuente'] ?>" target="_blank" rel="noopener noreferrer" class="text-emerald-600 hover:underline">
+              <a href="<?= $img['fuente'] ?>" target="_blank" rel="noopener noreferrer" class="text-<?= COLOR_PAGE; ?>-600 hover:underline">
                 <?= $img['fuente_texto'] ?>
               </a>
             <?php else: ?>

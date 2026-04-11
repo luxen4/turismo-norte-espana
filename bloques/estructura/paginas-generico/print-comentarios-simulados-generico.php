@@ -1,6 +1,6 @@
 <!-- Comentarios -->
 <section class="my-10">
-  <h2 class="text-xl font-semibold text-emerald-700 mb-4">Comentarios</h2>
+  <h2 class="text-xl font-semibold text-<?= COLOR_PAGE; ?>-700 mb-4">Comentarios</h2>
   <?php foreach ($comentarios as $i => $comentario): ?>
     <?php 
       // Caritas diferentes para cada comentario

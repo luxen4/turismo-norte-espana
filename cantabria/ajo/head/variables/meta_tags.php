@@ -24,7 +24,7 @@ $graph_Meta_Tags_property_image        = PATH_RAIZ_LOCALIDADES_CARPETA . '/lugar
 $graph_Meta_Tags_property_url          = PATH_RAIZ_LOCALIDADES_CARPETA . '/cantabria/ajo/index.php';
 $graph_Meta_Tags_property_type         = 'website';
 
-$graph_Meta_Tags_property_site_name    = 'Guía Costera por el Cantábrico';
+$graph_Meta_Tags_property_site_name    = 'Turismo Norte de España';
 $graph_Meta_Tags_property_locale       = 'es_ES';
 $graph_Meta_Tags_property_image_alt    = 'Playa de Cuberris en Ajo, Cantabria';
 $graph_Meta_Tags_property_image_width  = '1200';
@@ -40,4 +40,5 @@ $graph_Meta_Tags_property_tag3         = 'Turismo Costa Cantábrica';
 
 <?php //echo($graph_Meta_Tags_property_image) ?>
 
-
+<?php define('DESCRIPTION', "Descubre Ajo en Cantabria, un destino costero con playas salvajes, acantilados impresionantes y rincones naturales únicos como el Cabo de Ajo. Ideal para disfrutar del mar, el surf y la tranquilidad del norte de España."); ?>
+<?php define('KEYWORDS_CONTENT', "Ajo Cantabria, turismo Ajo, playas de Ajo, Cabo de Ajo, costa de Cantabria, acantilados Cantabria, surf Cantabria, turismo rural Cantabria, pueblos costeros Cantabria, viajar al norte de España, naturaleza Cantabria, vacaciones en Cantabria"); ?>

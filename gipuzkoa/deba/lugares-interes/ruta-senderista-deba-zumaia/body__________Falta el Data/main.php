@@ -1,8 +1,8 @@
 <main>
     <?php require PATH_RAIZ . '/_estructura/semantica/componentes/breadcrums-generico.php'; ?>
-  <h1 class="text-2xl md:text-3xl font-semibold text-emerald-600 mb-4">
+  <h1 class="text-2xl md:text-3xl font-semibold text-<?= COLOR_PAGE; ?>-600 mb-4">
     🥾 Ruta Senderista Deba – Zumaia:
-    <span class="block mt-1 text-base md:text-lg text-emerald-500 font-normal">
+    <span class="block mt-1 text-base md:text-lg text-<?= COLOR_PAGE; ?>-500 font-normal">
       Paisajes espectaculares del Geoparque de la Costa Vasca
     </span>
   </h1>
@@ -26,7 +26,7 @@
   </section>
 
   <section aria-labelledby="informacion-ruta" class="mb-8">
-    <h2 id="informacion-ruta" class="text-xl font-semibold text-emerald-700 mb-3">
+    <h2 id="informacion-ruta" class="text-xl font-semibold text-<?= COLOR_PAGE; ?>-700 mb-3">
       Información de la Ruta Deba – Zumaia
     </h2>
     <p class="mb-4 text-sm text-gray-700">
@@ -59,7 +59,7 @@
   </section>
 
   <section aria-labelledby="actividades-ruta" class="mb-8">
-    <h2 id="actividades-ruta" class="text-xl font-semibold text-emerald-700 mb-3">
+    <h2 id="actividades-ruta" class="text-xl font-semibold text-<?= COLOR_PAGE; ?>-700 mb-3">
       Actividades en la Ruta Deba – Zumaia
     </h2>
 
@@ -69,7 +69,7 @@
 
     <ul class="list-none pl-0 space-y-2 text-gray-700 text-sm">
       <li class="flex items-center gap-2">
-        <svg class="w-5 h-5 text-emerald-500" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+        <svg class="w-5 h-5 text-<?= COLOR_PAGE; ?>-500" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
           <path d="M12 2a4 4 0 100 8 4 4 0 000-8zM4 20c1-4 5-6 8-6s7 2 8 6H4z"/>
         </svg>
         Observación de formaciones geológicas Flysch
@@ -122,15 +122,15 @@
   </div>
 
   <section class="mb-6 text-gray-700">
-    <h2 class="text-xl font-semibold text-emerald-700 mb-2">📞 Información de contacto</h2>
+    <h2 class="text-xl font-semibold text-<?= COLOR_PAGE; ?>-700 mb-2">📞 Información de contacto</h2>
     <ul class="list-none pl-0 space-y-1 text-gray-700 mb-6">
       <li>
         <strong>Teléfono:</strong>
-        <a href="tel:+34943567012" class="text-emerald-500 hover:underline">+34 943 56 70 12</a>
+        <a href="tel:+34943567012" class="text-<?= COLOR_PAGE; ?>-500 hover:underline">+34 943 56 70 12</a>
       </li>
       <li>
         <strong>Sitio web:</strong>
-        <a href="https://www.deba.eus" target="_blank" rel="noopener noreferrer" class="text-emerald-500 hover:underline">
+        <a href="https://www.deba.eus" target="_blank" rel="noopener noreferrer" class="text-<?= COLOR_PAGE; ?>-500 hover:underline">
           www.deba.eus
         </a>
       </li>

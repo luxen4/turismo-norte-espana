@@ -174,7 +174,7 @@ $region_minuscula="";
 </section>
 
 <!-- FOOTER -->
-<?php require PATH_RAIZ . "/_estructura/semantica/body/footer/footer-generico.php"; ?>
+<?php require PATH_RAIZ . "/_html/body/footer/footer-generico.php"; ?>
 
 </body>
 </html>

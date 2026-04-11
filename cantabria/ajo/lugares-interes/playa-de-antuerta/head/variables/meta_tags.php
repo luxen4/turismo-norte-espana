@@ -15,6 +15,7 @@ $twitterCards_description = 'Explora la '.LUGAR.', una joya natural en '.$locali
 $twitterCards_image       = PATH_RAIZ_LOCALIDADES_CARPETA . '/'.$region.'/'.$localidad.'/img/'.LUGAR_MINUSCULA.'-'.$localidad_minuscula.'-'.$region_minuscula.'-1.jpg';
 $twitterCardSs_url         = PATH_RAIZ_LOCALIDADES_CARPETA . '/'.$region.'/'.$localidad.'/index.php'; // Puedes usar un slug más específico si lo tienes
 
+
 // Open Graph
 $graph_Meta_Tags_property_title        = LUGAR. ' – '.$localidad.', '.$region;
 $graph_Meta_Tags_property_description  = 'Visita la '.LUGAR.' en '.$localidad.', una playa virgen con acantilados y vistas al mar Cantábrico. Ideal para surfistas y amantes de la naturaleza.';

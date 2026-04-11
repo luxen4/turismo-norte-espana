@@ -29,7 +29,7 @@
     },
     {
       "@type": "WebSite",
-      "name": "Guía Costera por el Cantábrico",
+      "name": "Turismo Norte de España",
       "url": "https://www.blogPlayas2026.com"
     }
   ]

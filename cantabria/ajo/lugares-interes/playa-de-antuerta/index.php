@@ -1,1 +1,3 @@
-<?php require  $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_estructura/semantica/pages/paginas-lugares-interes/index-generico.php" ?>
+<?php $lugar_interes= "playa-de-antuerta"; ?>
+
+<?php require  $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_html/lugares-interes/index-generico.php" ?>

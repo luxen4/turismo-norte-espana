@@ -1,3 +1,6 @@
+
+
+
 <?php  
 $localidad = 'Castro-Urdiales';     $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad)); $lugar_minuscula='castro-urdiales';
 $region = 'Cantabria';  $region_minuscula = strtolower(str_replace(' ', '-', $region));   
@@ -5,7 +8,7 @@ $country = 'España';    $country_minuscula = strtolower(str_replace(' ', '-', $
 
 <?php define('DESCRIPTION', "Descubre Castro-Urdiales en Cantabria: playas urbanas, puerto pesquero, patrimonio histórico y un ambiente marinero único."); ?>
 <?php define('KEYWORDS_CONTENT', 'Castro-Urdiales, Cantabria, Playa de Ostende, puerto pesquero, patrimonio histórico, turismo Cantabria, costa de Cantabria, castillo-faro, iglesia de Santa María, paseo marítimo, gastronomía marinera') ?>
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/constantes-localidad-generico.php";?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_utilidades/constantes-localidad-generico.php";?>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -45,7 +48,7 @@ $country = 'España';    $country_minuscula = strtolower(str_replace(' ', '-', $
     </div>
   </div>
 
-  <?php require PATH_RAIZ . "/_estructura/semantica/body/footer/footer-generico.php"; ?>
+  <?php require PATH_RAIZ . "/_html/body/footer/footer-generico.php"; ?>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

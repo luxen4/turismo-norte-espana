@@ -39,7 +39,7 @@ try {
     <?php require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES . "/_estructura/body/post-header-generico.php"; ?>
 
 
-    <?php require PATH_RAIZ . "/_estructura/semantica/body/footer/footer-generico.php"; ?>
+    <?php require PATH_RAIZ . "/_html/body/footer/footer-generico.php"; ?>
 
 
 
