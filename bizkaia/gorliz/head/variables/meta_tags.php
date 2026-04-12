@@ -35,3 +35,8 @@ $graph_Meta_Tags_property_tag          = 'Playa de Gorliz';
 $graph_Meta_Tags_property_tag2         = 'Playas bizkaia';
 $graph_Meta_Tags_property_tag3         = 'Turismo Costa Vasca';
 ?>
+
+<?php define('TITLE', "Playa de Gorliz – Naturaleza y Mar en Bizkaia"); ?>
+<?php define('DESCRIPTION', "Descubre la Playa de Gorliz en Bizkaia: un arenal amplio y familiar con aguas tranquilas, rodeado de naturaleza y junto a la bahía de Plentzia en la costa del Cantábrico."); ?>
+
+<?php define('KEYWORDS_CONTENT', 'Playa de Gorliz, Gorliz Bizkaia, playas Bizkaia, costa vasca, turismo Gorliz, bahía de Plentzia, mar Cantábrico, playa familiar, naturaleza Euskadi, playas norte España') ?>

@@ -1,17 +1,6 @@
-<?php  
-$localidad = 'Gorliz';     $localidad_minuscula = 'gorliz'; $lugar_minuscula='playa-de-astondo';
-$region = 'Bizkaia';    $region_minuscula = strtolower(str_replace(' ', '-', $region));   
-$country = 'España';       $country_minuscula = strtolower(str_replace(' ', '-', $country)); ?>
+<?php $lugar_interes= "playa-de-astondo"; ?>
+<?php require  $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_html/lugares-interes/index-generico.php" ?>
 
-<?php define('TITLE', "Playa de Astondo en Gorliz – Turismo y Naturaleza en Bizkaia 2025"); ?>
-<?php define('DESCRIPTION', "Descubre la Playa de Astondo en Gorliz: arena dorada, ambiente familiar, aguas tranquilas y un entorno natural único junto a la bahía de Gorliz."); ?>
-<?php define('COLOR_PAGE', "sky"); ?>
-<?php define('LUGAR', "Playa de Astondo"); ?>
-<?php define('LUGAR_MINUSCULA', strtolower(str_replace(' ', '-', LUGAR))) ?>
-<?php define('KEYWORDS_CONTENT', 'Playa de Astondo, Gorliz, playas Bizkaia, turismo País Vasco, costa vasca, naturaleza, playa familiar, arena dorada, turismo natural') ?>
-
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/localidades/carga-variables-generico-lugares-interes.php"; ?>
-<?php require PATH_RAIZ  . "/_html/lugares-interes/index-generico3.php"; ?>
 <?php /* No 🙂
 La Playa de Astondo no está en Getxo.
 

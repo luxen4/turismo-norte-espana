@@ -15,5 +15,5 @@ $country_minuscula = strtolower(str_replace(' ', '-', $country));
 <?php define('LUGAR_MINUSCULA', strtolower(str_replace(' ', '-', LUGAR))) ?>
 <?php define('KEYWORDS_CONTENT', 'Plage Centrale, Capbreton, playa urbana, surf, actividades, costa atlántica, País Vasco Francés') ?>
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/localidades/carga-variables-generico-lugares-interes.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_html/lugares-interes/variables-generico.php"; ?>
 <?php require PATH_RAIZ  . "/_html/lugares-interes/index-generico3.php"; ?>

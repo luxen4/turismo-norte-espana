@@ -1,0 +1,4 @@
+<?php define('TITLE', "Centro de Interpretación de Urdaibai en Ibarrangelu – Naturaleza y Aves en Bizkaia 2025"); ?>
+<?php define('DESCRIPTION', "Visita el Centro de Interpretación de Urdaibai en Ibarrangelu: un espacio único para conocer la Reserva de la Biosfera, la observación de aves migratorias y la riqueza natural del País Vasco."); ?>
+<?php define('LUGAR', "Centro de Interpretación de Urdaibai"); ?>
+<?php define('KEYWORDS_CONTENT', 'Centro de Interpretación de Urdaibai, Bird Center, Ibarrangelu, Bizkaia, turismo naturaleza, observación de aves, reserva de la biosfera, País Vasco, ecoturismo') ?>

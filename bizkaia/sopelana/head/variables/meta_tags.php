@@ -35,3 +35,8 @@ $graph_Meta_Tags_property_tag          = 'Arrietara';
 $graph_Meta_Tags_property_tag2         = 'Playas Bizkaia';
 $graph_Meta_Tags_property_tag3         = 'Surf en Sopelana';
 ?>
+
+
+
+<?php define('DESCRIPTION', "Descubre Sopelana, un vibrante municipio costero de Bizkaia conocido por sus playas ideales para el surf, naturaleza y ambiente joven y activo."); ?>
+<?php define('KEYWORDS_CONTENT', 'Sopelana, Bizkaia, municipio, turismo Bizkaia, playas surf Bizkaia, naturaleza Euskadi') ?>

@@ -35,3 +35,8 @@ $graph_Meta_Tags_property_tag          = 'Bakio';
 $graph_Meta_Tags_property_tag2         = 'Cantabria';
 $graph_Meta_Tags_property_tag3         = 'Costa Cantábrica';
 ?>
+
+<?php define('TITLE', "Playa de Bakio – Surf y Naturaleza en Bizkaia"); ?>
+<?php define('DESCRIPTION', "Descubre la Playa de Bakio en Bizkaia: un amplio arenal ideal para el surf, rodeado de montañas y cerca de San Juan de Gaztelugatxe en la costa del Cantábrico."); ?>
+
+<?php define('KEYWORDS_CONTENT', 'Playa de Bakio, Bakio Bizkaia, surf País Vasco, playas Bizkaia, costa vasca, turismo Bakio, mar Cantábrico, Gaztelugatxe, naturaleza Euskadi, playas norte España') ?>

@@ -12,5 +12,5 @@ $country_minuscula = strtolower(str_replace(' ', '-', $country));
 ?>
 
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/localidades/carga-variables-generico-lugares-interes.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_html/lugares-interes/variables-generico.php"; ?>
 <?php require PATH_RAIZ  . "/_html/lugares-interes/index-generico3.php"; ?>

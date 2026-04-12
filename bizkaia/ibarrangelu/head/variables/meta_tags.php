@@ -36,4 +36,7 @@ $graph_Meta_Tags_property_tag2         = 'Playas Bizkaia';
 $graph_Meta_Tags_property_tag3         = 'Surf en Euskadi';
 ?>
 
+<?php //define('TITLE', "Ibarrangelu – Turismo y Naturaleza en Bizkaia 2025"); ?>
+<?php define('DESCRIPTION', "Descubre Ibarrangelu, un pintoresco municipio de Bizkaia con impresionantes paisajes naturales, playas vírgenes y rica cultura vasca."); ?>
 
+<?php define('KEYWORDS_CONTENT', 'Ibarrangelu, Bizkaia, turismo Bizkaia, playas Bizkaia, naturaleza Euskadi, cultura vasca') ?>

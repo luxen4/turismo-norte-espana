@@ -35,3 +35,7 @@ $graph_Meta_Tags_property_tag          = 'Playa de La Arena';
 $graph_Meta_Tags_property_tag2         = 'Playas bizkaia';
 $graph_Meta_Tags_property_tag3         = 'Turismo Costa Vasca';
 ?>
+
+<?php define('DESCRIPTION', "Descubre Muskiz en Bizkaia, un destino costero donde se mezcla naturaleza, playa y paisaje industrial. Disfruta de la Playa de La Arena, los acantilados, la ría del Barbadún y rutas junto al mar Cantábrico."); ?>
+
+<?php define('KEYWORDS_CONTENT', "Muskiz Bizkaia, turismo Muskiz, Playa de La Arena, costa de Bizkaia, acantilados Muskiz, ría del Barbadún, surf Bizkaia, naturaleza País Vasco, pueblos costeros Euskadi, viajar al País Vasco, turismo norte España, rutas costeras Bizkaia, vacaciones en Bizkaia"); ?>

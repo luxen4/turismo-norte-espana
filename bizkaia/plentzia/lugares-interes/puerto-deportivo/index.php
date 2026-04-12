@@ -17,5 +17,5 @@ $country_minuscula = strtolower(str_replace(' ', '-', $country));
 <?php define('LUGAR_MINUSCULA', strtolower(str_replace(' ', '-', LUGAR))) ?>
 <?php define('KEYWORDS_CONTENT', 'Puerto Deportivo de Plentzia, Plentzia, Bizkaia, turismo País Vasco, navegación, puerto, paseo marítimo, actividades náuticas, restauración') ?>
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/localidades/carga-variables-generico-lugares-interes.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_html/lugares-interes/variables-generico.php"; ?>
 <?php require PATH_RAIZ  . "/_html/lugares-interes/index-generico3.php"; ?>

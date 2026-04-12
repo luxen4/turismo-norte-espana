@@ -6,7 +6,7 @@ $region = 'Bizkaia';
 $region_minuscula = strtolower($region);
 ?>
 
-<h2 id="<?= $region; ?>" class="text-2xl md:text-3xl font-bold text-center text-<?= COLOR_PAGE; ?>-800 mb-6"><?= $region; ?></h2>
+<h2 id="<?= $region_minuscula; ?>" class="text-2xl md:text-3xl font-bold text-center text-<?= COLOR_PAGE; ?>-800 mb-6"><?= $region; ?></h2>
 
 <?php
 // Definimos todas las localidades con sus playas

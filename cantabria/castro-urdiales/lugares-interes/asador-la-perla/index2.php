@@ -15,7 +15,7 @@ $country_minuscula = strtolower(str_replace(' ', '-', $country));
 <?php define('LUGAR_MINUSCULA', strtolower(str_replace(' ', '-', LUGAR))) ?>
 <?php define('KEYWORDS_CONTENT', 'Asador La Perla Castro Urdiales, gastronomía Cantabria, restaurantes en Castro Urdiales, mariscos frescos') ?>
 
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/localidades/carga-variables-generico-lugares-interes.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_html/lugares-interes/variables-generico.php"; ?>
 
 <!DOCTYPE html>
 <html lang="es">

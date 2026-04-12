@@ -22,7 +22,7 @@
                         </figcaption>
                     </figure>
 
-                    <?php require PATH_RAIZ . '/_estructura/semantica/pages/paginas-localidad/boton-explorar.php'; ?>
+                    <?php require PATH_RAIZ . '/_html/localidades/boton-explorar.php'; ?>
                 </div>
             </div>
         <?php endforeach; ?>
