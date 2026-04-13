@@ -1,0 +1,2 @@
+<?php $lugar_interes= "puente-saint-esprit"; ?>
+<?php require  $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_html/lugares-interes/index-generico.php" ?>

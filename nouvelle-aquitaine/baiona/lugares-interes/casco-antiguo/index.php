@@ -1,2 +1,2 @@
-<h1>Baiona "Casco antigÜo"</h1>
-<p>Estamos preparando esta guía. Vuelve pronto.</p>
+<?php $lugar_interes= "casco-antiguo"; ?>
+<?php require  $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_html/lugares-interes/index-generico.php" ?>

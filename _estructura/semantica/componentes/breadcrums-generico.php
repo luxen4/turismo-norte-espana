@@ -10,7 +10,7 @@ if (!defined('PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES')) {
 }
 ?>
 
-<nav aria-label="Breadcrumb" class="my-4">
+<nav aria-label="Breadcrumb" class="my-1">
   <ol itemscope itemtype="https://schema.org/BreadcrumbList" class="flex flex-wrap space-x-1 text-base font-semibold text-gray-700">
     
     <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="flex items-center">

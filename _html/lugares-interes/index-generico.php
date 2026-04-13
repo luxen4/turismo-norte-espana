@@ -16,18 +16,17 @@
     </head>
 
     <body class="bg-<?= COLOR_PAGE; ?>-100">
-        
-<!-- Header Section -->
+
+      
 <header class="mb-1">
-    <div class="bg-gradient-to-r from-blue-600 via-sky-100 to-blue-400 text-white text-center p-6 md:p-8 rounded-lg shadow-lg">
-        <h1 class="text-2xl md:text-4xl font-bold mb-2 flex justify-center items-center gap-2">
-            <i class="fas fa-map-marked-alt"></i> Lugares Insólitos
-        </h1>
-        <p class="text-base md:text-lg">En el corazón de Castro Urdiales, Cantabria.</p>
-    </div>
+
+    <!-- Navegación -->
+    <?php require PATH_RAIZ . "/_html/body/navbar-generico.php"; ?>
+
+
 </header>
 
-        <div class="container-xxl py-4">
+        <div class="container-xxl py-1">
             <div class="row">
                 <div class="col-xl-9 col-lg-8 col-md-8 col-sm-12 col-12">
                     <?php require PATH_RAIZ . '/_html/lugares-interes/main-generico.php'; ?>

@@ -35,3 +35,7 @@ $graph_Meta_Tags_property_tag          = 'Santiago de Deba';
 $graph_Meta_Tags_property_tag2         = 'Playas País Vasco';
 $graph_Meta_Tags_property_tag3         = 'Turismo costero';
 ?>
+
+
+<?php define('DESCRIPTION', "Descubre Deba, en la costa de Gipuzkoa: playas tranquilas, acantilados espectaculares, rutas de senderismo y un encantador casco histórico junto al mar Cantábrico."); ?>
+<?php define('KEYWORDS_CONTENT', 'Deba, Gipuzkoa, turismo Gipuzkoa, costa vasca, playas del País Vasco, senderismo Gipuzkoa, naturaleza Cantábrica, Geoparque de la Costa Vasca'); ?>

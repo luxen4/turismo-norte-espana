@@ -35,3 +35,6 @@ $graph_Meta_Tags_property_tag          = 'Saint-Jean-de-Luz';
 $graph_Meta_Tags_property_tag2         = 'Municipios Francia';
 $graph_Meta_Tags_property_tag3         = 'Costa Atlántica';
 ?>
+
+<?php define('DESCRIPTION', "Descubre Saint-Jean-de-Luz, un pintoresco municipio del País Vasco Francés con playas, gastronomía local y un ambiente encantador junto al mar."); ?>
+<?php define('KEYWORDS_CONTENT', 'Saint-Jean-de-Luz, País Vasco Francés, playas, turismo, gastronomía, costa atlántica') ?>

@@ -1,4 +1,4 @@
-<div class="container-xxl py-4">
+<div class="container-xxl py-1">
   <div class="row">
     <div class="col-xl-9 col-lg-8 col-md-8 col-sm-12 col-12">
       <?php require PATH_RAIZ . '/_html/lugares-interes/main-generico.php'; ?>

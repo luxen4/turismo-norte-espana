@@ -1,0 +1,4 @@
+<?php define('TITLE', "Catedral de Santa María de Baiona – Patrimonio Histórico en Nouvelle-Aquitaine 2025"); ?>
+<?php define('DESCRIPTION', "Descubre la Catedral de Santa María de Baiona en Nouvelle-Aquitaine: un impresionante templo gótico declarado Patrimonio de la Humanidad, con vidrieras espectaculares y situada en el corazón del casco histórico."); ?>
+<?php define('LUGAR', "Catedral de Santa María de Baiona"); ?>
+<?php define('KEYWORDS_CONTENT', 'Catedral de Santa María Baiona, Bayona Francia, catedral gótica Francia, Baiona Nouvelle-Aquitaine, patrimonio histórico Francia, turismo cultural Baiona, iglesias Francia, casco histórico Baiona, monumentos Francia, viajar al suroeste de Francia') ?>

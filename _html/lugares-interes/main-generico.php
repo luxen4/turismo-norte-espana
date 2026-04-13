@@ -2,7 +2,7 @@
 <?php  require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/" .$region_minuscula. "/".$localidad_minuscula. '/lugares-interes/'.$lugar_interes.'/body/data/data-informacion.php'; ?>
 
 <?php // $publicidad = PATH_BLOQUES_SECTIONS_CARRUSELES_CSV . '/prueba_sneakers.php'; ?>
-<main class="bg-<?= COLOR_PAGE; ?>-50 min-h-screen p-4 md:p-10">
+<main class=" min-h-screen p-1 md:p-10">
   <?php require PATH_RAIZ . '/_estructura/semantica/componentes/breadcrums-generico.php'; ?>
 
   <?php require PATH_RAIZ . '/_estructura/semantica/body/header/print-header-generico.php'; ?>

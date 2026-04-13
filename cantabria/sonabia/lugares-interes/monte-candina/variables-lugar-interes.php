@@ -1,0 +1,4 @@
+<?php define('TITLE', "Monte Candina – Naturaleza y Vistas Espectaculares en Sonabia, Cantabria 2025"); ?>
+<?php define('DESCRIPTION', "El Monte Candina, en Sonabia (Cantabria), es un paraje natural único junto al mar Cantábrico. Destaca por sus impresionantes acantilados, rutas de senderismo y la presencia de buitres leonados que anidan frente al mar."); ?>
+<?php define('LUGAR', "Monte Candina"); ?>
+<?php define('KEYWORDS_CONTENT', 'Monte Candina, Sonabia Cantabria, senderismo Cantabria, acantilados Cantabria, buitres leonados, naturaleza Cantabria, costa cantábrica, rutas senderismo, miradores Cantabria, turismo naturaleza Cantabria') ?>

@@ -71,7 +71,7 @@
           <div class="card-body p-4">
             <h5 class="card-title text-lg font-semibold text-green-800"><?= $lugar['nombre']; ?></h5>
             <p class="card-text text-muted small mb-3"><?= $lugar['desc']; ?></p>
-            <?= $lugar_minuscula; ?>
+            <?php /*$lugar_minuscula; */?>
             <?php 
 // Determinar la URL según entorno
 if ($_SERVER['SERVER_NAME'] == "localhost") {

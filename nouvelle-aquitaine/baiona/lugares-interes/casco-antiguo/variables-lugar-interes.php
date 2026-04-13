@@ -1,0 +1,4 @@
+<?php define('TITLE', "Casco Antiguo de Baiona – Historia y Encanto en Nouvelle-Aquitaine 2025"); ?>
+<?php define('DESCRIPTION', "Descubre el casco antiguo de Baiona en Nouvelle-Aquitaine: calles con encanto, arquitectura vasco-francesa, ambiente histórico y rincones únicos junto al río Nive en el suroeste de Francia."); ?>
+<?php define('LUGAR', "Casco Antiguo de Baiona"); ?>
+<?php define('KEYWORDS_CONTENT', 'casco antiguo Baiona, Bayona Francia, Baiona Nouvelle-Aquitaine, turismo Baiona, casco histórico Francia, arquitectura vasco-francesa, río Nive, turismo cultural Francia, ciudades con encanto Francia, viajar al suroeste de Francia') ?>

@@ -35,3 +35,7 @@ $graph_Meta_Tags_property_tag          = 'Sonabia';
 $graph_Meta_Tags_property_tag2         = 'Playas Cantabria';
 $graph_Meta_Tags_property_tag3         = 'Turismo Costa Cantábrica';
 ?>
+
+<?php define('DESCRIPTION', "Descubre Sonabia en Cantabria, un enclave costero único con playas salvajes como Valdearenas, acantilados espectaculares y paisajes naturales como el Monte Candina. Ideal para disfrutar del mar, el senderismo y la tranquilidad del norte de España."); ?>
+
+<?php define('KEYWORDS_CONTENT', "Sonabia Cantabria, turismo Sonabia, playa de Sonabia, Valdearenas, Monte Candina, acantilados Cantabria, costa de Cantabria, senderismo Cantabria, naturaleza Cantabria, pueblos costeros Cantabria, viajar al norte de España, vacaciones en Cantabria"); ?>
