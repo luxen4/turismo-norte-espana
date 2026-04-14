@@ -1,2 +1,2 @@
-<h1>Biarritz "Port Vieux"</h1>
-<p>Estamos preparando esta guía. Vuelve pronto.</p>
+<?php $lugar_interes= "port-vieux"; ?>
+<?php require  $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_html/lugares-interes/index-generico.php" ?>

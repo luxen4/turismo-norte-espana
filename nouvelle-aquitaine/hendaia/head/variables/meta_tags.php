@@ -35,3 +35,6 @@ $graph_Meta_Tags_property_tag          = 'Hendaia';
 $graph_Meta_Tags_property_tag2         = 'País Vasco Francés';
 $graph_Meta_Tags_property_tag3         = 'Costa Atlántica';
 ?>
+
+<?php define('DESCRIPTION', "Descubre la Playa de Ondarraitz en Hendaya, Nueva Aquitania: un arenal de más de 3 km con arena fina, aguas tranquilas y un entorno ideal para familias, deportes acuáticos y paseos frente al mar."); ?>
+<?php define('KEYWORDS_CONTENT', 'Playa de Ondarraitz, Hendaya, turismo Nueva Aquitania, playas del País Vasco francés, costa vasco-francesa, naturaleza en Hendaya, frontera con España'); ?>

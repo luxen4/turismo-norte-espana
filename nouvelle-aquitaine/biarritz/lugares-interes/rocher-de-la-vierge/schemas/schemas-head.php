@@ -1,18 +1,18 @@
 <?php 
-$latitude  = 43.38890;  
-$longitude = -1.66110; 
+$latitude  = 43.48690;  
+$longitude = -1.56460; 
 
-// Variables para el schema – Puerto Pesquero (Saint-Jean-de-Luz)
-$schemaTitle       = "Puerto Pesquero - Saint-Jean-de-Luz";
-$schemaDescription = "Descubre el Puerto Pesquero de Saint-Jean-de-Luz, en Nouvelle-Aquitaine: tradición marinera, barcos coloridos y gastronomía local en un enclave pintoresco junto al Atlántico.";
-$schemaUrl         = "https://www.tu-dominio.com/saint-jean-de-luz/lugares-interes/puerto-pesquero";
-$schemaImage       = "https://www.tu-dominio.com/images/puerto-pesquero-saint-jean-de-luz.jpg";
+// Variables para el schema – Rocher de la Vierge (Biarritz)
+$schemaTitle       = "Rocher de la Vierge - Biarritz";
+$schemaDescription = "Descubre el Rocher de la Vierge en Biarritz, un icónico islote rocoso unido por una pasarela metálica, con vistas espectaculares al océano Atlántico.";
+$schemaUrl         = "https://www.tu-dominio.com/biarritz/lugares-interes/rocher-de-la-vierge";
+$schemaImage       = "https://www.tu-dominio.com/images/rocher-de-la-vierge-biarritz.jpg";
 $schemaAddress     = [
     "@type"           => "PostalAddress",
-    "streetAddress"   => "Quai de l'Infante",
-    "addressLocality" => "Saint-Jean-de-Luz",
+    "streetAddress"   => "Rocher de la Vierge",
+    "addressLocality" => "Biarritz",
     "addressRegion"   => "Nouvelle-Aquitaine",
-    "postalCode"      => "64500",
+    "postalCode"      => "64200",
     "addressCountry"  => "FR"
 ];
 
@@ -29,8 +29,30 @@ $schemaData = [
         "latitude" => $latitude,
         "longitude"=> $longitude
     ],
+    "amenityFeature" => [
+        [
+            "@type" => "LocationFeatureSpecification",
+            "name"  => "Pasarela peatonal sobre el mar",
+            "value" => true
+        ],
+        [
+            "@type" => "LocationFeatureSpecification",
+            "name"  => "Mirador panorámico al Atlántico",
+            "value" => true
+        ],
+        [
+            "@type" => "LocationFeatureSpecification",
+            "name"  => "Monumento emblemático de Biarritz",
+            "value" => true
+        ],
+        [
+            "@type" => "LocationFeatureSpecification",
+            "name"  => "Zona de paseo y fotografía",
+            "value" => true
+        ]
+    ],
     "sameAs" => [
-        "https://www.tu-dominio.com/saint-jean-de-luz"
+        "https://www.tu-dominio.com/biarritz"
     ]
 ];
 ?>

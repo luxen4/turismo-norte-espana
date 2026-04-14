@@ -35,3 +35,6 @@ $graph_Meta_Tags_property_tag          = 'Biarritz';
 $graph_Meta_Tags_property_tag2         = 'Municipios Francia';
 $graph_Meta_Tags_property_tag3         = 'Costa Vasca';
 ?>
+
+<?php define('DESCRIPTION', "Descubre Biarritz, famosa por sus playas, surf y ambiente cosmopolita en la costa del País Vasco Francés."); ?>
+<?php define('KEYWORDS_CONTENT', 'Biarritz, País Vasco Francés, playas, turismo, surf, costa atlántica') ?>

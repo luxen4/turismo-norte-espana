@@ -1,37 +1,37 @@
 <?php 
 $header = [
-  "titulo" => "🏖️ Grande Plage de Biarritz",
-  "descripcion" => "La playa más famosa de Biarritz, ideal para disfrutar del océano, el surf y el ambiente elegante de la ciudad"
+  "titulo" => "🌅 Faro de Biarritz",
+  "descripcion" => "Uno de los mejores miradores de la costa vasco-francesa con vistas panorámicas al océano Atlántico"
 ];
 ?>
 
 <?php
 $intro = [
   "parrafos" => [
-    "La <strong>Grande Plage de Biarritz</strong> es la playa más emblemática de la ciudad y uno de los destinos más conocidos del País Vasco francés.",
-    "Situada en pleno centro urbano, combina un entorno elegante con la fuerza del océano Atlántico.",
-    "Es famosa por su arena fina, su animado ambiente y su tradición vinculada al surf.",
-    "Además, está rodeada de hoteles históricos, paseos marítimos y restaurantes, lo que la convierte en un lugar perfecto para pasar el día."
+    "El <strong>Faro de Biarritz</strong> es uno de los lugares más emblemáticos de la ciudad, situado en la Pointe Saint-Martin.",
+    "Desde su ubicación privilegiada, ofrece unas vistas espectaculares del océano Atlántico y de toda la costa vasco-francesa.",
+    "Construido en el siglo XIX, sigue en funcionamiento y es un punto de referencia para navegantes.",
+    "Subir sus más de 200 escalones permite disfrutar de una panorámica única entre Biarritz y Anglet."
   ],
   "imagenes" => [
     [
-      "src" => "https://upload.wikimedia.org/wikipedia/commons/4/4d/Grande_Plages_Biarritz.jpg",
-      "alt" => "Grande Plage de Biarritz",
-      "caption" => "Grande Plage",
-      "fuente" => "https://fr.wikipedia.org/wiki/Biarritz",
+      "src" => "https://upload.wikimedia.org/wikipedia/commons/0/0c/Phare_de_Biarritz.jpg",
+      "alt" => "Faro de Biarritz",
+      "caption" => "Faro de Biarritz",
+      "fuente" => "https://wikipedia.org",
       "fuente_texto" => "wikipedia.org"
     ],
     [
-      "src" => "https://www.biarritz.fr/fileadmin/_processed_/6/2/csm_grande_plage_01_5c9a5c.jpg",
-      "alt" => "Playa con el paseo marítimo",
-      "caption" => "Playa en el centro de Biarritz",
+      "src" => "https://www.biarritz.fr/fileadmin/_processed_/c/3/csm_phare_biarritz_01_2f6d3e.jpg",
+      "alt" => "Vistas desde el faro",
+      "caption" => "Panorámica desde el faro",
       "fuente" => "https://www.biarritz.fr",
       "fuente_texto" => "biarritz.fr"
     ]
   ],
   "video" => [
-    "url" => "https://www.youtube.com/embed/0k1uP9k3Vn0",
-    "titulo" => "Video de la Grande Plage de Biarritz"
+    "url" => "https://www.youtube.com/embed/3WzF9sKpK6A",
+    "titulo" => "Video del Faro de Biarritz"
   ]
 ];
 ?>
@@ -39,30 +39,30 @@ $intro = [
 <?php
 $galeria_imagenes = [
     [
-        "src" => "https://upload.wikimedia.org/wikipedia/commons/1/14/Biarritz_Grande_Plages_vue.jpg",
-        "alt" => "Vista panorámica de la Grande Plage",
-        "caption" => "Vista panorámica",
+        "src" => "https://upload.wikimedia.org/wikipedia/commons/7/7c/Biarritz_lighthouse_view.jpg",
+        "alt" => "Vista del faro desde la costa",
+        "caption" => "Faro desde la costa",
         "fuente" => "https://wikipedia.org",
         "fuente_texto" => "wikipedia.org"
     ],
     [
-        "src" => "https://www.france-voyage.com/visuals/photos/biarritz-grande-plage-1798_w600.webp",
-        "alt" => "Playa con bañistas",
-        "caption" => "Ambiente veraniego",
+        "src" => "https://www.france-voyage.com/visuals/photos/biarritz-lighthouse-1800_w600.webp",
+        "alt" => "Faro con el océano",
+        "caption" => "Faro frente al Atlántico",
         "fuente" => "https://www.france-voyage.com",
         "fuente_texto" => "france-voyage.com"
     ],
     [
-        "src" => "https://www.guide-du-paysbasque.com/_bibli_rubriques/14589/grande-plage-biarritz.jpg",
-        "alt" => "Surf en la Grande Plage",
-        "caption" => "Surf en Biarritz",
+        "src" => "https://www.guide-du-paysbasque.com/_bibli_rubriques/14600/phare-biarritz.jpg",
+        "alt" => "Vista aérea del faro",
+        "caption" => "Vista aérea del Faro de Biarritz",
         "fuente" => "https://guide-du-paysbasque.com",
         "fuente_texto" => "guide-du-paysbasque.com"
     ],
     [
-        "src" => "https://media.routard.com/image/98/2/grande-plage-biarritz.159982.jpg",
-        "alt" => "Atardecer en la playa",
-        "caption" => "Atardecer en Biarritz",
+        "src" => "https://media.routard.com/image/99/1/phare-biarritz.160991.jpg",
+        "alt" => "Atardecer en el faro",
+        "caption" => "Atardecer desde el faro",
         "fuente" => "https://www.routard.com",
         "fuente_texto" => "routard.com"
     ]
@@ -71,32 +71,32 @@ $galeria_imagenes = [
 
 <?php
 $info = [
-  "titulo" => "ℹ️ Información de la Grande Plage",
+  "titulo" => "ℹ️ Información del Faro de Biarritz",
   "items" => [
     [
       "icono" => "📍",
       "titulo" => "Ubicación",
-      "descripcion" => "Centro de Biarritz, País Vasco francés"
+      "descripcion" => "Pointe Saint-Martin, entre Biarritz y Anglet"
     ],
     [
-      "icono" => "🏖️",
-      "titulo" => "Tipo de playa",
-      "descripcion" => "Arena fina y dorada"
+      "icono" => "🏗️",
+      "titulo" => "Construcción",
+      "descripcion" => "Siglo XIX (1834)"
     ],
     [
-      "icono" => "🌊",
-      "titulo" => "Oleaje",
-      "descripcion" => "Moderado a fuerte, ideal para surf"
+      "icono" => "📏",
+      "titulo" => "Altura",
+      "descripcion" => "Aprox. 73 metros sobre el nivel del mar"
     ],
     [
-      "icono" => "🏄‍♂️",
-      "titulo" => "Ambiente",
-      "descripcion" => "Surf, turismo y ambiente urbano"
+      "icono" => "👣",
+      "titulo" => "Acceso",
+      "descripcion" => "Subida por más de 200 escalones"
     ],
     [
-      "icono" => "🚿",
-      "titulo" => "Servicios",
-      "descripcion" => "Duchas, socorristas, alquiler de hamacas y restaurantes"
+      "icono" => "⭐",
+      "titulo" => "Interés",
+      "descripcion" => "Mirador panorámico con vistas a Biarritz, Anglet y el océano"
     ]
   ]
 ];
@@ -104,12 +104,12 @@ $info = [
 
 <?php 
 $actividades = [
-  "titulo" => "🏄‍♂️ Qué hacer en la Grande Plage",
+  "titulo" => "📸 Qué hacer en el Faro de Biarritz",
   "items"  => [
-    [ "icono" => "🏊‍♂️", "texto" => "Bañarse en el océano Atlántico" ],
-    [ "icono" => "🏄‍♂️", "texto" => "Practicar surf" ],
-    [ "icono" => "🚶‍♂️", "texto" => "Pasear por el paseo marítimo" ],
-    [ "icono" => "🌅", "texto" => "Disfrutar del atardecer" ]
+    [ "icono" => "👣", "texto" => "Subir al faro y disfrutar de las vistas" ],
+    [ "icono" => "📸", "texto" => "Fotografía panorámica de la costa" ],
+    [ "icono" => "🌅", "texto" => "Ver el atardecer sobre el Atlántico" ],
+    [ "icono" => "🚶‍♂️", "texto" => "Pasear por los alrededores y acantilados" ]
   ]
 ];
 ?>
@@ -117,12 +117,12 @@ $actividades = [
 <?php
 $mapa = [
     "titulo" => "🗺️ Localización",
-    "map_id" => "map-grande-plage-biarritz",
-    "centro" => [43.4829, -1.5590],
+    "map_id" => "map-faro-biarritz",
+    "centro" => [43.4995, -1.5660],
     "zoom"   => 15,
     "marker" => [
-        "coords" => [43.4829, -1.5590],
-        "popup"  => "<strong>Grande Plage de Biarritz</strong>"
+        "coords" => [43.4995, -1.5660],
+        "popup"  => "<strong>Faro de Biarritz</strong>"
     ]
 ];
 ?>
@@ -144,24 +144,24 @@ $contacto = [
 <?php
 $comentarios = [
     [
-        "nombre" => "Laura M.",
-        "texto"  => "Una playa espectacular en pleno centro."
+        "nombre" => "Ana G.",
+        "texto"  => "Las vistas desde arriba son impresionantes."
     ],
     [
-        "nombre" => "Iker S.",
-        "texto"  => "Perfecta para surf y ambiente animado."
+        "nombre" => "Luis M.",
+        "texto"  => "Vale la pena subir todos los escalones."
     ],
     [
-        "nombre" => "Sophie D.",
-        "texto"  => "Muy bonita, aunque bastante concurrida en verano."
+        "nombre" => "Claire D.",
+        "texto"  => "Un lugar perfecto para ver el atardecer."
     ],
     [
-        "nombre" => "Carlos R.",
-        "texto"  => "Ideal para pasar el día y disfrutar del paisaje."
+        "nombre" => "Iñigo P.",
+        "texto"  => "Uno de los mejores miradores de la zona."
     ]
 ];
 ?>
 
 <?php  
-$iframeSrc = "https://openweathermap.org/weathermap?basemap=map&cities=true&layer=temperature&lat=43.4829&lon=-1.5590&zoom=10"; 
+$iframeSrc = "https://openweathermap.org/weathermap?basemap=map&cities=true&layer=temperature&lat=43.4995&lon=-1.5660&zoom=10"; 
 ?>

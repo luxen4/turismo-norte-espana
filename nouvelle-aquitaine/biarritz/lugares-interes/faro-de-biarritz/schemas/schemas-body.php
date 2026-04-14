@@ -1,12 +1,12 @@
 <?php
-// Variables para el schema en el cuerpo (reutilizamos las del head si están definidas)
-$schemaTitle        = $schemaTitle        ?? "La Grande Plage - Biarritz";
-$schemaDescription  = $schemaDescription  ?? "Descubre La Grande Plage de Biarritz en Nouvelle-Aquitaine, Francia: una emblemática playa urbana de arena dorada, perfecta para el surf, el paseo y la vida costera.";
-$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/biarritz/lugares-interes/la-grande-plage";
-$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/la-grande-plage-biarritz.jpg";
+// Variables para el schema en el cuerpo
+$schemaTitle        = $schemaTitle        ?? "Faro de Biarritz";
+$schemaDescription  = $schemaDescription  ?? "Descubre el Faro de Biarritz en la Pointe Saint-Martin: un mirador histórico con vistas panorámicas espectaculares del Atlántico y la costa vasco-francesa.";
+$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/biarritz/lugares-interes/faro-de-biarritz";
+$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/faro-de-biarritz.jpg";
 $schemaAddress      = $schemaAddress      ?? [
-    "@type"         => "PostalAddress",
-    "streetAddress" => "La Grande Plage",
+    "@type"           => "PostalAddress",
+    "streetAddress"   => "Pointe Saint-Martin",
     "addressLocality" => "Biarritz",
     "addressRegion"   => "Nouvelle-Aquitaine",
     "postalCode"      => "64200",
@@ -17,7 +17,7 @@ $schemaAddress      = $schemaAddress      ?? [
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Place",
+  "@type": "TouristAttraction",
   "name": "<?= $schemaTitle ?>",
   "description": "<?= $schemaDescription ?>",
   "url": "<?= $schemaUrl ?>",
@@ -32,28 +32,28 @@ $schemaAddress      = $schemaAddress      ?? [
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": 43.4832,
-    "longitude": -1.5616
+    "latitude": 43.4995,
+    "longitude": -1.5660
   },
   "amenityFeature": [
     {
       "@type": "LocationFeatureSpecification",
-      "name": "Acceso peatonal y paseo marítimo",
+      "name": "Mirador panorámico",
       "value": true
     },
     {
       "@type": "LocationFeatureSpecification",
-      "name": "Duchas y servicios en temporada",
+      "name": "Acceso a pie con escaleras",
       "value": true
     },
     {
       "@type": "LocationFeatureSpecification",
-      "name": "Aparcamiento cercano",
+      "name": "Zona de acantilados",
       "value": true
     },
     {
       "@type": "LocationFeatureSpecification",
-      "name": "Restaurantes y cafeterías",
+      "name": "Punto histórico de navegación",
       "value": true
     }
   ],

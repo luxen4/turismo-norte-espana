@@ -37,5 +37,4 @@ $graph_Meta_Tags_property_tag3         = 'Turismo Cultural';
 ?>
 
 <?php define('DESCRIPTION', "Descubre Baiona en Nouvelle-Aquitaine, Francia, una ciudad con encanto vasco-francés, casco histórico, el río Nive y un ambiente único cerca del Atlántico. Ideal para pasear, disfrutar de la gastronomía y explorar el suroeste francés."); ?>
-
 <?php define('KEYWORDS_CONTENT', "Baiona Francia, Bayona Francia, turismo Baiona, Nouvelle-Aquitaine, País Vasco francés, río Nive, casco histórico Baiona, costa atlántica Francia, turismo Francia, viajar al suroeste de Francia, ciudades con encanto Francia, vacaciones en Francia"); ?>

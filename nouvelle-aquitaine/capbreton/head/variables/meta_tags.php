@@ -28,10 +28,13 @@ $graph_Meta_Tags_property_image_alt    = 'Puerto de Capbreton, Nueva Aquitania';
 $graph_Meta_Tags_property_image_width  = '1200';
 $graph_Meta_Tags_property_image_height = '630';
 $graph_Meta_Tags_property_author       = 'Adrián Laya García';
-$graph_Meta_Tags_property_updated_timeEEEEEEE = date('c');
+$graph_Meta_Tags_property_updated_time = date('c');
 $graph_Meta_Tags_property_published_time = '2025-07-17T08:00:00+02:00'; // Ajusta según publicación real
 $graph_Meta_Tags_property_section      = 'Turismo y Cultura';
 $graph_Meta_Tags_property_tag          = 'Capbreton';
 $graph_Meta_Tags_property_tag2         = 'Municipio Francia';
 $graph_Meta_Tags_property_tag3         = 'Costa Atlántica';
 ?>
+
+<?php define('DESCRIPTION', "Descubre la Plage Centrale de Capbreton, en Nueva Aquitania: una playa amplia y animada, ideal para familias y amantes del surf, con paseo marítimo, restaurantes y vistas espectaculares del Atlántico."); ?>
+<?php define('KEYWORDS_CONTENT', 'Plage Centrale, Capbreton, turismo Nueva Aquitania, playas de Las Landas, surf en Francia, costa atlántica francesa, naturaleza en Capbreton'); ?>

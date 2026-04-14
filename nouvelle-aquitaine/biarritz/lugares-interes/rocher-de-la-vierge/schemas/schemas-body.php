@@ -1,21 +1,21 @@
 <?php
 // Variables para el schema en el cuerpo (reutilizamos las del head si están definidas)
-$schemaTitle       = $schemaTitle       ?? "Puerto Pesquero - Saint-Jean-de-Luz";
-$schemaDescription = $schemaDescription ?? "Descubre el Puerto Pesquero de Saint-Jean-de-Luz, un lugar con tradición marinera, barcos coloridos, gastronomía local y vistas al mar en el corazón del País Vasco Francés.";
-$schemaUrl         = $schemaUrl         ?? "https://www.tu-dominio.com/saint-jean-de-luz/lugares-interes/puerto-pesquero";
-$schemaImage       = $schemaImage       ?? "https://www.tu-dominio.com/images/puerto-pesquero-saint-jean-de-luz.jpg";
+$schemaTitle       = $schemaTitle       ?? "Rocher de la Vierge - Biarritz";
+$schemaDescription = $schemaDescription ?? "Descubre el Rocher de la Vierge en Biarritz, un emblemático islote rocoso unido por una pasarela metálica con vistas espectaculares al océano Atlántico.";
+$schemaUrl         = $schemaUrl         ?? "https://www.tu-dominio.com/biarritz/lugares-interes/rocher-de-la-vierge";
+$schemaImage       = $schemaImage       ?? "https://www.tu-dominio.com/images/rocher-de-la-vierge-biarritz.jpg";
 $schemaAddress     = $schemaAddress     ?? [
     "@type"           => "PostalAddress",
-    "streetAddress"   => "Quai de l'Infante",
-    "addressLocality" => "Saint-Jean-de-Luz",
+    "streetAddress"   => "Rocher de la Vierge",
+    "addressLocality" => "Biarritz",
     "addressRegion"   => "Nouvelle-Aquitaine",
-    "postalCode"      => "64500",
+    "postalCode"      => "64200",
     "addressCountry"  => "FR"
 ];
 
 $schemaData = [
     "@context" => "https://schema.org",
-    "@type"    => "Place",
+    "@type"    => "TouristAttraction",
     "name"     => $schemaTitle,
     "description" => $schemaDescription,
     "url"      => $schemaUrl,
@@ -30,28 +30,33 @@ $schemaData = [
     ],
     "geo" => [
         "@type"    => "GeoCoordinates",
-        "latitude" => 43.3889,
-        "longitude"=> -1.6611,
+        "latitude" => 43.4869,
+        "longitude"=> -1.5646,
     ],
     "amenityFeature" => [
         [
             "@type" => "LocationFeatureSpecification",
-            "name"  => "Zona peatonal junto al muelle",
+            "name"  => "Pasarela peatonal al islote",
             "value" => true
         ],
         [
             "@type" => "LocationFeatureSpecification",
-            "name"  => "Restaurantes y bares con vistas al puerto",
+            "name"  => "Vistas panorámicas al océano Atlántico",
             "value" => true
         ],
         [
             "@type" => "LocationFeatureSpecification",
-            "name"  => "Embarcaciones de pesca y paseos turísticos",
+            "name"  => "Monumento histórico de Biarritz",
+            "value" => true
+        ],
+        [
+            "@type" => "LocationFeatureSpecification",
+            "name"  => "Zona de paseo y fotografía",
             "value" => true
         ]
     ],
     "sameAs" => [
-        "https://www.tu-dominio.com/saint-jean-de-luz"
+        "https://www.tu-dominio.com/biarritz"
     ]
 ];
 ?>
