@@ -98,7 +98,7 @@
 
   <!-- Galería de 4 imágenes -->
   <figure class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 my-8">
-    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/cote-des-basques-biarritz-nouvelle-aquitaine-1.jpg"
+    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/3b/f5/4c/photo0jpg.jpg?w=1200&h=-1&s=1"
          alt="Vista panorámica de la Côte des Basques"
          class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy">
     <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/cote-des-basques-biarritz-nouvelle-aquitaine-2.jpg"

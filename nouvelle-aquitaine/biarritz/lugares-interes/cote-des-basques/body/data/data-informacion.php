@@ -39,18 +39,18 @@ $intro = [
 <?php
 $galeria_imagenes = [
     [
-        "src" => "https://upload.wikimedia.org/wikipedia/commons/3/3d/Biarritz_Cote_des_Basques_panorama.jpg",
+        "src" => "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/3b/f5/4c/photo0jpg.jpg?w=1200&h=-1&s=1",
         "alt" => "Vista panorámica de la playa",
         "caption" => "Panorámica de la Côte des Basques",
-        "fuente" => "https://wikipedia.org",
-        "fuente_texto" => "wikipedia.org"
+        "fuente" => "https://www.tripadvisor.es/Attraction_Review-g187080-d662516-Reviews-La_Cote_des_Basques-Biarritz_Basque_Country_Pyrenees_Atlantiques_Nouvelle_Aquitain.html",
+        "fuente_texto" => "tripadvisor.es"
     ],
     [
-        "src" => "https://www.france-voyage.com/visuals/photos/cote-des-basques-biarritz-1802_w600.webp",
+        "src" => "https://blog.surf-prevention.com/wp-content/uploads/2012/08/cote-des-basques-biarritz.jpg",
         "alt" => "Surfistas en la playa",
         "caption" => "Surf en Côte des Basques",
-        "fuente" => "https://www.france-voyage.com",
-        "fuente_texto" => "france-voyage.com"
+        "fuente" => "https://blog.surf-prevention.com/2012/08/28/cote-des-basques-en-danger/",
+        "fuente_texto" => "blog.surf-prevention.com"
     ],
     [
         "src" => "https://www.guide-du-paysbasque.com/_bibli_rubriques/14610/cote-des-basques.jpg",
@@ -60,11 +60,11 @@ $galeria_imagenes = [
         "fuente_texto" => "guide-du-paysbasque.com"
     ],
     [
-        "src" => "https://media.routard.com/image/100/0/cote-des-basques-biarritz.161000.jpg",
+        "src" => "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/72/86/e5/received-549197378820761.jpg?w=900&h=500&s=1",
         "alt" => "Atardecer en la playa",
         "caption" => "Atardecer en la Côte des Basques",
-        "fuente" => "https://www.routard.com",
-        "fuente_texto" => "routard.com"
+        "fuente" => "https://www.tripadvisor.es/Attraction_Review-g187080-d662516-Reviews-La_Cote_des_Basques-Biarritz_Basque_Country_Pyrenees_Atlantiques_Nouvelle_Aquitain.html",
+        "fuente_texto" => "tripadvisor.es"
     ]
 ];
 ?>
