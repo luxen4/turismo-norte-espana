@@ -8,7 +8,7 @@ $pinterest_property_card_description_content = 'Descubre la Playa de Laga en Iba
 $pinterest_property_card_image_content       = PATH_RAIZ_LOCALIDADES_CARPETA . '/ibarrangelu/playa-de-laga/img/playa-de-laga-1.jpg';
 
 // Variables de configuración para Twitter Cards – Laga
-$twitterCards_card        = 'summary_large_image';
+$twitterCards_card        = SUMARY_LARGE_IMAGE;
 $twitterCards_site        = '@laya_garcia';
 $twitterCards_title       = 'Playa de Laga – Bizkaia';
 $twitterCards_description = 'Explora la Playa de Laga en Ibarrangelu, Bizkaia: arena fina, entorno natural privilegiado y vistas al mar Cantábrico desde el cabo Ogoño.';

@@ -2,8 +2,8 @@
 // Variables para el schema en el cuerpo (reutilizamos las del head si están definidas)
 $schemaTitle        = $schemaTitle        ?? "Playa de Plentzia - Plentzia";
 $schemaDescription  = $schemaDescription  ?? "Disfruta de la Playa de Plentzia, una playa familiar ubicada junto a la ría de Plentzia, con aguas tranquilas, servicios completos y un entorno natural privilegiado.";
-$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/plentzia/lugares-interes/playa-de-plentzia";
-$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/playa-de-plentzia-1.jpg";
+$schemaUrl          = $schemaUrl          ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/plentzia/lugares-interes/playa-de-plentzia";
+$schemaImage        = $schemaImage        ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/playa-de-plentzia-1.jpg";
 $schemaAddress      = $schemaAddress      ?? [
     "@type"         => "PostalAddress",
     "streetAddress" => "Paseo Marítimo",
@@ -58,7 +58,7 @@ $schemaAddress      = $schemaAddress      ?? [
     }
   ],
   "sameAs": [
-    "https://www.tu-dominio.com/plentzia"
+    "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/plentzia"
   ]
 }
 </script>

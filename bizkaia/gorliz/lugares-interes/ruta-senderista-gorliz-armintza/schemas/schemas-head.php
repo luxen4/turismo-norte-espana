@@ -2,8 +2,8 @@
 // Variables reutilizables para Ruta Senderista Gorliz – Armintza
 $schemaTitle        = $schemaTitle        ?? "Ruta Senderista Gorliz – Armintza";
 $schemaDescription  = $schemaDescription  ?? "Disfruta de la Ruta Senderista Gorliz – Armintza en Bizkaia: un recorrido costero panorámico ideal para caminar, observar aves y flora autóctona, y contemplar la naturaleza.";
-$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/gorliz/lugares-interes/ruta-senderista-gorliz-armintza";
-$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/ruta-gorliz-armintza.jpg";
+$schemaUrl          = $schemaUrl          ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/gorliz/lugares-interes/ruta-senderista-gorliz-armintza";
+$schemaImage        = $schemaImage        ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/ruta-gorliz-armintza.jpg";
 $schemaAddress      = $schemaAddress      ?? [
     "@type"           => "PostalAddress",
     "streetAddress"   => "Gorliz – Armintza",
@@ -63,7 +63,7 @@ $longitudeEnd       = -2.9380;
     }
   ],
   "sameAs": [
-    "https://www.tu-dominio.com/gorliz"
+    "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/gorliz"
   ]
 }
 </script>

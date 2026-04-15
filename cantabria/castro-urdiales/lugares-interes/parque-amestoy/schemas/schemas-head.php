@@ -2,8 +2,8 @@
 // Variables para el schema
 $schemaTitle = "Parque Amestoy - Castro Urdiales";
 $schemaDescription = "Disfruta del Parque Amestoy en Castro Urdiales, un espacio verde urbano ideal para pasear y relajarse, con áreas de juegos y zonas ajardinadas.";
-$schemaUrl = "https://www.tu-dominio.com/castro-urdiales/lugares-interes/parque-amestoy"; // Cambia por la URL real
-$schemaImage = "https://www.tu-dominio.com/images/parque-amestoy-1.jpg"; // Cambia por la URL real de la imagen principal
+$schemaUrl = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/castro-urdiales/lugares-interes/parque-amestoy"; // Cambia por la URL real
+$schemaImage = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/parque-amestoy-1.jpg"; // Cambia por la URL real de la imagen principal
 $schemaAddress = [
     "@type" => "PostalAddress",
     "streetAddress" => "Avenida Amestoy, s/n",

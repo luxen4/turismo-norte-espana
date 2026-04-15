@@ -5,8 +5,8 @@ $longitude = -1.56670;
 // Variables para el schema – Côte des Basques (Biarritz)
 $schemaTitle       = "Playa de la Côte des Basques";
 $schemaDescription = "Descubre la Playa de la Côte des Basques en Biarritz: un icono del surf en la costa vasco-francesa, con espectaculares acantilados, vistas panorámicas y ambiente relajado junto al Atlántico.";
-$schemaUrl         = "https://www.tu-dominio.com/biarritz/lugares-interes/cote-des-basques"; // Cambia por la URL real
-$schemaImage       = "https://www.tu-dominio.com/images/cote-des-basques.jpg";              // Cambia por la URL real de la imagen principal
+$schemaUrl         = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/biarritz/lugares-interes/cote-des-basques"; // Cambia por la URL real
+$schemaImage       = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/cote-des-basques.jpg";              // Cambia por la URL real de la imagen principal
 $schemaAddress     = [
     "@type"           => "PostalAddress",
     "streetAddress"   => "Côte des Basques",
@@ -61,7 +61,7 @@ $schemaAddress     = [
     }
   ],
   "sameAs": [
-    "https://www.tu-dominio.com/biarritz"
+    "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/biarritz"
   ]
 }
 </script>

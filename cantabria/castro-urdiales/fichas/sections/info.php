@@ -177,7 +177,7 @@ $li_actividades_recomendadas = '
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card h-100 shadow-sm">
                     <a href="https://www.alltrails.com/es/spain/cantabria/castro-urdiales" title="Rutas de senderismo en Castro Urdiales" target="_blank" rel="noopener">
-                        <img src="http://Playas2026.kesug.com/castrourdiales/senderismo-naturaleza-Castro-Urdiales-Cantabria.jpg" class="card-img-top" alt="Senderismo en Castro Urdiales">
+                        <img src="http://alayag82.kesug.com/castrourdiales/senderismo-naturaleza-Castro-Urdiales-Cantabria.jpg" class="card-img-top" alt="Senderismo en Castro Urdiales">
                         <div class="card-body">
                             <h5 class="card-title">🥾 Senderismo y Naturaleza</h5>
                             <p class="card-text">Explora rutas que rodean la ciudad: desde paseos suaves hasta recorridos exigentes con vistas a montañas, acantilados y mar.</p>
@@ -190,7 +190,7 @@ $li_actividades_recomendadas = '
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card h-100 shadow-sm">
                     <a href="https://www.surfcantabria.com/" title="Surf en Castro Urdiales" target="_blank" rel="noopener">
-                        <img src="http://Playas2026.kesug.com/castrourdiales/surf_Castro-Urdiales-Cantabria.jpg" class="card-img-top" alt="Surf en Castro Urdiales">
+                        <img src="http://alayag82.kesug.com/castrourdiales/surf_Castro-Urdiales-Cantabria.jpg" class="card-img-top" alt="Surf en Castro Urdiales">
                         <div class="card-body">
                             <h5 class="card-title">🌊 Surf y Deportes Acuáticos</h5>
                             <p class="card-text">Las playas ofrecen olas y condiciones ideales para surf, paddle surf, kayak y bodyboard, tanto para principiantes como para expertos.</p>
@@ -203,7 +203,7 @@ $li_actividades_recomendadas = '
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card h-100 shadow-sm">
                     <a href="https://turismo.castro-urdiales.net/turcastro/bienes-interes-cultural/conjunto-historico" title="Patrimonio histórico de Castro Urdiales" target="_blank" rel="noopener">
-                        <img src="http://Playas2026.kesug.com/castrourdiales/cultura-historia-Castro-Urdiales.jpg" class="card-img-top" alt="Cultura e Historia en Castro Urdiales">
+                        <img src="http://alayag82.kesug.com/castrourdiales/cultura-historia-Castro-Urdiales.jpg" class="card-img-top" alt="Cultura e Historia en Castro Urdiales">
                         <div class="card-body">
                             <h5 class="card-title">🏛️ Cultura e Historia</h5>
                             <p class="card-text">Visita la Iglesia de Santa María, el Castillo-Faro y otros monumentos medievales. Participa en festivales que celebran la cultura local.</p>
@@ -216,7 +216,7 @@ $li_actividades_recomendadas = '
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card h-100 shadow-sm">
                     <a href="https://www.vivecastrourdiales.com/gastronomia/" title="Gastronomía de Castro Urdiales" target="_blank" rel="noopener">
-                        <img src="http://Playas2026.kesug.com/castrourdiales/gastronomia-Castro-Urdiales-Cantabria.jpg" class="card-img-top" alt="Gastronomía en Castro Urdiales">
+                        <img src="http://alayag82.kesug.com/castrourdiales/gastronomia-Castro-Urdiales-Cantabria.jpg" class="card-img-top" alt="Gastronomía en Castro Urdiales">
                         <div class="card-body">
                             <h5 class="card-title">🍴 Gastronomía</h5>
                             <p class="card-text">Degusta mariscos frescos, pintxos y platos típicos en el puerto y el casco antiguo. Restaurantes para todos los gustos.</p>
@@ -229,7 +229,7 @@ $li_actividades_recomendadas = '
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card h-100 shadow-sm">
                     <a href="https://www.vivecastrourdiales.com/rutas-en-bicicleta-de-montana-desde-castro-urdiales/" title="Rutas BTT en Castro Urdiales" target="_blank" rel="noopener">
-                        <img src="http://Playas2026.kesug.com/castrourdiales/rutas-BTT-Castro-Urdiales-Cantabria.jpg" class="card-img-top" alt="Rutas en Bicicleta en Castro Urdiales">
+                        <img src="http://alayag82.kesug.com/castrourdiales/rutas-BTT-Castro-Urdiales-Cantabria.jpg" class="card-img-top" alt="Rutas en Bicicleta en Castro Urdiales">
                         <div class="card-body">
                             <h5 class="card-title">🚴‍♂️ Rutas en Bicicleta</h5>
                             <p class="card-text">Recorridos ciclistas por costa e interior, con diferentes niveles de dificultad para disfrutar del paisaje.</p>
@@ -242,7 +242,7 @@ $li_actividades_recomendadas = '
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card h-100 shadow-sm">
                     <a href="https://posadarosalia.com/el-sanguillen/" title="Relax en la Playa de Castro Urdiales" target="_blank" rel="noopener">
-                        <img src="http://Playas2026.kesug.com/castrourdiales/relax-playa-Castro-Urdiales-Cantabria.jpg" class="card-img-top" alt="Relax en la Playa en Castro Urdiales">
+                        <img src="http://alayag82.kesug.com/castrourdiales/relax-playa-Castro-Urdiales-Cantabria.jpg" class="card-img-top" alt="Relax en la Playa en Castro Urdiales">
                         <div class="card-body">
                             <h5 class="card-title">🌅 Relax en la Playa</h5>
                             <p class="card-text">Disfruta de la tranquilidad del mar: tomar el sol, nadar o simplemente contemplar el paisaje costero en un entorno sereno.</p>
@@ -268,7 +268,7 @@ $li_services = '
             <!-- Servicios de Playa -->
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card h-100 shadow-sm">
-                    <img src="http://Playas2026.kesug.com/castrourdiales/servicios_playa.jpg" class="card-img-top" alt="Servicios de Playa en Castro Urdiales">
+                    <img src="http://alayag82.kesug.com/castrourdiales/servicios_playa.jpg" class="card-img-top" alt="Servicios de Playa en Castro Urdiales">
                     <div class="card-body">
                         <h5 class="card-title">🏖️ Servicios de Playa</h5>
                         <p class="card-text">Las playas están equipadas con <strong>duchas</strong>, <strong>aseos públicos</strong> y zonas de sombrillas y hamacas. Además, cuentan con <strong>socorristas</strong> para garantizar la seguridad. 
@@ -279,7 +279,7 @@ $li_services = '
             <!-- Accesibilidad -->
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card h-100 shadow-sm">
-                    <img src="http://Playas2026.kesug.com/castrourdiales/accesibilidad.jpg" class="card-img-top" alt="Accesibilidad en Castro Urdiales">
+                    <img src="http://alayag82.kesug.com/castrourdiales/accesibilidad.jpg" class="card-img-top" alt="Accesibilidad en Castro Urdiales">
                     <div class="card-body">
                         <h5 class="card-title">🦽 Accesibilidad</h5>
                         <p class="card-text">Comprometidos con la inclusión: rampas, pasarelas y <strong>sillas anfibias</strong> están disponibles para personas con movilidad reducida. 
@@ -290,7 +290,7 @@ $li_services = '
             <!-- Aparcamiento -->
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card h-100 shadow-sm">
-                    <img src="http://Playas2026.kesug.com/castrourdiales/aparcamiento.jpg" class="card-img-top" alt="Aparcamiento en Castro Urdiales">
+                    <img src="http://alayag82.kesug.com/castrourdiales/aparcamiento.jpg" class="card-img-top" alt="Aparcamiento en Castro Urdiales">
                     <div class="card-body">
                         <h5 class="card-title">🚗 Aparcamiento</h5>
                         <p class="card-text">Varias zonas de aparcamiento cercanas a la playa y al centro de la ciudad, con opciones <strong>gratuitas</strong> y <strong>de pago</strong>. También hay espacios reservados para personas con discapacidad. 
@@ -301,7 +301,7 @@ $li_services = '
             <!-- Restauración -->
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card h-100 shadow-sm">
-                    <img src="http://Playas2026.kesug.com/castrourdiales/restauracion.jpg" class="card-img-top" alt="Restauración en Castro Urdiales">
+                    <img src="http://alayag82.kesug.com/castrourdiales/restauracion.jpg" class="card-img-top" alt="Restauración en Castro Urdiales">
                     <div class="card-body">
                         <h5 class="card-title">🍴 Restauración</h5>
                         <p class="card-text">Desde chiringuitos en la playa hasta restaurantes de alta cocina ofrecen una experiencia gastronómica única: <strong>pescados</strong>, <strong>mariscos frescos</strong> y pintxos típicos. 
@@ -312,7 +312,7 @@ $li_services = '
             <!-- Centros de Salud -->
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card h-100 shadow-sm">
-                    <img src="http://Playas2026.kesug.com/castrourdiales/salud.jpg" class="card-img-top" alt="Centros de Salud en Castro Urdiales">
+                    <img src="http://alayag82.kesug.com/castrourdiales/salud.jpg" class="card-img-top" alt="Centros de Salud en Castro Urdiales">
                     <div class="card-body">
                         <h5 class="card-title">🏥 Centros de Salud</h5>
                         <p class="card-text">En caso de emergencia, existen centros de salud y farmacias bien equipadas en la zona. Atención médica de calidad para cualquier necesidad urgente. 
@@ -323,7 +323,7 @@ $li_services = '
             <!-- Conexión Wi-Fi -->
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card h-100 shadow-sm">
-                    <img src="http://Playas2026.kesug.com/castrourdiales/wifi.jpg" class="card-img-top" alt="Conexión Wi-Fi en Castro Urdiales">
+                    <img src="http://alayag82.kesug.com/castrourdiales/wifi.jpg" class="card-img-top" alt="Conexión Wi-Fi en Castro Urdiales">
                     <div class="card-body">
                         <h5 class="card-title">📶 Conexión Wi-Fi</h5>
                         <p class="card-text">Conexión gratuita disponible en varias zonas, incluyendo el paseo marítimo y áreas de la playa, para que estés siempre conectado. 

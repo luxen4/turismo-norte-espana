@@ -2,8 +2,8 @@
 // Variables para el schema en el cuerpo
 $schemaTitle        = $schemaTitle        ?? "Casco antiguo de Baiona";
 $schemaDescription  = $schemaDescription  ?? "Descubre el casco antiguo de Baiona, un conjunto histórico medieval con calles empedradas, murallas y encanto vasco-francés junto al Atlántico.";
-$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/baiona/lugares-interes/casco-antiguo";
-$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/casco-antiguo-baiona-1.jpg";
+$schemaUrl          = $schemaUrl          ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/baiona/lugares-interes/casco-antiguo";
+$schemaImage        = $schemaImage        ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/casco-antiguo-baiona-1.jpg";
 $schemaAddress      = $schemaAddress      ?? [
     "@type" => "PostalAddress",
     "streetAddress" => "Casco antiguo de Baiona",

@@ -1,12 +1,12 @@
 <?php
 // Variables para el schema (reutiliza las del <head> si están definidas)
-$schemaTitle        = $schemaTitle        ?? "Playa de Ondarraitz - Hendaia";
-$schemaDescription  = $schemaDescription  ?? "Descubre la Playa de Ondarraitz en Hendaia, Nouvelle-Aquitaine, Francia: un lugar ideal para surf, naturaleza y tranquilidad en la costa vasco-francesa.";
-$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/hendaia/lugares-interes/playas/ondarraitz";
-$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/ondarraitz.jpg";
+$schemaTitle        = $schemaTitle        ?? "Castillo de Abbadia - Hendaia";
+$schemaDescription  = $schemaDescription  ?? "Descubre el Castillo de Abbadia en Hendaia, Nouvelle-Aquitaine, Francia: un impresionante castillo neogótico del siglo XIX situado sobre acantilados con vistas al océano Atlántico.";
+$schemaUrl          = $schemaUrl          ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/hendaia/lugares-interes/castillo-abbadia";
+$schemaImage        = $schemaImage        ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/castillo-abbadia.jpg";
 $schemaAddress      = $schemaAddress      ?? [
-    "@type"         => "PostalAddress",
-    "streetAddress" => "Playa de Ondarraitz",
+    "@type"           => "PostalAddress",
+    "streetAddress"   => "Route de la Corniche",
     "addressLocality" => "Hendaia",
     "addressRegion"   => "Nouvelle-Aquitaine",
     "postalCode"      => "64700",
@@ -17,7 +17,7 @@ $schemaAddress      = $schemaAddress      ?? [
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Place",
+  "@type": "TouristAttraction",
   "@id": "<?= htmlspecialchars($schemaUrl) ?>#place",
   "name": "<?= htmlspecialchars($schemaTitle) ?>",
   "description": "<?= htmlspecialchars($schemaDescription) ?>",
@@ -33,18 +33,18 @@ $schemaAddress      = $schemaAddress      ?? [
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": 43.3700,
-    "longitude": -1.7977
+    "latitude": 43.3695,
+    "longitude": -1.7870
   },
   "amenityFeature": [
-    { "@type": "LocationFeatureSpecification", "name": "Acceso peatonal", "value": true },
-    { "@type": "LocationFeatureSpecification", "name": "Duchas y servicios", "value": true },
-    { "@type": "LocationFeatureSpecification", "name": "Aparcamiento cercano", "value": true },
-    { "@type": "LocationFeatureSpecification", "name": "Zona natural y tranquila", "value": true }
+    { "@type": "LocationFeatureSpecification", "name": "Visitas guiadas", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Entorno natural protegido", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Miradores al océano", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Acceso peatonal", "value": true }
   ],
   "sameAs": [
-    "https://www.tourisme-hendaye.fr/",
-    "https://es.wikipedia.org/wiki/Hendaya"
+    "https://www.chateau-abbadia.fr/",
+    "https://fr.wikipedia.org/wiki/Ch%C3%A2teau_d%27Abbadia"
   ]
 }
 </script>

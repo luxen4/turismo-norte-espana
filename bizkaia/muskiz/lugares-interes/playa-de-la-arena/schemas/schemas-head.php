@@ -5,8 +5,8 @@ $longitude = -3.11230;
 // Variables para el schema – Playa de La Arena
 $schemaTitle       = "Playa de La Arena - Muskiz";
 $schemaDescription = "Descubre la Playa de La Arena en Muskiz, bizkaia: una extensa playa de arena dorada ideal para familias, surfistas y senderistas costeros.";
-$schemaUrl         = "https://www.tu-dominio.com/muskiz/lugares-interes/playa-de-la-arena"; // Cambia por la URL real
-$schemaImage       = "https://www.tu-dominio.com/images/playa-de-la-arena-muskiz-1.jpg";     // Cambia por la URL real de la imagen principal
+$schemaUrl         = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/muskiz/lugares-interes/playa-de-la-arena"; // Cambia por la URL real
+$schemaImage       = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/playa-de-la-arena-muskiz-1.jpg";     // Cambia por la URL real de la imagen principal
 $schemaAddress     = [
     "@type"            => "PostalAddress",
     "streetAddress"    => "Barrio La Arena",
@@ -39,7 +39,7 @@ $schemaAddress     = [
     "longitude": <?= $longitude ?>
   },
   "sameAs": [
-    "https://www.tu-dominio.com/muskiz"
+    "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/muskiz"
   ]
 }
 </script>

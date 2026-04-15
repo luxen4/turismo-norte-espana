@@ -5,8 +5,8 @@ $longitude = -1.56680;
 // Variables para el schema – Plage Marbella (Biarritz)
 $schemaTitle       = "Playa de Marbella";
 $schemaDescription = "Descubre la Playa de Marbella en Biarritz: una playa tranquila y natural, rodeada de acantilados, ideal para relajarse junto al Atlántico.";
-$schemaUrl         = "https://www.tu-dominio.com/biarritz/lugares-interes/plage-marbella"; // Cambia por la URL real
-$schemaImage       = "https://www.tu-dominio.com/images/plage-marbella.jpg";              // Cambia por la URL real de la imagen principal
+$schemaUrl         = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/biarritz/lugares-interes/plage-marbella"; // Cambia por la URL real
+$schemaImage       = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/plage-marbella.jpg";              // Cambia por la URL real de la imagen principal
 $schemaAddress     = [
     "@type"           => "PostalAddress",
     "streetAddress"   => "Plage Marbella",
@@ -61,7 +61,7 @@ $schemaAddress     = [
     }
   ],
   "sameAs": [
-    "https://www.tu-dominio.com/biarritz"
+    "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/biarritz"
   ]
 }
 </script>

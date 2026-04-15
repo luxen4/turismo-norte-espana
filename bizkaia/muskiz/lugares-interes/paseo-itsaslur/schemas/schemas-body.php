@@ -2,8 +2,8 @@
 // Variables reutilizables para Paseo Itsaslur
 $schemaTitle        = $schemaTitle        ?? "Paseo Itsaslur";
 $schemaDescription  = $schemaDescription  ?? "Disfruta del Paseo Itsaslur en Muskiz, Bizkaia: un recorrido peatonal agradable a lo largo de la costa y entornos naturales, ideal para caminar, observar fauna y flora, y disfrutar de la naturaleza.";
-$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/muskiz/lugares-interes/paseo-itsaslur";
-$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/paseo-itsaslur.jpg";
+$schemaUrl          = $schemaUrl          ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/muskiz/lugares-interes/paseo-itsaslur";
+$schemaImage        = $schemaImage        ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/paseo-itsaslur.jpg";
 $schemaAddress      = $schemaAddress      ?? [
     "@type"           => "PostalAddress",
     "streetAddress"   => "Paseo Itsaslur",
@@ -63,7 +63,7 @@ $schemaAddress      = $schemaAddress      ?? [
     }
   ],
   "sameAs": [
-    "https://www.tu-dominio.com/muskiz"
+    "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/muskiz"
   ]
 }
 </script>

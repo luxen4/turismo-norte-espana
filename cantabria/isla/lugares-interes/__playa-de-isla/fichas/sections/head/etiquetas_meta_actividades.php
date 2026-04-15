@@ -20,7 +20,7 @@
 <meta property="article:tag" content="surf, playa Isla, turismo Cantabria" />    
 
 <?php /*<!-- Open Graph (Facebook) -->*/?>
-<meta property="og:site_name" content="Turismo y Playas 2026 – Guía Costera de España" />
+<meta property="og:site_name" content="Turismo Norte de España – Guía Costera" />
 <meta property="og:locale" content="es_ES" />
 
 <?php /*<!-- Open Graph (Facebook / Meta) -->*/?>
@@ -41,6 +41,6 @@
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Actividades en la Playa de Isla – Cantabria" />
 <meta name="twitter:description" content="Descubre qué hacer en la Playa de Isla: surf, caminatas, naturaleza y más planes en Cantabria." />
-<meta name="twitter:image" content="https://Playas2026.kesug.com/turismo-norte-espana/cantabria/<?= $localidad_minuscula; ?>/img/<?= $rutas; ?>.jpg" />
+<meta name="twitter:image" content="https://alayag82.kesug.com/turismo-norte-espana/cantabria/<?= $localidad_minuscula; ?>/img/<?= $rutas; ?>.jpg" />
 <meta name="twitter:image:alt" content="Vista de la Playa de Isla desde la arena con actividades deportivas" />
 <meta name="twitter:site" content="@TuCuentaTwitter" />

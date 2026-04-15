@@ -2,8 +2,8 @@
 // Variables para el schema en el cuerpo (reutilizamos las del head si están definidas)
 $schemaTitle        = $schemaTitle        ?? "Museo Vasco de la Historia - Baiona";
 $schemaDescription  = $schemaDescription  ?? "Descubre el Museo Vasco de la Historia en Baiona, un espacio cultural dedicado a la historia, la etnografía y el patrimonio del País Vasco francés.";
-$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/baiona/lugares-interes/museo-vasco-historia";
-$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/museo-vasco-historia-baiona.jpg";
+$schemaUrl          = $schemaUrl          ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/baiona/lugares-interes/museo-vasco-historia";
+$schemaImage        = $schemaImage        ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/museo-vasco-historia-baiona.jpg";
 
 $schemaAddress      = $schemaAddress ?? [
     "@type"           => "PostalAddress",

@@ -5,8 +5,8 @@ $longitude = -1.44300;
 // Variables para el schema – Forêt Domaniale de Capbreton
 $schemaTitle       = "Forêt Domaniale - Capbreton";
 $schemaDescription = "La Forêt Domaniale de Capbreton es un espacio natural ideal para paseos, senderismo, picnic y turismo activo en familia, rodeado de naturaleza atlántica.";
-$schemaUrl         = "https://www.tu-dominio.com/capbreton/lugares-interes/foret-domaniale"; // Cambia por tu URL real
-$schemaImage       = "https://www.tu-dominio.com/images/foret-domaniale-capbreton.jpg";       // Cambia por la imagen real
+$schemaUrl         = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/capbreton/lugares-interes/foret-domaniale"; // Cambia por tu URL real
+$schemaImage       = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/foret-domaniale-capbreton.jpg";       // Cambia por la imagen real
 $schemaAddress     = [
     "@type"           => "PostalAddress",
     "streetAddress"   => "Forêt Domaniale",

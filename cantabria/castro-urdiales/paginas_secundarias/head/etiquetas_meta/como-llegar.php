@@ -8,7 +8,7 @@
 <meta name="seobility" content="6fdc72f26c4563f937e32ff3def5f9d5" />
 
 <!-- Open Graph (Facebook / Meta) -->
-<meta property="og:site_name" content="Turismo y Playas 2026 – Guía Costera de España" />
+<meta property="og:site_name" content="Turismo Norte de España – Guía Costera" />
 <meta property="og:locale" content="es_ES" />
 <meta property="og:title" content="Cómo llegar a la Playa de Ostende – Castro-Urdiales" />
 <meta property="og:description" content="Conoce las mejores formas de llegar a la Playa de Ostende: indicaciones para llegar en coche, transporte público y rutas a pie." />

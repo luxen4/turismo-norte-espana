@@ -5,8 +5,8 @@ $longitude = -2.65010;
 // Variables para el schema – Centro de Interpretación de Urdaibai
 $schemaTitle       = "Centro de Interpretación de Urdaibai - Ibarrangelu";
 $schemaDescription = "Visita el Centro de Interpretación de Urdaibai en Ibarrangelu, Bizkaia: un espacio dedicado a la observación de aves y la conservación de la Reserva de la Biosfera de Urdaibai.";
-$schemaUrl         = "https://www.tu-dominio.com/ibarrangelu/lugares-interes/centro-interpretacion-urdaibai"; // Sustituye por tu URL real
-$schemaImage       = "https://www.tu-dominio.com/images/centro-interpretacion-urdaibai.jpg";                   // Sustituye por la imagen real
+$schemaUrl         = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/ibarrangelu/lugares-interes/centro-interpretacion-urdaibai"; // Sustituye por tu URL real
+$schemaImage       = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/centro-interpretacion-urdaibai.jpg";                   // Sustituye por la imagen real
 $schemaAddress     = [
     "@type"           => "PostalAddress",
     "streetAddress"   => "Orueta, s/n",
@@ -39,7 +39,7 @@ $schemaAddress     = [
     "longitude": <?= $longitude ?>
   },
   "sameAs": [
-    "https://www.tu-dominio.com/ibarrangelu",
+    "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/ibarrangelu",
     "https://www.birdcenter.org"
   ]
 }

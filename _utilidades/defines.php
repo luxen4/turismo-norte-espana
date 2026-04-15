@@ -19,13 +19,13 @@
 
 <?php define('PATH_DOMINIO_LUGAR_IMAGEN_1', PATH_DOMINIO_RAIZ_LOCALIDADES . "$region_minuscula/$localidad_minuscula/lugares-interes/" . $lugar_minuscula . "/img/" . $lugar_minuscula . "-{$localidad_minuscula}-{$region_minuscula}-1.jpg"); ?>
 
-<?php define('PATH_DOMINIO_LUGAR_INTERES_INDEX', PATH_DOMINIO_RAIZ . "/$region_minuscula/$localidad_minuscula/lugares-interes/" . $lugar_minuscula ."/"); ?>
+<?php define('PATH_DOMINIO_LUGAR_INTERES_INDEX', PATH_DOMINIO_RAIZ . "/$region_minuscula/$localidad_minuscula/lugares-interes/" . LUGAR_MINUSCULA ."/"); ?>
 
 <?php
 if (!empty($lugar_interes)) {
     define(
         'PATH_DOMINIO_URL',
-        PATH_DOMINIO_RAIZ_LOCALIDADES . "$region_minuscula/$localidad_minuscula/lugares-interes/$lugar_interes/"
+        PATH_DOMINIO_RAIZ_LOCALIDADES . "$region_minuscula/$localidad_minuscula/lugares-interes/" . LUGARMINUSCULA. "/"
     );
 } else {
     define(

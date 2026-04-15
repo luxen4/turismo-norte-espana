@@ -2,8 +2,8 @@
 // Variables reutilizables para Playa de Laga en Ibarrangelu
 $schemaTitle        = $schemaTitle        ?? "Playa de Laga - Ibarrangelu";
 $schemaDescription  = $schemaDescription  ?? "Descubre la Playa de Laga en Ibarrangelu, Bizkaia: una playa virgen dentro de la Reserva de Urdaibai, ideal para el surf, el senderismo y disfrutar de la naturaleza del País Vasco.";
-$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/ibarrangelu/lugares-interes/playa-de-laga";
-$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/playa-de-laga.jpg";
+$schemaUrl          = $schemaUrl          ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/ibarrangelu/lugares-interes/playa-de-laga";
+$schemaImage        = $schemaImage        ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/playa-de-laga.jpg";
 $schemaAddress      = $schemaAddress      ?? [
     "@type"           => "PostalAddress",
     "streetAddress"   => "Barrio Laga, s/n",
@@ -63,7 +63,7 @@ $schemaAddress      = $schemaAddress      ?? [
     }
   ],
   "sameAs": [
-    "https://www.tu-dominio.com/ibarrangelu"
+    "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/ibarrangelu"
   ]
 }
 </script>

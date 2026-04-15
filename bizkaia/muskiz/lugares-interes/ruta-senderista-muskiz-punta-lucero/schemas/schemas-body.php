@@ -2,8 +2,8 @@
 // Variables reutilizables para Ruta Muskiz – Punta Lucero
 $schemaTitle        = $schemaTitle        ?? "Ruta senderista Muskiz - Punta Lucero";
 $schemaDescription  = $schemaDescription  ?? "Recorre la ruta senderista que va desde Muskiz hasta Punta Lucero, Bizkaia: un itinerario con vistas al Cantábrico, acantilados y naturaleza en estado puro en la costa vasca.";
-$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/muskiz/lugares-interes/ruta-senderista-punta-lucero";
-$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/ruta-muskiz-punta-lucero.jpg";
+$schemaUrl          = $schemaUrl          ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/muskiz/lugares-interes/ruta-senderista-punta-lucero";
+$schemaImage        = $schemaImage        ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/ruta-muskiz-punta-lucero.jpg";
 $schemaAddress      = $schemaAddress      ?? [
     "@type"           => "PostalAddress",
     "streetAddress"   => "Muskiz - Punta Lucero",
@@ -63,7 +63,7 @@ $schemaAddress      = $schemaAddress      ?? [
     }
   ],
   "sameAs": [
-    "https://www.tu-dominio.com/muskiz"
+    "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/muskiz"
   ]
 }
 </script>

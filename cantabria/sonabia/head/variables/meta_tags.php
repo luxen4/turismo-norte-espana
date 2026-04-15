@@ -8,7 +8,7 @@ $pinterest_property_card_description_content = 'Descubre la Playa de Sonabia en 
 $pinterest_property_card_image_content       = PATH_RAIZ_LOCALIDADES_CARPETA . '/sonabia/img/playa-de-sonabia-1.jpg';
 
 // Variables de configuración para Twitter Cards – Sonabia
-$twitterCards_card        = 'summary_large_image';
+$twitterCards_card        = SUMARY_LARGE_IMAGE;
 $twitterCards_site        = '@laya_garcia';
 $twitterCards_title       = 'Playa de Sonabia – Cantabria';
 $twitterCards_description = 'Explora la Playa de Sonabia en Cantabria: naturaleza virgen, acantilados y aguas cristalinas en un entorno casi intacto.';
@@ -33,7 +33,7 @@ $graph_Meta_Tags_property_published_time = '2025-07-09T08:00:00+02:00'; // Fecha
 $graph_Meta_Tags_property_section      = 'Turismo y Playas';
 $graph_Meta_Tags_property_tag          = 'Sonabia';
 $graph_Meta_Tags_property_tag2         = 'Playas Cantabria';
-$graph_Meta_Tags_property_tag3         = 'Turismo Costa Cantábrica';
+$graph_Meta_Tags_property_tag3         = 'Turismo Norte de España';
 ?>
 
 <?php define('DESCRIPTION', "Descubre Sonabia en Cantabria, un enclave costero único con playas salvajes como Valdearenas, acantilados espectaculares y paisajes naturales como el Monte Candina. Ideal para disfrutar del mar, el senderismo y la tranquilidad del norte de España."); ?>

@@ -1,10 +1,10 @@
 <?php
 $schemaTitle = $schemaTitle ?? "Playa de Brazomar - Castro Urdiales";
 $schemaDescription = $schemaDescription ?? "La Playa de Brazomar es una playa urbana situada en Castro Urdiales, Cantabria. Es conocida por su arena dorada, aguas tranquilas y servicios completos para el turismo familiar.";
-$schemaUrl = $schemaUrl ?? "https://www.tu-dominio.com/castro-urdiales/lugares-interes/playa-de-brazomar";
+$schemaUrl = $schemaUrl ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/castro-urdiales/lugares-interes/playa-de-brazomar";
 $schemaImages = $schemaImages ?? [
-  "https://www.tu-dominio.com/images/playa-de-brazomar-1.jpg",
-  "https://www.tu-dominio.com/images/playa-de-brazomar-2.jpg"
+  "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/playa-de-brazomar-1.jpg",
+  "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/playa-de-brazomar-2.jpg"
 ];
 ?>
 

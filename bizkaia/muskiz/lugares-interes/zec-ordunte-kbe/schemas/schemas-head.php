@@ -8,8 +8,8 @@ $longitudeEnd   = -3.21500;
 // Variables para el schema – ZEC Ordunte KBE
 $schemaTitle       = "ZEC Ordunte KBE";
 $schemaDescription = "Explora la Zona Especial de Conservación Ordunte KBE: un enclave natural protegido con gran biodiversidad, rutas de montaña y paisajes únicos en Bizkaia.";
-$schemaUrl         = "https://www.tu-dominio.com/muskiz/lugares-interes/zec-ordunte-kbe"; 
-$schemaImage       = "https://www.tu-dominio.com/images/zec-ordunte-kbe.jpg"; 
+$schemaUrl         = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/muskiz/lugares-interes/zec-ordunte-kbe"; 
+$schemaImage       = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/zec-ordunte-kbe.jpg"; 
 $schemaAddress     = [
     "@type"           => "PostalAddress",
     "streetAddress"   => "ZEC Ordunte KBE",
@@ -59,7 +59,7 @@ $schemaAddress     = [
     }
   ],
   "sameAs": [
-    "https://www.tu-dominio.com/muskiz"
+    "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/muskiz"
   ]
 }
 </script>

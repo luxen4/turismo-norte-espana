@@ -2,8 +2,8 @@
 // Variables para el schema del Puente Medieval
 $schemaTitle = "Puente Medieval - Castro Urdiales";
 $schemaDescription = "Descubre el Puente Medieval en Castro Urdiales, una histórica construcción de la Edad Media que conecta el casco antiguo y es símbolo del patrimonio arquitectónico de la ciudad.";
-$schemaUrl = "https://www.tu-dominio.com/castro-urdiales/lugares-interes/puente-medieval"; // Cambia por la URL real
-$schemaImage = "https://www.tu-dominio.com/images/puente-medieval-1.jpg"; // Cambia por la URL real de la imagen principal
+$schemaUrl = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/castro-urdiales/lugares-interes/puente-medieval"; // Cambia por la URL real
+$schemaImage = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/puente-medieval-1.jpg"; // Cambia por la URL real de la imagen principal
 $schemaAddress = [
     "@type" => "PostalAddress",
     "streetAddress" => "Calle del Puente",

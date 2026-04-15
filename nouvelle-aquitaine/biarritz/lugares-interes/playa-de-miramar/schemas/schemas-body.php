@@ -2,8 +2,8 @@
 // Variables para el schema en el cuerpo (reutilizamos las del head si están definidas)
 $schemaTitle        = $schemaTitle        ?? "Playa de Miramar - Biarritz";
 $schemaDescription  = $schemaDescription  ?? "Descubre la Playa de Miramar en Biarritz: una elegante playa situada entre el centro y el Faro, perfecta para el baño, el paseo y el relax con vistas al Atlántico.";
-$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/biarritz/lugares-interes/playa-de-miramar";
-$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/playa-de-miramar-biarritz.jpg";
+$schemaUrl          = $schemaUrl          ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/biarritz/lugares-interes/playa-de-miramar";
+$schemaImage        = $schemaImage        ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/playa-de-miramar-biarritz.jpg";
 $schemaAddress      = $schemaAddress      ?? [
     "@type"           => "PostalAddress",
     "streetAddress"   => "Plage de Miramar",
@@ -58,7 +58,7 @@ $schemaAddress      = $schemaAddress      ?? [
     }
   ],
   "sameAs": [
-    "https://www.tu-dominio.com/biarritz"
+    "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/biarritz"
   ]
 }
 </script>

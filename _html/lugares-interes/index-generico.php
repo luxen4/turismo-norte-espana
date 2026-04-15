@@ -1,6 +1,6 @@
 <?php require  $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/url-partes.php"; ?>
 
-<?php require  "./../../data/data-localidad.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/{$region_minuscula}/variables-region.php"; ?>
 
 <?php require  "./variables-lugar-interes.php"; ?>
 
@@ -40,6 +40,6 @@
 
         <?php require PATH_RAIZ . "/_html/body/footer/footer-generico.php"; ?>
 
-        <?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/" .$region_minuscula. "/".$localidad_minuscula . "/lugares-interes/".$lugar_interes."/schemas/schemas-body.php"; ?>
+        <?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/" .$region_minuscula. "/".$localidad_minuscula . "/lugares-interes/".LUGAR_MINUSCULA."/schemas/schemas-body.php"; ?>
     </body>
 </html>

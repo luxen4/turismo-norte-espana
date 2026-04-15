@@ -5,8 +5,8 @@ $longitude = -2.9908;
 // Variables para el schema – Mirador de Arrietara
 $schemaTitle       = "Mirador de Arrietara - Sopelana";
 $schemaDescription = "Disfruta del Mirador de Arrietara en Sopelana, Bizkaia: vistas panorámicas de la Playa de Arrietara, acantilados y mar Cantábrico, ideal para senderismo y fotografía.";
-$schemaUrl         = "https://www.tu-dominio.com/sopelana/lugares-interes/mirador-de-arrietara";
-$schemaImage       = "https://www.tu-dominio.com/images/mirador-arrietara-1.jpg";
+$schemaUrl         = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/sopelana/lugares-interes/mirador-de-arrietara";
+$schemaImage       = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/mirador-arrietara-1.jpg";
 $schemaAddress     = [
     "@type"           => "PostalAddress",
     "streetAddress"   => "Mirador de Arrietara, s/n",
@@ -39,7 +39,7 @@ $schemaAddress     = [
     "longitude": <?= $longitude ?>
   },
   "sameAs": [
-    "https://www.tu-dominio.com/sopelana"
+    "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/sopelana"
   ]
 }
 </script>

@@ -17,7 +17,7 @@
 <meta property="article:tag" content="surf, Playa de Somo, Playa de Loredo, turismo Cantabria" />
 
 <!-- Open Graph (Facebook / Meta) -->
-<meta property="og:site_name" content="Turismo y Playas 2026 – Guía Costera de España" />
+<meta property="og:site_name" content="Turismo Norte de España – Guía Costera" />
 <meta property="og:locale" content="es_ES" />
 <meta property="og:title" content="Actividades en la Playa de Somo - Loredo – Ribamontán al Mar" />
 <meta property="og:description" content="Descubre qué hacer en la Playa de Somo y Loredo: surf, senderismo, naturaleza, y más en Ribamontán al Mar." />

@@ -2,8 +2,8 @@
 // Variables reutilizables para Ruta Laga – Ogoño en Ibarrangelu
 $schemaTitle        = $schemaTitle        ?? "Ruta senderista Laga - Ogoño - Ibarrangelu";
 $schemaDescription  = $schemaDescription  ?? "Recorre la ruta senderista que une la Playa de Laga con el Cabo Ogoño en Ibarrangelu, Bizkaia: un itinerario espectacular dentro de la Reserva de Urdaibai, con acantilados, vistas al Cantábrico y naturaleza en estado puro.";
-$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/ibarrangelu/lugares-interes/ruta-senderista-laga-ogono";
-$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/ruta-laga-ogono.jpg";
+$schemaUrl          = $schemaUrl          ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/ibarrangelu/lugares-interes/ruta-senderista-laga-ogono";
+$schemaImage        = $schemaImage        ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/ruta-laga-ogono.jpg";
 $schemaAddress      = $schemaAddress      ?? [
     "@type"           => "PostalAddress",
     "streetAddress"   => "Playa de Laga - Cabo Ogoño",
@@ -63,7 +63,7 @@ $schemaAddress      = $schemaAddress      ?? [
     }
   ],
   "sameAs": [
-    "https://www.tu-dominio.com/ibarrangelu"
+    "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/ibarrangelu"
   ]
 }
 </script>

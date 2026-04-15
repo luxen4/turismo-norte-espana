@@ -15,7 +15,7 @@ $graph_Meta_Tags_property_image       = PATH_HREF_RAIZ . "/{$region_minuscula}/{
 $graph_Meta_Tags_property_url         = PATH_HREF_RAIZ . "/{$region_minuscula}/{$localidad_minuscula}/fichas/{$rutas}.php";
 $graph_Meta_Tags_property_type        = "article";
 
-$graph_Meta_Tags_property_site_name   = "Turismo y Playas 2026 – Guía Costera de España";
+$graph_Meta_Tags_property_site_name   = "Turismo Norte de España – Guía Costera";
 $graph_Meta_Tags_property_locale      = "es_ES";
 $graph_Meta_Tags_property_image_alt   = "Panorámica de la Playa de Ostende en Castro Urdiales, Cantabria";
 $graph_Meta_Tags_property_image_width = "1200";

@@ -8,7 +8,7 @@ $pinterest_property_card_description_content = 'Descubre Biarritz, municipio emb
 $pinterest_property_card_image_content       = PATH_RAIZ_LOCALIDADES_CARPETA . '/nueva-aquitania/biarritz/img/biarritz-municipio-1.jpg';
 
 // Twitter Cards
-$twitterCards_card        = 'summary_large_image';
+$twitterCards_card        = SUMARY_LARGE_IMAGE;
 $twitterCards_site        = '@laya_garcia';
 $twitterCards_title       = 'Biarritz – Municipio en Nueva Aquitania';
 $twitterCards_description = 'Explora Biarritz, municipio francés de la costa vasca, famoso por su cultura, gastronomía y atractivo turístico.';

@@ -2,8 +2,8 @@
 // Variables para el schema en el cuerpo (reutilizamos las del head si están definidas)
 $schemaTitle        = $schemaTitle        ?? "Playa de Gorliz - Gorliz";
 $schemaDescription  = $schemaDescription  ?? "Descubre la Playa de Gorliz en Gorliz, bizkaia: una amplia playa de arena fina ideal para familias, surfistas y amantes de la naturaleza costera.";
-$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/gorliz/lugares-interes/playa-de-gorliz";
-$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/playa-de-gorliz-1.jpg";
+$schemaUrl          = $schemaUrl          ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/gorliz/lugares-interes/playa-de-gorliz";
+$schemaImage        = $schemaImage        ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/playa-de-gorliz-1.jpg";
 $schemaAddress      = $schemaAddress      ?? [
     "@type"         => "PostalAddress",
     "streetAddress" => "Paseo Marítimo, Playa de Gorliz",
@@ -58,7 +58,7 @@ $schemaAddress      = $schemaAddress      ?? [
     }
   ],
   "sameAs": [
-    "https://www.tu-dominio.com/gorliz"
+    "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/gorliz"
   ]
 }
 </script>

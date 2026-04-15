@@ -5,8 +5,8 @@ $longitude = -3.41520;
 // Variables para el schema – Playa de Valdearenas (Sonabia)
 $schemaTitle       = "Playa de Valdearenas - Sonabia";
 $schemaDescription = "Descubre la Playa de Valdearenas en Sonabia, Cantabria: amplia playa de arena fina y dorada, ideal para paseos, surf y disfrutar de la naturaleza costera.";
-$schemaUrl         = "https://www.tu-dominio.com/sonabia/lugares-interes/playa-de-valdearenas"; // Cambia por la URL real
-$schemaImage       = "https://www.tu-dominio.com/images/playa-de-valdearenas-sonabia-1.jpg";   // Cambia por la URL real de la imagen principal
+$schemaUrl         = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/sonabia/lugares-interes/playa-de-valdearenas"; // Cambia por la URL real
+$schemaImage       = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/playa-de-valdearenas-sonabia-1.jpg";   // Cambia por la URL real de la imagen principal
 $schemaAddress     = [
     "@type"         => "PostalAddress",
     "streetAddress" => "Camino de Valdearenas",
@@ -39,7 +39,7 @@ $schemaAddress     = [
     "longitude": <?= $longitude ?>
   },
   "sameAs": [
-    "https://www.tu-dominio.com/sonabia"
+    "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/sonabia"
   ]
 }
 </script>

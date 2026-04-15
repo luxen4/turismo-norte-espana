@@ -5,8 +5,8 @@ $longitude = -1.66110;
 // Variables para el schema – Puerto Pesquero (Saint-Jean-de-Luz)
 $schemaTitle       = "Puerto Pesquero - Saint-Jean-de-Luz";
 $schemaDescription = "Descubre el Puerto Pesquero de Saint-Jean-de-Luz, en Nouvelle-Aquitaine: tradición marinera, barcos coloridos y gastronomía local en un enclave pintoresco junto al Atlántico.";
-$schemaUrl         = "https://www.tu-dominio.com/saint-jean-de-luz/lugares-interes/puerto-pesquero"; // Cambia por la URL real
-$schemaImage       = "https://www.tu-dominio.com/images/puerto-pesquero-saint-jean-de-luz.jpg";       // Cambia por la URL real de la imagen principal
+$schemaUrl         = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/saint-jean-de-luz/lugares-interes/puerto-pesquero"; // Cambia por la URL real
+$schemaImage       = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/puerto-pesquero-saint-jean-de-luz.jpg";       // Cambia por la URL real de la imagen principal
 $schemaAddress     = [
     "@type"           => "PostalAddress",
     "streetAddress"   => "Quai de l'Infante",
@@ -39,7 +39,7 @@ $schemaAddress     = [
     "longitude": <?= $longitude ?>
   },
   "sameAs": [
-    "https://www.tu-dominio.com/saint-jean-de-luz"
+    "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/saint-jean-de-luz"
   ]
 }
 </script>

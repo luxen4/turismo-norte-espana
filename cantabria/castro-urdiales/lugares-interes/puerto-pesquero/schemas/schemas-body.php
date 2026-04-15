@@ -4,7 +4,7 @@
 // Definir variables con valores por defecto si no están establecidas
 $lugar = $lugar ?? 'Puerto Pesquero de Castro Urdiales';
 $description = $description_content ?? 'Disfruta del Puerto Pesquero de Castro Urdiales, un punto clave para la pesca, la navegación y la gastronomía local en Cantabria.';
-$url = $url ?? "https://www.tu-dominio.com/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/puerto-pesquero-castro-urdiales";
+$url = $url ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/{$region_minuscula}/{$localidad_minuscula}/lugares-interes/puerto-pesquero-castro-urdiales";
 $image1 = PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG . "/puerto-castro-urdiales-2.jpg";
 ?>
 

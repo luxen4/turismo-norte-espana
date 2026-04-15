@@ -10,13 +10,13 @@
 <meta name="date" content="<?= $hoy ?>" />
 
 <!-- Open Graph (Facebook / Meta) -->
-<meta property="og:site_name" content="Turismo y Playas 2026 – Guía Costera de España" />
+<meta property="og:site_name" content="Turismo Norte de España – Guía Costera" />
 <meta property="og:locale" content="es_ES" />
 <meta property="og:title" content="Senderos Costeros Señalizados – Playa de Ostende" />
 <meta property="og:description" content="Rutas panorámicas y accesibles desde la Playa de Ostende, perfectas para hacer senderismo junto al mar en Castro-Urdiales." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://Playas2026.kesug.com/turismo-norte-espana/senderos-costeros-<?= $rutas; ?>" />
-<meta property="og:image" content="https://Playas2026.kesug.com/turismo-norte-espana/cantabria/<?= $localidad_minuscula; ?>/img/<?= $rutas; ?>.jpg" />
+<meta property="og:url" content="https://alayag82.kesug.com/turismo-norte-espana/senderos-costeros-<?= $rutas; ?>" />
+<meta property="og:image" content="https://alayag82.kesug.com/turismo-norte-espana/cantabria/<?= $localidad_minuscula; ?>/img/<?= $rutas; ?>.jpg" />
 <meta property="og:image:alt" content="Senderos costeros señalizados junto a la Playa de Ostende con vistas al mar" />
 <meta property="article:published_time" content="<?= $hoy ?>T08:00:00+01:00" />
 <meta property="article:modified_time" content="<?= $hoy ?>T08:00:00+01:00" />
@@ -29,6 +29,6 @@
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Senderos Costeros Señalizados desde la Playa de Ostende" />
 <meta name="twitter:description" content="Camina junto al mar por rutas señalizadas: naturaleza, vistas al Cantábrico y senderismo accesible en Castro-Urdiales." />
-<meta name="twitter:image" content="https://Playas2026.kesug.com/turismo-norte-espana/cantabria/<?= $localidad_minuscula; ?>/img/<?= $rutas; ?>.jpg" />
+<meta name="twitter:image" content="https://alayag82.kesug.com/turismo-norte-espana/cantabria/<?= $localidad_minuscula; ?>/img/<?= $rutas; ?>.jpg" />
 <meta name="twitter:image:alt" content="Vista aérea de un sendero costero señalizado en la Playa de Ostende" />
 <meta name="twitter:site" content="@TuCuentaTwitter" />

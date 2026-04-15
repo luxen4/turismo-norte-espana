@@ -2,8 +2,8 @@
 // Variables reutilizables para Cabo Ogoño en Ibarrangelu
 $schemaTitle        = $schemaTitle        ?? "Cabo Ogoño - Ibarrangelu";
 $schemaDescription  = $schemaDescription  ?? "Explora el Cabo Ogoño en Ibarrangelu, Bizkaia: un espectacular acantilado dentro de la Reserva de Urdaibai, ideal para senderismo, fotografía y disfrutar de vistas panorámicas únicas del Cantábrico.";
-$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/ibarrangelu/lugares-interes/cabo-ogono";
-$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/cabo-ogono.jpg";
+$schemaUrl          = $schemaUrl          ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/ibarrangelu/lugares-interes/cabo-ogono";
+$schemaImage        = $schemaImage        ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/cabo-ogono.jpg";
 $schemaAddress      = $schemaAddress      ?? [
     "@type"           => "PostalAddress",
     "streetAddress"   => "Cabo Ogoño, s/n",
@@ -63,7 +63,7 @@ $schemaAddress      = $schemaAddress      ?? [
     }
   ],
   "sameAs": [
-    "https://www.tu-dominio.com/ibarrangelu"
+    "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/ibarrangelu"
   ]
 }
 </script>

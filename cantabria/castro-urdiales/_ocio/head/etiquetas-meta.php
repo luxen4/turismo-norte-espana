@@ -9,8 +9,8 @@
     <meta name="author" content="<?= $author_content; ?>">
     <meta name="language" content="<?= $languaje_content; ?>">
 
-    <?php /*<link rel="canonical" href="https://Playas2026.kesug.com/turismo-norte-espana/<?= $url_amigable;?>" />*/?>
-    <link rel="canonical" href="https://Playas2026.kesug.com/turismo-norte-espana/<?= $region_minuscula; ?>/<?= $localidad_minuscula;?>/index.php" />
+    <?php /*<link rel="canonical" href="https://alayag82.kesug.com/turismo-norte-espana/<?= $url_amigable;?>" />*/?>
+    <link rel="canonical" href="https://alayag82.kesug.com/turismo-norte-espana/<?= $region_minuscula; ?>/<?= $localidad_minuscula;?>/index.php" />
 
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content=<?= $graph_Meta_Tags_property_title; ?>>
@@ -37,12 +37,12 @@
     <meta property="og:description" content="<?= $pinterest_property_card_description_content; ?>">
     <meta property="og:image" content="<?= $pinterest_property_card_image_content; ?>">
     <meta property="og:url" content="<?= $pinterest_property_card_image_content; ?>">
-    <meta property="og:site_name" content="Turismo y Playas 2026 – Guía Costera de España" />
+    <meta property="og:site_name" content="Turismo Norte de España – Guía Costera" />
     <meta property="og:locale" content="es_ES" />
     <meta property="og:image:alt" content="<?= $pinterest_property_card_description_content; ?>">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:site_name" content="Turismo y Playas 2026 – Guía Costera de España" />
+    <meta property="og:site_name" content="Turismo Norte de España – Guía Costera" />
     <meta property="og:locale" content="es_ES" />
     <meta property="article:published_time" content="<?= $hoy ?>T08:00:00+01:00" />
     <meta property="article:modified_time" content="<?= $hoy ?>T08:00:00+01:00" />

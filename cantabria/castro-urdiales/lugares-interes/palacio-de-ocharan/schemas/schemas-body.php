@@ -2,8 +2,8 @@
 // Variables para el schema
 $schemaTitle = "Palacio ocharan - Castro Urdiales";
 $schemaDescription = "Descubre el Palacio ocharan en Castro Urdiales, un emblemático edificio señorial del siglo XVII con una arquitectura tradicional cántabra y rica historia.";
-$schemaUrl = "https://www.tu-dominio.com/castro-urdiales/lugares-interes/palacio-ocharan"; // Cambia por la URL real
-$schemaImage = "https://www.tu-dominio.com/images/palacio-ocharan-1.jpg"; // Cambia por la URL real de la imagen principal
+$schemaUrl = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/castro-urdiales/lugares-interes/palacio-ocharan"; // Cambia por la URL real
+$schemaImage = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/palacio-ocharan-1.jpg"; // Cambia por la URL real de la imagen principal
 $schemaAddress = [
     "@type" => "PostalAddress",
     "streetAddress" => "Calle San Juan, 1",

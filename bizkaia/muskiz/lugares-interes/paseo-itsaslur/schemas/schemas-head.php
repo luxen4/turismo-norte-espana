@@ -8,8 +8,8 @@ $longitudeEnd   = -3.04650;
 // Variables para el schema – Paseo Itsaslur
 $schemaTitle       = "Paseo Itsaslur";
 $schemaDescription = "Disfruta del Paseo Itsaslur en Muskiz, Bizkaia: recorrido peatonal a lo largo de la costa y entornos naturales protegidos, ideal para caminar y observar fauna y flora.";
-$schemaUrl         = "https://www.tu-dominio.com/muskiz/lugares-interes/paseo-itsaslur"; 
-$schemaImage       = "https://www.tu-dominio.com/images/paseo-itsaslur.jpg"; 
+$schemaUrl         = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/muskiz/lugares-interes/paseo-itsaslur"; 
+$schemaImage       = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/paseo-itsaslur.jpg"; 
 $schemaAddress     = [
     "@type"           => "PostalAddress",
     "streetAddress"   => "Paseo Itsaslur",
@@ -59,7 +59,7 @@ $schemaAddress     = [
     }
   ],
   "sameAs": [
-    "https://www.tu-dominio.com/muskiz"
+    "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/muskiz"
   ]
 }
 </script>

@@ -6,8 +6,8 @@ $longitude = -2.9430;
 // Variables para el schema – Faro de Gorliz
 $schemaTitle       = "Faro de Gorliz - Gorliz";
 $schemaDescription = "Descubre el Faro de Gorliz en Bizkaia: un faro histórico junto al mar, rodeado de acantilados y rutas naturales para disfrutar de vistas espectaculares.";
-$schemaUrl         = "https://www.tu-dominio.com/gorliz/lugares-interes/faro-de-gorliz"; 
-$schemaImage       = "https://www.tu-dominio.com/images/faro-de-gorliz-1.jpg";           
+$schemaUrl         = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/gorliz/lugares-interes/faro-de-gorliz"; 
+$schemaImage       = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/faro-de-gorliz-1.jpg";           
 $schemaAddress     = [
     "@type"            => "PostalAddress",
     "streetAddress"    => "Paseo Marítimo de Gorliz",
@@ -40,7 +40,7 @@ $schemaAddress     = [
     "longitude": <?= $longitude ?>
   },
   "sameAs": [
-    "https://www.tu-dominio.com/gorliz"
+    "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/gorliz"
   ]
 }
 </script>

@@ -2,8 +2,8 @@
 // Variables para el schema en el cuerpo (reutilizamos las del head si están definidas)
 $schemaTitle        = $schemaTitle        ?? "San Juan de Gaztelugatxe - Bakio";
 $schemaDescription  = $schemaDescription  ?? "Explora San Juan de Gaztelugatxe en Bakio, Bizkaia: un islote emblemático del País Vasco con su ermita, escaleras de piedra y vistas espectaculares del mar Cantábrico.";
-$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/bakio/lugares-interes/san-juan-de-gaztelugatxe";
-$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/san-juan-de-gaztelugatxe-bakio.jpg";
+$schemaUrl          = $schemaUrl          ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/bakio/lugares-interes/san-juan-de-gaztelugatxe";
+$schemaImage        = $schemaImage        ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/san-juan-de-gaztelugatxe-bakio.jpg";
 $schemaAddress      = $schemaAddress      ?? [
     "@type"         => "PostalAddress",
     "streetAddress" => "San Juan de Gaztelugatxe",

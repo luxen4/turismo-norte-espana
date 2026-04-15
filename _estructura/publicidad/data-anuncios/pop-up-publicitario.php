@@ -7,7 +7,7 @@
 <script>
     document.addEventListener('DOMContentLoaded', () => {
         const images = [
-            'https://Playas2026.kesug.com/turismo-norte-espana/cantabria/playadeostende/img/playa-de-ostende-castro-urdiales-cantabria.jpg',
+            'https://alayag82.kesug.com/turismo-norte-espana/cantabria/playadeostende/img/playa-de-ostende-castro-urdiales-cantabria.jpg',
             'https://via.placeholder.com/600x400?text=Publicidad+2',
             'https://via.placeholder.com/600x400?text=Publicidad+3'
         ];

@@ -8,7 +8,7 @@ $pinterest_property_card_description_content = 'Descubre la Playa de La Arena en
 $pinterest_property_card_image_content       = PATH_RAIZ_LOCALIDADES_CARPETA . '/pais-vasco/playadelaarena/img/playa-de-la-arena-1.jpg';
 
 // Variables de configuración para Twitter Cards – Playa de La Arena
-$twitterCards_card        = 'summary_large_image';
+$twitterCards_card        = SUMARY_LARGE_IMAGE;
 $twitterCards_site        = '@laya_garcia';
 $twitterCards_title       = 'Playa de La Arena – Muskiz (bizkaia)';
 $twitterCards_description = 'Explora la Playa de La Arena en Muskiz: un arenal amplio y natural en la costa vasca, con espacio para disfrutar del mar, el sol y la naturaleza.';

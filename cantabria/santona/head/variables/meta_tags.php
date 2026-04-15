@@ -8,7 +8,7 @@ $pinterest_property_card_description_content = 'Descubre la Playa de Berria en S
 $pinterest_property_card_image_content       = PATH_RAIZ_LOCALIDADES_CARPETA . '/santona/playa-de-berria/img/playa-de-berria-1.jpg';
 
 // Variables de configuración para Twitter Cards – Playa de Berria
-$twitterCards_card        = 'summary_large_image';
+$twitterCards_card        = SUMARY_LARGE_IMAGE;
 $twitterCards_site        = '@laya_garcia';
 $twitterCards_title       = 'Playa de Berria – Santona, Cantabria';
 $twitterCards_description = 'Explora la Playa de Berria en Santona: extensa franja de arena fina, oleaje para surf y entorno protegido junto al Parque Natural de las Marismas.';

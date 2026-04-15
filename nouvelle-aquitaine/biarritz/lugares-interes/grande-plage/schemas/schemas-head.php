@@ -5,8 +5,8 @@ $longitude = -1.56160;
 // Variables para el schema – La Grande Plage (Biarritz)
 $schemaTitle       = "La Grande Plage - Biarritz";
 $schemaDescription = "Descubre La Grande Plage de Biarritz en Nouvelle-Aquitaine, Francia: una playa icónica de arena dorada, ideal para el surf, paseos costeros y disfrutar del ambiente urbano junto al mar.";
-$schemaUrl         = "https://www.tu-dominio.com/biarritz/lugares-interes/la-grande-plage"; // Cambia por la URL real
-$schemaImage       = "https://www.tu-dominio.com/images/la-grande-plage-biarritz.jpg";       // Cambia por la URL real de la imagen principal
+$schemaUrl         = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/biarritz/lugares-interes/la-grande-plage"; // Cambia por la URL real
+$schemaImage       = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/la-grande-plage-biarritz.jpg";       // Cambia por la URL real de la imagen principal
 $schemaAddress     = [
     "@type"         => "PostalAddress",
     "streetAddress" => "La Grande Plage",
@@ -39,7 +39,7 @@ $schemaAddress     = [
     "longitude": <?= $longitude ?>
   },
   "sameAs": [
-    "https://www.tu-dominio.com/biarritz"
+    "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/biarritz"
   ]
 }
 </script>

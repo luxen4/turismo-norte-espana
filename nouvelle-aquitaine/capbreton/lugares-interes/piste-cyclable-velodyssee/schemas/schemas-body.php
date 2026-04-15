@@ -5,8 +5,8 @@ $longitude = -1.44120;
 // Variables para el schema – Piste Cyclable Vélodyssée (Capbreton)
 $schemaTitle       = "Piste Cyclable Vélodyssée - Capbreton";
 $schemaDescription = "La Piste Cyclable Vélodyssée en Capbreton forma parte de la gran ruta ciclista atlántica que conecta Francia de norte a sur. Ideal para paseos en bicicleta y turismo activo en Nouvelle-Aquitaine.";
-$schemaUrl         = "https://www.tu-dominio.com/capbreton/lugares-interes/piste-cyclable-velodyssee"; // Cambia por tu URL real
-$schemaImage       = "https://www.tu-dominio.com/images/piste-cyclable-velodyssee-capbreton.jpg";       // Cambia por la imagen real
+$schemaUrl         = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/capbreton/lugares-interes/piste-cyclable-velodyssee"; // Cambia por tu URL real
+$schemaImage       = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/piste-cyclable-velodyssee-capbreton.jpg";       // Cambia por la imagen real
 $schemaAddress     = [
     "@type"           => "PostalAddress",
     "streetAddress"   => "Piste Cyclable Vélodyssée",

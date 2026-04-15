@@ -2,8 +2,8 @@
 // Variables para el schema en el cuerpo (reutilizamos las del head si están definidas)
 $schemaTitle        = $schemaTitle        ?? "La Grande Plage - Saint-Jean-de-Luz";
 $schemaDescription  = $schemaDescription  ?? "Descubre La Grande Plage en Saint-Jean-de-Luz, una playa urbana en la costa vasca francesa con aguas tranquilas, ideal para familias y rodeada de encanto arquitectónico.";
-$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/saint-jean-de-luz/lugares-interes/la-grande-plage";
-$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/la-grande-plage-saint-jean-de-luz.jpg";
+$schemaUrl          = $schemaUrl          ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/saint-jean-de-luz/lugares-interes/la-grande-plage";
+$schemaImage        = $schemaImage        ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/la-grande-plage-saint-jean-de-luz.jpg";
 $schemaAddress      = $schemaAddress      ?? [
     "@type"           => "PostalAddress",
     "streetAddress"   => "Promenade Jacques Thibaud",
@@ -53,7 +53,7 @@ $schemaAddress      = $schemaAddress      ?? [
     }
   ],
   "sameAs": [
-    "https://www.tu-dominio.com/saint-jean-de-luz"
+    "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/saint-jean-de-luz"
   ]
 }
 </script>

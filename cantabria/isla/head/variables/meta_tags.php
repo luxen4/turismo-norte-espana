@@ -8,7 +8,7 @@ $pinterest_property_card_description_content = 'Descubre Isla en Cantabria: play
 $pinterest_property_card_image_content       = PATH_RAIZ_LOCALIDADES_CARPETA . '/cantabria/isla/img/isla-cantabria.jpg';
 
 // Twitter Cards
-$twitterCards_card        = 'summary_large_image';
+$twitterCards_card        = SUMARY_LARGE_IMAGE;
 $twitterCards_site        = '@laya_garcia';
 $twitterCards_title       = 'Isla – Cantabria';
 $twitterCards_description = 'Explora Isla en Cantabria: un destino costero con playas como Los Barcos y El Sable, acantilados y rutas junto al mar.';
@@ -36,7 +36,7 @@ $graph_Meta_Tags_property_published_time = '2025-07-17T08:00:00+02:00';
 $graph_Meta_Tags_property_section      = 'Turismo en Cantabria';
 $graph_Meta_Tags_property_tag          = 'Isla Cantabria';
 $graph_Meta_Tags_property_tag2         = 'Playas de Isla';
-$graph_Meta_Tags_property_tag3         = 'Turismo Costa Cantábrica';
+$graph_Meta_Tags_property_tag3         = 'Turismo Norte de España';
 ?>
 
 <?php //echo($graph_Meta_Tags_property_image) ?>

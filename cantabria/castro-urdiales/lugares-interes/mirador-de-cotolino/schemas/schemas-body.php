@@ -2,9 +2,9 @@
 // Variables para el schema del Mirador de Cotolino
 $schemaTitle = "Mirador de Cotolino - Castro Urdiales";
 $schemaDescription = "El Mirador de Cotolino en Castro Urdiales es un punto panorámico desde donde contemplar el mar Cantábrico, pasear y disfrutar de atardeceres únicos.";
-$schemaUrl = "https://www.tu-dominio.com/castro-urdiales/lugares-interes/mirador-de-cotolino"; // Cambia por la URL real
-$schemaImage1 = "https://www.tu-dominio.com/images/mirador-de-cotolino-1.jpg"; 
-$schemaImage2 = "https://www.tu-dominio.com/images/mirador-de-cotolino-2.jpg"; 
+$schemaUrl = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/castro-urdiales/lugares-interes/mirador-de-cotolino"; // Cambia por la URL real
+$schemaImage1 = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/mirador-de-cotolino-1.jpg"; 
+$schemaImage2 = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/mirador-de-cotolino-2.jpg"; 
 $schemaAddress = [
     "@type" => "PostalAddress",
     "streetAddress" => "Mirador de Cotolino",

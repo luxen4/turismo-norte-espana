@@ -10,13 +10,13 @@
 <meta name="seobility" content="6fdc72f26c4563f937e32ff3def5f9d5" />
 
 <!-- 🌐 Open Graph (Facebook / Meta) -->
-<meta property="og:site_name" content="Turismo y Playas 2026 – Guía Costera de España" />
+<meta property="og:site_name" content="Turismo Norte de España – Guía Costera" />
 <meta property="og:locale" content="es_ES" />
 <meta property="og:title" content="Actividades Recomendadas en la Playa de Ostende – Castro-Urdiales" />
 <meta property="og:description" content="Explora las actividades que puedes hacer en la Playa de Ostende: surf, senderismo, juegos para niños, relax y más planes para todos." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://Playas2026.kesug.com/turismo-norte-espana/actividades-ostende-<?= $rutas; ?>" />
-<meta property="og:image" content="https://Playas2026.kesug.com/turismo-norte-espana/cantabria/<?= $localidad_minuscula; ?>/img/actividades-ostende.jpg" />
+<meta property="og:url" content="https://alayag82.kesug.com/turismo-norte-espana/actividades-ostende-<?= $rutas; ?>" />
+<meta property="og:image" content="https://alayag82.kesug.com/turismo-norte-espana/cantabria/<?= $localidad_minuscula; ?>/img/actividades-ostende.jpg" />
 <meta property="og:image:alt" content="Personas disfrutando de actividades en la Playa de Ostende, Cantabria" />
 <meta property="article:published_time" content="<?= $hoy ?>T08:00:00+01:00" />
 <meta property="article:modified_time" content="<?= $hoy ?>T08:00:00+01:00" />
@@ -29,6 +29,6 @@
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Actividades para Disfrutar en la Playa de Ostende – Castro-Urdiales" />
 <meta name="twitter:description" content="Deportes, naturaleza, relax y ocio familiar: descubre las mejores actividades para hacer en Ostende." />
-<meta name="twitter:image" content="https://Playas2026.kesug.com/turismo-norte-espana/cantabria/<?= $localidad_minuscula; ?>/img/actividades-ostende.jpg" />
+<meta name="twitter:image" content="https://alayag82.kesug.com/turismo-norte-espana/cantabria/<?= $localidad_minuscula; ?>/img/actividades-ostende.jpg" />
 <meta name="twitter:image:alt" content="Actividades en la arena y el mar en Playa de Ostende, Castro Urdiales" />
 <meta name="twitter:site" content="@TuCuentaTwitter" />

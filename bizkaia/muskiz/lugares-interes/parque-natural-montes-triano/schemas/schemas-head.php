@@ -8,8 +8,8 @@ $longitudeEnd   = -3.04450;
 // Variables para el schema – Parque Natural de los Montes de Triano
 $schemaTitle       = "Parque Natural de los Montes de Triano";
 $schemaDescription = "Visita el Parque Natural de los Montes de Triano en Muskiz, Bizkaia: espacio natural protegido con rutas de senderismo, flora y fauna autóctona, y vistas a paisajes de montaña.";
-$schemaUrl         = "https://www.tu-dominio.com/muskiz/lugares-interes/parque-natural-montes-triano"; 
-$schemaImage       = "https://www.tu-dominio.com/images/parque-natural-montes-triano.jpg"; 
+$schemaUrl         = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/muskiz/lugares-interes/parque-natural-montes-triano"; 
+$schemaImage       = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/parque-natural-montes-triano.jpg"; 
 $schemaAddress     = [
     "@type"           => "PostalAddress",
     "streetAddress"   => "Parque Natural de los Montes de Triano",
@@ -59,7 +59,7 @@ $schemaAddress     = [
     }
   ],
   "sameAs": [
-    "https://www.tu-dominio.com/muskiz"
+    "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/muskiz"
   ]
 }
 </script>

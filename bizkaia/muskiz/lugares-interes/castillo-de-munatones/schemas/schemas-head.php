@@ -5,8 +5,8 @@ $longitude = -3.12050;
 // Variables para el schema – Castillo de Muñatones (Bizkaia)
 $schemaTitle       = "Castillo de Muñatones - Muskiz, Bizkaia";
 $schemaDescription = "El Castillo de Muñatones en Muskiz es una fortaleza histórica que data del siglo XV, símbolo del patrimonio cultural y arquitectónico vasco.";
-$schemaUrl         = "https://www.tu-dominio.com/muskiz/lugares-interes/castillo-de-munatones"; // Sustituye con tu URL real
-$schemaImage       = "https://www.tu-dominio.com/images/castillo-de-munatones.jpg";             // Sustituye con tu imagen real
+$schemaUrl         = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/muskiz/lugares-interes/castillo-de-munatones"; // Sustituye con tu URL real
+$schemaImage       = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/castillo-de-munatones.jpg";             // Sustituye con tu imagen real
 $schemaAddress     = [
     "@type"           => "PostalAddress",
     "streetAddress"   => "Barrio San Julián, s/n",

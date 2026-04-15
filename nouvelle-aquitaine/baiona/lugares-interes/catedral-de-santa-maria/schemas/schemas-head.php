@@ -5,8 +5,8 @@ $longitude = -1.4748;
 // Variables para el schema – Casco antiguo de Baiona
 $schemaTitle       = "Casco antiguo de Baiona";
 $schemaDescription = "Descubre el casco antiguo de Baiona, un conjunto histórico con calles medievales, murallas y vistas al río Nive en el corazón de la ciudad.";
-$schemaUrl         = "https://www.tu-dominio.com/baiona/lugares-interes/casco-antiguo";
-$schemaImage       = "https://www.tu-dominio.com/images/casco-antiguo-baiona.jpg";
+$schemaUrl         = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/baiona/lugares-interes/casco-antiguo";
+$schemaImage       = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/casco-antiguo-baiona.jpg";
 
 $schemaAddress     = [
     "@type"           => "PostalAddress",

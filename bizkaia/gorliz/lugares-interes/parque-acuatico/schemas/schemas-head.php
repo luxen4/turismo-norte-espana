@@ -8,8 +8,8 @@ $longitudeEnd   = -2.93150;
 // Variables para el schema – Parque Acuático Gorliz
 $schemaTitle       = "Parque Acuático de Gorliz";
 $schemaDescription = "El Parque Acuático de Gorliz, en Bizkaia, ofrece diversión para toda la familia con piscinas, toboganes y actividades acuáticas junto a la costa vasca.";
-$schemaUrl         = "https://www.tu-dominio.com/gorliz/lugares-interes/parque-acuatico-gorliz"; 
-$schemaImage       = "https://www.tu-dominio.com/images/parque-acuatico-gorliz.jpg"; 
+$schemaUrl         = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/gorliz/lugares-interes/parque-acuatico-gorliz"; 
+$schemaImage       = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/parque-acuatico-gorliz.jpg"; 
 $schemaAddress     = [
     "@type"           => "PostalAddress",
     "streetAddress"   => "Parque Acuático de Gorliz",
@@ -59,7 +59,7 @@ $schemaAddress     = [
     }
   ],
   "sameAs": [
-    "https://www.tu-dominio.com/gorliz"
+    "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/gorliz"
   ]
 }
 </script>

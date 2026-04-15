@@ -1,8 +1,8 @@
 <?php
 $schemaTitle       = $schemaTitle       ?? "Catedral de Santa María de Baiona";
 $schemaDescription = $schemaDescription ?? "Descubre la Catedral de Santa María de Baiona, un emblemático templo gótico con vistas al casco histórico y al río Nive, en el corazón de la ciudad.";
-$schemaUrl         = $schemaUrl         ?? "https://www.tu-dominio.com/baiona/lugares-interes/catedral-santa-maria";
-$schemaImage       = $schemaImage       ?? "https://www.tu-dominio.com/images/catedral-santa-maria-baiona.jpg";
+$schemaUrl         = $schemaUrl         ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/baiona/lugares-interes/catedral-santa-maria";
+$schemaImage       = $schemaImage       ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/catedral-santa-maria-baiona.jpg";
 
 $schemaAddress     = $schemaAddress ?? [
     "@type"           => "PostalAddress",

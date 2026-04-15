@@ -5,8 +5,8 @@ $longitude = -3.4533;
 // Variables para el schema – Playa de Berria
 $schemaTitle       = "Playa de Berria - Santona";
 $schemaDescription = "Descubre la Playa de Berria en Santona, Cantabria: una extensa playa de más de 2 km de arena fina junto a las marismas del río Asón, ideal para el surf, el baño y el senderismo costero.";
-$schemaUrl         = "https://www.tu-dominio.com/santona/lugares-interes/playa-de-berria"; // Cambia por la URL real
-$schemaImage       = "https://www.tu-dominio.com/images/playa-de-berria-1.jpg";         // Cambia por la URL real de la imagen principal
+$schemaUrl         = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/santona/lugares-interes/playa-de-berria"; // Cambia por la URL real
+$schemaImage       = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/playa-de-berria-1.jpg";         // Cambia por la URL real de la imagen principal
 $schemaAddress     = [
     "@type"           => "PostalAddress",
     "streetAddress"   => "Playa de Berria",

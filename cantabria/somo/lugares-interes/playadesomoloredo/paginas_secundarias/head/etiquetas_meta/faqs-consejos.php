@@ -11,7 +11,7 @@
 <meta name="seobility" content="6fdc72f26c4563f937e32ff3def5f9d5" />
 
 <!-- Open Graph (Facebook / Meta) -->
-<meta property="og:site_name" content="Turismo y Playas 2026 – Guía Costera de España" />
+<meta property="og:site_name" content="Turismo Norte de España – Guía Costera" />
 <meta property="og:locale" content="es_ES" />
 <meta property="og:title" content="Preguntas Frecuentes y Consejos – Playa de Somo-Loredo" />
 <meta property="og:description" content="Todo lo que necesitas saber para disfrutar tu visita: preguntas frecuentes y consejos prácticos sobre la Playa de Somo y Loredo en Cantabria." />

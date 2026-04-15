@@ -8,7 +8,7 @@ $pinterest_property_card_description_content = 'Descubre Capbreton, un municipio
 $pinterest_property_card_image_content       = PATH_RAIZ_LOCALIDADES_CARPETA . '/nueva-aquitania/capbreton/img/puerto-capbreton-1.jpg';
 
 // Twitter Cards
-$twitterCards_card        = 'summary_large_image';
+$twitterCards_card        = SUMARY_LARGE_IMAGE;
 $twitterCards_site        = '@laya_garcia';
 $twitterCards_title       = 'Capbreton – Municipio en Nueva Aquitania';
 $twitterCards_description = 'Explora Capbreton, un pueblo con encanto en la costa atlántica francesa, famoso por su cultura marítima, gastronomía y entorno natural.';

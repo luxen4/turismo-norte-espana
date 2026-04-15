@@ -1,8 +1,8 @@
 <?php
 $schemaTitle = $schemaTitle ?? "Playa de Brazomar - Castro Urdiales";
 $schemaDescription = $schemaDescription ?? "Descubre la Playa de Brazomar en Castro Urdiales, una playa urbana de arena dorada y aguas tranquilas, perfecta para el turismo familiar y actividades acuáticas.";
-$schemaUrl = $schemaUrl ?? "https://www.tu-dominio.com/castro-urdiales/lugares-interes/playa-de-brazomar";
-$schemaImage = $schemaImage ?? "https://www.tu-dominio.com/images/playa-de-brazomar-1.jpg";
+$schemaUrl = $schemaUrl ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/castro-urdiales/lugares-interes/playa-de-brazomar";
+$schemaImage = $schemaImage ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/playa-de-brazomar-1.jpg";
 $schemaAddress = $schemaAddress ?? [
     "@type" => "PostalAddress",
     "streetAddress" => "Paseo Marítimo de Brazomar",

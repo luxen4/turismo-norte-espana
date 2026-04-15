@@ -2,8 +2,8 @@
 // Variables para el schema en el cuerpo (reutilizamos las del head si están definidas)
 $schemaTitle       = $schemaTitle       ?? "Rocher de la Vierge - Biarritz";
 $schemaDescription = $schemaDescription ?? "Descubre el Rocher de la Vierge en Biarritz, un emblemático islote rocoso unido por una pasarela metálica con vistas espectaculares al océano Atlántico.";
-$schemaUrl         = $schemaUrl         ?? "https://www.tu-dominio.com/biarritz/lugares-interes/rocher-de-la-vierge";
-$schemaImage       = $schemaImage       ?? "https://www.tu-dominio.com/images/rocher-de-la-vierge-biarritz.jpg";
+$schemaUrl         = $schemaUrl         ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/biarritz/lugares-interes/rocher-de-la-vierge";
+$schemaImage       = $schemaImage       ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/rocher-de-la-vierge-biarritz.jpg";
 $schemaAddress     = $schemaAddress     ?? [
     "@type"           => "PostalAddress",
     "streetAddress"   => "Rocher de la Vierge",
@@ -56,7 +56,7 @@ $schemaData = [
         ]
     ],
     "sameAs" => [
-        "https://www.tu-dominio.com/biarritz"
+        "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/biarritz"
     ]
 ];
 ?>

@@ -1,92 +1,90 @@
 <?php 
 $header = [
-  "titulo" => "🏄 Surf en la Playa de Bakio",
-  "descripcion" => "Destino surfero por excelencia en Bizkaia, con olas potentes y un entorno natural único"
+  "titulo" => "🏖️ Playa de Ondarraitz en Hendaia",
+  "descripcion" => "Una de las playas más amplias y familiares del País Vasco francés, ideal para el baño y el surf suave"
 ];
 ?>
-<?php /* https://www.yumping.com/surf/bakio-surf-taldea--e3291 */ ?>
+
 <?php
 $intro = [
   "parrafos" => [
-    "La <strong>Playa de Bakio</strong> es uno de los principales destinos para la práctica del surf en el País Vasco, reconocida por sus olas largas y consistentes.",
-    "Su extensión de más de 1 km de arena dorada la convierte en un lugar perfecto tanto para surfistas experimentados como para quienes desean iniciarse.",
-    "En el paseo marítimo se encuentran numerosas <strong>escuelas de surf</strong>, alquiler de material y locales con ambiente surfero.",
-    "Además, la playa ofrece vistas únicas a los acantilados y se encuentra muy cerca de <strong>San Juan de Gaztelugatxe</strong>, lo que la hace ideal para combinar deporte y turismo."
+    "La <strong>Playa de Ondarraitz</strong>, situada en Hendaia (Hendaye), es una de las playas más extensas y seguras del País Vasco francés.",
+    "Con más de 3 km de arena fina, es perfecta para familias, paseos junto al mar y actividades acuáticas.",
+    "Sus aguas relativamente tranquilas la convierten en un lugar ideal tanto para el baño como para iniciarse en el surf.",
+    "Desde la playa se pueden contemplar las espectaculares formaciones rocosas conocidas como <strong>Les Deux Jumeaux</strong>."
   ],
   "imagenes" => [
     [
-      "src" => "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/6b/f7/e0/bakio-surf-rip-curl-eskola.jpg?w=900&h=500&s=1",
-      "alt" => "Surfistas entrando al agua en la Playa de Bakio",
-      "caption" => "Surf en la Playa de Bakio",
-      "fuente" => "https://www.tripadvisor.es/Attraction_Review-g1069106-d12805421-Reviews-Bakio_Surf_Rip_Curl_Eskola-Bakio_Province_of_Vizcaya_Basque_Country.html",
-      "fuente_texto" => "tripadvisor.es"
+      "src" => "https://www.shutterstock.com/image-photo/hendaye-france-june-8-tourists-260nw-788953255.jpg",
+      "alt" => "Playa de Ondarraitz en Hendaia",
+      "caption" => "Vista general de la playa de Hendaia",
+      "fuente" => "https://www.shutterstock.com/es/search/hendaye-beach",
+      "fuente_texto" => "shutterstock.com"
     ],
     [
-      "src" => "https://kobasurfeskola.com/wp-content/uploads/2024/11/DSC07459-copia-1024x683.jpg",
-      "alt" => "Escuela de surf en Bakio con alumnos",
-      "caption" => "Tablas de la ecuela de surf en Bakio",
-      "fuente" => "https://kobasurfeskola.com/",
-      "fuente_texto" => "kobasurfeskola.com"
+      "src" => "https://www.jolaski.com/upload/secciones-publicas/2017/06/30/castillo-de-abbadia-las-gemelas-ruta-barco-jolaski-0x_grande.jpg",
+      "alt" => "Formaciones rocosas Les Deux Jumeaux",
+      "caption" => "Les Deux Jumeaux desde la playa",
+      "fuente" => "https://www.jolaski.com/paseo-en-barco-castillo-de-abadia-y-rocas-gemelas",
+      "fuente_texto" => "jolaski.com"
     ]
   ],
   "video" => [
-    "url" => "https://www.youtube.com/embed/wrtxI2VDoBo", 
-    "titulo" => "Surf en Bakio"
+    "url" => "https://www.youtube.com/embed/sZJtXZrvwlQ",
+    "titulo" => "Playa de Hendaia - Ondarraitz"
   ]
 ];
 ?>
 
-
 <?php
 $galeria_imagenes = [
     [
-        "src" => "https://www.uribe.eu/gestor/recursos/uploads/imagenes/disfruta/playas/uribe-playas-bakio-3.jpg",
-        "alt" => "Surfista en plena ola en Bakio",
-        "caption" => "Olas para todos los niveles",
-        "fuente" => "https://www.uribe.eu/somos-uribe/pueblos/bakio-es",
-        "fuente_texto" => "uribe.eu"
+        "src" => "img/zona-arena-mar-playa-ondarraitz-hendaia-nouvelle-aquitaine.jpg",
+        "alt" => "Panorámica de la playa de Hendaia",
+        "caption" => "Playa amplia y familiar",
+        "fuente" => "hendaye-tourisme.fr",
+        "fuente_texto" => "hendaye-tourisme.fr"
     ],
     [
-        "src" => "https://www.singlequiver.com/enelpico/wp-content/uploads/2021/04/playa-de-bakio-bizkaia.jpg",
-        "alt" => "Panorámica de la Playa de Bakio",
-        "caption" => "Playa de Bakio, paraíso surfero",
-        "fuente" => "https://www.singlequiver.com/enelpico/surf-trip-a-bakio/",
-        "fuente_texto" => "singlequiver.com"
+        "src" => "img/atardecer-playa-ondarraitz-hendaia-nouvelle-aquitaine.jpg",
+        "alt" => "Atardecer en la playa de Hendaia",
+        "caption" => "Atardecer sobre el Atlántico",
+        "fuente" => "wikipedia.org",
+        "fuente_texto" => "wikipedia.org"
     ],
     [
-        "src" => "https://cdn1.yumping.com/emp/fotos/28/E/019722456/960/Al%20atardecer.jpg",
-        "alt" => "Surfistas al atardecer en Bakio",
-        "caption" => "Surf al atardecer en Bakio",
-        "fuente" => "https://www.yumping.com/deportes-acuaticos/lokal-surf-bakio--e19722456?srsltid=AfmBOorbpq3rHVoM_HAMdt7i96Ha_IgEdGiuMwvOVLGcYxzLaV2X_rwx",
-        "fuente_texto" => "yumping.com"
+        "src" => "https://www.surfparaiso.com/wp-content/uploads/surf-en-hendaia-france-file.jpeg",
+        "alt" => "Surf en Hendaia",
+        "caption" => "Ideal para iniciación al surf",
+        "fuente" => "https://www.surfparaiso.com/guia-surf/la-costa-vasca/hendaia/",
+        "fuente_texto" => "surfparaiso.com"
     ]
 ];
 ?>
 
-
 <?php
 $info = [
-  "titulo" => "ℹ️ Información sobre el Surf en Bakio",
+  "titulo" => "ℹ️ Información sobre la Playa de Ondarraitz",
   "items" => [
     [
       "icono" => "📍",
       "titulo" => "Ubicación",
-      "descripcion" => "Bakio - Bizkaia, costa del País Vasco"
+      "descripcion" => "Hendaia (Hendaye), País Vasco francés"
     ],
     [
-      "icono" => "🏄",
-      "titulo" => "Actividad principal",
-      "descripcion" => "Surf durante todo el año, especialmente en otoño e invierno"
+      "icono" => "🏖️",
+      "titulo" => "Tipo de playa",
+      "descripcion" => "Playa extensa de arena fina, ideal para familias"
     ],
     [
       "icono" => "🌊",
-      "titulo" => "Características",
-      "descripcion" => "Playa amplia, olas largas y potentes, apta para todos los niveles"
+      "titulo" => "Oleaje",
+      "descripcion" => "Suave a moderado, perfecto para baño y surf iniciación"
     ],
     [
       "icono" => "⭐",
       "titulo" => "Servicios",
-      "descripcion" => "Escuelas de surf, alquiler de material, duchas y paseo marítimo"
+      "descripcion" => "Vigilancia, duchas, paseo marítimo, escuelas de surf"
     ]
   ]
 ];
@@ -94,69 +92,64 @@ $info = [
 
 <?php 
 $actividades = [
-  "titulo" => "🏄 Actividades en Bakio",
+  "titulo" => "🏖️ Qué hacer en Ondarraitz",
   "items"  => [
-    [ "icono" => "🏄‍♀️", "texto" => "Tomar clases de surf en una de sus escuelas" ],
-    [ "icono" => "🌅", "texto" => "Disfrutar de los atardeceres desde la playa" ],
-    [ "icono" => "🍴", "texto" => "Probar pintxos y gastronomía local en el paseo marítimo" ],
-    [ "icono" => "🚶‍♂️", "texto" => "Pasear hasta el mirador de Gaztelugatxe" ]
+    [ "icono" => "🏊", "texto" => "Bañarse en aguas tranquilas" ],
+    [ "icono" => "🏄", "texto" => "Iniciarse en el surf" ],
+    [ "icono" => "🚶‍♂️", "texto" => "Pasear por sus 3 km de playa" ],
+    [ "icono" => "📸", "texto" => "Fotografiar Les Deux Jumeaux" ]
   ]
 ];
 ?>
 
-
 <?php
-// Configuración del mapa de la Playa de Bakio
 $mapa = [
     "titulo" => "🗺️ Localización",
-    "map_id" => "map-playa-bakio",
-    "centro" => [43.4297, -2.8111],   // Coordenadas aproximadas de Bakio
+    "map_id" => "map-ondarraitz",
+    "centro" => [43.3717, -1.7743],
     "zoom"   => 14,
     "marker" => [
-        "coords" => [43.4297, -2.8111],
-        "popup"  => "<strong>Playa de Bakio - Surf</strong>"
+        "coords" => [43.3717, -1.7743],
+        "popup"  => "<strong>Playa de Ondarraitz</strong>"
     ]
 ];
 ?>
 
-
 <?php
 $contacto = [
-  "titulo"   => "📞 Información de contacto",
+  "titulo"   => "📞 Información",
   "telefono" => [
-    "texto"  => "+34 946 19 91 91", 
-    "enlace" => "tel:+34946199191" // Oficina de Turismo de Bakio
+    "texto"  => "+33 5 59 20 00 34",
+    "enlace" => "tel:+33559200034"
   ],
   "web"      => [
-    "texto" => "www.bakio.org",
-    "url"   => "https://www.bakio.org"
+    "texto" => "www.hendaye-tourisme.fr",
+    "url"   => "https://www.hendaye-tourisme.fr"
   ]
 ];
 ?>
-
 
 <?php
 $comentarios = [
     [
-        "nombre" => "Mikel A.",
-        "texto"  => "Las olas de Bakio son perfectas para mejorar la técnica, muy buen ambiente surfero."
+        "nombre" => "Pierre L.",
+        "texto"  => "Perfecta para familias, muy amplia y segura."
     ],
     [
-        "nombre" => "Laura S.",
-        "texto"  => "Tomé clases de surf aquí y me encantó, profesores muy atentos."
+        "nombre" => "Ane G.",
+        "texto"  => "Ideal para aprender surf, olas suaves."
     ],
     [
-        "nombre" => "Jon I.",
-        "texto"  => "Bakio es mi playa favorita del País Vasco para surfear."
+        "nombre" => "Luis M.",
+        "texto"  => "Las vistas de los Deux Jumeaux son increíbles."
     ],
     [
-        "nombre" => "Andrea G.",
-        "texto"  => "Aunque no surfees, la playa es preciosa y perfecta para pasar el día."
+        "nombre" => "Clara R.",
+        "texto"  => "Una de las mejores playas del País Vasco francés."
     ]
 ];
 ?>
 
-
 <?php  
-$iframeSrc = "https://openweathermap.org/weathermap?basemap=map&cities=true&layer=temperature&lat=43.4297&lon=-2.8111&zoom=10"; 
+$iframeSrc = "https://openweathermap.org/weathermap?basemap=map&cities=true&layer=temperature&lat=43.3717&lon=-1.7743&zoom=10"; 
 ?>

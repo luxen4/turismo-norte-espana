@@ -2,8 +2,8 @@
 // Variables reutilizables para Ermita de San Telmo en Deba
 $schemaTitle        = $schemaTitle        ?? "Ermita de San Telmo - Deba";
 $schemaDescription  = $schemaDescription  ?? "Descubre la Ermita de San Telmo en Deba, Gipuzkoa: un templo emblemático junto a la costa vasca, famoso por sus vistas al Cantábrico y su valor histórico-cultural.";
-$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/deba/lugares-interes/ermita-san-telmo";
-$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/ermita-san-telmo-deba.jpg";
+$schemaUrl          = $schemaUrl          ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/deba/lugares-interes/ermita-san-telmo";
+$schemaImage        = $schemaImage        ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/ermita-san-telmo-deba.jpg";
 $schemaAddress      = $schemaAddress      ?? [
     "@type"           => "PostalAddress",
     "streetAddress"   => "Monte Itziar, s/n",

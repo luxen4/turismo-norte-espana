@@ -8,7 +8,7 @@ $pinterest_property_card_description_content = 'Descubre Plentzia, un encantador
 $pinterest_property_card_image_content       = PATH_RAIZ_LOCALIDADES_CARPETA . '/bizkaia/plentzia/img/puerto-deportivo-plentzia.jpg';
 
 // Variables de configuración para Twitter Cards – Plentzia (municipio)
-$twitterCards_card        = 'summary_large_image';
+$twitterCards_card        = SUMARY_LARGE_IMAGE;
 $twitterCards_site        = '@laya_garcia';
 $twitterCards_title       = 'Plentzia – Municipio en Bizkaia';
 $twitterCards_description = 'Visita Plentzia: un municipio costero de Bizkaia con playa, puerto deportivo, rutas senderistas y un entorno natural único.';

@@ -2,8 +2,8 @@
 // Variables reutilizables para Mirador de Sorginetxe en Deba
 $schemaTitle        = $schemaTitle        ?? "Mirador de Sorginetxe - Deba";
 $schemaDescription  = $schemaDescription  ?? "Descubre el Mirador de Sorginetxe en Deba, Gipuzkoa: un balcón natural con vistas panorámicas a los acantilados y al mar Cantábrico, ideal para el senderismo y la contemplación.";
-$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/deba/lugares-interes/mirador-sorginetxe";
-$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/mirador-sorginetxe-deba.jpg";
+$schemaUrl          = $schemaUrl          ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/deba/lugares-interes/mirador-sorginetxe";
+$schemaImage        = $schemaImage        ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/mirador-sorginetxe-deba.jpg";
 $schemaAddress      = $schemaAddress      ?? [
     "@type"           => "PostalAddress",
     "streetAddress"   => "Barrio Itziar, s/n",

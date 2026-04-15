@@ -8,7 +8,7 @@ $pinterest_property_card_description_content = 'Descubre la Playa de Plentzia en
 $pinterest_property_card_image_content       = PATH_RAIZ_LOCALIDADES_CARPETA . '/bizkaia/playadeplentzia/img/playa-de-plentzia-1.jpg';
 
 // Variables de configuración para Twitter Cards – Playa de Plentzia
-$twitterCards_card        = 'summary_large_image';
+$twitterCards_card        = SUMARY_LARGE_IMAGE;
 $twitterCards_site        = '@laya_garcia';
 $twitterCards_title       = 'Playa de Plentzia – Plentzia (bizkaia)';
 $twitterCards_description = 'Visita la Playa de Plentzia: ideal para familias, baños tranquilos, paseos junto a la ría y relax en una de las playas más accesibles de la costa de Bizkaia.';

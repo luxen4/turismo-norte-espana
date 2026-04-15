@@ -9,7 +9,7 @@ $pinterest_property_card_description_content = 'Descubre Ibarrangelu, un encanta
 $pinterest_property_card_image_content       = PATH_RAIZ_LOCALIDADES_CARPETA . '/ibarrangelu/img/ibarrangelu-principal.jpg';
 
 // Variables de configuración para Twitter Cards – Ibarrangelu
-$twitterCards_card        = 'summary_large_image';
+$twitterCards_card        = SUMARY_LARGE_IMAGE;
 $twitterCards_site        = '@laya_garcia';
 $twitterCards_title       = 'Ibarrangelu – Bizkaia';
 $twitterCards_description = 'Explora Ibarrangelu en Bizkaia: naturaleza, playas vírgenes y tradiciones vascas en un entorno único del País Vasco.';

@@ -2,8 +2,8 @@
 // Variables para el schema
 $schemaTitle = "Plaza del Ayuntamiento - Castro Urdiales";
 $schemaDescription = "Descubre la Plaza del Ayuntamiento en Castro Urdiales, un lugar emblemático en el centro histórico de la ciudad que acoge eventos culturales y ofrece un entorno lleno de historia.";
-$schemaUrl = "https://www.tu-dominio.com/castro-urdiales/lugares-interes/plaza-ayuntamiento"; // Cambia por la URL real
-$schemaImage = "https://www.tu-dominio.com/images/plaza-ayuntamiento-1.jpg"; // Cambia por la URL real de la imagen principal
+$schemaUrl = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/castro-urdiales/lugares-interes/plaza-ayuntamiento"; // Cambia por la URL real
+$schemaImage = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/plaza-ayuntamiento-1.jpg"; // Cambia por la URL real de la imagen principal
 $schemaAddress = [
     "@type" => "PostalAddress",
     "streetAddress" => "Plaza del Ayuntamiento, s/n",

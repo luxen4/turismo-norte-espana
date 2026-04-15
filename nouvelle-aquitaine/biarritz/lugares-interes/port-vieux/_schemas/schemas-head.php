@@ -5,8 +5,8 @@ $longitude = -1.56900;
 // Variables para el schema – Port Vieux (Biarritz)
 $schemaTitle       = "Playa Port Vieux - Biarritz";
 $schemaDescription = "Descubre la Playa Port Vieux en Biarritz: una cala protegida en pleno centro urbano, ideal para el baño tranquilo, el descanso y disfrutar de un entorno familiar junto al Atlántico.";
-$schemaUrl         = "https://www.tu-dominio.com/biarritz/lugares-interes/port-vieux"; // Cambia por la URL real
-$schemaImage       = "https://www.tu-dominio.com/images/port-vieux-biarritz.jpg";      // Cambia por la URL real de la imagen principal
+$schemaUrl         = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/biarritz/lugares-interes/port-vieux"; // Cambia por la URL real
+$schemaImage       = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/port-vieux-biarritz.jpg";      // Cambia por la URL real de la imagen principal
 $schemaAddress     = [
     "@type"           => "PostalAddress",
     "streetAddress"   => "Plage du Port Vieux",
@@ -61,7 +61,7 @@ $schemaAddress     = [
     }
   ],
   "sameAs": [
-    "https://www.tu-dominio.com/biarritz"
+    "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/biarritz"
   ]
 }
 </script>

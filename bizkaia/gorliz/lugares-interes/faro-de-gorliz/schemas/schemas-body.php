@@ -2,8 +2,8 @@
 // Variables principales (defínelas antes de incluir este archivo)
 $schemaTitle       = $schemaTitle       ?? LUGAR . " - " . LOCALIDAD;
 $schemaDescription = $schemaDescription ?? DESCRIPTION;
-$schemaUrl         = $schemaUrl         ?? "https://www.tu-dominio.com/{$LOCALIDAD_MINUSCULA}/lugares-interes/{$LUGAR_MINUSCULA}";
-$schemaImage       = $schemaImage       ?? "https://www.tu-dominio.com/images/{$LUGAR_MINUSCULA}-1.jpg";
+$schemaUrl         = $schemaUrl         ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/{$LOCALIDAD_MINUSCULA}/lugares-interes/{$LUGAR_MINUSCULA}";
+$schemaImage       = $schemaImage       ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/{$LUGAR_MINUSCULA}-1.jpg";
 $schemaAddress     = $schemaAddress     ?? [
     "@type"           => "PostalAddress",
     "streetAddress"   => "Zona " . LUGAR,
@@ -57,7 +57,7 @@ $amenityFeature = $amenityFeature ?? [
   },
   "amenityFeature": <?= json_encode($amenityFeature, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) ?>,
   "sameAs": [
-    "https://www.tu-dominio.com/<?= LOCALIDAD_MINUSCULA ?>"
+    "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/<?= LOCALIDAD_MINUSCULA ?>"
   ]
 }
 </script>

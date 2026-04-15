@@ -2,8 +2,8 @@
 // Variables reutilizables para Playa de Arrietara
 $schemaTitle        = $schemaTitle        ?? "Playa de Arrietara - Sopelana";
 $schemaDescription  = $schemaDescription  ?? "Explora la Playa de Arrietara en Sopelana, Bizkaia: un paraíso para surfistas, rodeado de acantilados y con ambiente joven, a pocos minutos de Bilbao.";
-$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/sopelana/lugares-interes/playa-de-arrietara";
-$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/playa-de-arrietara-1.jpg";
+$schemaUrl          = $schemaUrl          ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/sopelana/lugares-interes/playa-de-arrietara";
+$schemaImage        = $schemaImage        ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/playa-de-arrietara-1.jpg";
 $schemaAddress      = $schemaAddress      ?? [
     "@type"           => "PostalAddress",
     "streetAddress"   => "Arrietara, s/n",
@@ -68,7 +68,7 @@ $schemaAddress      = $schemaAddress      ?? [
     }
   ],
   "sameAs": [
-    "https://www.tu-dominio.com/sopelana"
+    "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/sopelana"
   ]
 }
 </script>

@@ -1,6 +1,6 @@
 <?php
 $nombre_playa             = 'Playa de Ondarraitz';
-$nombre_playa_minuscula   = 'playa-ondarraitz';
+$nombre_playa_minuscula   = 'playa-de-ondarraitz';
 $localidad_minuscula                  = 'playaondarraitz';
 
 $localidad                = 'Hendaia';
@@ -11,6 +11,6 @@ $region_minuscula         = 'nouvelle-aquitaine';
 
 $country                  = 'Francia';
 
-$rutas                    = 'playa-ondarraitz-nouvelle-aquitaine';
+$rutas                    = 'playa-de-ondarraitz-nouvelle-aquitaine';
 $hoy                      = date('Y-m-d');
 ?>

@@ -19,7 +19,7 @@
 <meta property="article:tag" content="surf, playa Laredo, turismo Cantabria" />    
 
 <?php /*<!-- Open Graph (Facebook) -->*/?>
-<meta property="og:site_name" content="Turismo y Playas 2026 – Guía Costera de España" />
+<meta property="og:site_name" content="Turismo Norte de España – Guía Costera" />
 <meta property="og:locale" content="es_ES" />
 
 <?php /*<!-- Open Graph (Facebook / Meta) -->*/?>

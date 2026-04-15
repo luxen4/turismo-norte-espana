@@ -2,8 +2,8 @@
 // Variables para el schema en el cuerpo
 $schemaTitle        = $schemaTitle        ?? "Playa de Marbella - Biarritz";
 $schemaDescription  = $schemaDescription  ?? "Descubre la Playa de Marbella en Biarritz: una playa más tranquila y natural, rodeada de acantilados y perfecta para relajarse junto al Atlántico.";
-$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/biarritz/lugares-interes/plage-marbella";
-$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/plage-marbella.jpg";
+$schemaUrl          = $schemaUrl          ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/biarritz/lugares-interes/plage-marbella";
+$schemaImage        = $schemaImage        ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/plage-marbella.jpg";
 $schemaAddress      = $schemaAddress      ?? [
     "@type"           => "PostalAddress",
     "streetAddress"   => "Plage Marbella",
@@ -58,7 +58,7 @@ $schemaAddress      = $schemaAddress      ?? [
     }
   ],
   "sameAs": [
-    "https://www.tu-dominio.com/biarritz"
+    "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/biarritz"
   ]
 }
 </script>

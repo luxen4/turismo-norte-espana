@@ -1,4 +1,4 @@
-<?php define('LUGAR', 'Turismo y Playas 2026'); ?>
+<?php define('LUGAR', 'Turismo Norte de España'); ?>
 <?php define('LUGAR_MINUSCULA', strtolower(str_replace(' ', '-', LUGAR))) ?>
 <?php define(
     'KEYWORDS_CONTENT', 
@@ -202,8 +202,8 @@ if0_38843592
 PASSWORD
 5HJqjWqYLP4k
 
-http://Playas2026.kesug.com/turismo-norte-espana/
-https: //Playas2026.kesug.com/turismo-norte-espana/
+http://alayag82.kesug.com/turismo-norte-espana/
+https: //alayag82.kesug.com/turismo-norte-espana/
 
 
 

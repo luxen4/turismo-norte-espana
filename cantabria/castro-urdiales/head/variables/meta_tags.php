@@ -11,7 +11,7 @@ $pinterest_property_card_image_content       = PATH_RAIZ_LOCALIDADES_CARPETA . '
 
 <?php
 // Variables de configuración para Twitter Cards – Castro Urdiales
-$twitterCards_card        = 'summary_large_image';
+$twitterCards_card        = SUMARY_LARGE_IMAGE;
 $twitterCards_site        = '@laya_garcia';
 $twitterCards_title       = 'Castro Urdiales – Guía Turística y Playas';
 $twitterCards_description = 'Explora Castro Urdiales: historia, playas (Ostende, Brazomar, El Pedregal), gastronomía y rutas de senderismo en la Costa Cantábrica.';
@@ -40,5 +40,5 @@ $graph_Meta_Tags_property_published_time = '2025-05-10T08:00:00+02:00'; // Fecha
 $graph_Meta_Tags_property_section       = 'Turismo y Playas';
 $graph_Meta_Tags_property_tag           = 'Castro Urdiales';
 $graph_Meta_Tags_property_tag2          = 'Playas Cantabria';
-$graph_Meta_Tags_property_tag3          = 'Turismo Costa Cantábrica';
+$graph_Meta_Tags_property_tag3          = 'Turismo Norte de España';
 ?>

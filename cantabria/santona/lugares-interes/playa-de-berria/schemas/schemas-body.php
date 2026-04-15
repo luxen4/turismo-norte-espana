@@ -2,8 +2,8 @@
 // Variables para el schema en el cuerpo (reutilizamos las del head si están definidas)
 $schemaTitle       = $schemaTitle       ?? "Playa de Berria - Santona";
 $schemaDescription = $schemaDescription ?? "Descubre la Playa de Berria en Santona, Cantabria: más de 2 km de arena fina junto a las marismas del río Asón, ideal para el surf, el baño tranquilo y el senderismo costero.";
-$schemaUrl         = $schemaUrl         ?? "https://www.tu-dominio.com/santona/lugares-interes/playa-de-berria";
-$schemaImage       = $schemaImage       ?? "https://www.tu-dominio.com/images/playa-de-berria-1.jpg";
+$schemaUrl         = $schemaUrl         ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/santona/lugares-interes/playa-de-berria";
+$schemaImage       = $schemaImage       ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/playa-de-berria-1.jpg";
 $schemaAddress     = $schemaAddress     ?? [
     "@type"          => "PostalAddress",
     "streetAddress"  => "Playa de Berria",

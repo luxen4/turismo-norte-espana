@@ -2,8 +2,8 @@
 // Variables reutilizables para Parque Acuático de Gorliz
 $schemaTitle        = $schemaTitle        ?? "Parque Acuático de Gorliz";
 $schemaDescription  = $schemaDescription  ?? "El Parque Acuático de Gorliz, Bizkaia: una instalación de ocio con toboganes, piscinas y actividades acuáticas para toda la familia en plena costa vasca.";
-$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/gorliz/lugares-interes/parque-acuatico-gorliz";
-$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/parque-acuatico-gorliz.jpg";
+$schemaUrl          = $schemaUrl          ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/gorliz/lugares-interes/parque-acuatico-gorliz";
+$schemaImage        = $schemaImage        ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/parque-acuatico-gorliz.jpg";
 $schemaAddress      = $schemaAddress      ?? [
     "@type"           => "PostalAddress",
     "streetAddress"   => "Parque Acuático de Gorliz",
@@ -63,7 +63,7 @@ $schemaAddress      = $schemaAddress      ?? [
     }
   ],
   "sameAs": [
-    "https://www.tu-dominio.com/gorliz"
+    "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/gorliz"
   ]
 }
 </script>

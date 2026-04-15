@@ -2,8 +2,8 @@
 // Variables para el schema en el cuerpo (reutilizamos las del head si están definidas)
 $schemaTitle = $schemaTitle ?? "Playa de Ostende - Castro Urdiales";
 $schemaDescription = $schemaDescription ?? "Explora la Playa de Ostende en Castro Urdiales, una extensa playa de arena dorada y aguas tranquilas, ideal para nadar, practicar deportes acuáticos y disfrutar del paisaje cántabro.";
-$schemaUrl = $schemaUrl ?? "https://www.tu-dominio.com/castro-urdiales/lugares-interes/playa-de-ostende";
-$schemaImage = $schemaImage ?? "https://www.tu-dominio.com/images/playa-de-ostende-1.jpg";
+$schemaUrl = $schemaUrl ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/castro-urdiales/lugares-interes/playa-de-ostende";
+$schemaImage = $schemaImage ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/playa-de-ostende-1.jpg";
 $schemaAddress = $schemaAddress ?? [
     "@type" => "PostalAddress",
     "streetAddress" => "Avenida de la Playa",

@@ -2,8 +2,8 @@
 // Variables para el schema en el cuerpo
 $schemaTitle        = $schemaTitle        ?? "Acantilados de Quejo - Isla, Cantabria";
 $schemaDescription  = $schemaDescription  ?? "Descubre los Acantilados de Quejo en Isla, Cantabria: un entorno natural de acantilados, rutas costeras y vistas espectaculares al mar Cantábrico.";
-$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/isla/lugares-interes/acantilados-de-quejo/";
-$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/acantilados-de-quejo-isla.jpg";
+$schemaUrl          = $schemaUrl          ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/isla/lugares-interes/acantilados-de-quejo/";
+$schemaImage        = $schemaImage        ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/acantilados-de-quejo-isla.jpg";
 
 $schemaAddress      = $schemaAddress      ?? [
     "@type" => "PostalAddress",

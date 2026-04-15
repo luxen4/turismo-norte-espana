@@ -107,13 +107,13 @@
     <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/playa-de-ondarraitz-nouvelle-aquitaine-1.jpg"
          alt="Vista panorámica de la Playa de Ondarraitz en Hendaia"
          class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy">
-    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/zona-arena-mar-playa-ondarraitz-nouvelle-aquitaine.jpg"
+    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/zona-arena-mar-playa-de-ondarraitz-nouvelle-aquitaine.jpg"
          alt="Zona de arena y mar en la Playa de Ondarraitz"
          class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy">
     <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/vegetacion-paseo-maritimo-nouvelle-aquitaine.png"
          alt="Vegetación y paseo marítimo en la Playa de Ondarraitz"
          class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy">
-    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/atardecer-playa-ondarraitz-nouvelle-aquitaine.jpg"
+    <img src="<?php echo PATH_HREF_RAIZ_LOCALIDAD_LUGARES_INTERES_IMG; ?>/atardecer-playa-de-ondarraitz-nouvelle-aquitaine.jpg"
          alt="Atardecer en la Playa de Ondarraitz"
          class="aspect-video object-cover w-full rounded-lg shadow-sm" loading="lazy"> <? /* https://donosticity.org/hendaya-en-lo-que-tu-tierra-te-cuenta/ surf*/ ?>
   </figure>

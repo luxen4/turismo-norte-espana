@@ -1,6 +1,6 @@
 <?php require  $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/url-partes.php"; ?>
 
-<?php require  "./../../data/data-localidad.php"; ?>
+<?php require  "./../../variables-region.php"; ?>
 
 <?php require  "./variables-lugar-interes.php"; ?>
 

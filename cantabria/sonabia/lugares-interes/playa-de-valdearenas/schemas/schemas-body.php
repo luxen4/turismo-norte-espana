@@ -2,8 +2,8 @@
 // Variables para el schema en el cuerpo (reutilizamos las del head si están definidas)
 $schemaTitle        = $schemaTitle        ?? "Playa de Valdearenas - Sonabia";
 $schemaDescription  = $schemaDescription  ?? "Descubre la Playa de Valdearenas en Sonabia, Cantabria: extensa playa de arena fina y dorada, perfecta para pasear, practicar surf y disfrutar del paisaje costero.";
-$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/sonabia/lugares-interes/playa-de-valdearenas";
-$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/playa-de-valdearenas-sonabia-1.jpg";
+$schemaUrl          = $schemaUrl          ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/sonabia/lugares-interes/playa-de-valdearenas";
+$schemaImage        = $schemaImage        ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/playa-de-valdearenas-sonabia-1.jpg";
 $schemaAddress      = $schemaAddress      ?? [
     "@type"         => "PostalAddress",
     "streetAddress" => "Camino de Valdearenas",
@@ -53,7 +53,7 @@ $schemaAddress      = $schemaAddress      ?? [
     }
   ],
   "sameAs": [
-    "https://www.tu-dominio.com/sonabia"
+    "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/sonabia"
   ]
 }
 </script>

@@ -8,7 +8,7 @@ $pinterest_property_card_description_content = 'Descubre el Faro de Gorliz en Bi
 $pinterest_property_card_image_content       = PATH_RAIZ_LOCALIDADES_CARPETA . '/faro-de-gorliz/img/faro-de-gorliz-1.jpg';
 
 // Variables de configuración para Twitter Cards – Faro de Gorliz (Gorliz, Bizkaia)
-$twitterCards_card        = 'summary_large_image';
+$twitterCards_card        = SUMARY_LARGE_IMAGE;
 $twitterCards_site        = '@laya_garcia';
 $twitterCards_title       = 'Faro de Gorliz – Gorliz, Bizkaia';
 $twitterCards_description = 'Explora el Faro de Gorliz: un lugar emblemático de la costa vizcaína con paisajes marinos y entorno natural protegido.';

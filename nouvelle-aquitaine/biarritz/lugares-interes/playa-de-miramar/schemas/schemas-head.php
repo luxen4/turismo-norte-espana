@@ -5,8 +5,8 @@ $longitude = -1.55350;
 // Variables para el schema – Playa de Miramar (Biarritz)
 $schemaTitle       = "Playa de Miramar - Biarritz";
 $schemaDescription = "Descubre la Playa de Miramar en Biarritz: una playa elegante situada entre el centro urbano y el Faro, ideal para el baño, el relax y las vistas al océano Atlántico.";
-$schemaUrl         = "https://www.tu-dominio.com/biarritz/lugares-interes/playa-de-miramar"; // Cambia por la URL real
-$schemaImage       = "https://www.tu-dominio.com/images/playa-de-miramar-biarritz.jpg";      // Cambia por la URL real de la imagen principal
+$schemaUrl         = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/biarritz/lugares-interes/playa-de-miramar"; // Cambia por la URL real
+$schemaImage       = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/playa-de-miramar-biarritz.jpg";      // Cambia por la URL real de la imagen principal
 $schemaAddress     = [
     "@type"           => "PostalAddress",
     "streetAddress"   => "Plage de Miramar",
@@ -61,7 +61,7 @@ $schemaAddress     = [
     }
   ],
   "sameAs": [
-    "https://www.tu-dominio.com/biarritz"
+    "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/biarritz"
   ]
 }
 </script>

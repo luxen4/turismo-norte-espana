@@ -5,8 +5,8 @@ $longitude = -2.9938;
 // Variables para el schema – Playa de Astondoko
 $schemaTitle       = "Playa de Astondoko - Gorliz";
 $schemaDescription = "Explora la Playa de Astondoko en Gorliz, Bizkaia: una playa más salvaje y tranquila, ideal para desconectar y disfrutar de la naturaleza costera.";
-$schemaUrl         = "https://www.tu-dominio.com/gorliz/lugares-interes/playa-de-astondoko"; // Actualiza con la URL real
-$schemaImage       = "https://www.tu-dominio.com/images/playa-de-astondoko-1.jpg";           // Imagen destacada
+$schemaUrl         = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/gorliz/lugares-interes/playa-de-astondoko"; // Actualiza con la URL real
+$schemaImage       = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/playa-de-astondoko-1.jpg";           // Imagen destacada
 $schemaAddress     = [
     "@type"            => "PostalAddress",
     "streetAddress"    => "Zona Astondo, Playa de Astondoko",
@@ -39,7 +39,7 @@ $schemaAddress     = [
     "longitude": <?= $longitude ?>
   },
   "sameAs": [
-    "https://www.tu-dominio.com/gorliz"
+    "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/gorliz"
   ]
 }
 </script>

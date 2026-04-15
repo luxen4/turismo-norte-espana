@@ -5,8 +5,8 @@ $longitude = -2.9932;
 // Variables para el schema – Parque Kortezubi
 $schemaTitle       = "Parque Kortezubi - Sopelana";
 $schemaDescription = "Visita el Parque Kortezubi en Sopelana: un espacio verde con zonas de juegos, áreas de paseo y rincones naturales para toda la familia en la costa de Bizkaia.";
-$schemaUrl         = "https://www.tu-dominio.com/sopelana/lugares-interes/parque-kortezubi";
-$schemaImage       = "https://www.tu-dominio.com/images/parque-kortezubi-1.jpg";
+$schemaUrl         = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/sopelana/lugares-interes/parque-kortezubi";
+$schemaImage       = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/parque-kortezubi-1.jpg";
 $schemaAddress     = [
     "@type"           => "PostalAddress",
     "streetAddress"   => "Parque Kortezubi, s/n",
@@ -39,7 +39,7 @@ $schemaAddress     = [
     "longitude": <?= $longitude ?>
   },
   "sameAs": [
-    "https://www.tu-dominio.com/sopelana"
+    "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/sopelana"
   ]
 }
 </script>

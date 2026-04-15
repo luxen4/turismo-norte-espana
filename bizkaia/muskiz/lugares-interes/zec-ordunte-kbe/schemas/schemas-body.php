@@ -2,8 +2,8 @@
 // Variables reutilizables para ZEC Ordunte KBE (ajusta valores según el lugar)
 $schemaTitle        = $schemaTitle        ?? "ZEC Ordunte KBE";
 $schemaDescription  = $schemaDescription  ?? "Descubre la ZEC Ordunte KBE: un espacio natural protegido entre Bizkaia y Burgos, con gran biodiversidad, rutas de montaña, flora y fauna autóctona.";
-$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/muskiz/lugares-interes/zec-ordunte-kbe";
-$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/zec-ordunte-kbe.jpg";
+$schemaUrl          = $schemaUrl          ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/muskiz/lugares-interes/zec-ordunte-kbe";
+$schemaImage        = $schemaImage        ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/zec-ordunte-kbe.jpg";
 $schemaAddress      = $schemaAddress      ?? [
     "@type"           => "PostalAddress",
     "streetAddress"   => "ZEC Ordunte KBE",
@@ -63,7 +63,7 @@ $schemaAddress      = $schemaAddress      ?? [
     }
   ],
   "sameAs": [
-    "https://www.tu-dominio.com/muskiz"
+    "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/muskiz"
   ]
 }
 </script>

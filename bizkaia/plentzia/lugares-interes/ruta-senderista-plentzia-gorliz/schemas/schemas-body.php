@@ -2,8 +2,8 @@
 // Variables reutilizables para Ruta Senderista Plentzia - Gorliz
 $schemaTitle        = $schemaTitle        ?? "Ruta Senderista Plentzia - Gorliz";
 $schemaDescription  = $schemaDescription  ?? "Disfruta de la Ruta Senderista Plentzia - Gorliz en Bizkaia: sendero costero con playas, acantilados y dunas, ideal para caminatas, naturaleza y fotografía.";
-$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/plentzia/rutas/ruta-plentzia-gorliz";
-$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/ruta-plentzia-gorliz-1.jpg";
+$schemaUrl          = $schemaUrl          ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/plentzia/rutas/ruta-plentzia-gorliz";
+$schemaImage        = $schemaImage        ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/ruta-plentzia-gorliz-1.jpg";
 $schemaAddress      = $schemaAddress      ?? [
     "@type"           => "PostalAddress",
     "addressLocality" => "Plentzia",

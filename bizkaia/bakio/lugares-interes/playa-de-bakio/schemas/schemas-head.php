@@ -5,8 +5,8 @@ $longitude = -2.80750;
 // Variables para el schema – Playa de Bakio
 $schemaTitle       = "Playa de Bakio - Bizkaia";
 $schemaDescription = "Descubre la Playa de Bakio en Bizkaia: una extensa playa del litoral vasco, ideal para surfistas, familias y amantes del paisaje atlántico.";
-$schemaUrl         = "https://www.tu-dominio.com/bakio/lugares-interes/playa-de-bakio"; // Sustituye por tu URL real
-$schemaImage       = "https://www.tu-dominio.com/images/playa-de-bakio-1.jpg";         // Sustituye por la imagen real
+$schemaUrl         = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/bakio/lugares-interes/playa-de-bakio"; // Sustituye por tu URL real
+$schemaImage       = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/playa-de-bakio-1.jpg";         // Sustituye por la imagen real
 $schemaAddress     = [
     "@type"           => "PostalAddress",
     "streetAddress"   => "Bakio Playa, s/n",
@@ -39,7 +39,7 @@ $schemaAddress     = [
     "longitude": <?= $longitude ?>
   },
   "sameAs": [
-    "https://www.tu-dominio.com/bakio"
+    "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/bakio"
   ]
 }
 </script>

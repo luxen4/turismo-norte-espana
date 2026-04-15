@@ -2,8 +2,8 @@
 // Variables para el schema en el cuerpo (reutilizamos las del head si están definidas)
 $schemaTitle        = $schemaTitle        ?? "Iglesia de San Juan Bautista - Saint-Jean-de-Luz";
 $schemaDescription  = $schemaDescription  ?? "Visita la Iglesia de San Juan Bautista en Saint-Jean-de-Luz, un emblemático templo del País Vasco Francés con rica historia y arquitectura tradicional.";
-$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/saint-jean-de-luz/lugares-interes/iglesia-san-juan-bautista";
-$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/iglesia-san-juan-bautista-saint-jean-de-luz.jpg";
+$schemaUrl          = $schemaUrl          ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/saint-jean-de-luz/lugares-interes/iglesia-san-juan-bautista";
+$schemaImage        = $schemaImage        ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/iglesia-san-juan-bautista-saint-jean-de-luz.jpg";
 $schemaAddress      = $schemaAddress      ?? [
     "@type"           => "PostalAddress",
     "streetAddress"   => "Rue Léon Gambetta",
@@ -53,7 +53,7 @@ $schemaAddress      = $schemaAddress      ?? [
     }
   ],
   "sameAs": [
-    "https://www.tu-dominio.com/saint-jean-de-luz"
+    "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/saint-jean-de-luz"
   ]
 }
 </script>

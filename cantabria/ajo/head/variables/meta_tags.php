@@ -8,7 +8,7 @@ $pinterest_property_card_description_content = 'Descubre la Playa de Cuberris en
 $pinterest_property_card_image_content       = PATH_RAIZ_LOCALIDADES_CARPETA . '/cantabria/ajo/img/playa-de-cuberris-1.jpg';
 
 // Twitter Cards
-$twitterCards_card        = 'summary_large_image';
+$twitterCards_card        = SUMARY_LARGE_IMAGE;
 $twitterCards_site        = '@laya_garcia';
 $twitterCards_title       = 'Playa de Cuberris – Ajo, Cantabria';
 $twitterCards_description = 'Explora la Playa de Cuberris en Ajo: una de las playas más hermosas del litoral cántabro, perfecta para deportes acuáticos y relax en un entorno natural.';
@@ -35,7 +35,7 @@ $graph_Meta_Tags_property_published_time = '2025-07-17T08:00:00+02:00'; // Ajust
 $graph_Meta_Tags_property_section      = 'Turismo y Playas';
 $graph_Meta_Tags_property_tag          = 'Cuberris';
 $graph_Meta_Tags_property_tag2         = 'Playas Cantabria';
-$graph_Meta_Tags_property_tag3         = 'Turismo Costa Cantábrica';
+$graph_Meta_Tags_property_tag3         = 'Turismo Norte de España';
 ?>
 
 <?php //echo($graph_Meta_Tags_property_image) ?>

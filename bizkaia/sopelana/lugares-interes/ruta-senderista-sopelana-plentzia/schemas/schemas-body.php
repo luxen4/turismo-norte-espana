@@ -2,8 +2,8 @@
 // Variables reutilizables para Ruta Senderista Sopelana - Plentzia
 $schemaTitle        = $schemaTitle        ?? "Ruta Senderista Sopelana - Plentzia";
 $schemaDescription  = $schemaDescription  ?? "Disfruta de la Ruta Senderista Sopelana - Plentzia en Bizkaia: sendero costero con acantilados, playas y vistas del mar Cantábrico, ideal para caminatas, naturaleza y fotografía.";
-$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/sopelana/rutas/ruta-sopelana-plentzia";
-$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/ruta-sopelana-plentzia-1.jpg";
+$schemaUrl          = $schemaUrl          ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/sopelana/rutas/ruta-sopelana-plentzia";
+$schemaImage        = $schemaImage        ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/ruta-sopelana-plentzia-1.jpg";
 $schemaAddress      = $schemaAddress      ?? [
     "@type"           => "PostalAddress",
     "addressLocality" => "Sopelana",

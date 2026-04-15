@@ -8,7 +8,7 @@ $pinterest_property_card_description_content = 'Descubre Saint-Jean-de-Luz, un p
 $pinterest_property_card_image_content       = PATH_RAIZ_LOCALIDADES_CARPETA . '/nouvelle-aquitaine/saint-jean-de-luz/img/puerto-saint-jean-de-luz-1.jpg';
 
 // Variables de configuración para Twitter Cards – Saint-Jean-de-Luz
-$twitterCards_card        = 'summary_large_image';
+$twitterCards_card        = SUMARY_LARGE_IMAGE;
 $twitterCards_site        = '@laya_garcia';
 $twitterCards_title       = 'Saint-Jean-de-Luz – Municipio en Nouvelle-Aquitaine';
 $twitterCards_description = 'Explora Saint-Jean-de-Luz: un encantador puerto atlántico con tradición pesquera, gastronomía vasca y un centro histórico lleno de vida.';

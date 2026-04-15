@@ -2,8 +2,8 @@
 // Variables reutilizables para Puerto Deportivo de Plentzia
 $schemaTitle        = $schemaTitle        ?? "Puerto Deportivo de Plentzia - Plentzia";
 $schemaDescription  = $schemaDescription  ?? "Descubre el Puerto Deportivo de Plentzia en Bizkaia: paseos por el paseo marítimo, navegación, observación de aves y fotografía de paisajes costeros.";
-$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/plentzia/lugares-interes/puerto-deportivo";
-$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/puerto-plentzia-1.jpg";
+$schemaUrl          = $schemaUrl          ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/plentzia/lugares-interes/puerto-deportivo";
+$schemaImage        = $schemaImage        ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/puerto-plentzia-1.jpg";
 $schemaAddress      = $schemaAddress      ?? [
     "@type"           => "PostalAddress",
     "streetAddress"   => "Puerto Deportivo de Plentzia, s/n",
@@ -63,7 +63,7 @@ $schemaAddress      = $schemaAddress      ?? [
     }
   ],
   "sameAs": [
-    "https://www.tu-dominio.com/plentzia"
+    "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/plentzia"
   ]
 }
 </script>

@@ -2,8 +2,8 @@
 // Variables para el schema
 $schemaTitle        = $schemaTitle        ?? "Mirador del Cabo - Ajo";
 $schemaDescription  = $schemaDescription  ?? "Descubre el Mirador del Cabo en Ajo, Cantabria: un enclave con vistas espectaculares al mar Cantábrico, acantilados y el Faro de Ajo.";
-$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/ajo/lugares-interes/mirador-del-cabo";
-$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/mirador-del-cabo-1.jpg";
+$schemaUrl          = $schemaUrl          ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/ajo/lugares-interes/mirador-del-cabo";
+$schemaImage        = $schemaImage        ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/mirador-del-cabo-1.jpg";
 $schemaAddress      = $schemaAddress      ?? [
     "@type"            => "PostalAddress",
     "streetAddress"    => "Mirador del Cabo",

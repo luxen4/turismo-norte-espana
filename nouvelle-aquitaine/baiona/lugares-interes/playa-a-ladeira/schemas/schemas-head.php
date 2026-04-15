@@ -5,8 +5,8 @@ $longitude = -8.8540;
 // Variables para el schema – Playa de A Ladeira (Baiona)
 $schemaTitle       = "Playa de A Ladeira - Baiona";
 $schemaDescription = "Descubre la Playa de A Ladeira en Baiona, Galicia, España: una playa tranquila ideal para familias, baños y paseos en un entorno natural gallego.";
-$schemaUrl         = "https://www.tu-dominio.com/baiona/lugares-interes/playas/a-ladeira";
-$schemaImage       = "https://www.tu-dominio.com/images/a-ladeira-baiona.jpg";
+$schemaUrl         = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/baiona/lugares-interes/playas/a-ladeira";
+$schemaImage       = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/a-ladeira-baiona.jpg";
 $schemaAddress     = [
     "@type"         => "PostalAddress",
     "streetAddress" => "Playa de A Ladeira",

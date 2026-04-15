@@ -2,8 +2,8 @@
 // Variables para el schema en el cuerpo
 $schemaTitle        = $schemaTitle        ?? "Faro de Biarritz";
 $schemaDescription  = $schemaDescription  ?? "Descubre el Faro de Biarritz en la Pointe Saint-Martin: un mirador histórico con vistas panorámicas espectaculares del Atlántico y la costa vasco-francesa.";
-$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/biarritz/lugares-interes/faro-de-biarritz";
-$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/faro-de-biarritz.jpg";
+$schemaUrl          = $schemaUrl          ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/biarritz/lugares-interes/faro-de-biarritz";
+$schemaImage        = $schemaImage        ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/faro-de-biarritz.jpg";
 $schemaAddress      = $schemaAddress      ?? [
     "@type"           => "PostalAddress",
     "streetAddress"   => "Pointe Saint-Martin",
@@ -58,7 +58,7 @@ $schemaAddress      = $schemaAddress      ?? [
     }
   ],
   "sameAs": [
-    "https://www.tu-dominio.com/biarritz"
+    "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/biarritz"
   ]
 }
 </script>

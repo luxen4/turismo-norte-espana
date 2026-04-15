@@ -2,8 +2,8 @@
 // Variables para el schema en el cuerpo (reutilizamos las del head si están definidas)
 $schemaTitle        = $schemaTitle        ?? "Playa de Antuerta - Ajo";
 $schemaDescription  = $schemaDescription  ?? "Descubre la Playa de Antuerta en Ajo, Cantabria: una playa natural y tranquila, perfecta para los amantes de la naturaleza y el senderismo costero.";
-$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/ajo/lugares-interes/playa-de-antuerta";
-$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/playa-de-antuerta-1.jpg";
+$schemaUrl          = $schemaUrl          ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/ajo/lugares-interes/playa-de-antuerta";
+$schemaImage        = $schemaImage        ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/playa-de-antuerta-1.jpg";
 $schemaAddress      = $schemaAddress      ?? [
     "@type"         => "PostalAddress",
     "streetAddress" => "Playa de Antuerta",

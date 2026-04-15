@@ -8,7 +8,7 @@ $pinterest_property_card_description_content = 'Descubre Bakio en Cantabria, un 
 $pinterest_property_card_image_content       = PATH_RAIZ_LOCALIDADES_CARPETA . '/bakio/img/bakio-1.jpg';
 
 // Variables de configuración para Twitter Cards – Bakio (Cantabria)
-$twitterCards_card        = 'summary_large_image';
+$twitterCards_card        = SUMARY_LARGE_IMAGE;
 $twitterCards_site        = '@laya_garcia';
 $twitterCards_title       = 'Bakio – Cantabria';
 $twitterCards_description = 'Explora Bakio en Cantabria: un municipio con historia, naturaleza y tradiciones de la costa norte española.';

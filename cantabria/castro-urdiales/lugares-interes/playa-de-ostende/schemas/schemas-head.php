@@ -4,8 +4,8 @@
 // Variables para el schema
 $schemaTitle = "Playa de Ostende - Castro Urdiales";
 $schemaDescription = "Explora la Playa de Ostende en Castro Urdiales, una extensa playa de arena dorada y aguas tranquilas, ideal para nadar, practicar deportes acuáticos y disfrutar del paisaje cántabro.";
-$schemaUrl = "https://www.tu-dominio.com/castro-urdiales/lugares-interes/playa-de-ostende"; // Cambia por la URL real
-$schemaImage = "https://www.tu-dominio.com/images/playa-de-ostende-1.jpg"; // Cambia por la URL real de la imagen principal
+$schemaUrl = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/castro-urdiales/lugares-interes/playa-de-ostende"; // Cambia por la URL real
+$schemaImage = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/playa-de-ostende-1.jpg"; // Cambia por la URL real de la imagen principal
 $schemaAddress = [
     "@type" => "PostalAddress",
     "streetAddress" => "Avenida de la Playa",

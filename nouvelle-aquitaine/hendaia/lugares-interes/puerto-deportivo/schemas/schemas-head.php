@@ -2,8 +2,8 @@
 // Variables para el schema en el head
 $schemaTitle       = $schemaTitle       ?? "Puerto Deportivo de Hendaya – Ocio y Náutica en la Costa Atlántica";
 $schemaDescription = $schemaDescription ?? "Descubre el Puerto Deportivo de Hendaya en Francia: amarre para embarcaciones, actividades náuticas, restaurantes y zonas de paseo con vistas al mar Cantábrico.";
-$schemaUrl         = $schemaUrl         ?? "https://www.tu-dominio.com/hendaya/lugares-interes/puerto-deportivo";
-$schemaImage       = $schemaImage       ?? "https://www.tu-dominio.com/images/puerto-hendaya.jpg";
+$schemaUrl         = $schemaUrl         ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/hendaya/lugares-interes/puerto-deportivo";
+$schemaImage       = $schemaImage       ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/puerto-hendaya.jpg";
 $schemaAddress     = $schemaAddress     ?? [
     "@type"           => "PostalAddress",
     "streetAddress"   => "Quai de la Marina, s/n",

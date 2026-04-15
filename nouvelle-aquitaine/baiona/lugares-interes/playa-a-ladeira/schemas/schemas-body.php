@@ -2,8 +2,8 @@
 // Variables para el schema (reutiliza las del <head> si están definidas)
 $schemaTitle        = $schemaTitle        ?? "Playa de A Ladeira - Baiona";
 $schemaDescription  = $schemaDescription  ?? "Descubre la Playa de A Ladeira en Baiona, Galicia, España: una playa tranquila ideal para familias, baños y paseos en la naturaleza gallega.";
-$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/baiona/lugares-interes/playa-de-a-ladeira";
-$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/a-ladeira-baiona.jpg";
+$schemaUrl          = $schemaUrl          ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/baiona/lugares-interes/playa-de-a-ladeira";
+$schemaImage        = $schemaImage        ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/a-ladeira-baiona.jpg";
 
 $schemaAddress      = $schemaAddress ?? [
     "@type"           => "PostalAddress",

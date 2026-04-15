@@ -35,7 +35,7 @@
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://playas2024.kesug.com/turismo-norte-espana/actividades-playa-de-biarritz-francia" />
   <meta property="og:image:alt" content="Vista de la Playa de Biarritz, destino ideal para surf y turismo costero en Francia" />
-  <meta property="og:site_name" content="Turismo y Playas 2026 – Guía Costera de España" />
+  <meta property="og:site_name" content="Turismo Norte de España – Guía Costera" />
   <meta property="og:locale" content="es_ES" />
 
   <!-- Adcash (opcional) -->

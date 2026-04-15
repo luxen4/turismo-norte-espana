@@ -2,8 +2,8 @@
 // Variables reutilizables para Playa de Santiago de Deba en Deba
 $schemaTitle        = $schemaTitle        ?? "Playa de Santiago de Deba - Deba";
 $schemaDescription  = $schemaDescription  ?? "Descubre la Playa de Santiago de Deba en Deba, País Vasco: una playa de arena fina con oleaje moderado, perfecta para el baño, paseos y disfrutar de la naturaleza costera.";
-$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/deba/lugares-interes/playa-de-santiago-deba";
-$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/playa-de-santiago-deba-1.jpg";
+$schemaUrl          = $schemaUrl          ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/deba/lugares-interes/playa-de-santiago-deba";
+$schemaImage        = $schemaImage        ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/playa-de-santiago-deba-1.jpg";
 $schemaAddress      = $schemaAddress      ?? [
     "@type"           => "PostalAddress",
     "streetAddress"   => "Paseo de Santiago, s/n",
@@ -58,7 +58,7 @@ $schemaAddress      = $schemaAddress      ?? [
     }
   ],
   "sameAs": [
-    "https://www.tu-dominio.com/deba"
+    "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/deba"
   ]
 }
 </script>

@@ -5,8 +5,8 @@ $longitude = -1.3683;
 // Variables para el schema
 $schemaTitle       = "Plage Centrale - Capbreton";
 $schemaDescription = "Descubre la Plage Centrale en Capbreton, Nouvelle-Aquitaine, Francia: una playa ideal para surfistas, paseos marítimos y disfrutar del encanto de la costa atlántica francesa.";
-$schemaUrl         = "https://www.tu-dominio.com/capbreton/lugares-interes/playas/plage-centrale";
-$schemaImage       = "https://www.tu-dominio.com/images/plage-centrale-capbreton.jpg";
+$schemaUrl         = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/capbreton/lugares-interes/playas/plage-centrale";
+$schemaImage       = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/plage-centrale-capbreton.jpg";
 $schemaAddress     = [
     "@type"           => "PostalAddress",
     "streetAddress"   => "Plage Centrale",

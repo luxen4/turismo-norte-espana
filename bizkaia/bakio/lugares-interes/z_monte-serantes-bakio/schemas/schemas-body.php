@@ -2,8 +2,8 @@
 // Variables para el schema en el cuerpo (reutilizamos las del head si están definidas)
 $schemaTitle        = $schemaTitle        ?? "Monte Serantes - Bakio";
 $schemaDescription  = $schemaDescription  ?? "Explora el Monte Serantes en Bakio, Bizkaia: un enclave natural perfecto para el senderismo, con vistas panorámicas del mar Cantábrico y la costa vasca.";
-$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/bakio/lugares-interes/monte-serantes";
-$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/monte-serantes-bakio.jpg";
+$schemaUrl          = $schemaUrl          ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/bakio/lugares-interes/monte-serantes";
+$schemaImage        = $schemaImage        ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/monte-serantes-bakio.jpg";
 $schemaAddress      = $schemaAddress      ?? [
     "@type"           => "PostalAddress",
     "streetAddress"   => "Monte Serantes",

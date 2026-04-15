@@ -5,8 +5,8 @@ $longitude = -2.9962;
 // Variables para el schema – Playa de Gorliz
 $schemaTitle       = "Playa de Gorliz - Gorliz";
 $schemaDescription = "Descubre la Playa de Gorliz en Gorliz, bizkaia: una amplia playa de arena fina ideal para familias, surfistas y amantes de la naturaleza costera.";
-$schemaUrl         = "https://www.tu-dominio.com/gorliz/lugares-interes/playa-de-gorliz"; // Cambia por la URL real
-$schemaImage       = "https://www.tu-dominio.com/images/playa-de-gorliz-1.jpg";          // Cambia por la URL real de la imagen principal
+$schemaUrl         = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/gorliz/lugares-interes/playa-de-gorliz"; // Cambia por la URL real
+$schemaImage       = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/playa-de-gorliz-1.jpg";          // Cambia por la URL real de la imagen principal
 $schemaAddress     = [
     "@type"            => "PostalAddress",
     "streetAddress"    => "Paseo Marítimo, Playa de Gorliz",
@@ -39,7 +39,7 @@ $schemaAddress     = [
     "longitude": <?= $longitude ?>
   },
   "sameAs": [
-    "https://www.tu-dominio.com/gorliz"
+    "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/gorliz"
   ]
 }
 </script>

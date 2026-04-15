@@ -8,7 +8,7 @@ $pinterest_property_card_description_content = 'Descubre la Playa de Santiago de
 $pinterest_property_card_image_content       = PATH_RAIZ_LOCALIDADES_CARPETA . '/pais-vasco/deba/playa-de-santiago-deba/img/playa-de-santiago-deba-1.jpg';
 
 // Variables de configuración para Twitter Cards – Santiago de Deba
-$twitterCards_card        = 'summary_large_image';
+$twitterCards_card        = SUMARY_LARGE_IMAGE;
 $twitterCards_site        = '@laya_garcia';
 $twitterCards_title       = 'Playa de Santiago de Deba – País Vasco';
 $twitterCards_description = 'Explora la Playa de Santiago de Deba en Deba: arena fina, entorno natural protegido y oleaje tranquilo perfecto para el baño y paseos relajantes.';

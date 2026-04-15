@@ -8,7 +8,7 @@ $pinterest_property_card_description_content = 'Descubre la Playa de Gorliz en b
 $pinterest_property_card_image_content       = PATH_RAIZ_LOCALIDADES_CARPETA . '/pais-vasco/playadegorliz/img/playa-de-gorliz-1.jpg';
 
 // Variables de configuración para Twitter Cards – Playa de Gorliz
-$twitterCards_card        = 'summary_large_image';
+$twitterCards_card        = SUMARY_LARGE_IMAGE;
 $twitterCards_site        = '@laya_garcia';
 $twitterCards_title       = 'Playa de Gorliz – Gorliz (bizkaia)';
 $twitterCards_description = 'Explora la Playa de Gorliz: un arenal natural en la costa vasca, perfecto para disfrutar del mar, el sol y actividades al aire libre.';

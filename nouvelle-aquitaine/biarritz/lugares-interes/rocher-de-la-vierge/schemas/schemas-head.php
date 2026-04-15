@@ -5,8 +5,8 @@ $longitude = -1.56460;
 // Variables para el schema – Rocher de la Vierge (Biarritz)
 $schemaTitle       = "Rocher de la Vierge - Biarritz";
 $schemaDescription = "Descubre el Rocher de la Vierge en Biarritz, un icónico islote rocoso unido por una pasarela metálica, con vistas espectaculares al océano Atlántico.";
-$schemaUrl         = "https://www.tu-dominio.com/biarritz/lugares-interes/rocher-de-la-vierge";
-$schemaImage       = "https://www.tu-dominio.com/images/rocher-de-la-vierge-biarritz.jpg";
+$schemaUrl         = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/biarritz/lugares-interes/rocher-de-la-vierge";
+$schemaImage       = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/rocher-de-la-vierge-biarritz.jpg";
 $schemaAddress     = [
     "@type"           => "PostalAddress",
     "streetAddress"   => "Rocher de la Vierge",
@@ -52,7 +52,7 @@ $schemaData = [
         ]
     ],
     "sameAs" => [
-        "https://www.tu-dominio.com/biarritz"
+        "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/biarritz"
     ]
 ];
 ?>

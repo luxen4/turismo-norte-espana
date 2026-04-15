@@ -8,8 +8,8 @@ $longitudeEnd   = -2.9380;
 
 $schemaTitle       = $schemaTitle       ?? "Ruta Senderista Gorliz – Armintza";
 $schemaDescription = $schemaDescription ?? "Disfruta de la Ruta Senderista Gorliz – Armintza: recorrido costero panorámico, ideal para caminar, observar aves, flora autóctona y disfrutar de la naturaleza de Bizkaia.";
-$schemaUrl         = $schemaUrl         ?? "https://www.tu-dominio.com/gorliz/lugares-interes/ruta-senderista-gorliz-armintza";
-$schemaImage       = $schemaImage       ?? "https://www.tu-dominio.com/images/ruta-gorliz-armintza.jpg";
+$schemaUrl         = $schemaUrl         ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/gorliz/lugares-interes/ruta-senderista-gorliz-armintza";
+$schemaImage       = $schemaImage       ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/ruta-gorliz-armintza.jpg";
 ?>
 
 <script type="application/ld+json">
@@ -58,7 +58,7 @@ $schemaImage       = $schemaImage       ?? "https://www.tu-dominio.com/images/ru
     }
   ],
   "sameAs": [
-    "https://www.tu-dominio.com/gorliz"
+    "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/gorliz"
   ]
 }
 </script>

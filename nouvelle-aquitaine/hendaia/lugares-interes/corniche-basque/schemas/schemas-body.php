@@ -2,8 +2,8 @@
 // Variables para el schema en el body
 $schemaTitle       = "Corniche Basque – Paseos y Vistas en Hendaia";
 $schemaDescription = "La Corniche Basque en Hendaia es un paseo costero con impresionantes vistas al mar Cantábrico, acantilados y la costa vasca-francesa. Ideal para caminar, hacer deporte o disfrutar de la naturaleza.";
-$schemaUrl         = "https://www.tu-dominio.com/hendaya/lugares-interes/corniche-basque";
-$schemaImage       = "https://www.tu-dominio.com/images/corniche-basque-hendaya.jpg";
+$schemaUrl         = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/hendaya/lugares-interes/corniche-basque";
+$schemaImage       = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/corniche-basque-hendaya.jpg";
 $schemaAddress     = [
     "@type"           => "PostalAddress",
     "streetAddress"   => "Corniche Basque, s/n",

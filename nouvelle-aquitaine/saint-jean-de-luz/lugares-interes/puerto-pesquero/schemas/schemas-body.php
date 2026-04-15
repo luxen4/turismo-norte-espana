@@ -2,8 +2,8 @@
 // Variables para el schema en el cuerpo (reutilizamos las del head si están definidas)
 $schemaTitle        = $schemaTitle        ?? "Puerto Pesquero - Saint-Jean-de-Luz";
 $schemaDescription  = $schemaDescription  ?? "Descubre el Puerto Pesquero de Saint-Jean-de-Luz, un lugar con tradición marinera, barcos coloridos, gastronomía local y vistas al mar en el corazón del País Vasco Francés.";
-$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/saint-jean-de-luz/lugares-interes/puerto-pesquero";
-$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/puerto-pesquero-saint-jean-de-luz.jpg";
+$schemaUrl          = $schemaUrl          ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/saint-jean-de-luz/lugares-interes/puerto-pesquero";
+$schemaImage        = $schemaImage        ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/puerto-pesquero-saint-jean-de-luz.jpg";
 $schemaAddress      = $schemaAddress      ?? [
     "@type"           => "PostalAddress",
     "streetAddress"   => "Quai de l'Infante",
@@ -53,7 +53,7 @@ $schemaAddress      = $schemaAddress      ?? [
     }
   ],
   "sameAs": [
-    "https://www.tu-dominio.com/saint-jean-de-luz"
+    "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/saint-jean-de-luz"
   ]
 }
 </script>

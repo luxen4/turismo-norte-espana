@@ -8,7 +8,7 @@ $pinterest_property_card_description_content = 'Descubre la Playa de Arrietara e
 $pinterest_property_card_image_content       = PATH_RAIZ_LOCALIDADES_CARPETA . '/sopelana/playa-de-arrietara/img/playa-de-arrietara-1.jpg';
 
 // Variables de configuración para Twitter Cards – Arrietara
-$twitterCards_card        = 'summary_large_image';
+$twitterCards_card        = SUMARY_LARGE_IMAGE;
 $twitterCards_site        = '@laya_garcia';
 $twitterCards_title       = 'Playa de Arrietara – Bizkaia';
 $twitterCards_description = 'Explora la Playa de Arrietara en Sopelana: ideal para surfistas y amantes de la naturaleza, con buen acceso, servicios y un entorno espectacular.';

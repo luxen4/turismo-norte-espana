@@ -5,8 +5,8 @@ $longitude = -1.56600;
 // Variables para el schema – Faro de Biarritz
 $schemaTitle       = "Faro de Biarritz";
 $schemaDescription = "Descubre el Faro de Biarritz en la Pointe Saint-Martin: un emblemático faro histórico con vistas panorámicas impresionantes del océano Atlántico y la costa vasco-francesa.";
-$schemaUrl         = "https://www.tu-dominio.com/biarritz/lugares-interes/faro-de-biarritz"; // Cambia por la URL real
-$schemaImage       = "https://www.tu-dominio.com/images/faro-de-biarritz.jpg";              // Cambia por la URL real de la imagen principal
+$schemaUrl         = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/biarritz/lugares-interes/faro-de-biarritz"; // Cambia por la URL real
+$schemaImage       = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/faro-de-biarritz.jpg";              // Cambia por la URL real de la imagen principal
 $schemaAddress     = [
     "@type"           => "PostalAddress",
     "streetAddress"   => "Pointe Saint-Martin",
@@ -61,7 +61,7 @@ $schemaAddress     = [
     }
   ],
   "sameAs": [
-    "https://www.tu-dominio.com/biarritz"
+    "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/biarritz"
   ]
 }
 </script>

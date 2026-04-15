@@ -2,8 +2,8 @@
 // Variables reutilizables para Plage Centrale de Capbreton
 $schemaTitle        = $schemaTitle        ?? "Plage Centrale - Capbreton";
 $schemaDescription  = $schemaDescription  ?? "Descubre la Plage Centrale en Capbreton, Landes: una playa urbana ideal para surfistas, familias y amantes del ambiente costero.";
-$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/capbreton/lugares-interes/plage-centrale";
-$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/plage-centrale-capbreton.jpg";
+$schemaUrl          = $schemaUrl          ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/capbreton/lugares-interes/plage-centrale";
+$schemaImage        = $schemaImage        ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/plage-centrale-capbreton.jpg";
 $schemaAddress      = $schemaAddress      ?? [
     "@type"           => "PostalAddress",
     "streetAddress"   => "Plage Centrale",

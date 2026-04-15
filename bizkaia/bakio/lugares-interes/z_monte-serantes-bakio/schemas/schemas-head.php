@@ -5,8 +5,8 @@ $longitude = -3.06140;
 // Variables para el schema – Monte Serantes en Bakio
 $schemaTitle       = "Monte Serantes - Bakio";
 $schemaDescription = "Explora el Monte Serantes en Bakio, Bizkaia: una cima emblemática con rutas de senderismo, vistas panorámicas de la costa vasca y un entorno natural único.";
-$schemaUrl         = "https://www.tu-dominio.com/bakio/lugares-interes/monte-serantes"; // Cambia por la URL real
-$schemaImage       = "https://www.tu-dominio.com/images/monte-serantes-bakio.jpg";      // Cambia por la URL real de la imagen principal
+$schemaUrl         = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/bakio/lugares-interes/monte-serantes"; // Cambia por la URL real
+$schemaImage       = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/monte-serantes-bakio.jpg";      // Cambia por la URL real de la imagen principal
 $schemaAddress     = [
     "@type"           => "PostalAddress",
     "streetAddress"   => "Monte Serantes",

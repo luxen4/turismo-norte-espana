@@ -5,8 +5,8 @@ $longitude = -1.4748;
 // Variables para el schema – Museo Vasco de la Historia de Baiona
 $schemaTitle       = $schemaTitle       ?? "Museo Vasco de la Historia de Baiona";
 $schemaDescription = $schemaDescription ?? "Descubre el Museo Vasco de la Historia de Baiona, un espacio cultural dedicado a la historia, tradiciones y patrimonio del País Vasco francés.";
-$schemaUrl         = $schemaUrl         ?? "https://www.tu-dominio.com/baiona/lugares-interes/museo-vasco-historia";
-$schemaImage       = $schemaImage       ?? "https://www.tu-dominio.com/images/museo-vasco-baiona.jpg";
+$schemaUrl         = $schemaUrl         ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/baiona/lugares-interes/museo-vasco-historia";
+$schemaImage       = $schemaImage       ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/museo-vasco-baiona.jpg";
 
 $schemaAddress     = $schemaAddress ?? [
     "@type"           => "PostalAddress",

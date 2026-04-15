@@ -2,8 +2,8 @@
 // Variables para el schema (reutiliza las del <head> si están definidas)
 $schemaTitle        = $schemaTitle        ?? "Playa de Ondarraitz - Hendaia";
 $schemaDescription  = $schemaDescription  ?? "Descubre la Playa de Ondarraitz en Hendaia, Nouvelle-Aquitaine, Francia: un lugar ideal para surf, naturaleza y tranquilidad en la costa vasco-francesa.";
-$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/hendaia/lugares-interes/playas/ondarraitz";
-$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/ondarraitz.jpg";
+$schemaUrl          = $schemaUrl          ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/hendaia/lugares-interes/playas/ondarraitz";
+$schemaImage        = $schemaImage        ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/ondarraitz.jpg";
 $schemaAddress      = $schemaAddress      ?? [
     "@type"         => "PostalAddress",
     "streetAddress" => "Playa de Ondarraitz",
@@ -12,7 +12,7 @@ $schemaAddress      = $schemaAddress      ?? [
     "postalCode"      => "64700",
     "addressCountry"  => "FR"
 ];
-?>
+?>https://alayag82.kesug.com/turismo-norte-espana/nouvelle-aquitaine/capbreton/lugares-interes/plage-centrale/
 
 <script type="application/ld+json">
 {
@@ -33,8 +33,8 @@ $schemaAddress      = $schemaAddress      ?? [
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": 43.3700,
-    "longitude": -1.7977
+    "latitude": "<?= $latitude; ?>",
+    "longitude": "<?= $longitude; ?>"
   },
   "amenityFeature": [
     { "@type": "LocationFeatureSpecification", "name": "Acceso peatonal", "value": true },

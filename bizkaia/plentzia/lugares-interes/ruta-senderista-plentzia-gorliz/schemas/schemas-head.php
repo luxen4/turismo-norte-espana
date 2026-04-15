@@ -8,8 +8,8 @@ $longitudeEnd   = -2.9830;
 // Variables para el schema – Ruta Senderista Plentzia-Gorliz
 $schemaTitle       = "Ruta Senderista Plentzia - Gorliz";
 $schemaDescription = "Ruta costera entre Plentzia y Gorliz: senderismo junto a playas, acantilados y dunas, con vistas panorámicas del mar Cantábrico, ideal para turismo activo en Bizkaia.";
-$schemaUrl         = "https://www.tu-dominio.com/plentzia/rutas/ruta-plentzia-gorliz";
-$schemaImage       = "https://www.tu-dominio.com/images/ruta-plentzia-gorliz-1.jpg";
+$schemaUrl         = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/plentzia/rutas/ruta-plentzia-gorliz";
+$schemaImage       = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/ruta-plentzia-gorliz-1.jpg";
 $schemaAddress     = [
     "@type"           => "PostalAddress",
     "addressLocality" => "Plentzia",

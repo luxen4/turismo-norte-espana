@@ -2,8 +2,8 @@
 // Variables para el schema en el cuerpo (reutilizamos las del head si están definidas)
 $schemaTitle        = $schemaTitle        ?? "Puerto Pesquero - Capbreton";
 $schemaDescription  = $schemaDescription  ?? "Descubre el Puerto Pesquero de Capbreton en Nouvelle-Aquitaine, Francia: un histórico puerto atlántico con tradición marinera, mercado de pescado fresco y ambiente pintoresco.";
-$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/capbreton/lugares-interes/puerto-pesquero";
-$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/puerto-pesquero-capbreton.jpg";
+$schemaUrl          = $schemaUrl          ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/capbreton/lugares-interes/puerto-pesquero";
+$schemaImage        = $schemaImage        ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/puerto-pesquero-capbreton.jpg";
 $schemaAddress      = $schemaAddress      ?? [
     "@type"         => "PostalAddress",
     "streetAddress" => "Quai de la Pêcherie",
@@ -58,7 +58,7 @@ $schemaAddress      = $schemaAddress      ?? [
     }
   ],
   "sameAs": [
-    "https://www.tu-dominio.com/capbreton"
+    "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/capbreton"
   ]
 }
 </script>

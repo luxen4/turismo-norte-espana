@@ -18,7 +18,7 @@
 <meta property="article:tag" content="surf, playa Hendaya, turismo País Vasco Francés" />    
 
 <?php /*<!-- Open Graph (Facebook) -->*/ ?>
-<meta property="og:site_name" content="Turismo y Playas 2026 – Guía Costera de España y Francia" />
+<meta property="og:site_name" content="Turismo Norte de España – Guía Costera de España y Francia" />
 <meta property="og:locale" content="fr_FR" />
 
 <?php /*<!-- Open Graph (Facebook / Meta) -->*/ ?>

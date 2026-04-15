@@ -7,8 +7,8 @@ $longitudeEnd   = -2.2680;
 // Variables para el schema – Ruta Senderista Deba – Zumaia
 $schemaTitle       = "Ruta Senderista Deba – Zumaia";
 $schemaDescription = "Disfruta de la Ruta Senderista Deba – Zumaia: un recorrido costero por el Geoparque de la Costa Vasca con vistas a los acantilados y formaciones de Flysch, ideal para senderismo y fotografía de paisajes.";
-$schemaUrl         = "https://www.tu-dominio.com/deba/rutas/ruta-deba-zumaia";
-$schemaImage       = "https://www.tu-dominio.com/images/ruta-deba-zumaia-1.jpg";
+$schemaUrl         = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/deba/rutas/ruta-deba-zumaia";
+$schemaImage       = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/ruta-deba-zumaia-1.jpg";
 $schemaAddress     = [
     "@type"           => "PostalAddress",
     "streetAddress"   => "Paseo de la Playa, s/n",

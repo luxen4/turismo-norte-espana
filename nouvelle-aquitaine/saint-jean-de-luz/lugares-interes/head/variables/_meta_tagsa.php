@@ -8,7 +8,7 @@ $pinterest_property_card_description_content = 'Descubre Saint-Jean-de-Luz, un e
 $pinterest_property_card_image_content       = PATH_RAIZ_LOCALIDADES_CARPETA . '/saint-jean-de-luz/img/saint-jean-de-luz-1.jpg';
 
 // Variables de configuración para Twitter Cards – Saint-Jean-de-Luz (Nouvelle-Aquitaine)
-$twitterCards_card        = 'summary_large_image';
+$twitterCards_card        = SUMARY_LARGE_IMAGE;
 $twitterCards_site        = '@laya_garcia';
 $twitterCards_title       = 'Saint-Jean-de-Luz – Nouvelle-Aquitaine';
 $twitterCards_description = 'Explora Saint-Jean-de-Luz en Francia: un pintoresco pueblo costero con historia marinera, playas doradas y un vibrante ambiente cultural.';

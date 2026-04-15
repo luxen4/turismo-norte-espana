@@ -2,8 +2,8 @@
 // Variables para el schema en el cuerpo (reutilizamos las del head si están definidas)
 $schemaTitle        = $schemaTitle        ?? "Surf en la Playa de Bakio";
 $schemaDescription  = $schemaDescription  ?? "Vive la experiencia de surfear en la Playa de Bakio, Bizkaia: una de las mecas del surf en el País Vasco, con olas perfectas para principiantes y surfistas experimentados.";
-$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/bakio/actividades/surf-playa-de-bakio";
-$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/surf-playa-de-bakio.jpg";
+$schemaUrl          = $schemaUrl          ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/bakio/actividades/surf-playa-de-bakio";
+$schemaImage        = $schemaImage        ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/surf-playa-de-bakio.jpg";
 $schemaAddress      = $schemaAddress      ?? [
     "@type"           => "PostalAddress",
     "streetAddress"   => "Playa de Bakio",

@@ -33,10 +33,10 @@
   <meta property="og:title" content="Actividades en la Playa de Berria – Santona" />
   <meta property="og:description" content="Descubre qué hacer en la Playa de Berria: surf, rutas naturales, paseos marítimos y experiencias en la costa cántabra." />
   <meta property="og:type" content="article" />
-  <meta property="og:url" content="https://Playas2026.kesug.com/turismo-norte-espana/actividades-playa-de-berria-santona-cantabria" />
-  <meta property="og:image" content="https://Playas2026.kesug.com/turismo-norte-espana/cantabria/playadeberria/img/playa-de-berria-santona-cantabria.jpg" />
+  <meta property="og:url" content="https://alayag82.kesug.com/turismo-norte-espana/actividades-playa-de-berria-santona-cantabria" />
+  <meta property="og:image" content="https://alayag82.kesug.com/turismo-norte-espana/cantabria/playadeberria/img/playa-de-berria-santona-cantabria.jpg" />
   <meta property="og:image:alt" content="Vista de la Playa de Berria, ideal para surf y naturaleza en la costa de Santona" />
-  <meta property="og:site_name" content="Turismo y Playas 2026 – Guía Costera de España" />
+  <meta property="og:site_name" content="Turismo Norte de España – Guía Costera" />
   <meta property="og:locale" content="es_ES" />
 
   <!-- Adcash (opcional) -->
@@ -60,7 +60,7 @@
 
   // Descripción general y URL
   $descripcion = 'Explora la Playa de Berria, uno de los destinos más naturales y salvajes de la costa cántabra, ideal para deportes acuáticos y rutas por el Monte Buciero.';
-  $url = 'http://Playas2026.kesug.com/turismo-norte-espana/cantabria/playadeberria/fichas/playa-de-berria.php';
+  $url = 'http://alayag82.kesug.com/turismo-norte-espana/cantabria/playadeberria/fichas/playa-de-berria.php';
 
   // Datos estructurados Schema.org (mainEntity)
   $mainEntity_description = 'La Playa de Berria es conocida por sus olas perfectas para el surf y sus rutas naturales por el Monte Buciero en Santona.';
@@ -73,8 +73,8 @@
   $mainEntity_geo_longitude = -3.4431;
 
   // Imagen representativa y URL canónica
-  $mainEntity_image = 'http://Playas2026.kesug.com/turismo-norte-espana/cantabria/playadeberria/img/playa-de-berria-santona-cantabria.jpg';
-  $mainEntity_url = 'http://Playas2026.kesug.com/turismo-norte-espana/playa-de-berria-santona-cantabria';
+  $mainEntity_image = 'http://alayag82.kesug.com/turismo-norte-espana/cantabria/playadeberria/img/playa-de-berria-santona-cantabria.jpg';
+  $mainEntity_url = 'http://alayag82.kesug.com/turismo-norte-espana/playa-de-berria-santona-cantabria';
   ?>
 
   <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/turismo-norte-espana/bloques/estructura/structured_data_generico.php'; ?>
@@ -87,8 +87,8 @@
   // Array con URLs de las imágenes que quieres mostrar
   const imagenes = [
     'http://localhost/turismo-norte-espana/cantabria/playadeberria/img/playa-de-berria-santona.jpg',
-    'https://Playas2026.kesug.com/cantabria/playadeberria/img/imagen2.jpg',
-    'https://Playas2026.kesug.com/cantabria/playadeberria/img/imagen3.jpg',
+    'https://alayag82.kesug.com/cantabria/playadeberria/img/imagen2.jpg',
+    'https://alayag82.kesug.com/cantabria/playadeberria/img/imagen3.jpg',
   ];
 
   let indice = 0;

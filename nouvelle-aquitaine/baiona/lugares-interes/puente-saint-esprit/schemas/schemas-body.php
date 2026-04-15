@@ -2,8 +2,8 @@
 // Variables para el schema en el cuerpo (reutilizamos las del head si están definidas)
 $schemaTitle        = $schemaTitle        ?? "Puente Saint-Esprit - Baiona";
 $schemaDescription  = $schemaDescription  ?? "Descubre el Puente Saint-Esprit en Baiona, Francia: un puente histórico sobre el río Nive que conecta la ciudad con el barrio de Saint-Esprit y ofrece vistas únicas del entorno urbano y fluvial.";
-$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/baiona/lugares-interes/puente-saint-esprit";
-$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/puente-saint-esprit-baiona.jpg";
+$schemaUrl          = $schemaUrl          ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/baiona/lugares-interes/puente-saint-esprit";
+$schemaImage        = $schemaImage        ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/puente-saint-esprit-baiona.jpg";
 $schemaAddress      = $schemaAddress      ?? [
     "@type"         => "PostalAddress",
     "streetAddress" => "Puente Saint-Esprit",

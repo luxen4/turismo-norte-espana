@@ -2,8 +2,8 @@
 // Variables para el schema
 $schemaTitle = "Paseo Marítimo - Castro Urdiales";
 $schemaDescription = "Disfruta del Paseo Marítimo de Castro Urdiales, un recorrido costero con vistas espectaculares al mar Cantábrico, ideal para pasear, relajarse y conectar con el encanto marinero de la ciudad.";
-$schemaUrl = "https://www.tu-dominio.com/castro-urdiales/lugares-interes/paseo-maritimo"; // Cambia por la URL real
-$schemaImage = "https://www.tu-dominio.com/images/paseo-maritimo-castro-urdiales.jpg"; // Cambia por la URL real de la imagen principal
+$schemaUrl = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/castro-urdiales/lugares-interes/paseo-maritimo"; // Cambia por la URL real
+$schemaImage = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/paseo-maritimo-castro-urdiales.jpg"; // Cambia por la URL real de la imagen principal
 $schemaAddress = [
     "@type" => "PostalAddress",
     "streetAddress" => "Paseo Marítimo",

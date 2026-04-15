@@ -5,8 +5,8 @@ $longitude = -1.5636;
 // Variables para el schema – Museo del Mar / Aquarium de Biarritz
 $schemaTitle       = "Museo del Mar - Aquarium de Biarritz";
 $schemaDescription = "Descubre el Museo del Mar (Aquarium de Biarritz): un centro emblemático dedicado a la vida marina del Atlántico con acuarios, tiburones, especies oceánicas y vistas al océano.";
-$schemaUrl         = "https://www.tu-dominio.com/biarritz/lugares-interes/museo-del-mar-aquarium"; // Cambia por la URL real
-$schemaImage       = "https://www.tu-dominio.com/images/museo-del-mar-biarritz.jpg";              // Cambia por la URL real de la imagen principal
+$schemaUrl         = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/biarritz/lugares-interes/museo-del-mar-aquarium"; // Cambia por la URL real
+$schemaImage       = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/museo-del-mar-biarritz.jpg";              // Cambia por la URL real de la imagen principal
 $schemaAddress     = [
     "@type"           => "PostalAddress",
     "streetAddress"   => "Esplanade du Rocher de la Vierge",
@@ -61,7 +61,7 @@ $schemaAddress     = [
     }
   ],
   "sameAs": [
-    "https://www.tu-dominio.com/biarritz"
+    "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/biarritz"
   ]
 }
 </script>

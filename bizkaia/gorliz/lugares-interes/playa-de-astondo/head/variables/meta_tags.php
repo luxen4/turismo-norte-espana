@@ -8,7 +8,7 @@ $pinterest_property_card_description_content = 'Descubre Astondo en Gorliz, un h
 $pinterest_property_card_image_content       = PATH_RAIZ_LOCALIDADES_CARPETA . '/astondo/img/astondo-1.jpg';
 
 // Variables de configuración para Twitter Cards – Astondo (Gorliz, Bizkaia)
-$twitterCards_card        = 'summary_large_image';
+$twitterCards_card        = SUMARY_LARGE_IMAGE;
 $twitterCards_site        = '@laya_garcia';
 $twitterCards_title       = 'Astondo – Gorliz, Bizkaia';
 $twitterCards_description = 'Explora Astondo en Gorliz: playa tranquila, naturaleza y paisajes únicos en la costa de Bizkaia.';

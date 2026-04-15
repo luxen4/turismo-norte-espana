@@ -21,7 +21,7 @@ $graph_Meta_Tags_property_image       = PATH_DOMINIO_RAIZ_LOCALIDADES .'cantabri
 $graph_Meta_Tags_property_url         = PATH_DOMINIO_RAIZ . "/index.php";
 $graph_Meta_Tags_property_type        = "website";
 
-$graph_Meta_Tags_property_site_name   = "Turismo y Playas 2026 – Guía Costera de España";
+$graph_Meta_Tags_property_site_name   = "Turismo Norte de España – Guía Costera";
 $graph_Meta_Tags_property_locale      = "es_ES";
 $graph_Meta_Tags_property_image_alt   = "Vista aérea de la playa de Ajo, Cantabria";
 $graph_Meta_Tags_property_image_width = "1200";

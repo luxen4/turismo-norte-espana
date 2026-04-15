@@ -8,7 +8,7 @@ $pinterest_property_card_description_content = 'Descubre Bayona, una histórica 
 $pinterest_property_card_image_content       = PATH_RAIZ_LOCALIDADES_CARPETA . '/nouvelle-aquitaine/bayona/img/centro-historico-bayona-1.jpg';
 
 // Twitter Cards
-$twitterCards_card        = 'summary_large_image';
+$twitterCards_card        = SUMARY_LARGE_IMAGE;
 $twitterCards_site        = '@laya_garcia';
 $twitterCards_title       = 'Bayona (Baiona) – Municipio de la Nouvelle-Aquitaine';
 $twitterCards_description = 'Explora Bayona, ciudad emblemática del País Vasco francés, con su rica historia, gastronomía y festividades culturales.';

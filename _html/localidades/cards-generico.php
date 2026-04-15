@@ -70,7 +70,7 @@ if (($handle = fopen($ruta_csv, "r")) !== false) {
 
           <figure class="mb-0">
             <img 
-              src="/turismo-norte-espana/{$region}/{$localidad_minuscula}/lugares-interes/<?= $lugar['slug']; ?>/img/<?= $lugar['imagen']; ?>" 
+              src="/turismo-norte-espana/<?= $region_minuscula; ?>/<?= $localidad_minuscula?>/lugares-interes/<?= $lugar['slug']; ?>/img/<?= $lugar['imagen']; ?>" 
               class="card-img-top h-64 object-cover rounded-top" 
               alt="<?= $lugar['alt']; ?>">
 

@@ -5,8 +5,8 @@ $longitude = -2.81210;
 // Variables para el schema – Surf en la Playa de Bakio
 $schemaTitle       = "Surf en la Playa de Bakio";
 $schemaDescription = "Disfruta del surf en la Playa de Bakio, Bizkaia: uno de los principales destinos surfistas del País Vasco con olas para todos los niveles, escuelas y alquiler de material.";
-$schemaUrl         = "https://www.tu-dominio.com/bakio/actividades/surf-playa-de-bakio"; // Cambia por la URL real
-$schemaImage       = "https://www.tu-dominio.com/images/surf-playa-de-bakio.jpg";       // Cambia por la URL real de la imagen principal
+$schemaUrl         = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/bakio/actividades/surf-playa-de-bakio"; // Cambia por la URL real
+$schemaImage       = "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/surf-playa-de-bakio.jpg";       // Cambia por la URL real de la imagen principal
 $schemaAddress     = [
     "@type"           => "PostalAddress",
     "streetAddress"   => "Playa de Bakio",

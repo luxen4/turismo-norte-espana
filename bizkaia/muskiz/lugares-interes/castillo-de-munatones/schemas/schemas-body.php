@@ -2,8 +2,8 @@
 // Variables para el schema en el cuerpo (reutilizamos las del head si están definidas)
 $schemaTitle        = $schemaTitle        ?? "Castillo de Muñatones - Monumento Histórico en Muskiz, Bizkaia";
 $schemaDescription  = $schemaDescription  ?? "El Castillo de Muñatones en Muskiz es una fortaleza histórica del siglo XV, declarada Bien de Interés Cultural y ejemplo destacado del patrimonio arquitectónico vasco.";
-$schemaUrl          = $schemaUrl          ?? "https://www.tu-dominio.com/muskiz/lugares-interes/castillo-de-munatones";
-$schemaImage        = $schemaImage        ?? "https://www.tu-dominio.com/images/castillo-munatones.jpg";
+$schemaUrl          = $schemaUrl          ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/muskiz/lugares-interes/castillo-de-munatones";
+$schemaImage        = $schemaImage        ?? "https://alayag82.kesug.com/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/images/castillo-munatones.jpg";
 $schemaAddress      = $schemaAddress      ?? [
     "@type"           => "PostalAddress",
     "streetAddress"   => "Barrio San Julián, s/n",
