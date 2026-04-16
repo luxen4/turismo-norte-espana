@@ -1,4 +1,4 @@
-<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_utilidades/constantes-localidad-generico.php"; ?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_utilidades/defines.php"; ?>
 
 <!DOCTYPE html>
 <html lang="es">

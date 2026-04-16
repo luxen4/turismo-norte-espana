@@ -24,11 +24,13 @@ $intro = [
     ]
   ],
   "video" => [
-      "url" => "https://www.youtube.com/embed/6WZQxkJXz5A",
+      "url" => "https://www.youtube.com/embed/IITiV8hqoSU",
       "titulo" => "Video de la Plage Centrale de Capbreton"
   ]
 ];
 ?>
+
+
 
 <?php
 $galeria_imagenes = [
@@ -54,7 +56,7 @@ $galeria_imagenes = [
         "fuente_texto" => "landesatlantiquesud.com"
     ],
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/vista-aerea-capbreton.jpg",
+        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/vista-aerea-capbreton.png",
         "alt" => "Vista aérea de Capbreton",
         "caption" => "Vista panorámica de la Plage Centrale",
         "fuente" => "https://www.surf-forecast.com",

@@ -14,24 +14,39 @@
 <?php define('SUMARY_LARGE_IMAGE', 'sumary_large_image'); ?>
 <?php define('CARD_SITE', '@laya_garcia'); ?>
 
+<?php define('LUGAR', strtolower(str_replace(' ', '-', $localidad))) ?>
+<?php define('LUGAR_MINUSCULA', strtolower(str_replace(' ', '-', LUGAR))) ?>
+
+
+
+
 <?php define('PATH_DOMINIO_RAIZ', DOMINIO . '/'.NOMBRE_PROYECTO); ?>
 <?php define('PATH_DOMINIO_RAIZ_LOCALIDADES', PATH_DOMINIO_RAIZ . '/'); ?>
 
 <?php define('PATH_DOMINIO_LUGAR_IMAGEN_1', PATH_DOMINIO_RAIZ_LOCALIDADES . "$region_minuscula/$localidad_minuscula/lugares-interes/" . $lugar_minuscula . "/img/" . $lugar_minuscula . "-{$localidad_minuscula}-{$region_minuscula}-1.jpg"); ?>
 
-<?php define('PATH_DOMINIO_LUGAR_INTERES_INDEX', PATH_DOMINIO_RAIZ . "/$region_minuscula/$localidad_minuscula/lugares-interes/" . LUGAR_MINUSCULA ."/"); ?>
+<?php //define('PATH_DOMINIO_LUGAR_INTERES_INDEX', PATH_DOMINIO_RAIZ . "/$region_minuscula/$localidad_minuscula/lugares-interes/" . LUGAR_MINUSCULA ."/"); ?>
 
 <?php
 if (!empty($lugar_interes)) {
     define(
         'PATH_DOMINIO_URL',
-        PATH_DOMINIO_RAIZ_LOCALIDADES . "$region_minuscula/$localidad_minuscula/lugares-interes/" . LUGARMINUSCULA. "/"
+        PATH_DOMINIO_RAIZ_LOCALIDADES . "$region_minuscula/$localidad_minuscula/lugares-interes/" . LUGAR_MINUSCULA. "/"
     );
+
+
+    define('PATH_DOMINIO_LUGAR_INTERES_INDEX', PATH_DOMINIO_RAIZ . "/$region_minuscula/$localidad_minuscula/lugares-interes/" . LUGAR_MINUSCULA ."/"); 
+
+   
+
+
 } else {
     define(
         'PATH_DOMINIO_URL',
         PATH_DOMINIO_RAIZ_LOCALIDADES . "$region_minuscula/$localidad_minuscula/"
-    );
+    ); 
+    define('PATH_DOMINIO_LUGAR_INTERES_INDEX', PATH_DOMINIO_RAIZ . "/$region_minuscula/$localidad_minuscula/"); 
+
 }
 ?>
 
@@ -59,8 +74,36 @@ if (!empty($lugar_interes)) {
 <?php define('PATH_HREF_RAIZ', "/turismo-norte-espana"); ?>
 
 <?php define('PATH_HREF_CARPETA_LUGARES_INTERES', "/turismo-norte-espana/{$region_minuscula}/{$localidad_minuscula}/lugares-interes");?>
-<?php define('PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES', PATH_HREF_CARPETA_LUGARES_INTERES. "/".$lugar_minuscula."/img"); ?>
+<?php define('PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES', PATH_HREF_CARPETA_LUGARES_INTERES. "/".LUGAR_MINUSCULA."/img"); ?>
           
 <?php define('PATH_BLOQUES_SECTIONS_CARRUSELES_CSV',  PATH_BLOQUES_SECTIONS_GENERICO. '/Carruseles_CSV'); ?>
 
 <?php define('PATH_RAIZ_LOCALIDADES_ESTRUCTURA_BODY_MAIN',    PATH_RAIZ_LOCALIDADES. "/_estructura/body/main"); ?>
+
+
+
+
+
+
+
+
+
+
+<?php /*
+$localidad = 'Baiona'; // Para francés, normalmente "Bayonne" pero si usas Baiona en español, mantén aquí
+$localidad_minuscula = strtolower(
+    str_replace(
+        ['ñ', 'Ñ', ' '], 
+        ['n', 'n', '-'], 
+        $localidad
+    )
+);
+
+$region = 'Nouvelle Aquitaine';
+$region_minuscula = strtolower(
+    str_replace(
+        ['ñ', 'Ñ', ' '], 
+        ['n', 'n', '-'], 
+        $region
+    )
+);  */ ?>

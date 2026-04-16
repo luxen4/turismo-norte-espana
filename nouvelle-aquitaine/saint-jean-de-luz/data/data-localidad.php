@@ -1,5 +1,5 @@
-<?php 
-$localidad = 'Saint-Jean-de-Luz';     $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad)); $lugar_minuscula='saint-jean-de-luz';
-$region = 'Nouvelle Aquitaine';  $region_minuscula = strtolower(str_replace(' ', '-', $region));   
-$country = 'Francia';    $country_minuscula = strtolower(str_replace(' ', '-', $country)); 
-?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . '/turismo-norte-espana/nouvelle-aquitaine/variables-region.php'; ?>
+
+<?php define('TITLE', "Saint-Jean-de-Luz (Francia) – Playa, Historia y Encanto Vasco en Nouvelle-Aquitaine 2026"); ?>
+<?php define('DESCRIPTION', "Descubre Saint-Jean-de-Luz, en Nouvelle-Aquitaine (Francia): un encantador destino del País Vasco francés famoso por su playa protegida, su casco histórico, su tradición marinera y su ambiente auténtico junto al Atlántico."); ?>
+<?php define('KEYWORDS_CONTENT', 'Saint-Jean-de-Luz, turismo Saint-Jean-de-Luz, Nouvelle-Aquitaine, playas de Saint-Jean-de-Luz, costa atlántica Francia, qué ver en Saint-Jean-de-Luz, vacaciones en Saint-Jean-de-Luz Francia, País Vasco francés, casco histórico Saint-Jean-de-Luz, puerto pesquero, turismo cultural y playa en Saint-Jean-de-Luz'); ?>

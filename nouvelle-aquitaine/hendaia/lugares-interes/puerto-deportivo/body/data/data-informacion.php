@@ -15,18 +15,18 @@ $intro = [
   ],
   "imagenes" => [
     [
-      "src" => "https://upload.wikimedia.org/wikipedia/commons/6/6c/Hendaye_port.jpg",
+      "src" => "https://www.hendaye-tourisme.fr/wp-content/uploads/2023/12/Port-de-Plaisance-Hendaye-Tourisme-1.jpg.webp",
       "alt" => "Puerto deportivo de Hendaia",
       "caption" => "Vista del puerto deportivo",
-      "fuente" => "wikipedia.org",
-      "fuente_texto" => "wikipedia.org"
+      "fuente" => "https://www.hendaye-tourisme.fr/es/playa-y-navegacion-de-recreo/",
+      "fuente_texto" => "hendaye-tourisme.fr"
     ],
     [
-      "src" => "https://upload.wikimedia.org/wikipedia/commons/0/0e/Hendaye_marina.jpg",
+      "src" => "https://images.mnstatic.com/80/64/8064efb02a095a3f613b76ea26346e2b.jpg",
       "alt" => "Embarcaciones en el puerto de Hendaia",
       "caption" => "Puerto con embarcaciones",
-      "fuente" => "wikipedia.org",
-      "fuente_texto" => "wikipedia.org"
+      "fuente" => "https://www.minube.com/rincon/puerto-de-sokoburu--a449661",
+      "fuente_texto" => "minube.com"
     ]
   ],
   "video" => [
@@ -46,11 +46,11 @@ $galeria_imagenes = [
       "fuente_texto" => "wikipedia.org"
     ],
     [
-        "src" => "https://upload.wikimedia.org/wikipedia/commons/3/3c/Hendaye_harbor.jpg",
+        "src" => "https://www.guide-du-paysbasque.com/_bibli/articlesPage_rte/424/rte_images/adobestock-beverli-hendaye.jpg",
         "alt" => "Vista del puerto y paseo",
         "caption" => "Paseo junto al puerto",
-        "fuente" => "wikipedia.org",
-        "fuente_texto" => "wikipedia.org"
+        "fuente" => "https://www.guide-du-paysbasque.com/es/experiencias/descanso/article-top-10-hendaya-las-visitas-obligadas-para-tus-vacaciones--424.html",
+        "fuente_texto" => "guide-du-paysbasque.com"
     ],
     [
         "src" => "https://upload.wikimedia.org/wikipedia/commons/9/9e/Hendaye_evening_port.jpg",

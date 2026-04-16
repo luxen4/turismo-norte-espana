@@ -1,5 +1,5 @@
-<?php 
-$localidad = 'Baiona';     $localidad_minuscula = strtolower(str_replace(' ', '-', $localidad)); $lugar_minuscula='sonabia';
-$region = 'Nouvelle Aquitaine';  $region_minuscula = strtolower(str_replace(' ', '-', $region));   
-$country = 'España';    $country_minuscula = strtolower(str_replace(' ', '-', $country)); 
-?>
+<?php require $_SERVER['DOCUMENT_ROOT'] . '/turismo-norte-espana/nouvelle-aquitaine/variables-region.php'; ?>
+
+<?php define('TITLE', "Capbreton (Francia) – Playas, Surf y Puerto en Nouvelle-Aquitaine 2026"); ?>
+<?php define('DESCRIPTION', "Descubre Capbreton, en Nouvelle-Aquitaine (Francia): un destino costero del Atlántico famoso por sus playas, su ambiente surfero, su puerto pesquero y la Vélodyssée, ideal para disfrutar de la naturaleza, el deporte y la gastronomía del suroeste francés."); ?>
+<?php define('KEYWORDS_CONTENT', 'Capbreton, turismo Capbreton, Nouvelle-Aquitaine, playas de Capbreton, surf en Capbreton, costa atlántica Francia, puerto pesquero Capbreton, Vélodyssée Capbreton, qué ver en Capbreton, vacaciones en Capbreton Francia, turismo Las Landas, naturaleza y deporte en Capbreton'); ?>

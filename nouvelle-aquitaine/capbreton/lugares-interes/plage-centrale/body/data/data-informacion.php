@@ -24,7 +24,7 @@ $intro = [
     ]
   ],
   "video" => [
-      "url" => "https://www.youtube.com/embed/6WZQxkJXz5A",
+      "url" => "https://www.youtube.com/embed/IITiV8hqoSU",
       "titulo" => "Video de la Plage Centrale de Capbreton"
   ]
 ];

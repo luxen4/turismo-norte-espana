@@ -12,7 +12,7 @@ $schemaAddress      = $schemaAddress      ?? [
     "postalCode"      => "64700",
     "addressCountry"  => "FR"
 ];
-?>https://alayag82.kesug.com/turismo-norte-espana/nouvelle-aquitaine/capbreton/lugares-interes/plage-centrale/
+?>
 
 <script type="application/ld+json">
 {

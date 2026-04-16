@@ -1,31 +1,31 @@
 <?php 
 $header = [
-  "titulo" => "🏖️ Plage Centrale de Capbreton",
-  "descripcion" => "Playa principal de Capbreton, famosa por su ambiente surfero y su amplia arena en la costa atlántica"
+  "titulo" => "🚴 Piste Cyclable La Vélodyssée en Capbreton",
+  "descripcion" => "Ruta ciclista costera que atraviesa Capbreton, ideal para disfrutar del Atlántico entre bosques y playas"
 ];
 ?>
 
 <?php 
 $intro = [
   "parrafos" => [
-    "La <strong>Plage Centrale de Capbreton</strong> es una de las playas más populares de la costa de Las Landas, en el suroeste de Francia.",
-    "Con su extensa arena fina y sus potentes olas del océano Atlántico, es un destino ideal para surfistas de todos los niveles.",
-    "El paseo marítimo y su cercanía al centro la convierten en una playa muy accesible, perfecta tanto para familias como para quienes buscan ambiente.",
-    "Además, ofrece espectaculares puestas de sol y un entorno natural perfecto para disfrutar del mar durante todo el año."
+    "La <strong>Piste Cyclable La Vélodyssée</strong> es una de las rutas ciclistas más importantes de Francia, que atraviesa Capbreton siguiendo la costa atlántica.",
+    "Este itinerario forma parte de un recorrido de más de 1.200 km que conecta el norte y el sur del país, pasando por paisajes naturales únicos.",
+    "En Capbreton, la ruta combina tramos junto al océano con zonas de bosque de pinos, ofreciendo un entorno tranquilo y seguro para ciclistas.",
+    "Es perfecta tanto para paseos familiares como para cicloturismo, con múltiples accesos, áreas de descanso y servicios a lo largo del recorrido."
   ],
   "imagenes" => [
     [
-      "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/plage-centrale-capbreton-nouvelle-aquitaine-1.jpg",
-      "alt" => "Vista panorámica de la Plage Centrale de Capbreton"
+      "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/piste-cyclable-velodyssee-capbreton.jpg",
+      "alt" => "Carril bici La Vélodyssée en Capbreton"
     ],
     [
-      "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/olas-surf-capbreton.jpg",
-      "alt" => "Olas en la Plage Centrale de Capbreton"
+      "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/ciclistas-bosque-landas.jpg",
+      "alt" => "Ciclistas en bosque de pinos en Las Landas"
     ]
   ],
   "video" => [
-      "url" => "https://www.youtube.com/embed/6WZQxkJXz5A",
-      "titulo" => "Video de la Plage Centrale de Capbreton"
+      "url" => "https://www.youtube.com/embed/9mX0K2FQZ7A",
+      "titulo" => "La Vélodyssée en la costa atlántica"
   ]
 ];
 ?>
@@ -33,39 +33,39 @@ $intro = [
 <?php
 $galeria_imagenes = [
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/atardecer-playa-capbreton.jpg",
-        "alt" => "Atardecer en la Plage Centrale de Capbreton",
-        "caption" => "Atardecer en la playa de Capbreton",
-        "fuente" => "https://www.capbreton.fr",
-        "fuente_texto" => "capbreton.fr"
+        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/carril-bici-capbreton.jpg",
+        "alt" => "Carril bici junto al mar en Capbreton",
+        "caption" => "Ruta ciclista junto al océano",
+        "fuente" => "https://www.lavelodyssee.com",
+        "fuente_texto" => "lavelodyssee.com"
     ],
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/surf-playa-capbreton.jpg",
-        "alt" => "Surf en Capbreton",
-        "caption" => "Playa ideal para surfistas",
+        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/bosque-landas-ciclismo.jpg",
+        "alt" => "Ruta ciclista en bosque de Las Landas",
+        "caption" => "Tramos entre naturaleza",
         "fuente" => "",
         "fuente_texto" => ".com"
     ],
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/arena-playa-capbreton.jpg",
-        "alt" => "Arena de la playa de Capbreton",
-        "caption" => "Amplia playa de arena fina",
-        "fuente" => "https://www.landesatlantiquesud.com",
-        "fuente_texto" => "landesatlantiquesud.com"
+        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/familia-bici-capbreton.jpg",
+        "alt" => "Familia en bicicleta en Capbreton",
+        "caption" => "Ideal para todos los niveles",
+        "fuente" => "https://www.capbreton.fr",
+        "fuente_texto" => "capbreton.fr"
     ],
     [
-        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/vista-aerea-capbreton.jpg",
-        "alt" => "Vista aérea de Capbreton",
-        "caption" => "Vista panorámica de la Plage Centrale",
-        "fuente" => "https://www.surf-forecast.com",
-        "fuente_texto" => "surf-forecast.com"
+        "src" => PATH_HREF_CARPETA_LUGARES_INTERES_IMAGENES . "/ruta-costa-atlantica-bici.jpg",
+        "alt" => "Ruta ciclista costa atlántica",
+        "caption" => "Parte de la Vélodyssée",
+        "fuente" => "https://www.landesatlantiquesud.com",
+        "fuente_texto" => "landesatlantiquesud.com"
     ]
 ];
 ?>
 
 <?php
 $info = [
-  "titulo" => "ℹ️ Información de la Plage Centrale de Capbreton",
+  "titulo" => "ℹ️ Información de La Vélodyssée en Capbreton",
   "items" => [
     [
       "icono" => "📍",
@@ -73,24 +73,24 @@ $info = [
       "descripcion" => "Capbreton, Landes, Nouvelle-Aquitaine (Francia)"
     ],
     [
-      "icono" => "📏",
-      "titulo" => "Longitud",
-      "descripcion" => "Aprox. 1000 metros de playa"
+      "icono" => "🚴",
+      "titulo" => "Tipo",
+      "descripcion" => "Ruta ciclista de larga distancia"
     ],
     [
-      "icono" => "🌊",
+      "icono" => "📏",
+      "titulo" => "Recorrido",
+      "descripcion" => "Parte de una ruta de más de 1.200 km a lo largo del Atlántico"
+    ],
+    [
+      "icono" => "🌿",
       "titulo" => "Entorno",
-      "descripcion" => "Playa urbana con acceso directo, paseo marítimo y vistas al Atlántico"
+      "descripcion" => "Bosques de pinos, costa atlántica y zonas naturales"
     ],
     [
       "icono" => "⭐",
-      "titulo" => "Puntos de interés",
-      "descripcion" => "Surf, ambiente animado, puestas de sol y cercanía al puerto"
-    ],
-    [
-      "icono" => "🅿️",
       "titulo" => "Servicios",
-      "descripcion" => "Aparcamiento, duchas, restaurantes, escuelas de surf y vigilancia en temporada"
+      "descripcion" => "Carril señalizado, áreas de descanso y accesos desde la ciudad"
     ]
   ]
 ];
@@ -98,12 +98,12 @@ $info = [
 
 <?php 
 $actividades = [
-  "titulo" => "🏄‍♂️ Actividades en la Plage Centrale de Capbreton",
+  "titulo" => "🚴 Actividades en La Vélodyssée",
   "items"  => [
-    [ "icono" => "🏄‍♂️", "texto" => "Surf en una de las mejores zonas del Atlántico europeo" ],
-    [ "icono" => "🌊", "texto" => "Baño y juegos en la playa" ],
-    [ "icono" => "🚶‍♂️", "texto" => "Paseos por el paseo marítimo y la orilla" ],
-    [ "icono" => "🌅", "texto" => "Disfrutar de espectaculares atardeceres" ]
+    [ "icono" => "🚴‍♂️", "texto" => "Recorrer la ruta en bicicleta" ],
+    [ "icono" => "🌿", "texto" => "Disfrutar de la naturaleza y el paisaje" ],
+    [ "icono" => "📸", "texto" => "Fotografiar la costa y los bosques" ],
+    [ "icono" => "👨‍👩‍👧", "texto" => "Paseos en familia en un entorno seguro" ]
   ]
 ];
 ?>
@@ -111,12 +111,12 @@ $actividades = [
 <?php
 $mapa = [
     "titulo" => "🗺️ Localización",
-    "map_id" => "map-plage-centrale-capbreton",
-    "centro" => [43.6425, -1.4315],
-    "zoom"   => 13.4,
+    "map_id" => "map-velodyssee-capbreton",
+    "centro" => [43.6455, -1.4290],
+    "zoom"   => 13,
     "marker" => [
-        "coords" => [43.6440, -1.4325],
-        "popup"  => "<strong>Plage Centrale de Capbreton</strong>"
+        "coords" => [43.6455, -1.4290],
+        "popup"  => "<strong>La Vélodyssée - Capbreton</strong>"
     ]
 ];
 ?>
@@ -129,8 +129,8 @@ $contacto = [
     "enlace" => "tel:+33558721211"
   ],
   "web"      => [
-    "texto" => "www.capbreton.fr",
-    "url"   => "https://www.capbreton.fr"
+    "texto" => "www.lavelodyssee.com",
+    "url"   => "https://www.lavelodyssee.com"
   ]
 ];
 ?>
@@ -138,24 +138,27 @@ $contacto = [
 <?php
 $comentarios = [
     [
-        "nombre" => "Laura M.",
-        "texto"  => "Una playa increíble para surfear y disfrutar del ambiente."
+        "nombre" => "Pierre L.",
+        "texto"  => "Una ruta fantástica para descubrir la costa en bici."
     ],
     [
-        "nombre" => "Javier T.",
-        "texto"  => "Muy bien equipada y perfecta para pasar el día."
+        "nombre" => "María G.",
+        "texto"  => "Muy bien señalizada y perfecta para familias."
     ],
     [
-        "nombre" => "Sophie D.",
-        "texto"  => "Me encantaron las vistas y el atardecer."
+        "nombre" => "David R.",
+        "texto"  => "Paisajes increíbles entre bosque y mar."
     ],
     [
-        "nombre" => "Miguel A.",
-        "texto"  => "Ambiente animado y muy cerca de todo."
+        "nombre" => "Claire T.",
+        "texto"  => "Ideal para cicloturismo, muy recomendable."
     ]
 ];
 ?>
 
 <?php  
+$latitude  = 43.6455;
+$longitude = -1.4290;
+
 $iframeSrc = "https://openweathermap.org/weathermap?basemap=map&cities=true&layer=temperature&lat={$latitude}&lon={$longitude}&zoom=10"; 
 ?>
