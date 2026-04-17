@@ -14,7 +14,7 @@
 <?php define('SUMARY_LARGE_IMAGE', 'sumary_large_image'); ?>
 <?php define('CARD_SITE', '@laya_garcia'); ?>
 
-<?php define('LUGAR', strtolower(str_replace(' ', '-', $localidad))) ?>
+<?php //define('LUGAR', strtolower(str_replace(' ', '-', $localidad))) ?>
 <?php define('LUGAR_MINUSCULA', strtolower(str_replace(' ', '-', LUGAR))) ?>
 
 

@@ -1,5 +1,5 @@
 <?php  //require PATH_RAIZ_LOCALIDAD_LUGARES_INTERES_BODY_DATA . '/data-informacion.php'; ?>
-<?php  require PATH_RAIZ . "/".$region_minuscula. "/".$localidad_minuscula. '/lugares-interes/'. LUGAR_MINUSCULA .'/body/data/data-informacion.php'; ?>
+<?php  require PATH_RAIZ . "/".$region_minuscula. "/".$localidad_minuscula. '/lugares-interes/'. $lugar_interes .'/body/data/data-informacion.php'; ?>
 
 <?php // $publicidad = PATH_BLOQUES_SECTIONS_CARRUSELES_CSV . '/prueba_sneakers.php'; ?>
 <main class=" min-h-screen p-1 md:p-10">

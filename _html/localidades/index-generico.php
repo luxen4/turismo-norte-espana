@@ -1,3 +1,4 @@
+<?php require $_SERVER['DOCUMENT_ROOT'] . '/turismo-norte-espana/nouvelle-aquitaine/variables-region.php'; ?>
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_utilidades/defines.php"; ?>
 
 <!DOCTYPE html>

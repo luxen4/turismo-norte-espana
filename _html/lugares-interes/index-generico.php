@@ -1,12 +1,10 @@
-<?php require  $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/url-partes.php"; ?>
+<?php require  $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_utilidades/url-partes.php"; ?>
 
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/{$region_minuscula}/variables-region.php"; ?>
 
 <?php require  "./variables-lugar-interes.php"; ?>
-
-
-<?php define('LUGAR_MINUSCULA', strtolower(str_replace(' ', '-', LUGAR))) ?>
 <?php define('COLOR_PAGE', "<?= COLOR_PAGE; ?>"); ?>
+
 <?php require $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_html/lugares-interes/variables-generico.php"; ?>
 
 <!DOCTYPE html>
@@ -17,14 +15,10 @@
 
     <body class="bg-<?= COLOR_PAGE; ?>-100">
 
-      
-<header class="mb-1">
-
-    <!-- Navegación -->
-    <?php require PATH_RAIZ . "/_html/body/navbar-generico.php"; ?>
-
-
-</header>
+        <header class="mb-1">
+            <!-- Navegación -->
+            <?php require PATH_RAIZ . "/_html/body/navbar-generico.php"; ?>
+        </header>
 
         <div class="container-xxl py-1">
             <div class="row">
