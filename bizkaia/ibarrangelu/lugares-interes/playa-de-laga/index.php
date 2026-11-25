@@ -1,2 +1,2 @@
-<?php $lugar_interes= "playa-de-laga"; ?>
+<?php $lugar_interes= "playa-de-laga"; $localidad='ibarrangelu'; $region_minuscula='bizkaia'; ?>
 <?php require  $_SERVER['DOCUMENT_ROOT'] . "/turismo-norte-espana/_html/lugares-interes/index-generico.php" ?>

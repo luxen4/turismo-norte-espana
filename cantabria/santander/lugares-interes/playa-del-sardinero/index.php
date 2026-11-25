@@ -869,7 +869,7 @@ footer p {
 <nav class="navbar" id="navbar">
     <div class="nav-inner">
 
-        <a href="/" class="logo">
+        <a href="/turismo-norte-espana" class="logo">
             PLAYAS <span>DEL CANTÁBRICO</span>
         </a>
 
@@ -1272,7 +1272,7 @@ footer p {
 <footer>
     <div class="container footer-inner">
 
-        <a href="/" class="logo">
+        <a href="/turismo-norte-espana" class="logo">
             PLAYAS <span>DEL CANTÁBRICO</span>
         </a>
 
