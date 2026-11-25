@@ -12,164 +12,285 @@ $pageTitle = 'Playas del Cantábrico | Turismo Norte de España';
 $description = 'Descubre las mejores playas del Cantábrico en Cantabria, Bizkaia, Gipuzkoa y la costa atlántica francesa. Naturaleza, mar y escapadas inolvidables.';
 $keywords = 'playas del Cantábrico, playas de Cantabria, playas de Bizkaia, playas de Gipuzkoa, playas de Francia, turismo costero, surf, naturaleza, vacaciones en la playa';
 
+
+
 $regions = [
+
+    // ==========================================
+    // CANTABRIA
+    // ==========================================
+
     [
         'name' => 'Cantabria',
         'slug' => 'cantabria',
         'icon' => '🏖️',
         'subtitle' => 'Acantilados, naturaleza y arena dorada',
         'description' => 'Descubre una costa de paisajes verdes, playas salvajes, pueblos marineros y rincones naturales donde disfrutar del mar Cantábrico.',
+
         'destinations' => [
+
             [
                 'name' => 'Playa de Somo',
                 'description' => 'Una extensa playa de arena ideal para pasear, disfrutar del paisaje y practicar surf.',
-                'tag' => 'Surf y naturaleza'
+                'tag' => 'Surf y naturaleza',
+                'localidad' => 'somo',
+                'archivo' => 'playa-de-somo'
             ],
+
             [
                 'name' => 'Playa de El Sardinero',
                 'description' => 'Una de las playas más emblemáticas de Santander, rodeada de elegantes paseos y jardines.',
-                'tag' => 'Playa urbana'
+                'tag' => 'Playa urbana',
+                'localidad' => 'santander',
+                'archivo' => 'playa-de-el-sardinero'
             ],
+
             [
                 'name' => 'Playa de Langre',
                 'description' => 'Un espectacular arenal protegido por altos acantilados y un entorno natural impresionante.',
-                'tag' => 'Paisaje salvaje'
+                'tag' => 'Paisaje salvaje',
+                'localidad' => 'langre',
+                'archivo' => 'playa-de-langre'
             ],
+
             [
                 'name' => 'Playa de Oyambre',
                 'description' => 'Un espacio natural de gran belleza, con dunas, marismas y amplias vistas al litoral.',
-                'tag' => 'Espacio natural'
+                'tag' => 'Espacio natural',
+                'localidad' => 'oyambre',
+                'archivo' => 'playa-de-oyambre'
             ],
+
             [
                 'name' => 'Playa de Laredo',
                 'description' => 'Una gran playa de arena fina perfecta para disfrutar de largos paseos junto al mar.',
-                'tag' => 'Arena dorada'
+                'tag' => 'Arena dorada',
+                'localidad' => 'laredo',
+                'archivo' => 'playa-de-laredo'
             ],
+
             [
                 'name' => 'Playa de San Vicente',
                 'description' => 'Un entorno costero con vistas a los Picos de Europa y un ambiente marinero especial.',
-                'tag' => 'Vistas y mar'
+                'tag' => 'Vistas y mar',
+                'localidad' => 'san-vicente-de-la-barquera',
+                'archivo' => 'playa-de-san-vicente'
             ]
+
         ]
     ],
+
+
+    // ==========================================
+    // BIZKAIA
+    // ==========================================
+
     [
         'name' => 'Bizkaia',
         'slug' => 'bizkaia',
         'icon' => '🌅',
         'subtitle' => 'Surf, costa abierta y paisajes marineros',
         'description' => 'La costa vizcaína combina playas de ambiente surfero, acantilados, pueblos con encanto y paisajes que sorprenden en cualquier época del año.',
+
         'destinations' => [
+
             [
                 'name' => 'Playa de Bakio',
                 'description' => 'Una playa abierta al Cantábrico, muy conocida por sus olas y sus vistas hacia San Juan de Gaztelugatxe.',
-                'tag' => 'Surf'
+                'tag' => 'Surf',
+                'localidad' => 'bakio',
+                'archivo' => 'playa-de-bakio'
             ],
+
             [
                 'name' => 'Playa de Sopela',
                 'description' => 'Un litoral de acantilados y arena que atrae a amantes del surf y de los paseos junto al mar.',
-                'tag' => 'Costa abierta'
+                'tag' => 'Costa abierta',
+                'localidad' => 'sopela',
+                'archivo' => 'playa-de-sopela'
             ],
+
             [
                 'name' => 'Playa de Laga',
                 'description' => 'Un arenal de gran belleza situado en la Reserva de la Biosfera de Urdaibai.',
-                'tag' => 'Naturaleza'
+                'tag' => 'Naturaleza',
+                'localidad' => 'ibarrangelu',
+                'archivo' => 'playa-de-laga'
             ],
+
             [
                 'name' => 'Playa de Laida',
                 'description' => 'Una playa de arena fina en un entorno de marismas y paisajes protegidos.',
-                'tag' => 'Urdaibai'
+                'tag' => 'Urdaibai',
+                'localidad' => 'ibarrangelu',
+                'archivo' => 'playa-de-laida'
             ],
+
             [
                 'name' => 'Playa de Gorliz',
                 'description' => 'Una playa amplia y familiar, ideal para disfrutar del paseo marítimo y del entorno.',
-                'tag' => 'Familiar'
+                'tag' => 'Familiar',
+                'localidad' => 'gorliz',
+                'archivo' => 'playa-de-gorliz'
             ],
+
             [
                 'name' => 'Playa de Arrigunaga',
                 'description' => 'Un rincón costero con vistas a los acantilados y al entorno de Getxo.',
-                'tag' => 'Vistas al mar'
+                'tag' => 'Vistas al mar',
+                'localidad' => 'getxo',
+                'archivo' => 'playa-de-arrigunaga'
             ]
+
         ]
     ],
+
+
+    // ==========================================
+    // GIPUZKOA
+    // ==========================================
+
     [
         'name' => 'Gipuzkoa',
         'slug' => 'gipuzkoa',
         'icon' => '⛵',
         'subtitle' => 'Bahías, pueblos costeros y mar Cantábrico',
         'description' => 'Explora playas rodeadas de montañas, bahías espectaculares y localidades marineras con una personalidad única.',
+
         'destinations' => [
+
             [
                 'name' => 'Playa de La Concha',
                 'description' => 'La famosa bahía de San Sebastián, con su paseo, sus vistas y su ambiente elegante.',
-                'tag' => 'Playa urbana'
+                'tag' => 'Playa urbana',
+                'localidad' => 'san-sebastian',
+                'archivo' => 'playa-de-la-concha'
             ],
+
             [
                 'name' => 'Playa de Zarautz',
                 'description' => 'Una extensa playa con ambiente surfero, paseo marítimo y una animada vida costera.',
-                'tag' => 'Surf y paseo'
+                'tag' => 'Surf y paseo',
+                'localidad' => 'zarautz',
+                'archivo' => 'playa-de-zarautz'
             ],
+
             [
                 'name' => 'Playa de Itzurun',
                 'description' => 'Un paisaje espectacular de acantilados y formaciones geológicas junto a Zumaia.',
-                'tag' => 'Geología'
+                'tag' => 'Geología',
+                'localidad' => 'zumaia',
+                'archivo' => 'playa-de-itzurun'
             ],
+
             [
                 'name' => 'Playa de Hondarribia',
                 'description' => 'Una playa tranquila junto a una localidad llena de historia y tradición marinera.',
-                'tag' => 'Escapada'
+                'tag' => 'Escapada',
+                'localidad' => 'hondarribia',
+                'archivo' => 'playa-de-hondarribia'
             ],
+
             [
                 'name' => 'Playa de Getaria',
                 'description' => 'Un pequeño destino costero perfecto para combinar mar, paseo y gastronomía.',
-                'tag' => 'Gastronomía'
+                'tag' => 'Gastronomía',
+                'localidad' => 'getaria',
+                'archivo' => 'playa-de-getaria'
             ],
+
             [
                 'name' => 'Playa de Deba',
                 'description' => 'Una playa rodeada de naturaleza, acantilados y paisajes del litoral guipuzcoano.',
-                'tag' => 'Naturaleza'
+                'tag' => 'Naturaleza',
+                'localidad' => 'deba',
+                'archivo' => 'playa-de-deba'
             ]
+
         ]
     ],
+
+
+    // ==========================================
+    // NOUVELLE-AQUITAINE
+    // ==========================================
+
     [
         'name' => 'Nouvelle-Aquitaine',
         'slug' => 'nouvelle-aquitaine',
         'icon' => '🇫🇷',
         'subtitle' => 'Grandes arenales y costa atlántica francesa',
         'description' => 'Descubre la costa francesa, con enormes playas de arena, bosques de pinos, dunas y destinos ideales para disfrutar del océano Atlántico.',
+
         'destinations' => [
+
             [
                 'name' => 'Playa de Biarritz',
                 'description' => 'Una localidad elegante y conocida por su ambiente surfero y sus paisajes atlánticos.',
-                'tag' => 'Surf y ciudad'
+                'tag' => 'Surf y ciudad',
+                'localidad' => 'biarritz',
+                'archivo' => 'playa-de-biarritz'
             ],
+
             [
                 'name' => 'Playa de Hossegor',
                 'description' => 'Un destino internacional para surfistas, rodeado de naturaleza y ambiente vacacional.',
-                'tag' => 'Surf'
+                'tag' => 'Surf',
+                'localidad' => 'hossegor',
+                'archivo' => 'playa-de-hossegor'
             ],
+
             [
                 'name' => 'Playa de Biscarrosse',
                 'description' => 'Grandes extensiones de arena junto a bosques, lagos y paisajes naturales.',
-                'tag' => 'Naturaleza'
+                'tag' => 'Naturaleza',
+                'localidad' => 'biscarrosse',
+                'archivo' => 'playa-de-biscarrosse'
             ],
+
             [
                 'name' => 'Playa de Lacanau',
                 'description' => 'Una costa abierta al Atlántico, famosa por sus olas y su ambiente deportivo.',
-                'tag' => 'Deporte'
+                'tag' => 'Deporte',
+                'localidad' => 'lacanau',
+                'archivo' => 'playa-de-lacanau'
             ],
+
             [
                 'name' => 'Playa de Arcachon',
                 'description' => 'Un destino costero con una bahía especial, paseos y una gran tradición marinera.',
-                'tag' => 'Bahía'
+                'tag' => 'Bahía',
+                'localidad' => 'arcachon',
+                'archivo' => 'playa-de-arcachon'
             ],
+
             [
                 'name' => 'Playa de la Duna de Pilat',
                 'description' => 'Un paisaje extraordinario junto a una de las grandes dunas de Europa.',
-                'tag' => 'Paisaje único'
+                'tag' => 'Paisaje único',
+                'localidad' => 'la-teste-de-buch',
+                'archivo' => 'playa-de-la-duna-de-pilat'
             ]
+
         ]
     ]
+
 ];
+
+
+foreach ($regions as &$region) {
+    foreach ($region['destinations'] as &$beach) {
+        $beach['url'] = 
+            $region['slug'] . '/' .
+            $beach['localidad'] .
+            '/lugares-interes/' .
+            $beach['archivo'] . '/';
+    }
+    unset($beach);
+}
+unset($region);
+
+
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -1178,143 +1299,159 @@ $regions = [
 
 
 
-    <!-- REGIONES -->
-    <main class="container" id="destinos">
 
-        <header class="destinations-heading reveal">
-            <div>
-                <p class="section-kicker">Elige tu destino</p>
-                <h2>Explora por regiones</h2>
-                <p>Encuentra tu playa ideal y empieza a preparar tu viaje.</p>
-            </div>
-        </header>
+<!-- REGIONES -->
+<main class="container" id="destinos">
 
-        <div class="region-list">
+    <header class="destinations-heading reveal">
+        <div>
+            <p class="section-kicker">Elige tu destino</p>
+            <h2>Explora por regiones</h2>
+            <p>Encuentra tu playa ideal y empieza a preparar tu viaje.</p>
+        </div>
+    </header>
 
-            <?php foreach ($regions as $index => $region): ?>
+    <div class="region-list">
 
-                <?php
-                $regionId = $region['slug'];
+        <?php foreach ($regions as $index => $region): ?>
 
-                if ($regionId === 'nouvelle-aquitaine') {
-                    $regionId = 'francia';
-                }
-                ?>
+            <?php
+            $regionId = $region['slug'];
 
-                <section
-                    class="region-card reveal"
-                    id="<?= htmlspecialchars($regionId, ENT_QUOTES, 'UTF-8'); ?>">
+            if ($regionId === 'nouvelle-aquitaine') {
+                $regionId = 'francia';
+            }
+            ?>
 
-                    <div class="region-header">
+            <section
+                class="region-card reveal"
+                id="<?= htmlspecialchars($regionId, ENT_QUOTES, 'UTF-8'); ?>"
+            >
 
-                        <div class="region-icon" aria-hidden="true">
-                            <?= htmlspecialchars($region['icon'], ENT_QUOTES, 'UTF-8'); ?>
-                        </div>
+                <div class="region-header">
 
-                        <div>
-                            <h3>
-                                Playas de <?= htmlspecialchars($region['name'], ENT_QUOTES, 'UTF-8'); ?>
-                            </h3>
+                    <div class="region-icon" aria-hidden="true">
+                        <?= htmlspecialchars($region['icon'], ENT_QUOTES, 'UTF-8'); ?>
+                    </div>
+
+                    <div>
+                        <h3>
+                            Playas de <?= htmlspecialchars($region['name'], ENT_QUOTES, 'UTF-8'); ?>
+                        </h3>
+
+                        <p>
+                            <?= htmlspecialchars($region['subtitle'], ENT_QUOTES, 'UTF-8'); ?>
+                        </p>
+                    </div>
+
+                </div>
+
+                <p class="region-description">
+                    <?= htmlspecialchars($region['description'], ENT_QUOTES, 'UTF-8'); ?>
+                </p>
+
+                <div class="beach-grid">
+
+                    <?php foreach ($region['destinations'] as $beach): ?>
+
+                        <a
+                            class="beach-item"
+                            href="<?= htmlspecialchars($beach['url'], ENT_QUOTES, 'UTF-8'); ?>"
+                            aria-label="Descubrir <?= htmlspecialchars($beach['name'], ENT_QUOTES, 'UTF-8'); ?>"
+                        >
+
+                            <span class="beach-tag">
+                                <?= htmlspecialchars($beach['tag'], ENT_QUOTES, 'UTF-8'); ?>
+                            </span>
+
+                            <h4>
+                                <?= htmlspecialchars($beach['name'], ENT_QUOTES, 'UTF-8'); ?>
+                            </h4>
 
                             <p>
-                                <?= htmlspecialchars($region['subtitle'], ENT_QUOTES, 'UTF-8'); ?>
+                                <?= htmlspecialchars($beach['description'], ENT_QUOTES, 'UTF-8'); ?>
                             </p>
-                        </div>
 
-                    </div>
+                            <span class="beach-link">
+                                Descubrir playa →
+                            </span>
 
-                    <p class="region-description">
-                        <?= htmlspecialchars($region['description'], ENT_QUOTES, 'UTF-8'); ?>
-                    </p>
+                        </a>
 
-                    <div class="beach-grid">
+                    <?php endforeach; ?>
 
-                        <?php foreach ($region['destinations'] as $beach): ?>
+                </div>
 
-                            <article class="beach-item">
+                <div class="region-footer">
 
-                                <span class="beach-tag">
-                                    <?= htmlspecialchars($beach['tag'], ENT_QUOTES, 'UTF-8'); ?>
-                                </span>
+                    <span>
+                        <?= count($region['destinations']); ?> destinos destacados
+                    </span>
 
-                                <h4>
-                                    <?= htmlspecialchars($beach['name'], ENT_QUOTES, 'UTF-8'); ?>
-                                </h4>
+                    <span>
+                        <?= htmlspecialchars($region['name'], ENT_QUOTES, 'UTF-8'); ?> · Costa norte
+                    </span>
 
-                                <p>
-                                    <?= htmlspecialchars($beach['description'], ENT_QUOTES, 'UTF-8'); ?>
-                                </p>
+                </div>
 
-                            </article>
+            </section>
 
-                        <?php endforeach; ?>
+            <?php if ($index === 0): ?>
 
-                    </div>
+                <!-- ESPACIO PUBLICITARIO -->
+                <div class="ad-card reveal">
 
-                    <div class="region-footer">
-                        <span>
-                            <?= count($region['destinations']); ?> destinos destacados
-                        </span>
+                    <span>Espacio publicitario</span>
 
-                        <span>
-                            <?= htmlspecialchars($region['name'], ENT_QUOTES, 'UTF-8'); ?> · Costa norte
-                        </span>
-                    </div>
+                    <div id="adcash-zone" style="width:100%;"></div>
 
-                </section>
+                </div>
 
-                <?php if ($index === 0): ?>
+            <?php endif; ?>
 
-                    <!-- ESPACIO PUBLICITARIO -->
-                    <div class="ad-card reveal">
-                        Espacio publicitario
-                        <div id="adcash-zone" style="width:100%;"></div>
-                    </div>
+        <?php endforeach; ?>
 
-                <?php endif; ?>
+    </div>
 
-            <?php endforeach; ?>
+    <!-- CTA FINAL -->
+    <section class="final-cta reveal">
 
-        </div>
+        <h2>El Cantábrico te está esperando</h2>
 
-        <!-- CTA FINAL -->
-        <section class="final-cta reveal">
+        <p>
+            Prepara tu próxima escapada, descubre nuevos paisajes
+            y disfruta de una de las costas más especiales de Europa.
+        </p>
 
-            <h2>El Cantábrico te está esperando</h2>
+        <a href="#destinos" class="button button-primary">
+            Volver a explorar destinos ↑
+        </a>
+
+    </section>
+
+    <!-- GETYOURGUIDE -->
+    <div class="gyg-container">
+
+        <div class="gyg-heading">
+            <span>✈️ DESCUBRE EXPERIENCIAS</span>
+
+            <h2>Qué hacer en el norte</h2>
 
             <p>
-                Prepara tu próxima escapada, descubre nuevos paisajes
-                y disfruta de una de las costas más especiales de Europa.
+                Encuentra excursiones, visitas y actividades
+                para completar tu viaje.
             </p>
+        </div>
 
-            <a href="#destinos" class="button button-primary">
-                Volver a explorar destinos ↑
-            </a>
+        <div
+            data-gyg-widget="auto"
+            data-gyg-partner-id="VW16GKQ">
+        </div>
 
-        </section>
-
-
-
-<?php /* <!-- getyourguide --> */ ?>
-<div class="gyg-container">
-
-    <div class="gyg-heading">
-        <span>✈️ DESCUBRE EXPERIENCIAS</span>
-        <h2>Qué hacer en el norte</h2>
-        <p>Encuentra excursiones, visitas y actividades para completar tu viaje.</p>
     </div>
 
-    <div
-        data-gyg-widget="auto"
-        data-gyg-partner-id="VW16GKQ">
-    </div>
+</main>
 
-</div>
-
-
-
-
-    </main>
 
     <!-- FOOTER INTEGRADO -->
     <footer class="site-footer">

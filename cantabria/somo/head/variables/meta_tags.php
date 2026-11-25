@@ -8,7 +8,7 @@ $pinterest_property_card_description_content = 'Descubre Somo en Cantabria: una 
 $pinterest_property_card_image_content       = PATH_DOMINIO_RAIZ . '/'.$region_minuscula.'/'.$localidad_minuscula.'/img/somo-cantabria.png';
 
 // Twitter Cards
-$twitterCards_card        = SUMMARY_LARGE_IMAGE;
+$twitterCards_card        = 'SUMMARY_LARGE_IMAGE';
 $twitterCards_site        = '@laya_garcia';
 $twitterCards_title       = 'Somo, Cantabria';
 $twitterCards_description = 'Explora Somo: una playa emblemática de Cantabria, perfecta para el surf y el relax frente a la bahía de Santander.';
